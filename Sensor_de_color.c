@@ -12,5 +12,5 @@ task main()
 		NumOut(0, LCD_LINE1, csr.ColorValue);
 
 	}
-
+	//negro:1 blanco:6 verde:3
 }
