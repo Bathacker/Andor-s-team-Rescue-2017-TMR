@@ -1,0 +1,212 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0no_conexion	6	1	0	4	5
+1	__Wait_7qG2_ms_7qG2_000_inline_no_conexion	5	1	4	4	2
+2	__D0main	6	1	8	4	7
+3	__SRSTmpLongVal	6	1	12	4	4
+4	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	16	4	2
+5	__signed_stack_001no_conexion	6	1	20	4	4
+6	__signed_stack_002no_conexion	6	1	24	4	2
+7	__signed_stack_001main	6	1	28	4	2
+8	__no_conexion_7qG2_num_7qG2_000	4	1	32	2	2
+9	__main_7qG2_tacto_7qG2_000	4	1	34	2	3
+10	__no_conexion_return	1	1	36	1	3
+11	____initialize_global_data_return	1	1	37	1	3
+12	__zfno_conexion	1	1	38	1	3
+13	__zfmain	1	1	39	1	5
+14	__PFTmp	1	1	40	1	1
+15	__constVal3	2	0	41	1	3
+16	__constVal5	2	0	42	1	4
+17	__ResetSensorPort	1	1	43	1	3
+18	__constVal32	2	0	44	1	1
+19	__constVal1	2	0	45	1	4
+20	__constVal0	2	1	46	1	1
+21	__ResetSensorTmp	1	1	47	1	2
+22	__constVal2	2	0	48	1	3
+23	__SetSensorTouch_7qG2_port_7qG2_000_inline_main	1	1	49	1	4
+24	____ResetSensorSubroutine_return	1	1	50	1	3
+25	__CBTWArgs	8	0	3	8	8
+26	__CBTWArgs.Result	2	1	52	1	8
+27	__CBTWArgs.Connection	1	1	53	1	8
+28	__CBTWArgs.Buffer	7	0	54	4	8
+29	__CBTWArgs.Buffer.Buffer_type	1	0	0	1	0
+30	__TextOutArgs	8	0	4	16	5
+31	__TextOutArgs.Result	2	1	56	1	5
+32	__TextOutArgs.Location	8	0	2	4	5
+33	__TextOutArgs.Location.X	4	1	60	2	5
+34	__TextOutArgs.Location.Y	4	1	62	2	5
+35	__TextOutArgs.Text	7	0	64	4	5
+36	__TextOutArgs.Text.Text_type	1	0	0	1	0
+37	__TextOutArgs.Options	5	1	68	4	5
+38	__CBTCSArgs	8	0	2	4	4
+39	__CBTCSArgs.Result	2	1	72	1	4
+40	__CBTCSArgs.Connection	1	1	73	1	4
+41	__constStr0009	7	0	74	4	1
+42	__constStr0009.__constStr0009_type	1	1	0	1	0
+43	__SRSSendBuf	7	0	76	4	4
+44	__SRSSendBuf.__SRSSendBuf_type	1	0	0	1	0
+45	__SRSTmpBuf	7	0	78	4	12
+46	__SRSTmpBuf.__SRSTmpBuf_type	1	0	0	1	0
+47	__SRSFlattenBuf	7	0	80	4	4
+48	__SRSFlattenBuf.__SRSFlattenBuf_type	1	0	0	1	0
+49	__strbufno_conexion	7	0	82	4	2
+50	__strbufno_conexion.__strbufno_conexion_type	1	0	0	1	0
+51	__DCMessageWritePacket	7	0	84	4	2
+52	__DCMessageWritePacket.__DCMessageWritePacket_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	13	0	#line 13 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	14	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	13	2	#line 13 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	14	2	#line 14 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	15	2		set __main_7qG2_tacto_7qG2_000, 0
+0	14	5	#line 14 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	14	5	#line 14 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	15	5		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
+0	14	8	#line 14 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	3718	8	#line 3718 "NXCDefs.h"
+0	3719	8	#pragma macro 6
+0	3719	8		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
+0	3719	12		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
+0	3719	16		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_main
+0	3719	18		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3748	20	#line 3748 "NXCDefs.h"
+0	3718	20	#line 3718 "NXCDefs.h"
+0	15	20	#line 15 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	15	20	#line 15 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	16	20		set __D0main, 1
+0	16	23	#line 16 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	17	23		tst 5, __zfmain, __D0main
+0	16	26	#line 16 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	17	26		brtst 4, __NXC_Label_505, __zfmain
+0	16	29	#line 16 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	17	29		set __no_conexion_7qG2_num_7qG2_000, 1
+0	16	32	#line 16 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	17	32	#line 17 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	18	32		subcall no_conexion, __no_conexion_return
+0	17	34	#line 17 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	17	34	#line 17 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	18	34		getin __main_7qG2_tacto_7qG2_000, __constVal0, 4
+0	17	38	#line 17 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	17	38	#line 17 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	17	38	#line 17 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	18	38	#line 18 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	19	38		mov __signed_stack_001main, __main_7qG2_tacto_7qG2_000
+0	18	40	#line 18 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	18	40	#line 18 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	19	40		set __D0main, 1
+0	18	43	#line 18 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	19	43		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	18	47	#line 18 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	19	47		mov __D0main, __zfmain
+0	19	49	#line 19 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	20	49		brtst 4, __NXC_Label_514, __zfmain
+0	19	52	#line 19 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	20	52	#pragma macro 14
+0	20	52		mov __SRSTmpBuf, __DCMessageWritePacket
+0	20	54		replace __SRSTmpBuf, __SRSTmpBuf, __constVal2, __constVal5
+0	20	59		replace __SRSTmpBuf, __SRSTmpBuf, __constVal3, __constVal5
+0	20	64		mov __SRSTmpLongVal, __constVal3
+0	20	66		flatten __SRSFlattenBuf, __SRSTmpLongVal
+0	20	69		arrbuild __SRSSendBuf, __SRSTmpBuf, __SRSFlattenBuf
+0	20	74		mov __CBTWArgs.Connection, __constVal1
+0	20	76		mov __CBTWArgs.Buffer, __SRSSendBuf
+0	20	78		syscall 29, __CBTWArgs
+0	20	81		mov __D0main, __CBTWArgs.Result
+0	3792	83	#line 3792 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	19	83	#line 19 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	19	83	#line 19 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	23	83	#line 23 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	24	83		jmp __NXC_Label_515
+0	23	85	#line 23 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	24	85	#pragma macro 14
+0	24	85		mov __SRSTmpBuf, __DCMessageWritePacket
+0	24	87		replace __SRSTmpBuf, __SRSTmpBuf, __constVal2, __constVal5
+0	24	92		replace __SRSTmpBuf, __SRSTmpBuf, __constVal3, __constVal5
+0	24	97		mov __SRSTmpLongVal, __constVal2
+0	24	99		flatten __SRSFlattenBuf, __SRSTmpLongVal
+0	24	102		arrbuild __SRSSendBuf, __SRSTmpBuf, __SRSFlattenBuf
+0	24	107		mov __CBTWArgs.Connection, __constVal1
+0	24	109		mov __CBTWArgs.Buffer, __SRSSendBuf
+0	24	111		syscall 29, __CBTWArgs
+0	24	114		mov __D0main, __CBTWArgs.Result
+0	3799	116	#line 3799 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	23	116	#line 23 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	23	116	#line 23 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	26	116	#line 26 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	26	116	#line 26 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	27	116		set __Wait_7qG2_ms_7qG2_000_inline_main, 50
+0	26	119	#line 26 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	7921	119	#line 7921 "NXCDefs.h"
+0	7922	119		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	122	#line 7921 "NXCDefs.h"
+0	28	122	#line 28 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	31	122	#line 31 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	32	122		jmp __NXC_Label_504
+0	31	124	#line 31 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+0	32	124		exit -1, -1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	4	0	#line 4 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+2	5	0	#pragma macro 5
+2	5	0		mov __CBTCSArgs.Connection, __no_conexion_7qG2_num_7qG2_000
+2	5	2		syscall 28, __CBTCSArgs
+2	3649	5	#line 3649 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+2	4	5	#line 4 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+2	5	5		not __signed_stack_001no_conexion, __CBTCSArgs.Result
+2	4	8	#line 4 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+2	4	8	#line 4 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+2	5	8		set __D0no_conexion, 0
+2	4	11	#line 4 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+2	5	11		cmp 4, __zfno_conexion, __signed_stack_001no_conexion, __D0no_conexion
+2	4	15	#line 4 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+2	5	15		mov __D0no_conexion, __zfno_conexion
+2	5	17	#line 5 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+2	6	17		brtst 4, __NXC_Label_491, __zfno_conexion
+2	5	20	#line 5 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+2	6	20		set __signed_stack_001no_conexion, 5
+2	5	23	#line 5 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+2	5	23	#line 5 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+2	6	23		set __signed_stack_002no_conexion, 48
+2	5	26	#line 5 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+2	5	26	#line 5 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+2	6	26		strcat __strbufno_conexion, __constStr0009
+2	6	30	#line 6 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+2	6	30	#line 6 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+2	7	30		mov __TextOutArgs.Location.X, __signed_stack_001no_conexion
+2	6	32	#line 6 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+2	7	32		mov __TextOutArgs.Location.Y, __signed_stack_002no_conexion
+2	6	34	#line 6 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+2	7	34		set __TextOutArgs.Options, 0
+2	6	37	#line 6 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+2	7	37		mov __TextOutArgs.Text, __strbufno_conexion
+2	6	39	#line 6 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+2	7	39		syscall 13, __TextOutArgs
+2	6	42	#line 6 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+2	6	42	#line 6 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+2	6	42	#line 6 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+2	6	42	#line 6 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+2	7	42		set __Wait_7qG2_ms_7qG2_000_inline_no_conexion, 2000
+2	6	45	#line 6 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+2	7921	45	#line 7921 "NXCDefs.h"
+2	7922	45		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_no_conexion
+2	7921	48	#line 7921 "NXCDefs.h"
+2	7	48	#line 7 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+2	7	48	#line 7 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+2	8	48		set __D0no_conexion, 1
+2	8	51	#line 8 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+2	9	51		stop __D0no_conexion
+2	8	53	#line 8 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+2	12	53	#line 12 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+2	12	53	#line 12 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+2	13	53		subret __no_conexion_return
+3	32	0	#line 32 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc"
+3	33	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc
+1	__ResetSensorSubroutine	127	NXTDefs.h
+2	no_conexion	140	C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc
+3	__initialize_global_data	195	C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_maestro.nxc

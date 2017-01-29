@@ -1,0 +1,121 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_001main	6	1	0	4	4
+1	__D0main	6	1	4	4	8
+2	__signed_stack_002main	6	1	8	4	2
+3	__SetSensorColorFull_7qG2_port_7qG2_000_inline_main	1	1	12	1	4
+4	__PFTmp	1	1	13	1	1
+5	____initialize_global_data_return	1	1	14	1	3
+6	__zfmain	1	1	15	1	5
+7	__ResetSensorPort	1	1	16	1	3
+8	__constVal0	2	1	17	1	1
+9	__constVal1	2	0	18	1	1
+10	__ResetSensorTmp	1	1	19	1	2
+11	__constVal13	2	0	20	1	1
+12	____ResetSensorSubroutine_return	1	1	21	1	3
+13	__main_7qG2_csr_7qG2_001	8	0	7	20	5
+14	__main_7qG2_csr_7qG2_001.Result	2	1	24	1	5
+15	__main_7qG2_csr_7qG2_001.Port	1	1	25	1	5
+16	__main_7qG2_csr_7qG2_001.ColorValue	4	1	26	2	5
+17	__main_7qG2_csr_7qG2_001.RawArray	7	0	28	4	5
+18	__main_7qG2_csr_7qG2_001.RawArray.RawArray_type	3	0	0	2	0
+19	__main_7qG2_csr_7qG2_001.NormalizedArray	7	0	30	4	5
+20	__main_7qG2_csr_7qG2_001.NormalizedArray.NormalizedArray_type	3	0	0	2	0
+21	__main_7qG2_csr_7qG2_001.ScaledArray	7	0	32	4	5
+22	__main_7qG2_csr_7qG2_001.ScaledArray.ScaledArray_type	4	0	0	2	0
+23	__main_7qG2_csr_7qG2_001.Invalid	1	1	34	1	5
+24	__TextOutArgs	8	0	4	16	6
+25	__TextOutArgs.Result	2	1	36	1	6
+26	__TextOutArgs.Location	8	0	2	4	6
+27	__TextOutArgs.Location.X	4	1	40	2	6
+28	__TextOutArgs.Location.Y	4	1	42	2	6
+29	__TextOutArgs.Text	7	0	44	4	6
+30	__TextOutArgs.Text.Text_type	1	0	0	1	0
+31	__TextOutArgs.Options	5	1	48	4	6
+#SOURCES
+Clump	Line	PC	Source
+0	1	0	#line 1 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	2	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	1	2	#line 1 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	1	2	#line 1 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	2	2		set __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 0
+0	1	5	#line 1 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	3802	5	#line 3802 "NXCDefs.h"
+0	3803	5	#pragma macro 6
+0	3803	5		setin __constVal13, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 0
+0	3803	9		setin __constVal0, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 1
+0	3803	13		mov __ResetSensorPort, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main
+0	3803	15		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3533	17	#line 3533 "NXCDefs.h"
+0	3802	17	#line 3802 "NXCDefs.h"
+0	2	17	#line 2 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	2	17	#line 2 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	3	17		set __D0main, 1
+0	3	20	#line 3 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	4	20		tst 5, __zfmain, __D0main
+0	3	23	#line 3 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	4	23		brtst 4, __NXC_Label_492, __zfmain
+0	5	26	#line 5 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	6	26		set __main_7qG2_csr_7qG2_001.Port, 0
+0	5	29	#line 5 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	5	29	#line 5 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	6	29	#line 6 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	7	29	#pragma macro 4
+0	7	29	#line 7 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	7	29		syscall 34, __main_7qG2_csr_7qG2_001
+0	5	32	#line 5 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	5	32	#line 5 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	5	32	#line 5 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	5	32	#line 5 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	6	32	#line 6 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	6	32	#line 6 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	6	32	#line 6 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	7	32		mov __signed_stack_001main, __main_7qG2_csr_7qG2_001.Result
+0	6	34	#line 6 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	6	34	#line 6 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	7	34		set __D0main, 0
+0	6	37	#line 6 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	7	37		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	6	41	#line 6 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	7	41		mov __D0main, __zfmain
+0	7	43	#line 7 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	8	43		brtst 4, __NXC_Label_499, __zfmain
+0	7	46	#line 7 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	8	46		set __signed_stack_001main, 0
+0	7	49	#line 7 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	7	49	#line 7 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	8	49		set __signed_stack_002main, 56
+0	7	52	#line 7 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	7	52	#line 7 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	8	52		mov __D0main, __main_7qG2_csr_7qG2_001.ColorValue
+0	8	54	#line 8 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	8	54	#line 8 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	9	54		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	8	56	#line 8 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	9	56		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	8	58	#line 8 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	9	58		set __TextOutArgs.Options, 0
+0	8	61	#line 8 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	9	61		numtostr __TextOutArgs.Text, __D0main
+0	8	64	#line 8 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	9	64		syscall 13, __TextOutArgs
+0	8	67	#line 8 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	9	67		mov __D0main, __TextOutArgs.Result
+0	8	69	#line 8 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	8	69	#line 8 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	10	69	#line 10 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	12	69	#line 12 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	13	69		jmp __NXC_Label_491
+0	12	71	#line 12 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+0	13	71		exit -1, -1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	13	0	#line 13 "C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc"
+2	14	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc
+1	__ResetSensorSubroutine	74	NXTDefs.h
+2	__initialize_global_data	87	C:\Users\Zafer\Desktop\tmr2017\Bricx\sensor_color.nxc

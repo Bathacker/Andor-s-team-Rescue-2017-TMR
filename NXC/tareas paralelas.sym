@@ -1,0 +1,1071 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0sensor2	6	1	0	4	3
+1	__DU0sensor1	5	1	4	4	3
+2	__D0sensor1	6	1	8	4	3
+3	__DU0sensor3	5	1	12	4	3
+4	__D0sensor3	6	1	16	4	3
+5	__DU0sensor2	5	1	20	4	3
+6	__D0colores	6	1	24	4	10
+7	__DU0avanzar	5	1	28	4	6
+8	__D0avanzar	6	1	32	4	15
+9	__D0programa	6	1	36	4	2
+10	__D0leer	6	1	40	4	4
+11	__D0imprimirDatos	6	1	44	4	16
+12	__signed_stack_002imprimirDatos	6	1	48	4	20
+13	__signed_stack_001imprimirDatos	6	1	52	4	20
+14	__signed_stack_002colores	6	1	56	4	6
+15	__signed_stack_001sensor3	6	1	60	4	2
+16	__signed_stack_001sensor2	6	1	64	4	2
+17	__signed_stack_001sensor1	6	1	68	4	2
+18	__DU0SetSensorLight_inline_main	5	1	72	4	4
+19	__D0SetSensorLight_inline_main	6	1	76	4	6
+20	__D0sensor4	6	1	80	4	8
+21	__signed_stack_001colores	6	1	84	4	8
+22	__DU0SetSensorLowspeed_inline_main	5	1	88	4	2
+23	__D0SetSensorLowspeed_inline_main	6	1	92	4	3
+24	__RLSBmutex2	9	0	96	4	2
+25	__ResetSensorMutex	9	0	100	4	10
+26	__CLSCSMutex2	9	0	104	4	2
+27	__TextOutMutex	9	0	108	4	26
+28	__CLSRMutex2	9	0	112	4	2
+29	__CLSWMutex2	9	0	116	4	2
+30	color	4	1	120	2	2
+31	__sensor3_7qG2_n_7qG2_000	4	1	122	2	2
+32	__sensor1_7qG2_n_7qG2_000	4	1	124	2	2
+33	__sensor2_7qG2_n_7qG2_000	4	1	126	2	2
+34	luz2	4	1	128	2	3
+35	ultra	4	1	130	2	3
+36	__avanzar_7qG2_opc_7qG2_000	4	1	132	2	2
+37	__avanzar_7qG2_vel_7qG2_000	4	1	134	2	5
+38	luz1	4	1	136	2	3
+39	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	138	1	4
+40	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	139	1	4
+41	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	140	1	2
+42	__constVal32	2	0	141	1	24
+43	__constVal1	2	0	142	1	8
+44	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	143	1	4
+45	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	144	1	2
+46	__imprimirDatos_return	1	1	145	1	3
+47	__constVal63	2	0	146	1	8
+48	__constVal96	2	0	147	1	8
+49	__avanzar_return	1	1	148	1	3
+50	____initialize_global_data_return	1	1	149	1	3
+51	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	150	1	4
+52	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	151	1	4
+53	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	152	1	8
+54	__sensor4_return	1	1	153	1	6
+55	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	154	1	4
+56	__SetSensorColorFull_7qG2_port_7qG2_000_inline_colores	1	1	155	1	4
+57	__colores_return	1	1	156	1	3
+58	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	157	1	4
+59	__sensor3_return	1	1	158	1	5
+60	__sensor2_return	1	1	159	1	5
+61	__sensor1_return	1	1	160	1	5
+62	__constVal0	2	1	161	1	32
+63	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	162	1	2
+64	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	163	1	2
+65	__constVal15	2	0	164	1	3
+66	__zfleer	1	1	165	1	2
+67	__SetSensorColorFull_7qG2_port_7qG2_000_inline_main	1	1	166	1	4
+68	__zfprograma	1	1	167	1	2
+69	__constVal2	2	0	168	1	1
+70	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	169	1	2
+71	__PFTmp	1	1	170	1	1
+72	__constVal13	2	0	171	1	2
+73	__zfavanzar	1	1	172	1	8
+74	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	173	1	2
+75	__zfcolores	1	1	174	1	5
+76	____ReadLSBytes2_return	1	1	175	1	3
+77	__ResetSensorPort	1	1	176	1	7
+78	__zfSetSensorLight_inline_main	1	1	177	1	4
+79	__ResetSensorTmp	1	1	178	1	2
+80	__zfSetSensorLowspeed_inline_main	1	1	179	1	2
+81	__constVal3	2	0	180	1	11
+82	__constVal6	2	0	181	1	1
+83	__constVal4	2	0	182	1	1
+84	__zfsensor2	1	1	183	1	3
+85	__RLSBIterations2	1	1	184	1	4
+86	__zfsensor1	1	1	185	1	3
+87	__RLSBytesCount2	1	1	186	1	7
+88	____ResetSensorSubroutine_return	1	1	187	1	7
+89	__RLSBResult2	2	1	188	1	7
+90	__zfsensor3	1	1	189	1	3
+91	__CLSWArgs2	8	0	4	12	5
+92	__CLSWArgs2.Result	2	1	192	1	5
+93	__CLSWArgs2.Port	1	1	193	1	5
+94	__CLSWArgs2.Buffer	7	0	194	4	5
+95	__CLSWArgs2.Buffer.Buffer_type	1	0	0	1	0
+96	__CLSWArgs2.ReturnLen	1	1	196	1	5
+97	__CLSCSArgs2	8	0	3	4	4
+98	__CLSCSArgs2.Result	2	1	200	1	4
+99	__CLSCSArgs2.Port	1	1	201	1	4
+100	__CLSCSArgs2.BytesReady	1	1	202	1	4
+101	__CLSRArgs2	8	0	4	12	5
+102	__CLSRArgs2.Result	2	1	204	1	5
+103	__CLSRArgs2.Port	1	1	205	1	5
+104	__CLSRArgs2.Buffer	7	0	206	4	5
+105	__CLSRArgs2.Buffer.Buffer_type	1	0	0	1	0
+106	__CLSRArgs2.BufferLen	1	1	208	1	5
+107	__TextOutArgs	8	0	4	16	78
+108	__TextOutArgs.Result	2	1	212	1	78
+109	__TextOutArgs.Location	8	0	2	4	78
+110	__TextOutArgs.Location.X	4	1	216	2	78
+111	__TextOutArgs.Location.Y	4	1	218	2	78
+112	__TextOutArgs.Text	7	0	220	4	78
+113	__TextOutArgs.Text.Text_type	1	0	0	1	0
+114	__TextOutArgs.Options	5	1	224	4	78
+115	__colores_7qG2_csr_7qG2_001	8	0	7	20	5
+116	__colores_7qG2_csr_7qG2_001.Result	2	1	228	1	5
+117	__colores_7qG2_csr_7qG2_001.Port	1	1	229	1	5
+118	__colores_7qG2_csr_7qG2_001.ColorValue	4	1	230	2	5
+119	__colores_7qG2_csr_7qG2_001.RawArray	7	0	232	4	5
+120	__colores_7qG2_csr_7qG2_001.RawArray.RawArray_type	3	0	0	2	0
+121	__colores_7qG2_csr_7qG2_001.NormalizedArray	7	0	234	4	5
+122	__colores_7qG2_csr_7qG2_001.NormalizedArray.NormalizedArray_type	3	0	0	2	0
+123	__colores_7qG2_csr_7qG2_001.ScaledArray	7	0	236	4	5
+124	__colores_7qG2_csr_7qG2_001.ScaledArray.ScaledArray_type	4	0	0	2	0
+125	__colores_7qG2_csr_7qG2_001.Invalid	1	1	238	1	5
+126	__strbufimprimirDatos	7	0	240	4	14
+127	__strbufimprimirDatos.__strbufimprimirDatos_type	1	0	0	1	0
+128	__RLSBbufLSWrite1	7	0	242	4	1
+129	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+130	__OUT_AB	7	0	244	4	8
+131	__OUT_AB.__OUT_AB_type	1	0	0	1	0
+132	__RLSReadBuf2	7	0	246	4	8
+133	__RLSReadBuf2.__RLSReadBuf2_type	1	0	0	1	0
+134	__RLSLastGoodRead2	7	0	248	4	2
+135	__RLSLastGoodRead2.__RLSLastGoodRead2_type	1	0	0	1	0
+136	__strbufcolores	7	0	250	4	4
+137	__strbufcolores.__strbufcolores_type	1	0	0	1	0
+138	__constStr0012	7	0	252	4	1
+139	__constStr0012.__constStr0012_type	1	1	0	1	0
+140	__constStr0013	7	0	254	4	1
+141	__constStr0013.__constStr0013_type	1	1	0	1	0
+142	__constStr0014	7	0	256	4	1
+143	__constStr0014.__constStr0014_type	1	1	0	1	0
+144	__constStr0009	7	0	258	4	4
+145	__constStr0009.__constStr0009_type	1	1	0	1	0
+146	__constStr0010	7	0	260	4	1
+147	__constStr0010.__constStr0010_type	1	1	0	1	0
+148	__constStr0011	7	0	262	4	1
+149	__constStr0011.__constStr0011_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	117	0	#line 117 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+0	118	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	117	2	#line 117 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+0	117	2	#line 117 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+0	118	2		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 0
+0	117	5	#line 117 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+0	118	5	#line 118 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+0	119	5		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	3729	7	#line 3729 "NXCDefs.h"
+0	3730	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3729	9	#line 3729 "NXCDefs.h"
+0	3729	9	#line 3729 "NXCDefs.h"
+0	3730	9		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	3729	11	#line 3729 "NXCDefs.h"
+0	3730	11		tst 5, __zfSetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	3729	14	#line 3729 "NXCDefs.h"
+0	3730	14		brtst 4, __001__NXC_Label_4, __zfSetSensorLight_inline_main
+0	3729	17	#line 3729 "NXCDefs.h"
+0	3730	17		set __D0SetSensorLight_inline_main, 5
+0	3729	20	#line 3729 "NXCDefs.h"
+0	3730	20		jmp __001__NXC_Label_5
+0	3729	22	#line 3729 "NXCDefs.h"
+0	3730	22		set __D0SetSensorLight_inline_main, 6
+0	3729	25	#line 3729 "NXCDefs.h"
+0	3730	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __D0SetSensorLight_inline_main
+0	3663	27	#line 3663 "NXCDefs.h"
+0	3664	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	3663	31	#line 3663 "NXCDefs.h"
+0	3730	31	#line 3730 "NXCDefs.h"
+0	3730	31	#line 3730 "NXCDefs.h"
+0	3731	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3730	33	#line 3730 "NXCDefs.h"
+0	3730	33	#line 3730 "NXCDefs.h"
+0	3731	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	3730	36	#line 3730 "NXCDefs.h"
+0	3676	36	#line 3676 "NXCDefs.h"
+0	3677	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	3676	40	#line 3676 "NXCDefs.h"
+0	3731	40	#line 3731 "NXCDefs.h"
+0	3731	40	#line 3731 "NXCDefs.h"
+0	3732	40		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3731	42	#line 3731 "NXCDefs.h"
+0	3694	42	#line 3694 "NXCDefs.h"
+0	3695	42	#pragma macro 4
+0	3695	42		acquire __ResetSensorMutex
+0	3695	43		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main
+0	3695	45		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3695	47		release __ResetSensorMutex
+0	5055	48	#line 5055 "NXCDefs.h"
+0	3694	48	#line 3694 "NXCDefs.h"
+0	3732	48	#line 3732 "NXCDefs.h"
+0	118	48	#line 118 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+0	118	48	#line 118 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+0	119	48		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 1
+0	118	51	#line 118 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+0	119	51	#line 119 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+0	120	51		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	3729	53	#line 3729 "NXCDefs.h"
+0	3730	53		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3729	55	#line 3729 "NXCDefs.h"
+0	3729	55	#line 3729 "NXCDefs.h"
+0	3730	55		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	3729	57	#line 3729 "NXCDefs.h"
+0	3730	57		tst 5, __zfSetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	3729	60	#line 3729 "NXCDefs.h"
+0	3730	60		brtst 4, __002__NXC_Label_4, __zfSetSensorLight_inline_main
+0	3729	63	#line 3729 "NXCDefs.h"
+0	3730	63		set __D0SetSensorLight_inline_main, 5
+0	3729	66	#line 3729 "NXCDefs.h"
+0	3730	66		jmp __002__NXC_Label_5
+0	3729	68	#line 3729 "NXCDefs.h"
+0	3730	68		set __D0SetSensorLight_inline_main, 6
+0	3729	71	#line 3729 "NXCDefs.h"
+0	3730	71		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __D0SetSensorLight_inline_main
+0	3663	73	#line 3663 "NXCDefs.h"
+0	3664	73		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	3663	77	#line 3663 "NXCDefs.h"
+0	3730	77	#line 3730 "NXCDefs.h"
+0	3730	77	#line 3730 "NXCDefs.h"
+0	3731	77		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3730	79	#line 3730 "NXCDefs.h"
+0	3730	79	#line 3730 "NXCDefs.h"
+0	3731	79		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	3730	82	#line 3730 "NXCDefs.h"
+0	3676	82	#line 3676 "NXCDefs.h"
+0	3677	82		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	3676	86	#line 3676 "NXCDefs.h"
+0	3731	86	#line 3731 "NXCDefs.h"
+0	3731	86	#line 3731 "NXCDefs.h"
+0	3732	86		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3731	88	#line 3731 "NXCDefs.h"
+0	3694	88	#line 3694 "NXCDefs.h"
+0	3695	88	#pragma macro 4
+0	3695	88		acquire __ResetSensorMutex
+0	3695	89		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main
+0	3695	91		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3695	93		release __ResetSensorMutex
+0	5122	94	#line 5122 "NXCDefs.h"
+0	3694	94	#line 3694 "NXCDefs.h"
+0	3732	94	#line 3732 "NXCDefs.h"
+0	119	94	#line 119 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+0	119	94	#line 119 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+0	120	94		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 2
+0	119	97	#line 119 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+0	121	97	#line 121 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+0	122	97		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	3758	99	#line 3758 "NXCDefs.h"
+0	3759	99		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3758	101	#line 3758 "NXCDefs.h"
+0	3758	101	#line 3758 "NXCDefs.h"
+0	3759	101		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	3758	103	#line 3758 "NXCDefs.h"
+0	3759	103		tst 5, __zfSetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	3758	106	#line 3758 "NXCDefs.h"
+0	3759	106		brtst 4, __004__NXC_Label_36, __zfSetSensorLowspeed_inline_main
+0	3758	109	#line 3758 "NXCDefs.h"
+0	3759	109		set __D0SetSensorLowspeed_inline_main, 11
+0	3758	112	#line 3758 "NXCDefs.h"
+0	3759	112		jmp __004__NXC_Label_37
+0	3758	114	#line 3758 "NXCDefs.h"
+0	3759	114		set __D0SetSensorLowspeed_inline_main, 10
+0	3758	117	#line 3758 "NXCDefs.h"
+0	3759	117		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __D0SetSensorLowspeed_inline_main
+0	3663	119	#line 3663 "NXCDefs.h"
+0	3664	119		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3663	123	#line 3663 "NXCDefs.h"
+0	3759	123	#line 3759 "NXCDefs.h"
+0	3759	123	#line 3759 "NXCDefs.h"
+0	3760	123		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3759	125	#line 3759 "NXCDefs.h"
+0	3759	125	#line 3759 "NXCDefs.h"
+0	3760	125		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3759	128	#line 3759 "NXCDefs.h"
+0	3676	128	#line 3676 "NXCDefs.h"
+0	3677	128		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	3676	132	#line 3676 "NXCDefs.h"
+0	3760	132	#line 3760 "NXCDefs.h"
+0	3760	132	#line 3760 "NXCDefs.h"
+0	3761	132		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3760	134	#line 3760 "NXCDefs.h"
+0	3694	134	#line 3694 "NXCDefs.h"
+0	3695	134	#pragma macro 4
+0	3695	134		acquire __ResetSensorMutex
+0	3695	135		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main
+0	3695	137		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3695	139		release __ResetSensorMutex
+0	5217	140	#line 5217 "NXCDefs.h"
+0	3694	140	#line 3694 "NXCDefs.h"
+0	3761	140	#line 3761 "NXCDefs.h"
+0	121	140	#line 121 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+0	121	140	#line 121 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+0	122	140		set __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 3
+0	121	143	#line 121 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+0	3802	143	#line 3802 "NXCDefs.h"
+0	3803	143	#pragma macro 6
+0	3803	143		setin __constVal13, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 0
+0	3803	147		setin __constVal0, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 1
+0	3803	151		acquire __ResetSensorMutex
+0	3803	152		mov __ResetSensorPort, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main
+0	3803	154		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3803	156		release __ResetSensorMutex
+0	5232	157	#line 5232 "NXCDefs.h"
+0	3802	157	#line 3802 "NXCDefs.h"
+0	122	157	#line 122 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+0	123	157	#line 123 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+0	123	157	#line 123 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+0	124	157		exit 0, 1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	5747	0	#pragma macro 25
+2	5747	0		acquire __CLSWMutex2
+2	5747	1		set __CLSWArgs2.Port, 2
+2	5747	4		mov __CLSWArgs2.ReturnLen, __RLSBytesCount2
+2	5747	6		mov __CLSWArgs2.Buffer, __RLSReadBuf2
+2	5747	8		syscall 21, __CLSWArgs2
+2	5747	11		mov __RLSBResult2, __CLSWArgs2.Result
+2	5747	13		release __CLSWMutex2
+2	5747	14	#line 5747 "NXTDefs.h"
+2	5748	14		brtst 4, __RLSBReturn2, __RLSBytesCount2
+2	5749	17		arrinit __RLSReadBuf2, __constVal0, __RLSBytesCount2
+2	5750	21		brtst 5, __RLSBError2, __RLSBResult2
+2	5751	24		set __RLSBIterations2, 4
+2	5753	27	#pragma macro 23
+2	5753	27		acquire __CLSCSMutex2
+2	5753	28		set __CLSCSArgs2.Port, 2
+2	5753	31		syscall 23, __CLSCSArgs2
+2	5753	34		mov __RLSBytesCount2, __CLSCSArgs2.BytesReady
+2	5753	36		mov __RLSBResult2, __CLSCSArgs2.Result
+2	5753	38		release __CLSCSMutex2
+2	5753	39	#line 5753 "NXTDefs.h"
+2	5754	39		sub __RLSBIterations2, __RLSBIterations2, __constVal1
+2	5755	43		brtst 2, __RLSBError2, __RLSBIterations2
+2	5756	46		brtst 0, __RLSBError2, __RLSBResult2
+2	5757	49		brtst 4, __RLSBReadyToRead2, __RLSBResult2
+2	5759	52		wait2 NA, __constVal15
+2	5760	55		jmp __RLSBDoCheckStatus2
+2	5763	57	#pragma macro 25
+2	5763	57		acquire __CLSRMutex2
+2	5763	58		set __CLSRArgs2.Port, 2
+2	5763	61		mov __CLSRArgs2.BufferLen, __RLSBytesCount2
+2	5763	63		syscall 22, __CLSRArgs2
+2	5763	66		mov __RLSReadBuf2, __CLSRArgs2.Buffer
+2	5763	68		mov __RLSBResult2, __CLSRArgs2.Result
+2	5763	70		release __CLSRMutex2
+2	5763	71	#line 5763 "NXTDefs.h"
+2	5764	71		brtst 5, __RLSBError2, __RLSBResult2
+2	5765	74		mov __RLSLastGoodRead2, __RLSReadBuf2
+2	5766	76		jmp __RLSBDone2
+2	5768	78		mov __RLSReadBuf2, __RLSLastGoodRead2
+2	5770	80		arrsize __RLSBytesCount2, __RLSReadBuf2
+2	5772	83		subret ____ReadLSBytes2_return
+3	13	0	#line 13 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	14	0		set __signed_stack_001imprimirDatos, 0
+3	13	3	#line 13 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	13	3	#line 13 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	14	3		set __signed_stack_002imprimirDatos, 48
+3	13	6	#line 13 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	13	6	#line 13 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	14	6		strcat __strbufimprimirDatos, __constStr0009
+3	14	10	#line 14 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	15	10		acquire __TextOutMutex
+3	14	11	#line 14 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	15	11		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+3	14	13	#line 14 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	15	13		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+3	14	15	#line 14 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	15	15		set __TextOutArgs.Options, 0
+3	14	18	#line 14 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	15	18		mov __TextOutArgs.Text, __strbufimprimirDatos
+3	14	20	#line 14 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	15	20		syscall 13, __TextOutArgs
+3	14	23	#line 14 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	15	23		mov __D0imprimirDatos, __TextOutArgs.Result
+3	14	25	#line 14 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	15	25		release __TextOutMutex
+3	14	26	#line 14 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	14	26	#line 14 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	15	26		set __signed_stack_001imprimirDatos, 0
+3	14	29	#line 14 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	14	29	#line 14 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	15	29		set __signed_stack_002imprimirDatos, 40
+3	14	32	#line 14 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	14	32	#line 14 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	15	32		strcat __strbufimprimirDatos, __constStr0009
+3	15	36	#line 15 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	16	36		acquire __TextOutMutex
+3	15	37	#line 15 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	16	37		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+3	15	39	#line 15 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	16	39		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+3	15	41	#line 15 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	16	41		set __TextOutArgs.Options, 0
+3	15	44	#line 15 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	16	44		mov __TextOutArgs.Text, __strbufimprimirDatos
+3	15	46	#line 15 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	16	46		syscall 13, __TextOutArgs
+3	15	49	#line 15 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	16	49		mov __D0imprimirDatos, __TextOutArgs.Result
+3	15	51	#line 15 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	16	51		release __TextOutMutex
+3	15	52	#line 15 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	15	52	#line 15 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	16	52		set __signed_stack_001imprimirDatos, 0
+3	15	55	#line 15 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	15	55	#line 15 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	16	55		set __signed_stack_002imprimirDatos, 32
+3	15	58	#line 15 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	15	58	#line 15 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	16	58		strcat __strbufimprimirDatos, __constStr0009
+3	16	62	#line 16 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	17	62		acquire __TextOutMutex
+3	16	63	#line 16 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	17	63		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+3	16	65	#line 16 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	17	65		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+3	16	67	#line 16 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	17	67		set __TextOutArgs.Options, 0
+3	16	70	#line 16 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	17	70		mov __TextOutArgs.Text, __strbufimprimirDatos
+3	16	72	#line 16 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	17	72		syscall 13, __TextOutArgs
+3	16	75	#line 16 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	17	75		mov __D0imprimirDatos, __TextOutArgs.Result
+3	16	77	#line 16 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	17	77		release __TextOutMutex
+3	16	78	#line 16 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	16	78	#line 16 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	17	78		set __signed_stack_001imprimirDatos, 0
+3	16	81	#line 16 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	16	81	#line 16 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	17	81		set __signed_stack_002imprimirDatos, 24
+3	16	84	#line 16 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	16	84	#line 16 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	17	84		strcat __strbufimprimirDatos, __constStr0009
+3	18	88	#line 18 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	19	88		acquire __TextOutMutex
+3	18	89	#line 18 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	19	89		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+3	18	91	#line 18 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	19	91		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+3	18	93	#line 18 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	19	93		set __TextOutArgs.Options, 0
+3	18	96	#line 18 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	19	96		mov __TextOutArgs.Text, __strbufimprimirDatos
+3	18	98	#line 18 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	19	98		syscall 13, __TextOutArgs
+3	18	101	#line 18 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	19	101		mov __D0imprimirDatos, __TextOutArgs.Result
+3	18	103	#line 18 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	19	103		release __TextOutMutex
+3	18	104	#line 18 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	18	104	#line 18 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	19	104		set __signed_stack_001imprimirDatos, 0
+3	18	107	#line 18 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	18	107	#line 18 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	19	107		set __signed_stack_002imprimirDatos, 48
+3	18	110	#line 18 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	18	110	#line 18 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	19	110		strcat __strbufimprimirDatos, __constStr0010
+3	19	114	#line 19 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	20	114		acquire __TextOutMutex
+3	19	115	#line 19 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	20	115		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+3	19	117	#line 19 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	20	117		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+3	19	119	#line 19 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	20	119		set __TextOutArgs.Options, 0
+3	19	122	#line 19 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	20	122		mov __TextOutArgs.Text, __strbufimprimirDatos
+3	19	124	#line 19 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	20	124		syscall 13, __TextOutArgs
+3	19	127	#line 19 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	20	127		mov __D0imprimirDatos, __TextOutArgs.Result
+3	19	129	#line 19 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	20	129		release __TextOutMutex
+3	19	130	#line 19 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	19	130	#line 19 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	20	130		set __signed_stack_001imprimirDatos, 0
+3	19	133	#line 19 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	19	133	#line 19 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	20	133		set __signed_stack_002imprimirDatos, 40
+3	19	136	#line 19 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	19	136	#line 19 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	20	136		strcat __strbufimprimirDatos, __constStr0011
+3	20	140	#line 20 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	21	140		acquire __TextOutMutex
+3	20	141	#line 20 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	21	141		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+3	20	143	#line 20 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	21	143		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+3	20	145	#line 20 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	21	145		set __TextOutArgs.Options, 0
+3	20	148	#line 20 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	21	148		mov __TextOutArgs.Text, __strbufimprimirDatos
+3	20	150	#line 20 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	21	150		syscall 13, __TextOutArgs
+3	20	153	#line 20 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	21	153		mov __D0imprimirDatos, __TextOutArgs.Result
+3	20	155	#line 20 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	21	155		release __TextOutMutex
+3	20	156	#line 20 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	20	156	#line 20 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	21	156		set __signed_stack_001imprimirDatos, 0
+3	20	159	#line 20 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	20	159	#line 20 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	21	159		set __signed_stack_002imprimirDatos, 32
+3	20	162	#line 20 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	20	162	#line 20 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	21	162		strcat __strbufimprimirDatos, __constStr0012
+3	23	166	#line 23 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	24	166		acquire __TextOutMutex
+3	23	167	#line 23 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	24	167		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+3	23	169	#line 23 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	24	169		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+3	23	171	#line 23 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	24	171		set __TextOutArgs.Options, 0
+3	23	174	#line 23 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	24	174		mov __TextOutArgs.Text, __strbufimprimirDatos
+3	23	176	#line 23 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	24	176		syscall 13, __TextOutArgs
+3	23	179	#line 23 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	24	179		mov __D0imprimirDatos, __TextOutArgs.Result
+3	23	181	#line 23 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	24	181		release __TextOutMutex
+3	23	182	#line 23 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	23	182	#line 23 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	24	182		set __signed_stack_001imprimirDatos, 42
+3	23	185	#line 23 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	23	185	#line 23 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	24	185		set __signed_stack_002imprimirDatos, 48
+3	23	188	#line 23 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	23	188	#line 23 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	24	188		mov __D0imprimirDatos, luz1
+3	24	190	#line 24 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	25	190		acquire __TextOutMutex
+3	24	191	#line 24 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	25	191		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+3	24	193	#line 24 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	25	193		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+3	24	195	#line 24 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	25	195		set __TextOutArgs.Options, 0
+3	24	198	#line 24 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	25	198		numtostr __TextOutArgs.Text, __D0imprimirDatos
+3	24	201	#line 24 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	25	201		syscall 13, __TextOutArgs
+3	24	204	#line 24 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	25	204		mov __D0imprimirDatos, __TextOutArgs.Result
+3	24	206	#line 24 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	25	206		release __TextOutMutex
+3	24	207	#line 24 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	24	207	#line 24 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	25	207		set __signed_stack_001imprimirDatos, 42
+3	24	210	#line 24 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	24	210	#line 24 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	25	210		set __signed_stack_002imprimirDatos, 40
+3	24	213	#line 24 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	24	213	#line 24 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	25	213		mov __D0imprimirDatos, luz2
+3	25	215	#line 25 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	26	215		acquire __TextOutMutex
+3	25	216	#line 25 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	26	216		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+3	25	218	#line 25 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	26	218		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+3	25	220	#line 25 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	26	220		set __TextOutArgs.Options, 0
+3	25	223	#line 25 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	26	223		numtostr __TextOutArgs.Text, __D0imprimirDatos
+3	25	226	#line 25 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	26	226		syscall 13, __TextOutArgs
+3	25	229	#line 25 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	26	229		mov __D0imprimirDatos, __TextOutArgs.Result
+3	25	231	#line 25 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	26	231		release __TextOutMutex
+3	25	232	#line 25 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	25	232	#line 25 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	26	232		set __signed_stack_001imprimirDatos, 42
+3	25	235	#line 25 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	25	235	#line 25 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	26	235		set __signed_stack_002imprimirDatos, 32
+3	25	238	#line 25 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	25	238	#line 25 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	26	238		mov __D0imprimirDatos, ultra
+3	28	240	#line 28 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	29	240		acquire __TextOutMutex
+3	28	241	#line 28 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	29	241		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+3	28	243	#line 28 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	29	243		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+3	28	245	#line 28 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	29	245		set __TextOutArgs.Options, 0
+3	28	248	#line 28 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	29	248		numtostr __TextOutArgs.Text, __D0imprimirDatos
+3	28	251	#line 28 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	29	251		syscall 13, __TextOutArgs
+3	28	254	#line 28 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	29	254		mov __D0imprimirDatos, __TextOutArgs.Result
+3	28	256	#line 28 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	29	256		release __TextOutMutex
+3	28	257	#line 28 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	29	257	#line 29 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+3	30	257		subret __imprimirDatos_return
+4	31	0	#line 31 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	32	0		set __SetSensorColorFull_7qG2_port_7qG2_000_inline_colores, 0
+4	31	3	#line 31 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	3802	3	#line 3802 "NXCDefs.h"
+4	3803	3	#pragma macro 6
+4	3803	3		setin __constVal13, __SetSensorColorFull_7qG2_port_7qG2_000_inline_colores, 0
+4	3803	7		setin __constVal0, __SetSensorColorFull_7qG2_port_7qG2_000_inline_colores, 1
+4	3803	11		acquire __ResetSensorMutex
+4	3803	12		mov __ResetSensorPort, __SetSensorColorFull_7qG2_port_7qG2_000_inline_colores
+4	3803	14		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+4	3803	16		release __ResetSensorMutex
+4	4370	17	#line 4370 "NXCDefs.h"
+4	3802	17	#line 3802 "NXCDefs.h"
+4	32	17	#line 32 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	32	17	#line 32 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	33	17		set __D0colores, 1
+4	33	20	#line 33 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	34	20		tst 5, __zfcolores, __D0colores
+4	33	23	#line 33 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	34	23		brtst 4, __NXC_Label_538, __zfcolores
+4	35	26	#line 35 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	36	26		set __colores_7qG2_csr_7qG2_001.Port, 0
+4	35	29	#line 35 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	35	29	#line 35 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	36	29	#line 36 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	37	29	#pragma macro 4
+4	37	29	#line 37 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	37	29		syscall 34, __colores_7qG2_csr_7qG2_001
+4	35	32	#line 35 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	35	32	#line 35 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	35	32	#line 35 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	35	32	#line 35 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	36	32	#line 36 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	36	32	#line 36 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	36	32	#line 36 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	37	32		mov __signed_stack_001colores, __colores_7qG2_csr_7qG2_001.Result
+4	36	34	#line 36 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	36	34	#line 36 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	37	34		set __D0colores, 0
+4	36	37	#line 36 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	37	37		cmp 4, __zfcolores, __signed_stack_001colores, __D0colores
+4	36	41	#line 36 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	37	41		mov __D0colores, __zfcolores
+4	37	43	#line 37 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	38	43		brtst 4, __NXC_Label_545, __zfcolores
+4	37	46	#line 37 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	38	46		set __signed_stack_001colores, 0
+4	37	49	#line 37 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	37	49	#line 37 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	38	49		set __signed_stack_002colores, 16
+4	37	52	#line 37 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	37	52	#line 37 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	38	52		strcat __strbufcolores, __constStr0013
+4	38	56	#line 38 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	39	56		acquire __TextOutMutex
+4	38	57	#line 38 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	39	57		mov __TextOutArgs.Location.X, __signed_stack_001colores
+4	38	59	#line 38 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	39	59		mov __TextOutArgs.Location.Y, __signed_stack_002colores
+4	38	61	#line 38 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	39	61		set __TextOutArgs.Options, 0
+4	38	64	#line 38 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	39	64		mov __TextOutArgs.Text, __strbufcolores
+4	38	66	#line 38 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	39	66		syscall 13, __TextOutArgs
+4	38	69	#line 38 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	39	69		mov __D0colores, __TextOutArgs.Result
+4	38	71	#line 38 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	39	71		release __TextOutMutex
+4	38	72	#line 38 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	38	72	#line 38 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	39	72		set __signed_stack_001colores, 0
+4	38	75	#line 38 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	38	75	#line 38 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	39	75		set __signed_stack_002colores, 16
+4	38	78	#line 38 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	38	78	#line 38 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	39	78		strcat __strbufcolores, __constStr0014
+4	39	82	#line 39 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	40	82		acquire __TextOutMutex
+4	39	83	#line 39 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	40	83		mov __TextOutArgs.Location.X, __signed_stack_001colores
+4	39	85	#line 39 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	40	85		mov __TextOutArgs.Location.Y, __signed_stack_002colores
+4	39	87	#line 39 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	40	87		set __TextOutArgs.Options, 0
+4	39	90	#line 39 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	40	90		mov __TextOutArgs.Text, __strbufcolores
+4	39	92	#line 39 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	40	92		syscall 13, __TextOutArgs
+4	39	95	#line 39 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	40	95		mov __D0colores, __TextOutArgs.Result
+4	39	97	#line 39 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	40	97		release __TextOutMutex
+4	39	98	#line 39 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	39	98	#line 39 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	40	98		set __signed_stack_001colores, 42
+4	39	101	#line 39 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	39	101	#line 39 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	40	101		set __signed_stack_002colores, 16
+4	39	104	#line 39 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	39	104	#line 39 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	40	104		mov __D0colores, __colores_7qG2_csr_7qG2_001.ColorValue
+4	40	106	#line 40 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	41	106		acquire __TextOutMutex
+4	40	107	#line 40 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	41	107		mov __TextOutArgs.Location.X, __signed_stack_001colores
+4	40	109	#line 40 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	41	109		mov __TextOutArgs.Location.Y, __signed_stack_002colores
+4	40	111	#line 40 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	41	111		set __TextOutArgs.Options, 0
+4	40	114	#line 40 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	41	114		numtostr __TextOutArgs.Text, __D0colores
+4	40	117	#line 40 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	41	117		syscall 13, __TextOutArgs
+4	40	120	#line 40 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	41	120		mov __D0colores, __TextOutArgs.Result
+4	40	122	#line 40 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	41	122		release __TextOutMutex
+4	40	123	#line 40 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	42	123	#line 42 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	43	123	#line 43 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	44	123		jmp __NXC_Label_537
+4	43	125	#line 43 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	43	125	#line 43 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+4	44	125		subret __colores_return
+5	44	0	#line 44 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+5	45	0		mov __signed_stack_001sensor1, luz1
+5	44	2	#line 44 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+5	44	2	#line 44 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+5	45	2		mov __D0sensor1, __sensor1_7qG2_n_7qG2_000
+5	44	4	#line 44 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+5	45	4		cmp 0, __zfsensor1, __signed_stack_001sensor1, __D0sensor1
+5	44	8	#line 44 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+5	45	8		mov __D0sensor1, __zfsensor1
+5	44	10	#line 44 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+5	45	10		brtst 4, __NXC_Label_562, __zfsensor1
+5	45	13	#line 45 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+5	46	13		set __DU0sensor1, 1
+5	45	16	#line 45 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+5	45	16	#line 45 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+5	46	16		subret __sensor1_return
+5	45	18	#line 45 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+5	45	18	#line 45 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+5	46	18		jmp __NXC_Label_565
+5	46	20	#line 46 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+5	47	20		set __DU0sensor1, 0
+5	46	23	#line 46 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+5	46	23	#line 46 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+5	47	23		subret __sensor1_return
+5	46	25	#line 46 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+5	46	25	#line 46 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+5	48	25	#line 48 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+5	49	25		subret __sensor1_return
+6	49	0	#line 49 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+6	50	0		mov __signed_stack_001sensor2, luz2
+6	49	2	#line 49 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+6	49	2	#line 49 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+6	50	2		mov __D0sensor2, __sensor2_7qG2_n_7qG2_000
+6	49	4	#line 49 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+6	50	4		cmp 0, __zfsensor2, __signed_stack_001sensor2, __D0sensor2
+6	49	8	#line 49 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+6	50	8		mov __D0sensor2, __zfsensor2
+6	49	10	#line 49 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+6	50	10		brtst 4, __NXC_Label_570, __zfsensor2
+6	50	13	#line 50 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+6	51	13		set __DU0sensor2, 1
+6	50	16	#line 50 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+6	50	16	#line 50 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+6	51	16		subret __sensor2_return
+6	50	18	#line 50 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+6	50	18	#line 50 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+6	51	18		jmp __NXC_Label_573
+6	51	20	#line 51 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+6	52	20		set __DU0sensor2, 0
+6	51	23	#line 51 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+6	51	23	#line 51 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+6	52	23		subret __sensor2_return
+6	51	25	#line 51 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+6	51	25	#line 51 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+6	52	25	#line 52 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+6	53	25		subret __sensor2_return
+7	53	0	#line 53 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+7	54	0		mov __signed_stack_001sensor3, ultra
+7	53	2	#line 53 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+7	53	2	#line 53 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+7	54	2		mov __D0sensor3, __sensor3_7qG2_n_7qG2_000
+7	53	4	#line 53 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+7	54	4		cmp 0, __zfsensor3, __signed_stack_001sensor3, __D0sensor3
+7	53	8	#line 53 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+7	54	8		mov __D0sensor3, __zfsensor3
+7	53	10	#line 53 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+7	54	10		brtst 4, __NXC_Label_578, __zfsensor3
+7	54	13	#line 54 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+7	55	13		set __DU0sensor3, 1
+7	54	16	#line 54 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+7	54	16	#line 54 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+7	55	16		subret __sensor3_return
+7	54	18	#line 54 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+7	54	18	#line 54 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+7	55	18		jmp __NXC_Label_581
+7	55	20	#line 55 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+7	56	20		set __DU0sensor3, 0
+7	55	23	#line 55 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+7	55	23	#line 55 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+7	56	23		subret __sensor3_return
+7	55	25	#line 55 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+7	55	25	#line 55 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+7	62	25	#line 62 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+7	63	25		subret __sensor3_return
+8	63	0	#line 63 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+8	64	0		mov __D0sensor4, color
+8	67	2		brcmp 4, __NXC_Label_587, __constVal1, __D0sensor4
+8	68	6		brcmp 4, __NXC_Label_590, __constVal3, __D0sensor4
+8	69	10		brcmp 4, __NXC_Label_593, __constVal6, __D0sensor4
+8	70	14		jmp __NXC_Label_586
+8	65	16	#line 65 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+8	66	16	#line 66 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+8	67	16		set __D0sensor4, 2
+8	66	19	#line 66 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+8	67	19		subret __sensor4_return
+8	66	21	#line 66 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+8	67	21	#line 67 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+8	68	21		jmp __NXC_Label_586
+8	67	23	#line 67 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+8	68	23	#line 68 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+8	69	23	#line 69 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+8	70	23		set __D0sensor4, 3
+8	69	26	#line 69 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+8	70	26		subret __sensor4_return
+8	69	28	#line 69 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+8	70	28	#line 70 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+8	71	28		jmp __NXC_Label_586
+8	70	30	#line 70 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+8	71	30	#line 71 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+8	72	30	#line 72 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+8	73	30		set __D0sensor4, 1
+8	72	33	#line 72 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+8	73	33		subret __sensor4_return
+8	72	35	#line 72 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+8	73	35	#line 73 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+8	73	35	#line 73 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+8	76	35	#line 76 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+8	76	35	#line 76 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+8	77	35		subret __sensor4_return
+9	77	0	#line 77 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	78	0		mov __D0avanzar, __avanzar_7qG2_opc_7qG2_000
+9	81	2		brcmp 4, __NXC_Label_599, __constVal1, __D0avanzar
+9	82	6		brcmp 4, __NXC_Label_608, __constVal2, __D0avanzar
+9	83	10		brcmp 4, __NXC_Label_617, __constVal3, __D0avanzar
+9	84	14		brcmp 4, __NXC_Label_626, __constVal4, __D0avanzar
+9	85	18		jmp __NXC_Label_598
+9	79	20	#line 79 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	79	20	#line 79 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	80	20		set __sensor1_7qG2_n_7qG2_000, 45
+9	79	23	#line 79 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	79	23	#line 79 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	80	23		subcall sensor1, __sensor1_return
+9	79	25	#line 79 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	80	25		mov __DU0avanzar, __DU0sensor1
+9	79	27	#line 79 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	80	27		tst 5, __zfavanzar, __DU0avanzar
+9	79	30	#line 79 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	80	30		brtst 4, __NXC_Label_604, __zfavanzar
+9	80	33	#line 80 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	81	33	#pragma macro 7
+9	81	33		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	4749	56	#line 4749 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	80	56	#line 80 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	80	56	#line 80 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	81	56		jmp __NXC_Label_605
+9	80	58	#line 80 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	81	58		mov __D0avanzar, __avanzar_7qG2_vel_7qG2_000
+9	81	60	#line 81 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	82	60	#pragma macro 7
+9	82	60		setout __OUT_AB, 2, __D0avanzar, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	4759	83	#line 4759 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	81	83	#line 81 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	81	83	#line 81 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	82	83	#line 82 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	83	83		jmp __NXC_Label_598
+9	82	85	#line 82 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	83	85	#line 83 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	83	85	#line 83 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	84	85		set __sensor2_7qG2_n_7qG2_000, 45
+9	83	88	#line 83 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	83	88	#line 83 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	84	88		subcall sensor2, __sensor2_return
+9	83	90	#line 83 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	84	90		mov __DU0avanzar, __DU0sensor2
+9	83	92	#line 83 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	84	92		tst 5, __zfavanzar, __DU0avanzar
+9	83	95	#line 83 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	84	95		brtst 4, __NXC_Label_613, __zfavanzar
+9	84	98	#line 84 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	85	98	#pragma macro 7
+9	85	98		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	4785	121	#line 4785 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	84	121	#line 84 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	84	121	#line 84 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	85	121		jmp __NXC_Label_614
+9	84	123	#line 84 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	85	123		mov __D0avanzar, __avanzar_7qG2_vel_7qG2_000
+9	85	125	#line 85 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	86	125	#pragma macro 7
+9	86	125		setout __OUT_AB, 2, __D0avanzar, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	4795	148	#line 4795 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	85	148	#line 85 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	85	148	#line 85 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	86	148	#line 86 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	87	148		jmp __NXC_Label_598
+9	86	150	#line 86 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	87	150	#line 87 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	87	150	#line 87 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	88	150		set __sensor3_7qG2_n_7qG2_000, 20
+9	87	153	#line 87 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	87	153	#line 87 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	88	153		subcall sensor3, __sensor3_return
+9	87	155	#line 87 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	88	155		mov __DU0avanzar, __DU0sensor3
+9	87	157	#line 87 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	88	157		tst 5, __zfavanzar, __DU0avanzar
+9	87	160	#line 87 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	88	160		brtst 4, __NXC_Label_622, __zfavanzar
+9	88	163	#line 88 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	89	163	#pragma macro 7
+9	89	163		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	4821	186	#line 4821 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	88	186	#line 88 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	88	186	#line 88 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	89	186		jmp __NXC_Label_623
+9	88	188	#line 88 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	89	188		mov __D0avanzar, __avanzar_7qG2_vel_7qG2_000
+9	89	190	#line 89 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	90	190	#pragma macro 7
+9	90	190		setout __OUT_AB, 2, __D0avanzar, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	4831	213	#line 4831 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	89	213	#line 89 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	89	213	#line 89 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	91	213	#line 91 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	92	213		jmp __NXC_Label_598
+9	91	215	#line 91 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	92	215	#line 92 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	92	215	#line 92 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	93	215		subcall sensor4, __sensor4_return
+9	92	217	#line 92 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	93	217		mov __D0avanzar, __D0sensor4
+9	92	219	#line 92 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	93	219		tst 5, __zfavanzar, __D0avanzar
+9	92	222	#line 92 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	93	222		brtst 4, __NXC_Label_629, __zfavanzar
+9	93	225	#line 93 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	94	225	#pragma macro 7
+9	94	225		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	4851	248	#line 4851 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	93	248	#line 93 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	93	248	#line 93 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	94	248		jmp __NXC_Label_630
+9	93	250	#line 93 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	94	250		mov __D0avanzar, __avanzar_7qG2_vel_7qG2_000
+9	94	252	#line 94 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	95	252	#pragma macro 7
+9	95	252		setout __OUT_AB, 2, __D0avanzar, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	4861	275	#line 4861 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	94	275	#line 94 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	94	275	#line 94 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	95	275	#line 95 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	95	275	#line 95 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	99	275	#line 99 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	99	275	#line 99 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+9	100	275		subret __avanzar_return
+10	100	0	#line 100 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+10	101	0		set __D0programa, 1
+10	101	3	#line 101 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+10	102	3		tst 5, __zfprograma, __D0programa
+10	101	6	#line 101 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+10	102	6		brtst 4, __NXC_Label_634, __zfprograma
+10	101	9	#line 101 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+10	102	9		set __avanzar_7qG2_vel_7qG2_000, 45
+10	101	12	#line 101 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+10	101	12	#line 101 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+10	102	12		set __avanzar_7qG2_opc_7qG2_000, 4
+10	101	15	#line 101 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+10	102	15	#line 102 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+10	103	15		subcall avanzar, __avanzar_return
+10	102	17	#line 102 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+10	104	17	#line 104 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+10	105	17		jmp __NXC_Label_633
+10	104	19	#line 104 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+10	105	19		exit -1, -1
+11	106	0	#line 106 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+11	107	0		set __D0leer, 1
+11	107	3	#line 107 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+11	108	3		tst 5, __zfleer, __D0leer
+11	107	6	#line 107 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+11	108	6		brtst 4, __NXC_Label_642, __zfleer
+11	107	9	#line 107 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+11	108	9		getin luz1, __constVal0, 4
+11	107	13	#line 107 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+11	107	13	#line 107 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+11	107	13	#line 107 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+11	108	13	#line 108 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+11	109	13		getin luz2, __constVal1, 4
+11	108	17	#line 108 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+11	108	17	#line 108 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+11	108	17	#line 108 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+11	109	17	#line 109 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+11	110	17	#pragma macro 26
+11	110	17		acquire __RLSBmutex2
+11	110	18		mov __RLSReadBuf2, __RLSBbufLSWrite1
+11	110	20		set __RLSBytesCount2, 1
+11	110	23		wait2 NA, __constVal15
+11	110	26		subcall __ReadLSBytes2, ____ReadLSBytes2_return
+11	110	28		index __D0leer, __RLSReadBuf2, 65535
+11	110	32		release __RLSBmutex2
+11	4932	33	#line 4932 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+11	109	33	#line 109 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+11	110	33		mov ultra, __D0leer
+11	109	35	#line 109 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+11	109	35	#line 109 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+11	111	35	#line 111 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+11	112	35		getin color, __constVal3, 4
+11	111	39	#line 111 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+11	111	39	#line 111 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+11	111	39	#line 111 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+11	113	39	#line 113 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+11	114	39		subcall imprimirDatos, __imprimirDatos_return
+11	113	41	#line 113 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+11	114	41	#line 114 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+11	115	41		subcall colores, __colores_return
+11	114	43	#line 114 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+11	116	43	#line 116 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+11	117	43		jmp __NXC_Label_641
+11	116	45	#line 116 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+11	117	45		exit -1, -1
+12	126	0	#line 126 "C:\Users\Zafer\AppData\Local\Temp\temp.nxc"
+12	127	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Zafer\AppData\Local\Temp\temp.nxc
+1	__ResetSensorSubroutine	160	NXTDefs.h
+2	__ReadLSBytes2	173	NXTDefs.h
+3	imprimirDatos	258	C:\Users\Zafer\AppData\Local\Temp\temp.nxc
+4	colores	517	C:\Users\Zafer\AppData\Local\Temp\temp.nxc
+5	sensor1	644	C:\Users\Zafer\AppData\Local\Temp\temp.nxc
+6	sensor2	671	C:\Users\Zafer\AppData\Local\Temp\temp.nxc
+7	sensor3	698	C:\Users\Zafer\AppData\Local\Temp\temp.nxc
+8	sensor4	725	C:\Users\Zafer\AppData\Local\Temp\temp.nxc
+9	avanzar	762	C:\Users\Zafer\AppData\Local\Temp\temp.nxc
+10	programa	1039	C:\Users\Zafer\AppData\Local\Temp\temp.nxc
+11	leer	1061	C:\Users\Zafer\AppData\Local\Temp\temp.nxc
+12	__initialize_global_data	1109	C:\Users\Zafer\AppData\Local\Temp\temp.nxc

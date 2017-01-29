@@ -1,0 +1,184 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__Wait_7qG2_ms_7qG2_000_inline_no_conexion	5	1	0	4	2
+1	__RRNTmpVal	6	1	4	4	4
+2	__signed_stack_002no_conexion	6	1	8	4	2
+3	__signed_stack_001no_conexion	6	1	12	4	4
+4	__D0no_conexion	6	1	16	4	5
+5	__D0main	6	1	20	4	13
+6	__signed_stack_001main	6	1	24	4	6
+7	__main_7qG2_recibir_7qG2_000	4	1	28	2	3
+8	__no_conexion_7qG2_num_7qG2_000	4	1	30	2	2
+9	__constVal96	2	0	32	1	2
+10	__constVal63	2	0	33	1	2
+11	__zfno_conexion	1	1	34	1	3
+12	____initialize_global_data_return	1	1	35	1	3
+13	__no_conexion_return	1	1	36	1	3
+14	__constVal0	2	1	37	1	7
+15	__RRNErr	1	1	38	1	1
+16	__constVal5	2	0	39	1	1
+17	__constVal3	2	0	40	1	2
+18	__PFTmp	1	1	41	1	1
+19	__zfmain	1	1	42	1	11
+20	__constVal1	2	0	43	1	1
+21	__constVal32	2	0	44	1	6
+22	__MRArgs	8	0	4	8	5
+23	__MRArgs.Result	2	1	48	1	5
+24	__MRArgs.QueueID	1	1	49	1	5
+25	__MRArgs.Remove	1	1	50	1	5
+26	__MRArgs.Message	7	0	52	4	5
+27	__MRArgs.Message.Message_type	1	0	0	1	0
+28	__CBTCSArgs	8	0	2	4	4
+29	__CBTCSArgs.Result	2	1	56	1	4
+30	__CBTCSArgs.Connection	1	1	57	1	4
+31	__TextOutArgs	8	0	4	16	5
+32	__TextOutArgs.Result	2	1	60	1	5
+33	__TextOutArgs.Location	8	0	2	4	5
+34	__TextOutArgs.Location.X	4	1	64	2	5
+35	__TextOutArgs.Location.Y	4	1	66	2	5
+36	__TextOutArgs.Text	7	0	68	4	5
+37	__TextOutArgs.Text.Text_type	1	0	0	1	0
+38	__TextOutArgs.Options	5	1	72	4	5
+39	__OUT_AB	7	0	76	4	2
+40	__OUT_AB.__OUT_AB_type	1	0	0	1	0
+41	__strbufno_conexion	7	0	78	4	2
+42	__strbufno_conexion.__strbufno_conexion_type	1	0	0	1	0
+43	__constStr0009	7	0	80	4	1
+44	__constStr0009.__constStr0009_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	11	0	#line 11 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	12	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	11	2	#line 11 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	12	2	#line 12 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	13	2		set __D0main, 1
+0	13	5	#line 13 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	14	5		tst 5, __zfmain, __D0main
+0	13	8	#line 13 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	14	8		brtst 4, __NXC_Label_501, __zfmain
+0	13	11	#line 13 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	14	11		set __no_conexion_7qG2_num_7qG2_000, 0
+0	13	14	#line 13 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	14	14	#line 14 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	15	14		subcall no_conexion, __no_conexion_return
+0	14	16	#line 14 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	14	16	#line 14 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	15	16	#pragma macro 9
+0	15	16		mov __MRArgs.QueueID, __constVal5
+0	15	18		mov __MRArgs.Remove, __constVal1
+0	15	20		set __RRNTmpVal, 0
+0	15	23		syscall 27, __MRArgs
+0	15	26		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+0	15	31		mov __main_7qG2_recibir_7qG2_000, __RRNTmpVal
+0	15	33		mov __signed_stack_001main, __MRArgs.Result
+0	3666	35	#line 3666 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	14	35	#line 14 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	14	35	#line 14 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	15	35		set __D0main, 64
+0	14	38	#line 14 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	15	38		cmp 5, __zfmain, __signed_stack_001main, __D0main
+0	14	42	#line 14 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	15	42		mov __D0main, __zfmain
+0	15	44	#line 15 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	16	44		brtst 4, __NXC_Label_508, __zfmain
+0	15	47	#line 15 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	16	47		mov __signed_stack_001main, __main_7qG2_recibir_7qG2_000
+0	15	49	#line 15 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	15	49	#line 15 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	16	49		set __D0main, 3
+0	15	52	#line 15 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	16	52		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	15	56	#line 15 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	16	56		mov __D0main, __zfmain
+0	16	58	#line 16 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	17	58		brtst 4, __NXC_Label_511, __zfmain
+0	16	61	#line 16 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	17	61		set __D0main, 100
+0	17	64	#line 17 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	18	64	#pragma macro 7
+0	18	64		setout __OUT_AB, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3698	87	#line 3698 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	17	87	#line 17 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	18	87	#line 18 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	18	87	#line 18 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	19	87		mov __signed_stack_001main, __main_7qG2_recibir_7qG2_000
+0	18	89	#line 18 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	18	89	#line 18 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	19	89		set __D0main, 2
+0	18	92	#line 18 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	19	92		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	18	96	#line 18 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	19	96		mov __D0main, __zfmain
+0	19	98	#line 19 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	20	98		brtst 4, __NXC_Label_516, __zfmain
+0	20	101	#line 20 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	21	101	#pragma macro 7
+0	21	101		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3717	124	#line 3717 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	20	124	#line 20 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	22	124	#line 22 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	23	124	#line 23 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	25	124	#line 25 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	26	124		jmp __NXC_Label_500
+0	25	126	#line 25 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+0	26	126		exit -1, -1
+1	4	0	#line 4 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+1	5	0	#pragma macro 5
+1	5	0		mov __CBTCSArgs.Connection, __no_conexion_7qG2_num_7qG2_000
+1	5	2		syscall 28, __CBTCSArgs
+1	3565	5	#line 3565 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+1	4	5	#line 4 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+1	5	5		not __signed_stack_001no_conexion, __CBTCSArgs.Result
+1	4	8	#line 4 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+1	4	8	#line 4 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+1	5	8		set __D0no_conexion, 0
+1	4	11	#line 4 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+1	5	11		cmp 4, __zfno_conexion, __signed_stack_001no_conexion, __D0no_conexion
+1	4	15	#line 4 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+1	5	15		mov __D0no_conexion, __zfno_conexion
+1	5	17	#line 5 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+1	6	17		brtst 4, __NXC_Label_491, __zfno_conexion
+1	5	20	#line 5 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+1	6	20		set __signed_stack_001no_conexion, 5
+1	5	23	#line 5 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+1	5	23	#line 5 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+1	6	23		set __signed_stack_002no_conexion, 48
+1	5	26	#line 5 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+1	5	26	#line 5 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+1	6	26		strcat __strbufno_conexion, __constStr0009
+1	6	30	#line 6 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+1	6	30	#line 6 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+1	7	30		mov __TextOutArgs.Location.X, __signed_stack_001no_conexion
+1	6	32	#line 6 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+1	7	32		mov __TextOutArgs.Location.Y, __signed_stack_002no_conexion
+1	6	34	#line 6 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+1	7	34		set __TextOutArgs.Options, 0
+1	6	37	#line 6 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+1	7	37		mov __TextOutArgs.Text, __strbufno_conexion
+1	6	39	#line 6 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+1	7	39		syscall 13, __TextOutArgs
+1	6	42	#line 6 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+1	6	42	#line 6 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+1	6	42	#line 6 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+1	6	42	#line 6 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+1	7	42		set __Wait_7qG2_ms_7qG2_000_inline_no_conexion, 2000
+1	6	45	#line 6 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+1	7921	45	#line 7921 "NXCDefs.h"
+1	7922	45		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_no_conexion
+1	7921	48	#line 7921 "NXCDefs.h"
+1	7	48	#line 7 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+1	7	48	#line 7 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+1	8	48		set __D0no_conexion, 1
+1	8	51	#line 8 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+1	9	51		stop __D0no_conexion
+1	8	53	#line 8 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+1	10	53	#line 10 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+1	10	53	#line 10 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+1	11	53		subret __no_conexion_return
+2	26	0	#line 26 "C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc"
+2	27	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc
+1	no_conexion	129	C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc
+2	__initialize_global_data	184	C:\Users\Zafer\Desktop\tmr2017\Bricx\bluetooth_esclavo.nxc
