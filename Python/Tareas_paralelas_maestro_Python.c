@@ -45,6 +45,8 @@ void imprimirDatos()
 	
 	}
 
+	Wait(50);
+
 }
 /*
 bool sensor1(int n)
