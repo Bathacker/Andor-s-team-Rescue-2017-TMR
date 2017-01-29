@@ -5,7 +5,10 @@
 //#define SENSOR_TACTO IN_4
 #define SENSOR_COLOR IN_4
 #define ENTRADA 1
-#define SALIDA 5
+#define SALIDA1 2
+#define SALIDA2 3
+#define SALIDA3 4
+#define SALIDA4 5
 //........................
 //VARIABLES
 int luz1, luz2, ultra, color ;
@@ -23,9 +26,9 @@ void imprimirDatos()
 {
 	
 	no_conexion(1);
-	SendRemoteNumber(ENTRADA, SALIDA, luz1);
-	SendRemoteNumber(ENTRADA, SALIDA, luz2);
-	SendRemoteNumber(ENTRADA, SALIDA, ultra);
+	SendRemoteNumber(ENTRADA, SALIDA1, luz1);
+	SendRemoteNumber(ENTRADA, SALIDA2, luz2);
+	SendRemoteNumber(ENTRADA, SALIDA3, ultra);
 	while(true)
 	{
 	  	
@@ -36,7 +39,7 @@ void imprimirDatos()
 	  	if(csr.Result == NO_ERR)
 	  	{
     	
-    		SendRemoteNumber(ENTRADA, SALIDA, color);
+    		SendRemoteNumber(ENTRADA, SALIDA4, color);
 	  	
 	  	}
 	
