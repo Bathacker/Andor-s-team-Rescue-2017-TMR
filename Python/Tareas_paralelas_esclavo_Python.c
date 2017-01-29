@@ -37,25 +37,16 @@ void imprimirDatos()
 	TextOut(0,LCD_LINE4, "      ");
 	TextOut(0,LCD_LINE5, "      ");
 
+
 	TextOut(0,LCD_LINE2, "luz1:      ");
 	TextOut(0,LCD_LINE3, "luz2:      ");
 	TextOut(0,LCD_LINE4, "ultra1:      ");
 	TextOut(0,LCD_LINE5, "color:      ");
 
-	TextOut(0,LCD_LINE2, "tacto1:      ");
-	TextOut(0,LCD_LINE3, "tacto2:      ");
-	TextOut(0,LCD_LINE4, "ultra2:      ");
-	TextOut(0,LCD_LINE5, "ultra3:      ");
-
 	NumOut(7*6,LCD_LINE2,luz1);
 	NumOut(7*6,LCD_LINE3,luz2);
 	NumOut(7*6,LCD_LINE4,ultra1);
 	NumOut(7*6,LCD_LINE5,color);
-
-	NumOut(7*6,LCD_LINE2,tacto1);
-	NumOut(7*6,LCD_LINE3,tacto2);
-	NumOut(7*6,LCD_LINE4,ultra2);
-	NumOut(7*6,LCD_LINE5,ultra3);
 
 }
 

@@ -25,7 +25,23 @@ void no_conexion(int num){
 void imprimirDatos()
 {
 	
+	TextOut(0,LCD_LINE2, "      ");
+	TextOut(0,LCD_LINE3, "      ");
+	TextOut(0,LCD_LINE4, "      ");
+	TextOut(0,LCD_LINE5, "      ");
+
+	TextOut(0,LCD_LINE2, "tacto1:      ");
+	TextOut(0,LCD_LINE3, "tacto2:      ");
+	TextOut(0,LCD_LINE4, "ultra2:      ");
+	TextOut(0,LCD_LINE5, "ultra3:      ");
+
+	NumOut(7*6,LCD_LINE2,tacto1);
+	NumOut(7*6,LCD_LINE3,tacto2);
+	NumOut(7*6,LCD_LINE4,ultra2);
+	NumOut(7*6,LCD_LINE5,ultra3);
+
 	no_conexion(1);
+	
 	SendRemoteNumber(ENTRADA, SALIDA1, luz1);
 	SendRemoteNumber(ENTRADA, SALIDA2, luz2);
 	SendRemoteNumber(ENTRADA, SALIDA3, ultra);
