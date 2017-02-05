@@ -1,0 +1,136 @@
+//ESCALVO
+//constantes-------------------------------------------------
+
+#define SENSOR_LUZ1 IN_1
+#define SENSOR_LUZ2 IN_2
+#define SENSOR_LUZ3 IN_3
+#define SENSOR_COLOR IN_4             //CONTANTES NO LLEVAN
+#define ENTRADA2 2
+#define ENTRADA3 3                     //EXCLAVO
+#define ENTRADA4 4
+#define ENTRADA5 5
+#define SALIDA 1                      //EXCLAVO
+
+//-----------------------------------------------------------
+
+//VARIABLES
+int luz1, luz2, luz3, color;
+int ultra1, ultra2, ultra3, ultra4;
+
+//FUNCIONES......................................................
+
+//................................................................
+
+void imprimirDatos(){
+
+     TextOut(0,LCD_LINE2,"          " );
+     TextOut(0,LCD_LINE3,"          " );
+     TextOut(0,LCD_LINE4,"          " );
+     TextOut(0,LCD_LINE5,"          " );
+     
+     TextOut(0,LCD_LINE2," LUZ1:         " );
+     TextOut(0,LCD_LINE3," LUZ2:         " );
+     TextOut(0,LCD_LINE4," LUZ3:         " );
+     TextOut(0,LCD_LINE5," COLOR:         " );
+     
+     NumOut(7*6,LCD_LINE2,luz1);
+     NumOut(7*6,LCD_LINE3,luz2);
+     NumOut(7*6,LCD_LINE4,luz3);
+     NumOut(7*6,LCD_LINE5,color);
+     
+}
+
+void no_conexion(int num){            //EXCLAVO
+     if(!BluetoothStatus(num)==NO_ERR){
+            TextOut(5,LCD_LINE2,"DONDE ESTA MI MAESTRO");
+            Wait(2000);
+            Stop(true);
+     }
+}                                    //FIN EXCLAVO
+
+bool ultra(){
+    int recibir;
+    while(true){
+
+    }
+}
+
+bool luz(){
+    if(luz1<35 && luz2<35 && luz3<35) return true;
+    else return false;
+  }
+
+int colors(){
+     if(color==1) return 0;
+     if(color==6) return 1;
+     if(color==3) return 2;
+}
+
+void avanzar(int velocidad, int opcion){
+     if(ultra()==true && luz()==true && colors()==1) OnFwd(OUT_AB,velocidad);
+     if(colors()==2) OnRev(OUT_AB,velocidad);
+     else Off(OUT_AB);
+}
+
+void imprimirDatos2(){
+
+     TextOut(0,LCD_LINE2,"          " );
+     TextOut(0,LCD_LINE3,"          " );
+     TextOut(0,LCD_LINE4,"          " );
+     TextOut(0,LCD_LINE5,"          " );
+
+     TextOut(0,LCD_LINE2," ULTRA1:         " );
+     TextOut(0,LCD_LINE3," ULTRA2:         " );
+     TextOut(0,LCD_LINE4," ULTRA3:         " );
+     TextOut(0,LCD_LINE5," ULTRA4:         " );
+
+     NumOut(7*7,LCD_LINE2,ultra1);
+     NumOut(7*7,LCD_LINE3,ultra2);
+     NumOut(7*7,LCD_LINE4,ultra3);
+     NumOut(7*7,LCD_LINE5,ultra4);
+
+}
+
+//TAREAS PRINCIPALES------------------------------------------------------------
+
+task programa(){    //no contradecirme en los task ._.
+     while(true){
+          //avanzar(75,4);
+     }
+}
+
+task leer(){
+     int recibir;
+     while(true){
+         luz1=Sensor(SENSOR_LUZ1);
+         luz2=Sensor(SENSOR_LUZ2);
+         luz3=Sensor(SENSOR_LUZ3);
+         ColorSensorReadType csr;
+         csr.Port = SENSOR_COLOR;
+         SysColorSensorRead(csr);
+         color=csr.ColorValue;
+         no_conexion(0);
+         if(ReceiveRemoteNumber(ENTRADA2,true,recibir) != STAT_MSG_EMPTY_MAILBOX){
+             ultra1=recibir;
+          }
+            if(ReceiveRemoteNumber(ENTRADA3,true,recibir) != STAT_MSG_EMPTY_MAILBOX){
+             ultra2=recibir;
+          }
+            if(ReceiveRemoteNumber(ENTRADA4,true,recibir) != STAT_MSG_EMPTY_MAILBOX){
+             ultra3=recibir;
+          }
+            if(ReceiveRemoteNumber(ENTRADA5,true,recibir) != STAT_MSG_EMPTY_MAILBOX){
+             ultra4=recibir;
+          }
+         imprimirDatos2();
+     }
+}
+
+task main(){        //siempre sensores en main ;)
+     SetSensorLight(SENSOR_LUZ1);
+     SetSensorLight(SENSOR_LUZ2);
+     SetSensorLight(SENSOR_LUZ3);
+     SetSensorColorFull(SENSOR_COLOR);
+     Precedes(programa,leer);
+}
+

@@ -1,0 +1,81 @@
+//MAESTRO
+//constantes-------------------------------------------------
+
+#define SENSOR_ULTRA1 IN_1
+#define SENSOR_ULTRA2 IN_2
+#define SENSOR_ULTRA3 IN_3
+#define SENSOR_ULTRA4 IN_4             //CONTANTES NO LLEVAN ;
+#define ENTRADA 1                     //MAESTRO
+#define SALIDA2 2                      //MAESTRO
+#define SALIDA3 3
+#define SALIDA4 4
+#define SALIDA5 5
+//-----------------------------------------------------------
+
+//VARIABLES
+int ultra1, ultra2, ultra3, ultra4;
+
+//FUNCIONES......................................................
+
+//................................................................
+
+void imprimirDatos(){
+
+     TextOut(0,LCD_LINE2,"          " );
+     TextOut(0,LCD_LINE3,"          " );
+     TextOut(0,LCD_LINE4,"          " );
+     TextOut(0,LCD_LINE5,"          " );
+
+     TextOut(0,LCD_LINE2," ULTRA1:         " );
+     TextOut(0,LCD_LINE3," ULTRA2:         " );
+     TextOut(0,LCD_LINE4," ULTRA3:         " );
+     TextOut(0,LCD_LINE5," ULTRA4:         " );
+
+     NumOut(7*7,LCD_LINE2,ultra1);
+     NumOut(7*7,LCD_LINE3,ultra2);
+     NumOut(7*7,LCD_LINE4,ultra3);
+     NumOut(7*7,LCD_LINE5,ultra4);
+
+}
+
+//TAREAS PRINCIPALES------------------------------------------------------------
+void no_conexion(int num){               // INICIO MAESTRO
+     if(!BluetoothStatus(num)==NO_ERR){
+     TextOut(5,LCD_LINE2,"NO HAY EXCLAVO");
+     Wait(2000);
+     Stop(true);
+     }
+}
+
+task leer(){
+     while(true){
+         ultra1=SensorUS(SENSOR_ULTRA1);
+         ultra2=SensorUS(SENSOR_ULTRA2);
+         ultra3=SensorUS(SENSOR_ULTRA3);
+         ultra4=SensorUS(SENSOR_ULTRA4);
+         imprimirDatos();
+     }
+}
+
+task maestro(){
+     while(true){
+        no_conexion(1);
+         SendRemoteNumber(ENTRADA,SALIDA2,ultra1);
+           Wait(50);
+          SendRemoteNumber(ENTRADA,SALIDA3,ultra2);
+         Wait(50);
+        SendRemoteNumber(ENTRADA,SALIDA4,ultra3);
+         Wait(50);
+        SendRemoteNumber(ENTRADA,SALIDA5,ultra4);
+        Wait(50);
+     }
+}
+
+
+task main(){        //siempre sensores en main ;)
+     SetSensorLowspeed(SENSOR_ULTRA1);
+     SetSensorLowspeed(SENSOR_ULTRA2);
+     SetSensorLowspeed(SENSOR_ULTRA3);
+     SetSensorLowspeed(SENSOR_ULTRA4);
+     Precedes(leer,maestro);
+}
