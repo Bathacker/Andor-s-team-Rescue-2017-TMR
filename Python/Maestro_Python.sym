@@ -1,0 +1,1132 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0imprimirDatos	6	1	0	4	20
+1	__CLSCSMutex3	9	0	4	4	2
+2	__CLSRMutex3	9	0	8	4	2
+3	__CLSWMutex3	9	0	12	4	2
+4	__D0leer	6	1	16	4	10
+5	__D0maestro	6	1	20	4	6
+6	__CLSCSMutex2	9	0	24	4	2
+7	__CLSRMutex2	9	0	28	4	2
+8	__CLSWMutex2	9	0	32	4	2
+9	__TextOutMutex	9	0	36	4	26
+10	__RLSBmutex1	9	0	40	4	2
+11	__Wait_7qG2_ms_7qG2_000_inline_maestro	5	1	44	4	8
+12	__RLSBmutex2	9	0	48	4	2
+13	__RLSBmutex3	9	0	52	4	2
+14	__CBTWMutex	9	0	56	4	8
+15	__RLSBmutex0	9	0	60	4	2
+16	__RemoteMutex	9	0	64	4	8
+17	__Wait_7qG2_ms_7qG2_000_inline_no_conexion	5	1	68	4	2
+18	__SRSTmpLongVal	6	1	72	4	8
+19	__CLSRMutex1	9	0	76	4	2
+20	__CLSCSMutex0	9	0	80	4	2
+21	__CLSWMutex0	9	0	84	4	2
+22	__DU0SetSensorLowspeed_inline_main	5	1	88	4	8
+23	__signed_stack_001imprimirDatos	6	1	92	4	24
+24	__signed_stack_002no_conexion	6	1	96	4	2
+25	__signed_stack_001no_conexion	6	1	100	4	4
+26	__signed_stack_002imprimirDatos	6	1	104	4	24
+27	__CLSRMutex0	9	0	108	4	2
+28	__CLSWMutex1	9	0	112	4	2
+29	__D0no_conexion	6	1	116	4	6
+30	__D0SetSensorLowspeed_inline_main	6	1	120	4	12
+31	__CLSCSMutex1	9	0	124	4	2
+32	ultra1	4	1	128	2	3
+33	ultra4	4	1	130	2	3
+34	ultra3	4	1	132	2	3
+35	ultra2	4	1	134	2	3
+36	__no_conexion_7qG2_num_7qG2_000	4	1	136	2	2
+37	__constVal2	2	0	138	1	5
+38	____ReadLSBytes3_return	1	1	139	1	3
+39	____initialize_global_data_return	1	1	140	1	3
+40	__PFTmp	1	1	141	1	1
+41	__imprimirDatos_return	1	1	142	1	3
+42	__RLSBytesCount2	1	1	143	1	7
+43	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	144	1	20
+44	__RLSBIterations2	1	1	145	1	4
+45	__zfmaestro	1	1	146	1	2
+46	__zfleer	1	1	147	1	2
+47	__no_conexion_return	1	1	148	1	3
+48	__zfno_conexion	1	1	149	1	3
+49	__RLSBResult3	2	1	150	1	7
+50	__zfSetSensorLowspeed_inline_main	1	1	151	1	8
+51	__RLSBIterations3	1	1	152	1	4
+52	__RLSBytesCount3	1	1	153	1	7
+53	__RLSBResult2	2	1	154	1	7
+54	__constVal3	2	0	155	1	5
+55	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	156	1	8
+56	____ReadLSBytes0_return	1	1	157	1	3
+57	__constVal0	2	1	158	1	4
+58	__RLSBytesCount0	1	1	159	1	7
+59	__RLSBResult0	2	1	160	1	7
+60	__ResetSensorPort	1	1	161	1	6
+61	__ResetSensorTmp	1	1	162	1	2
+62	____ResetSensorSubroutine_return	1	1	163	1	6
+63	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	164	1	4
+64	__constVal4	2	0	165	1	1
+65	__constVal5	2	0	166	1	5
+66	__RLSBIterations1	1	1	167	1	4
+67	__RLSBytesCount1	1	1	168	1	7
+68	__RLSBResult1	2	1	169	1	7
+69	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	170	1	8
+70	____ReadLSBytes2_return	1	1	171	1	3
+71	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	172	1	8
+72	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	173	1	8
+73	__RLSBIterations0	1	1	174	1	4
+74	__constVal1	2	0	175	1	13
+75	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	176	1	8
+76	____ReadLSBytes1_return	1	1	177	1	3
+77	__constVal15	2	0	178	1	12
+78	__CLSRArgs0	8	0	4	12	5
+79	__CLSRArgs0.Result	2	1	180	1	5
+80	__CLSRArgs0.Port	1	1	181	1	5
+81	__CLSRArgs0.Buffer	7	0	182	4	5
+82	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+83	__CLSRArgs0.BufferLen	1	1	184	1	5
+84	__CLSCSArgs1	8	0	3	4	4
+85	__CLSCSArgs1.Result	2	1	188	1	4
+86	__CLSCSArgs1.Port	1	1	189	1	4
+87	__CLSCSArgs1.BytesReady	1	1	190	1	4
+88	__CLSCSArgs0	8	0	3	4	4
+89	__CLSCSArgs0.Result	2	1	192	1	4
+90	__CLSCSArgs0.Port	1	1	193	1	4
+91	__CLSCSArgs0.BytesReady	1	1	194	1	4
+92	__CLSWArgs0	8	0	4	12	5
+93	__CLSWArgs0.Result	2	1	196	1	5
+94	__CLSWArgs0.Port	1	1	197	1	5
+95	__CLSWArgs0.Buffer	7	0	198	4	5
+96	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+97	__CLSWArgs0.ReturnLen	1	1	200	1	5
+98	__CLSWArgs1	8	0	4	12	5
+99	__CLSWArgs1.Result	2	1	204	1	5
+100	__CLSWArgs1.Port	1	1	205	1	5
+101	__CLSWArgs1.Buffer	7	0	206	4	5
+102	__CLSWArgs1.Buffer.Buffer_type	1	0	0	1	0
+103	__CLSWArgs1.ReturnLen	1	1	208	1	5
+104	__CLSWArgs3	8	0	4	12	5
+105	__CLSWArgs3.Result	2	1	212	1	5
+106	__CLSWArgs3.Port	1	1	213	1	5
+107	__CLSWArgs3.Buffer	7	0	214	4	5
+108	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
+109	__CLSWArgs3.ReturnLen	1	1	216	1	5
+110	__CBTCSArgs	8	0	2	4	4
+111	__CBTCSArgs.Result	2	1	220	1	4
+112	__CBTCSArgs.Connection	1	1	221	1	4
+113	__CLSRArgs3	8	0	4	12	5
+114	__CLSRArgs3.Result	2	1	224	1	5
+115	__CLSRArgs3.Port	1	1	225	1	5
+116	__CLSRArgs3.Buffer	7	0	226	4	5
+117	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
+118	__CLSRArgs3.BufferLen	1	1	228	1	5
+119	__CBTWArgs	8	0	3	8	16
+120	__CBTWArgs.Result	2	1	232	1	16
+121	__CBTWArgs.Connection	1	1	233	1	16
+122	__CBTWArgs.Buffer	7	0	234	4	16
+123	__CBTWArgs.Buffer.Buffer_type	1	0	0	1	0
+124	__TextOutArgs	8	0	4	16	78
+125	__TextOutArgs.Result	2	1	236	1	78
+126	__TextOutArgs.Location	8	0	2	4	78
+127	__TextOutArgs.Location.X	4	1	240	2	78
+128	__TextOutArgs.Location.Y	4	1	242	2	78
+129	__TextOutArgs.Text	7	0	244	4	78
+130	__TextOutArgs.Text.Text_type	1	0	0	1	0
+131	__TextOutArgs.Options	5	1	248	4	78
+132	__CLSCSArgs3	8	0	3	4	4
+133	__CLSCSArgs3.Result	2	1	252	1	4
+134	__CLSCSArgs3.Port	1	1	253	1	4
+135	__CLSCSArgs3.BytesReady	1	1	254	1	4
+136	__CLSCSArgs2	8	0	3	4	4
+137	__CLSCSArgs2.Result	2	1	256	1	4
+138	__CLSCSArgs2.Port	1	1	257	1	4
+139	__CLSCSArgs2.BytesReady	1	1	258	1	4
+140	__CLSRArgs1	8	0	4	12	5
+141	__CLSRArgs1.Result	2	1	260	1	5
+142	__CLSRArgs1.Port	1	1	261	1	5
+143	__CLSRArgs1.Buffer	7	0	262	4	5
+144	__CLSRArgs1.Buffer.Buffer_type	1	0	0	1	0
+145	__CLSRArgs1.BufferLen	1	1	264	1	5
+146	__CLSRArgs2	8	0	4	12	5
+147	__CLSRArgs2.Result	2	1	268	1	5
+148	__CLSRArgs2.Port	1	1	269	1	5
+149	__CLSRArgs2.Buffer	7	0	270	4	5
+150	__CLSRArgs2.Buffer.Buffer_type	1	0	0	1	0
+151	__CLSRArgs2.BufferLen	1	1	272	1	5
+152	__CLSWArgs2	8	0	4	12	5
+153	__CLSWArgs2.Result	2	1	276	1	5
+154	__CLSWArgs2.Port	1	1	277	1	5
+155	__CLSWArgs2.Buffer	7	0	278	4	5
+156	__CLSWArgs2.Buffer.Buffer_type	1	0	0	1	0
+157	__CLSWArgs2.ReturnLen	1	1	280	1	5
+158	__constStr0011	7	0	282	4	1
+159	__constStr0011.__constStr0011_type	1	1	0	1	0
+160	__constStr0012	7	0	284	4	1
+161	__constStr0012.__constStr0012_type	1	1	0	1	0
+162	__constStr0013	7	0	286	4	1
+163	__constStr0013.__constStr0013_type	1	1	0	1	0
+164	__constStr0014	7	0	288	4	1
+165	__constStr0014.__constStr0014_type	1	1	0	1	0
+166	__constStr0010	7	0	290	4	1
+167	__constStr0010.__constStr0010_type	1	1	0	1	0
+168	__RLSLastGoodRead2	7	0	292	4	2
+169	__RLSLastGoodRead2.__RLSLastGoodRead2_type	1	0	0	1	0
+170	__RLSReadBuf1	7	0	294	4	8
+171	__RLSReadBuf1.__RLSReadBuf1_type	1	0	0	1	0
+172	__RLSLastGoodRead3	7	0	296	4	2
+173	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
+174	__RLSReadBuf2	7	0	298	4	8
+175	__RLSReadBuf2.__RLSReadBuf2_type	1	0	0	1	0
+176	__RLSLastGoodRead0	7	0	300	4	2
+177	__RLSLastGoodRead0.__RLSLastGoodRead0_type	1	0	0	1	0
+178	__RLSBbufLSWrite1	7	0	302	4	4
+179	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+180	__RLSLastGoodRead1	7	0	304	4	2
+181	__RLSLastGoodRead1.__RLSLastGoodRead1_type	1	0	0	1	0
+182	__RLSReadBuf0	7	0	306	4	8
+183	__RLSReadBuf0.__RLSReadBuf0_type	1	0	0	1	0
+184	__strbufimprimirDatos	7	0	308	4	16
+185	__strbufimprimirDatos.__strbufimprimirDatos_type	1	0	0	1	0
+186	__DCMessageWritePacket	7	0	310	4	4
+187	__DCMessageWritePacket.__DCMessageWritePacket_type	1	0	0	1	0
+188	__constStr0009	7	0	312	4	4
+189	__constStr0009.__constStr0009_type	1	1	0	1	0
+190	__strbufno_conexion	7	0	314	4	2
+191	__strbufno_conexion.__strbufno_conexion_type	1	0	0	1	0
+192	__SRSTmpBuf	7	0	316	4	24
+193	__SRSTmpBuf.__SRSTmpBuf_type	1	0	0	1	0
+194	__RLSReadBuf3	7	0	318	4	8
+195	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
+196	__SRSFlattenBuf	7	0	320	4	8
+197	__SRSFlattenBuf.__SRSFlattenBuf_type	1	0	0	1	0
+198	__SRSSendBuf	7	0	322	4	8
+199	__SRSSendBuf.__SRSSendBuf_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	75	0	#line 75 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+0	76	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	75	2	#line 75 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+0	75	2	#line 75 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+0	76	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 0
+0	75	5	#line 75 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+0	76	5	#line 76 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+0	77	5		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	3758	7	#line 3758 "NXCDefs.h"
+0	3759	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3758	9	#line 3758 "NXCDefs.h"
+0	3758	9	#line 3758 "NXCDefs.h"
+0	3759	9		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	3758	11	#line 3758 "NXCDefs.h"
+0	3759	11		tst 5, __zfSetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	3758	14	#line 3758 "NXCDefs.h"
+0	3759	14		brtst 4, __004__NXC_Label_36, __zfSetSensorLowspeed_inline_main
+0	3758	17	#line 3758 "NXCDefs.h"
+0	3759	17		set __D0SetSensorLowspeed_inline_main, 11
+0	3758	20	#line 3758 "NXCDefs.h"
+0	3759	20		jmp __004__NXC_Label_37
+0	3758	22	#line 3758 "NXCDefs.h"
+0	3759	22		set __D0SetSensorLowspeed_inline_main, 10
+0	3758	25	#line 3758 "NXCDefs.h"
+0	3759	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __D0SetSensorLowspeed_inline_main
+0	3663	27	#line 3663 "NXCDefs.h"
+0	3664	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3663	31	#line 3663 "NXCDefs.h"
+0	3759	31	#line 3759 "NXCDefs.h"
+0	3759	31	#line 3759 "NXCDefs.h"
+0	3760	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3759	33	#line 3759 "NXCDefs.h"
+0	3759	33	#line 3759 "NXCDefs.h"
+0	3760	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3759	36	#line 3759 "NXCDefs.h"
+0	3676	36	#line 3676 "NXCDefs.h"
+0	3677	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	3676	40	#line 3676 "NXCDefs.h"
+0	3760	40	#line 3760 "NXCDefs.h"
+0	3760	40	#line 3760 "NXCDefs.h"
+0	3761	40		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3760	42	#line 3760 "NXCDefs.h"
+0	3694	42	#line 3694 "NXCDefs.h"
+0	3695	42	#pragma macro 4
+0	3695	42		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3695	44		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	4481	46	#line 4481 "NXCDefs.h"
+0	3694	46	#line 3694 "NXCDefs.h"
+0	3761	46	#line 3761 "NXCDefs.h"
+0	76	46	#line 76 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+0	76	46	#line 76 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+0	77	46		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 1
+0	76	49	#line 76 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+0	77	49	#line 77 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+0	78	49		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	3758	51	#line 3758 "NXCDefs.h"
+0	3759	51		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3758	53	#line 3758 "NXCDefs.h"
+0	3758	53	#line 3758 "NXCDefs.h"
+0	3759	53		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	3758	55	#line 3758 "NXCDefs.h"
+0	3759	55		tst 5, __zfSetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	3758	58	#line 3758 "NXCDefs.h"
+0	3759	58		brtst 4, __005__NXC_Label_36, __zfSetSensorLowspeed_inline_main
+0	3758	61	#line 3758 "NXCDefs.h"
+0	3759	61		set __D0SetSensorLowspeed_inline_main, 11
+0	3758	64	#line 3758 "NXCDefs.h"
+0	3759	64		jmp __005__NXC_Label_37
+0	3758	66	#line 3758 "NXCDefs.h"
+0	3759	66		set __D0SetSensorLowspeed_inline_main, 10
+0	3758	69	#line 3758 "NXCDefs.h"
+0	3759	69		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __D0SetSensorLowspeed_inline_main
+0	3663	71	#line 3663 "NXCDefs.h"
+0	3664	71		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3663	75	#line 3663 "NXCDefs.h"
+0	3759	75	#line 3759 "NXCDefs.h"
+0	3759	75	#line 3759 "NXCDefs.h"
+0	3760	75		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3759	77	#line 3759 "NXCDefs.h"
+0	3759	77	#line 3759 "NXCDefs.h"
+0	3760	77		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3759	80	#line 3759 "NXCDefs.h"
+0	3676	80	#line 3676 "NXCDefs.h"
+0	3677	80		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	3676	84	#line 3676 "NXCDefs.h"
+0	3760	84	#line 3760 "NXCDefs.h"
+0	3760	84	#line 3760 "NXCDefs.h"
+0	3761	84		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3760	86	#line 3760 "NXCDefs.h"
+0	3694	86	#line 3694 "NXCDefs.h"
+0	3695	86	#pragma macro 4
+0	3695	86		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3695	88		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	4548	90	#line 4548 "NXCDefs.h"
+0	3694	90	#line 3694 "NXCDefs.h"
+0	3761	90	#line 3761 "NXCDefs.h"
+0	77	90	#line 77 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+0	77	90	#line 77 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+0	78	90		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 2
+0	77	93	#line 77 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+0	78	93	#line 78 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+0	79	93		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	3758	95	#line 3758 "NXCDefs.h"
+0	3759	95		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3758	97	#line 3758 "NXCDefs.h"
+0	3758	97	#line 3758 "NXCDefs.h"
+0	3759	97		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	3758	99	#line 3758 "NXCDefs.h"
+0	3759	99		tst 5, __zfSetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	3758	102	#line 3758 "NXCDefs.h"
+0	3759	102		brtst 4, __006__NXC_Label_36, __zfSetSensorLowspeed_inline_main
+0	3758	105	#line 3758 "NXCDefs.h"
+0	3759	105		set __D0SetSensorLowspeed_inline_main, 11
+0	3758	108	#line 3758 "NXCDefs.h"
+0	3759	108		jmp __006__NXC_Label_37
+0	3758	110	#line 3758 "NXCDefs.h"
+0	3759	110		set __D0SetSensorLowspeed_inline_main, 10
+0	3758	113	#line 3758 "NXCDefs.h"
+0	3759	113		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __D0SetSensorLowspeed_inline_main
+0	3663	115	#line 3663 "NXCDefs.h"
+0	3664	115		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3663	119	#line 3663 "NXCDefs.h"
+0	3759	119	#line 3759 "NXCDefs.h"
+0	3759	119	#line 3759 "NXCDefs.h"
+0	3760	119		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3759	121	#line 3759 "NXCDefs.h"
+0	3759	121	#line 3759 "NXCDefs.h"
+0	3760	121		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3759	124	#line 3759 "NXCDefs.h"
+0	3676	124	#line 3676 "NXCDefs.h"
+0	3677	124		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	3676	128	#line 3676 "NXCDefs.h"
+0	3760	128	#line 3760 "NXCDefs.h"
+0	3760	128	#line 3760 "NXCDefs.h"
+0	3761	128		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3760	130	#line 3760 "NXCDefs.h"
+0	3694	130	#line 3694 "NXCDefs.h"
+0	3695	130	#pragma macro 4
+0	3695	130		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3695	132		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	4615	134	#line 4615 "NXCDefs.h"
+0	3694	134	#line 3694 "NXCDefs.h"
+0	3761	134	#line 3761 "NXCDefs.h"
+0	78	134	#line 78 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+0	78	134	#line 78 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+0	79	134		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 3
+0	78	137	#line 78 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+0	79	137	#line 79 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+0	80	137		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	3758	139	#line 3758 "NXCDefs.h"
+0	3759	139		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3758	141	#line 3758 "NXCDefs.h"
+0	3758	141	#line 3758 "NXCDefs.h"
+0	3759	141		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	3758	143	#line 3758 "NXCDefs.h"
+0	3759	143		tst 5, __zfSetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	3758	146	#line 3758 "NXCDefs.h"
+0	3759	146		brtst 4, __007__NXC_Label_36, __zfSetSensorLowspeed_inline_main
+0	3758	149	#line 3758 "NXCDefs.h"
+0	3759	149		set __D0SetSensorLowspeed_inline_main, 11
+0	3758	152	#line 3758 "NXCDefs.h"
+0	3759	152		jmp __007__NXC_Label_37
+0	3758	154	#line 3758 "NXCDefs.h"
+0	3759	154		set __D0SetSensorLowspeed_inline_main, 10
+0	3758	157	#line 3758 "NXCDefs.h"
+0	3759	157		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __D0SetSensorLowspeed_inline_main
+0	3663	159	#line 3663 "NXCDefs.h"
+0	3664	159		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3663	163	#line 3663 "NXCDefs.h"
+0	3759	163	#line 3759 "NXCDefs.h"
+0	3759	163	#line 3759 "NXCDefs.h"
+0	3760	163		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3759	165	#line 3759 "NXCDefs.h"
+0	3759	165	#line 3759 "NXCDefs.h"
+0	3760	165		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3759	168	#line 3759 "NXCDefs.h"
+0	3676	168	#line 3676 "NXCDefs.h"
+0	3677	168		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	3676	172	#line 3676 "NXCDefs.h"
+0	3760	172	#line 3760 "NXCDefs.h"
+0	3760	172	#line 3760 "NXCDefs.h"
+0	3761	172		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3760	174	#line 3760 "NXCDefs.h"
+0	3694	174	#line 3694 "NXCDefs.h"
+0	3695	174	#pragma macro 4
+0	3695	174		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3695	176		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	4682	178	#line 4682 "NXCDefs.h"
+0	3694	178	#line 3694 "NXCDefs.h"
+0	3761	178	#line 3761 "NXCDefs.h"
+0	79	178	#line 79 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+0	80	178	#line 80 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+0	80	178	#line 80 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+0	81	178		exit 0, 1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	5672	0	#pragma macro 25
+2	5672	0		acquire __CLSWMutex0
+2	5672	1		set __CLSWArgs0.Port, 0
+2	5672	4		mov __CLSWArgs0.ReturnLen, __RLSBytesCount0
+2	5672	6		mov __CLSWArgs0.Buffer, __RLSReadBuf0
+2	5672	8		syscall 21, __CLSWArgs0
+2	5672	11		mov __RLSBResult0, __CLSWArgs0.Result
+2	5672	13		release __CLSWMutex0
+2	5673	14	#line 5673 "NXTDefs.h"
+2	5674	14		brtst 4, __RLSBReturn0, __RLSBytesCount0
+2	5675	17		arrinit __RLSReadBuf0, __constVal0, __RLSBytesCount0
+2	5676	21		brtst 5, __RLSBError0, __RLSBResult0
+2	5677	24		set __RLSBIterations0, 4
+2	5679	27	#pragma macro 23
+2	5679	27		acquire __CLSCSMutex0
+2	5679	28		set __CLSCSArgs0.Port, 0
+2	5679	31		syscall 23, __CLSCSArgs0
+2	5679	34		mov __RLSBytesCount0, __CLSCSArgs0.BytesReady
+2	5679	36		mov __RLSBResult0, __CLSCSArgs0.Result
+2	5679	38		release __CLSCSMutex0
+2	5679	39	#line 5679 "NXTDefs.h"
+2	5680	39		sub __RLSBIterations0, __RLSBIterations0, __constVal1
+2	5681	43		brtst 2, __RLSBError0, __RLSBIterations0
+2	5682	46		brtst 0, __RLSBError0, __RLSBResult0
+2	5683	49		brtst 4, __RLSBReadyToRead0, __RLSBResult0
+2	5685	52		wait2 NA, __constVal15
+2	5686	55		jmp __RLSBDoCheckStatus0
+2	5689	57	#pragma macro 25
+2	5689	57		acquire __CLSRMutex0
+2	5689	58		set __CLSRArgs0.Port, 0
+2	5689	61		mov __CLSRArgs0.BufferLen, __RLSBytesCount0
+2	5689	63		syscall 22, __CLSRArgs0
+2	5689	66		mov __RLSReadBuf0, __CLSRArgs0.Buffer
+2	5689	68		mov __RLSBResult0, __CLSRArgs0.Result
+2	5689	70		release __CLSRMutex0
+2	5689	71	#line 5689 "NXTDefs.h"
+2	5690	71		brtst 5, __RLSBError0, __RLSBResult0
+2	5691	74		mov __RLSLastGoodRead0, __RLSReadBuf0
+2	5692	76		jmp __RLSBDone0
+2	5694	78		mov __RLSReadBuf0, __RLSLastGoodRead0
+2	5696	80		arrsize __RLSBytesCount0, __RLSReadBuf0
+2	5698	83		subret ____ReadLSBytes0_return
+3	5710	0	#pragma macro 25
+3	5710	0		acquire __CLSWMutex1
+3	5710	1		set __CLSWArgs1.Port, 1
+3	5710	4		mov __CLSWArgs1.ReturnLen, __RLSBytesCount1
+3	5710	6		mov __CLSWArgs1.Buffer, __RLSReadBuf1
+3	5710	8		syscall 21, __CLSWArgs1
+3	5710	11		mov __RLSBResult1, __CLSWArgs1.Result
+3	5710	13		release __CLSWMutex1
+3	5710	14	#line 5710 "NXTDefs.h"
+3	5711	14		brtst 4, __RLSBReturn1, __RLSBytesCount1
+3	5712	17		arrinit __RLSReadBuf1, __constVal0, __RLSBytesCount1
+3	5713	21		brtst 5, __RLSBError1, __RLSBResult1
+3	5714	24		set __RLSBIterations1, 4
+3	5716	27	#pragma macro 23
+3	5716	27		acquire __CLSCSMutex1
+3	5716	28		set __CLSCSArgs1.Port, 1
+3	5716	31		syscall 23, __CLSCSArgs1
+3	5716	34		mov __RLSBytesCount1, __CLSCSArgs1.BytesReady
+3	5716	36		mov __RLSBResult1, __CLSCSArgs1.Result
+3	5716	38		release __CLSCSMutex1
+3	5716	39	#line 5716 "NXTDefs.h"
+3	5717	39		sub __RLSBIterations1, __RLSBIterations1, __constVal1
+3	5718	43		brtst 2, __RLSBError1, __RLSBIterations1
+3	5719	46		brtst 0, __RLSBError1, __RLSBResult1
+3	5720	49		brtst 4, __RLSBReadyToRead1, __RLSBResult1
+3	5722	52		wait2 NA, __constVal15
+3	5723	55		jmp __RLSBDoCheckStatus1
+3	5726	57	#pragma macro 25
+3	5726	57		acquire __CLSRMutex1
+3	5726	58		set __CLSRArgs1.Port, 1
+3	5726	61		mov __CLSRArgs1.BufferLen, __RLSBytesCount1
+3	5726	63		syscall 22, __CLSRArgs1
+3	5726	66		mov __RLSReadBuf1, __CLSRArgs1.Buffer
+3	5726	68		mov __RLSBResult1, __CLSRArgs1.Result
+3	5726	70		release __CLSRMutex1
+3	5726	71	#line 5726 "NXTDefs.h"
+3	5727	71		brtst 5, __RLSBError1, __RLSBResult1
+3	5728	74		mov __RLSLastGoodRead1, __RLSReadBuf1
+3	5729	76		jmp __RLSBDone1
+3	5731	78		mov __RLSReadBuf1, __RLSLastGoodRead1
+3	5733	80		arrsize __RLSBytesCount1, __RLSReadBuf1
+3	5735	83		subret ____ReadLSBytes1_return
+4	5747	0	#pragma macro 25
+4	5747	0		acquire __CLSWMutex2
+4	5747	1		set __CLSWArgs2.Port, 2
+4	5747	4		mov __CLSWArgs2.ReturnLen, __RLSBytesCount2
+4	5747	6		mov __CLSWArgs2.Buffer, __RLSReadBuf2
+4	5747	8		syscall 21, __CLSWArgs2
+4	5747	11		mov __RLSBResult2, __CLSWArgs2.Result
+4	5747	13		release __CLSWMutex2
+4	5747	14	#line 5747 "NXTDefs.h"
+4	5748	14		brtst 4, __RLSBReturn2, __RLSBytesCount2
+4	5749	17		arrinit __RLSReadBuf2, __constVal0, __RLSBytesCount2
+4	5750	21		brtst 5, __RLSBError2, __RLSBResult2
+4	5751	24		set __RLSBIterations2, 4
+4	5753	27	#pragma macro 23
+4	5753	27		acquire __CLSCSMutex2
+4	5753	28		set __CLSCSArgs2.Port, 2
+4	5753	31		syscall 23, __CLSCSArgs2
+4	5753	34		mov __RLSBytesCount2, __CLSCSArgs2.BytesReady
+4	5753	36		mov __RLSBResult2, __CLSCSArgs2.Result
+4	5753	38		release __CLSCSMutex2
+4	5753	39	#line 5753 "NXTDefs.h"
+4	5754	39		sub __RLSBIterations2, __RLSBIterations2, __constVal1
+4	5755	43		brtst 2, __RLSBError2, __RLSBIterations2
+4	5756	46		brtst 0, __RLSBError2, __RLSBResult2
+4	5757	49		brtst 4, __RLSBReadyToRead2, __RLSBResult2
+4	5759	52		wait2 NA, __constVal15
+4	5760	55		jmp __RLSBDoCheckStatus2
+4	5763	57	#pragma macro 25
+4	5763	57		acquire __CLSRMutex2
+4	5763	58		set __CLSRArgs2.Port, 2
+4	5763	61		mov __CLSRArgs2.BufferLen, __RLSBytesCount2
+4	5763	63		syscall 22, __CLSRArgs2
+4	5763	66		mov __RLSReadBuf2, __CLSRArgs2.Buffer
+4	5763	68		mov __RLSBResult2, __CLSRArgs2.Result
+4	5763	70		release __CLSRMutex2
+4	5763	71	#line 5763 "NXTDefs.h"
+4	5764	71		brtst 5, __RLSBError2, __RLSBResult2
+4	5765	74		mov __RLSLastGoodRead2, __RLSReadBuf2
+4	5766	76		jmp __RLSBDone2
+4	5768	78		mov __RLSReadBuf2, __RLSLastGoodRead2
+4	5770	80		arrsize __RLSBytesCount2, __RLSReadBuf2
+4	5772	83		subret ____ReadLSBytes2_return
+5	5784	0	#pragma macro 25
+5	5784	0		acquire __CLSWMutex3
+5	5784	1		set __CLSWArgs3.Port, 3
+5	5784	4		mov __CLSWArgs3.ReturnLen, __RLSBytesCount3
+5	5784	6		mov __CLSWArgs3.Buffer, __RLSReadBuf3
+5	5784	8		syscall 21, __CLSWArgs3
+5	5784	11		mov __RLSBResult3, __CLSWArgs3.Result
+5	5784	13		release __CLSWMutex3
+5	5784	14	#line 5784 "NXTDefs.h"
+5	5785	14		brtst 4, __RLSBReturn3, __RLSBytesCount3
+5	5786	17		arrinit __RLSReadBuf3, __constVal0, __RLSBytesCount3
+5	5787	21		brtst 5, __RLSBError3, __RLSBResult3
+5	5788	24		set __RLSBIterations3, 4
+5	5790	27	#pragma macro 23
+5	5790	27		acquire __CLSCSMutex3
+5	5790	28		set __CLSCSArgs3.Port, 3
+5	5790	31		syscall 23, __CLSCSArgs3
+5	5790	34		mov __RLSBytesCount3, __CLSCSArgs3.BytesReady
+5	5790	36		mov __RLSBResult3, __CLSCSArgs3.Result
+5	5790	38		release __CLSCSMutex3
+5	5790	39	#line 5790 "NXTDefs.h"
+5	5791	39		sub __RLSBIterations3, __RLSBIterations3, __constVal1
+5	5792	43		brtst 2, __RLSBError3, __RLSBIterations3
+5	5793	46		brtst 0, __RLSBError3, __RLSBResult3
+5	5794	49		brtst 4, __RLSBReadyToRead3, __RLSBResult3
+5	5796	52		wait2 NA, __constVal15
+5	5797	55		jmp __RLSBDoCheckStatus3
+5	5800	57	#pragma macro 25
+5	5800	57		acquire __CLSRMutex3
+5	5800	58		set __CLSRArgs3.Port, 3
+5	5800	61		mov __CLSRArgs3.BufferLen, __RLSBytesCount3
+5	5800	63		syscall 22, __CLSRArgs3
+5	5800	66		mov __RLSReadBuf3, __CLSRArgs3.Buffer
+5	5800	68		mov __RLSBResult3, __CLSRArgs3.Result
+5	5800	70		release __CLSRMutex3
+5	5800	71	#line 5800 "NXTDefs.h"
+5	5801	71		brtst 5, __RLSBError3, __RLSBResult3
+5	5802	74		mov __RLSLastGoodRead3, __RLSReadBuf3
+5	5803	76		jmp __RLSBDone3
+5	5805	78		mov __RLSReadBuf3, __RLSLastGoodRead3
+5	5807	80		arrsize __RLSBytesCount3, __RLSReadBuf3
+5	5809	83		subret ____ReadLSBytes3_return
+6	23	0	#line 23 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	24	0		set __signed_stack_001imprimirDatos, 0
+6	23	3	#line 23 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	23	3	#line 23 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	24	3		set __signed_stack_002imprimirDatos, 48
+6	23	6	#line 23 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	23	6	#line 23 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	24	6		strcat __strbufimprimirDatos, __constStr0009
+6	24	10	#line 24 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	25	10		acquire __TextOutMutex
+6	24	11	#line 24 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	25	11		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+6	24	13	#line 24 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	25	13		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+6	24	15	#line 24 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	25	15		set __TextOutArgs.Options, 0
+6	24	18	#line 24 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	25	18		mov __TextOutArgs.Text, __strbufimprimirDatos
+6	24	20	#line 24 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	25	20		syscall 13, __TextOutArgs
+6	24	23	#line 24 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	25	23		mov __D0imprimirDatos, __TextOutArgs.Result
+6	24	25	#line 24 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	25	25		release __TextOutMutex
+6	24	26	#line 24 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	24	26	#line 24 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	25	26		set __signed_stack_001imprimirDatos, 0
+6	24	29	#line 24 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	24	29	#line 24 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	25	29		set __signed_stack_002imprimirDatos, 40
+6	24	32	#line 24 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	24	32	#line 24 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	25	32		strcat __strbufimprimirDatos, __constStr0009
+6	25	36	#line 25 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	26	36		acquire __TextOutMutex
+6	25	37	#line 25 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	26	37		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+6	25	39	#line 25 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	26	39		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+6	25	41	#line 25 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	26	41		set __TextOutArgs.Options, 0
+6	25	44	#line 25 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	26	44		mov __TextOutArgs.Text, __strbufimprimirDatos
+6	25	46	#line 25 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	26	46		syscall 13, __TextOutArgs
+6	25	49	#line 25 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	26	49		mov __D0imprimirDatos, __TextOutArgs.Result
+6	25	51	#line 25 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	26	51		release __TextOutMutex
+6	25	52	#line 25 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	25	52	#line 25 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	26	52		set __signed_stack_001imprimirDatos, 0
+6	25	55	#line 25 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	25	55	#line 25 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	26	55		set __signed_stack_002imprimirDatos, 32
+6	25	58	#line 25 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	25	58	#line 25 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	26	58		strcat __strbufimprimirDatos, __constStr0009
+6	26	62	#line 26 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	27	62		acquire __TextOutMutex
+6	26	63	#line 26 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	27	63		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+6	26	65	#line 26 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	27	65		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+6	26	67	#line 26 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	27	67		set __TextOutArgs.Options, 0
+6	26	70	#line 26 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	27	70		mov __TextOutArgs.Text, __strbufimprimirDatos
+6	26	72	#line 26 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	27	72		syscall 13, __TextOutArgs
+6	26	75	#line 26 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	27	75		mov __D0imprimirDatos, __TextOutArgs.Result
+6	26	77	#line 26 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	27	77		release __TextOutMutex
+6	26	78	#line 26 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	26	78	#line 26 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	27	78		set __signed_stack_001imprimirDatos, 0
+6	26	81	#line 26 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	26	81	#line 26 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	27	81		set __signed_stack_002imprimirDatos, 24
+6	26	84	#line 26 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	26	84	#line 26 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	27	84		strcat __strbufimprimirDatos, __constStr0009
+6	28	88	#line 28 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	29	88		acquire __TextOutMutex
+6	28	89	#line 28 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	29	89		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+6	28	91	#line 28 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	29	91		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+6	28	93	#line 28 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	29	93		set __TextOutArgs.Options, 0
+6	28	96	#line 28 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	29	96		mov __TextOutArgs.Text, __strbufimprimirDatos
+6	28	98	#line 28 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	29	98		syscall 13, __TextOutArgs
+6	28	101	#line 28 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	29	101		mov __D0imprimirDatos, __TextOutArgs.Result
+6	28	103	#line 28 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	29	103		release __TextOutMutex
+6	28	104	#line 28 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	28	104	#line 28 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	29	104		set __signed_stack_001imprimirDatos, 0
+6	28	107	#line 28 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	28	107	#line 28 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	29	107		set __signed_stack_002imprimirDatos, 48
+6	28	110	#line 28 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	28	110	#line 28 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	29	110		strcat __strbufimprimirDatos, __constStr0010
+6	29	114	#line 29 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	30	114		acquire __TextOutMutex
+6	29	115	#line 29 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	30	115		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+6	29	117	#line 29 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	30	117		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+6	29	119	#line 29 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	30	119		set __TextOutArgs.Options, 0
+6	29	122	#line 29 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	30	122		mov __TextOutArgs.Text, __strbufimprimirDatos
+6	29	124	#line 29 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	30	124		syscall 13, __TextOutArgs
+6	29	127	#line 29 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	30	127		mov __D0imprimirDatos, __TextOutArgs.Result
+6	29	129	#line 29 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	30	129		release __TextOutMutex
+6	29	130	#line 29 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	29	130	#line 29 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	30	130		set __signed_stack_001imprimirDatos, 0
+6	29	133	#line 29 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	29	133	#line 29 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	30	133		set __signed_stack_002imprimirDatos, 40
+6	29	136	#line 29 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	29	136	#line 29 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	30	136		strcat __strbufimprimirDatos, __constStr0011
+6	30	140	#line 30 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	31	140		acquire __TextOutMutex
+6	30	141	#line 30 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	31	141		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+6	30	143	#line 30 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	31	143		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+6	30	145	#line 30 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	31	145		set __TextOutArgs.Options, 0
+6	30	148	#line 30 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	31	148		mov __TextOutArgs.Text, __strbufimprimirDatos
+6	30	150	#line 30 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	31	150		syscall 13, __TextOutArgs
+6	30	153	#line 30 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	31	153		mov __D0imprimirDatos, __TextOutArgs.Result
+6	30	155	#line 30 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	31	155		release __TextOutMutex
+6	30	156	#line 30 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	30	156	#line 30 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	31	156		set __signed_stack_001imprimirDatos, 0
+6	30	159	#line 30 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	30	159	#line 30 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	31	159		set __signed_stack_002imprimirDatos, 32
+6	30	162	#line 30 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	30	162	#line 30 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	31	162		strcat __strbufimprimirDatos, __constStr0012
+6	31	166	#line 31 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	32	166		acquire __TextOutMutex
+6	31	167	#line 31 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	32	167		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+6	31	169	#line 31 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	32	169		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+6	31	171	#line 31 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	32	171		set __TextOutArgs.Options, 0
+6	31	174	#line 31 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	32	174		mov __TextOutArgs.Text, __strbufimprimirDatos
+6	31	176	#line 31 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	32	176		syscall 13, __TextOutArgs
+6	31	179	#line 31 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	32	179		mov __D0imprimirDatos, __TextOutArgs.Result
+6	31	181	#line 31 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	32	181		release __TextOutMutex
+6	31	182	#line 31 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	31	182	#line 31 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	32	182		set __signed_stack_001imprimirDatos, 0
+6	31	185	#line 31 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	31	185	#line 31 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	32	185		set __signed_stack_002imprimirDatos, 24
+6	31	188	#line 31 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	31	188	#line 31 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	32	188		strcat __strbufimprimirDatos, __constStr0013
+6	33	192	#line 33 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	34	192		acquire __TextOutMutex
+6	33	193	#line 33 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	34	193		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+6	33	195	#line 33 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	34	195		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+6	33	197	#line 33 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	34	197		set __TextOutArgs.Options, 0
+6	33	200	#line 33 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	34	200		mov __TextOutArgs.Text, __strbufimprimirDatos
+6	33	202	#line 33 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	34	202		syscall 13, __TextOutArgs
+6	33	205	#line 33 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	34	205		mov __D0imprimirDatos, __TextOutArgs.Result
+6	33	207	#line 33 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	34	207		release __TextOutMutex
+6	33	208	#line 33 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	33	208	#line 33 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	34	208		set __signed_stack_001imprimirDatos, 49
+6	33	211	#line 33 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	33	211	#line 33 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	34	211		set __signed_stack_002imprimirDatos, 48
+6	33	214	#line 33 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	33	214	#line 33 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	34	214		mov __D0imprimirDatos, ultra1
+6	34	216	#line 34 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	35	216		acquire __TextOutMutex
+6	34	217	#line 34 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	35	217		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+6	34	219	#line 34 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	35	219		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+6	34	221	#line 34 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	35	221		set __TextOutArgs.Options, 0
+6	34	224	#line 34 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	35	224		numtostr __TextOutArgs.Text, __D0imprimirDatos
+6	34	227	#line 34 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	35	227		syscall 13, __TextOutArgs
+6	34	230	#line 34 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	35	230		mov __D0imprimirDatos, __TextOutArgs.Result
+6	34	232	#line 34 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	35	232		release __TextOutMutex
+6	34	233	#line 34 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	34	233	#line 34 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	35	233		set __signed_stack_001imprimirDatos, 49
+6	34	236	#line 34 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	34	236	#line 34 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	35	236		set __signed_stack_002imprimirDatos, 40
+6	34	239	#line 34 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	34	239	#line 34 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	35	239		mov __D0imprimirDatos, ultra2
+6	35	241	#line 35 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	36	241		acquire __TextOutMutex
+6	35	242	#line 35 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	36	242		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+6	35	244	#line 35 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	36	244		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+6	35	246	#line 35 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	36	246		set __TextOutArgs.Options, 0
+6	35	249	#line 35 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	36	249		numtostr __TextOutArgs.Text, __D0imprimirDatos
+6	35	252	#line 35 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	36	252		syscall 13, __TextOutArgs
+6	35	255	#line 35 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	36	255		mov __D0imprimirDatos, __TextOutArgs.Result
+6	35	257	#line 35 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	36	257		release __TextOutMutex
+6	35	258	#line 35 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	35	258	#line 35 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	36	258		set __signed_stack_001imprimirDatos, 49
+6	35	261	#line 35 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	35	261	#line 35 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	36	261		set __signed_stack_002imprimirDatos, 32
+6	35	264	#line 35 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	35	264	#line 35 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	36	264		mov __D0imprimirDatos, ultra3
+6	36	266	#line 36 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	37	266		acquire __TextOutMutex
+6	36	267	#line 36 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	37	267		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+6	36	269	#line 36 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	37	269		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+6	36	271	#line 36 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	37	271		set __TextOutArgs.Options, 0
+6	36	274	#line 36 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	37	274		numtostr __TextOutArgs.Text, __D0imprimirDatos
+6	36	277	#line 36 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	37	277		syscall 13, __TextOutArgs
+6	36	280	#line 36 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	37	280		mov __D0imprimirDatos, __TextOutArgs.Result
+6	36	282	#line 36 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	37	282		release __TextOutMutex
+6	36	283	#line 36 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	36	283	#line 36 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	37	283		set __signed_stack_001imprimirDatos, 49
+6	36	286	#line 36 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	36	286	#line 36 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	37	286		set __signed_stack_002imprimirDatos, 24
+6	36	289	#line 36 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	36	289	#line 36 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	37	289		mov __D0imprimirDatos, ultra4
+6	38	291	#line 38 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	39	291		acquire __TextOutMutex
+6	38	292	#line 38 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	39	292		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+6	38	294	#line 38 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	39	294		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+6	38	296	#line 38 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	39	296		set __TextOutArgs.Options, 0
+6	38	299	#line 38 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	39	299		numtostr __TextOutArgs.Text, __D0imprimirDatos
+6	38	302	#line 38 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	39	302		syscall 13, __TextOutArgs
+6	38	305	#line 38 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	39	305		mov __D0imprimirDatos, __TextOutArgs.Result
+6	38	307	#line 38 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	39	307		release __TextOutMutex
+6	38	308	#line 38 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	41	308	#line 41 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+6	42	308		subret __imprimirDatos_return
+7	42	0	#line 42 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+7	43	0	#pragma macro 5
+7	43	0		mov __CBTCSArgs.Connection, __no_conexion_7qG2_num_7qG2_000
+7	43	2		syscall 28, __CBTCSArgs
+7	4176	5	#line 4176 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+7	42	5	#line 42 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+7	43	5		not __signed_stack_001no_conexion, __CBTCSArgs.Result
+7	42	8	#line 42 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+7	42	8	#line 42 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+7	43	8		set __D0no_conexion, 0
+7	42	11	#line 42 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+7	43	11		cmp 4, __zfno_conexion, __signed_stack_001no_conexion, __D0no_conexion
+7	42	15	#line 42 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+7	43	15		mov __D0no_conexion, __zfno_conexion
+7	43	17	#line 43 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+7	44	17		brtst 4, __NXC_Label_547, __zfno_conexion
+7	43	20	#line 43 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+7	44	20		set __signed_stack_001no_conexion, 5
+7	43	23	#line 43 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+7	43	23	#line 43 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+7	44	23		set __signed_stack_002no_conexion, 48
+7	43	26	#line 43 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+7	43	26	#line 43 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+7	44	26		strcat __strbufno_conexion, __constStr0014
+7	44	30	#line 44 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+7	45	30		acquire __TextOutMutex
+7	44	31	#line 44 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+7	45	31		mov __TextOutArgs.Location.X, __signed_stack_001no_conexion
+7	44	33	#line 44 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+7	45	33		mov __TextOutArgs.Location.Y, __signed_stack_002no_conexion
+7	44	35	#line 44 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+7	45	35		set __TextOutArgs.Options, 0
+7	44	38	#line 44 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+7	45	38		mov __TextOutArgs.Text, __strbufno_conexion
+7	44	40	#line 44 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+7	45	40		syscall 13, __TextOutArgs
+7	44	43	#line 44 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+7	45	43		mov __D0no_conexion, __TextOutArgs.Result
+7	44	45	#line 44 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+7	45	45		release __TextOutMutex
+7	44	46	#line 44 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+7	44	46	#line 44 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+7	45	46		set __Wait_7qG2_ms_7qG2_000_inline_no_conexion, 2000
+7	44	49	#line 44 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+7	7921	49	#line 7921 "NXCDefs.h"
+7	7922	49		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_no_conexion
+7	7921	52	#line 7921 "NXCDefs.h"
+7	45	52	#line 45 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+7	45	52	#line 45 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+7	46	52		set __D0no_conexion, 1
+7	46	55	#line 46 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+7	47	55		stop __D0no_conexion
+7	46	57	#line 46 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+7	49	57	#line 49 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+7	49	57	#line 49 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+7	50	57		subret __no_conexion_return
+8	50	0	#line 50 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+8	51	0		set __D0leer, 1
+8	51	3	#line 51 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+8	52	3		tst 5, __zfleer, __D0leer
+8	51	6	#line 51 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+8	52	6		brtst 4, __NXC_Label_557, __zfleer
+8	51	9	#line 51 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+8	52	9	#pragma macro 26
+8	52	9		acquire __RLSBmutex0
+8	52	10		mov __RLSReadBuf0, __RLSBbufLSWrite1
+8	52	12		set __RLSBytesCount0, 1
+8	52	15		wait2 NA, __constVal15
+8	52	18		subcall __ReadLSBytes0, ____ReadLSBytes0_return
+8	52	20		index __D0leer, __RLSReadBuf0, 65535
+8	52	24		release __RLSBmutex0
+8	4260	25	#line 4260 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+8	51	25	#line 51 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+8	52	25		mov ultra1, __D0leer
+8	51	27	#line 51 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+8	51	27	#line 51 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+8	52	27	#line 52 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+8	53	27	#pragma macro 26
+8	53	27		acquire __RLSBmutex1
+8	53	28		mov __RLSReadBuf1, __RLSBbufLSWrite1
+8	53	30		set __RLSBytesCount1, 1
+8	53	33		wait2 NA, __constVal15
+8	53	36		subcall __ReadLSBytes1, ____ReadLSBytes1_return
+8	53	38		index __D0leer, __RLSReadBuf1, 65535
+8	53	42		release __RLSBmutex1
+8	4268	43	#line 4268 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+8	52	43	#line 52 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+8	53	43		mov ultra2, __D0leer
+8	52	45	#line 52 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+8	52	45	#line 52 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+8	53	45	#line 53 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+8	54	45	#pragma macro 26
+8	54	45		acquire __RLSBmutex2
+8	54	46		mov __RLSReadBuf2, __RLSBbufLSWrite1
+8	54	48		set __RLSBytesCount2, 1
+8	54	51		wait2 NA, __constVal15
+8	54	54		subcall __ReadLSBytes2, ____ReadLSBytes2_return
+8	54	56		index __D0leer, __RLSReadBuf2, 65535
+8	54	60		release __RLSBmutex2
+8	4276	61	#line 4276 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+8	53	61	#line 53 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+8	54	61		mov ultra3, __D0leer
+8	53	63	#line 53 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+8	53	63	#line 53 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+8	54	63	#line 54 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+8	55	63	#pragma macro 26
+8	55	63		acquire __RLSBmutex3
+8	55	64		mov __RLSReadBuf3, __RLSBbufLSWrite1
+8	55	66		set __RLSBytesCount3, 1
+8	55	69		wait2 NA, __constVal15
+8	55	72		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+8	55	74		index __D0leer, __RLSReadBuf3, 65535
+8	55	78		release __RLSBmutex3
+8	4284	79	#line 4284 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+8	54	79	#line 54 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+8	55	79		mov ultra4, __D0leer
+8	54	81	#line 54 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+8	54	81	#line 54 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+8	56	81	#line 56 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+8	57	81		subcall imprimirDatos, __imprimirDatos_return
+8	56	83	#line 56 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+8	59	83	#line 59 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+8	60	83		jmp __NXC_Label_556
+8	59	85	#line 59 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+8	60	85		exit -1, -1
+9	60	0	#line 60 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	61	0		set __D0maestro, 1
+9	61	3	#line 61 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	62	3		tst 5, __zfmaestro, __D0maestro
+9	61	6	#line 61 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	62	6		brtst 4, __NXC_Label_569, __zfmaestro
+9	61	9	#line 61 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	62	9		set __no_conexion_7qG2_num_7qG2_000, 1
+9	61	12	#line 61 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	62	12	#line 62 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	63	12		subcall no_conexion, __no_conexion_return
+9	62	14	#line 62 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	62	14	#line 62 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	63	14	#pragma macro 14
+9	63	14		acquire __RemoteMutex
+9	63	15		mov __SRSTmpBuf, __DCMessageWritePacket
+9	63	17		replace __SRSTmpBuf, __SRSTmpBuf, __constVal2, __constVal2
+9	63	22		replace __SRSTmpBuf, __SRSTmpBuf, __constVal3, __constVal5
+9	63	27		mov __SRSTmpLongVal, ultra1
+9	63	29		flatten __SRSFlattenBuf, __SRSTmpLongVal
+9	63	32		arrbuild __SRSSendBuf, __SRSTmpBuf, __SRSFlattenBuf
+9	63	37		acquire __CBTWMutex
+9	63	38		mov __CBTWArgs.Connection, __constVal1
+9	63	40		mov __CBTWArgs.Buffer, __SRSSendBuf
+9	63	42		syscall 29, __CBTWArgs
+9	63	45		mov __D0maestro, __CBTWArgs.Result
+9	63	47		release __CBTWMutex
+9	63	48		release __RemoteMutex
+9	4320	49	#line 4320 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	62	49	#line 62 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	62	49	#line 62 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	63	49	#line 63 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	64	49		set __Wait_7qG2_ms_7qG2_000_inline_maestro, 50
+9	63	52	#line 63 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	7921	52	#line 7921 "NXCDefs.h"
+9	7922	52		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_maestro
+9	7921	55	#line 7921 "NXCDefs.h"
+9	64	55	#line 64 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	64	55	#line 64 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	65	55	#pragma macro 14
+9	65	55		acquire __RemoteMutex
+9	65	56		mov __SRSTmpBuf, __DCMessageWritePacket
+9	65	58		replace __SRSTmpBuf, __SRSTmpBuf, __constVal2, __constVal3
+9	65	63		replace __SRSTmpBuf, __SRSTmpBuf, __constVal3, __constVal5
+9	65	68		mov __SRSTmpLongVal, ultra2
+9	65	70		flatten __SRSFlattenBuf, __SRSTmpLongVal
+9	65	73		arrbuild __SRSSendBuf, __SRSTmpBuf, __SRSFlattenBuf
+9	65	78		acquire __CBTWMutex
+9	65	79		mov __CBTWArgs.Connection, __constVal1
+9	65	81		mov __CBTWArgs.Buffer, __SRSSendBuf
+9	65	83		syscall 29, __CBTWArgs
+9	65	86		mov __D0maestro, __CBTWArgs.Result
+9	65	88		release __CBTWMutex
+9	65	89		release __RemoteMutex
+9	4338	90	#line 4338 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	64	90	#line 64 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	64	90	#line 64 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	65	90	#line 65 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	66	90		set __Wait_7qG2_ms_7qG2_000_inline_maestro, 50
+9	65	93	#line 65 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	7921	93	#line 7921 "NXCDefs.h"
+9	7922	93		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_maestro
+9	7921	96	#line 7921 "NXCDefs.h"
+9	66	96	#line 66 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	66	96	#line 66 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	67	96	#pragma macro 14
+9	67	96		acquire __RemoteMutex
+9	67	97		mov __SRSTmpBuf, __DCMessageWritePacket
+9	67	99		replace __SRSTmpBuf, __SRSTmpBuf, __constVal2, __constVal4
+9	67	104		replace __SRSTmpBuf, __SRSTmpBuf, __constVal3, __constVal5
+9	67	109		mov __SRSTmpLongVal, ultra3
+9	67	111		flatten __SRSFlattenBuf, __SRSTmpLongVal
+9	67	114		arrbuild __SRSSendBuf, __SRSTmpBuf, __SRSFlattenBuf
+9	67	119		acquire __CBTWMutex
+9	67	120		mov __CBTWArgs.Connection, __constVal1
+9	67	122		mov __CBTWArgs.Buffer, __SRSSendBuf
+9	67	124		syscall 29, __CBTWArgs
+9	67	127		mov __D0maestro, __CBTWArgs.Result
+9	67	129		release __CBTWMutex
+9	67	130		release __RemoteMutex
+9	4352	131	#line 4352 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	66	131	#line 66 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	66	131	#line 66 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	67	131	#line 67 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	68	131		set __Wait_7qG2_ms_7qG2_000_inline_maestro, 50
+9	67	134	#line 67 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	7921	134	#line 7921 "NXCDefs.h"
+9	7922	134		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_maestro
+9	7921	137	#line 7921 "NXCDefs.h"
+9	68	137	#line 68 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	68	137	#line 68 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	69	137	#pragma macro 14
+9	69	137		acquire __RemoteMutex
+9	69	138		mov __SRSTmpBuf, __DCMessageWritePacket
+9	69	140		replace __SRSTmpBuf, __SRSTmpBuf, __constVal2, __constVal5
+9	69	145		replace __SRSTmpBuf, __SRSTmpBuf, __constVal3, __constVal5
+9	69	150		mov __SRSTmpLongVal, ultra4
+9	69	152		flatten __SRSFlattenBuf, __SRSTmpLongVal
+9	69	155		arrbuild __SRSSendBuf, __SRSTmpBuf, __SRSFlattenBuf
+9	69	160		acquire __CBTWMutex
+9	69	161		mov __CBTWArgs.Connection, __constVal1
+9	69	163		mov __CBTWArgs.Buffer, __SRSSendBuf
+9	69	165		syscall 29, __CBTWArgs
+9	69	168		mov __D0maestro, __CBTWArgs.Result
+9	69	170		release __CBTWMutex
+9	69	171		release __RemoteMutex
+9	4366	172	#line 4366 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	68	172	#line 68 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	68	172	#line 68 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	69	172	#line 69 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	70	172		set __Wait_7qG2_ms_7qG2_000_inline_maestro, 50
+9	69	175	#line 69 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	7921	175	#line 7921 "NXCDefs.h"
+9	7922	175		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_maestro
+9	7921	178	#line 7921 "NXCDefs.h"
+9	70	178	#line 70 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	74	178	#line 74 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	75	178		jmp __NXC_Label_568
+9	74	180	#line 74 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+9	75	180		exit -1, -1
+10	83	0	#line 83 "C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc"
+10	84	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc
+1	__ResetSensorSubroutine	181	NXTDefs.h
+2	__ReadLSBytes0	194	NXTDefs.h
+3	__ReadLSBytes1	279	NXTDefs.h
+4	__ReadLSBytes2	364	NXTDefs.h
+5	__ReadLSBytes3	449	NXTDefs.h
+6	imprimirDatos	534	C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc
+7	no_conexion	844	C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc
+8	leer	903	C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc
+9	maestro	991	C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc
+10	__initialize_global_data	1174	C:\Users\home\Documents\MAESTRO Y ESCLAVO\Maestro.nxc

@@ -1,0 +1,99 @@
+//MAESTRO
+//constantes-------------------------------------------------
+#define SENSOR_COLOR1 IN_4
+#define SENSOR_COLOR2 IN_1
+#define SENSOR_LUZ IN_3             //CONSTANTES NO LLEVAN ;
+#define ENTRADA 1                     //MAESTRO
+#define SALIDA2 2                      //MAESTRO
+#define SALIDA3 3
+#define SALIDA4 4
+//-----------------------------------------------------------
+
+//VARIABLES
+int color1, color2, luz;
+
+//FUNCIONES......................................................
+
+//................................................................
+
+void imprimirDatos()
+{
+
+  TextOut(0,LCD_LINE2,"          " );
+  TextOut(0,LCD_LINE3,"          " );
+  TextOut(0,LCD_LINE4,"          " );
+
+
+  TextOut(0,LCD_LINE2," COLOR1:         " );
+  TextOut(0,LCD_LINE3," COLOR2:         " );
+  TextOut(0,LCD_LINE4," LUZ:         " );
+
+  NumOut(7*6,LCD_LINE2,color1);
+  NumOut(7*6,LCD_LINE3,color2);
+  NumOut(7*6,LCD_LINE4,luz);
+
+}
+
+//TAREAS PRINCIPALES------------------------------------------------------------
+void no_conexion(int num)
+{               // INICIO MAESTRO
+
+  if(!BluetoothStatus(num)==NO_ERR)
+  {
+
+      TextOut(5,LCD_LINE2,"NO HAY EXCLAVO");
+      Wait(2000);
+      Stop(true);
+
+  }
+
+}
+
+task leer()
+{
+
+  while(true)
+  {
+
+      ColorSensorReadType csr1;
+      csr1.Port = SENSOR_COLOR1;
+      SysColorSensorRead(csr1);
+      color1=csr1.ColorValue;
+      ColorSensorReadType csr2;
+      csr2.Port = SENSOR_COLOR2;
+      SysColorSensorRead(csr2);
+      color2=csr2.ColorValue;
+      luz=Sensor(SENSOR_LUZ);
+      imprimirDatos();
+
+  }
+
+}
+
+task maestro()
+{
+
+  while(true)
+  {
+
+      no_conexion(1);
+      SendRemoteNumber(ENTRADA,SALIDA2,color1);
+      Wait(50);
+      SendRemoteNumber(ENTRADA,SALIDA3,color2);
+      Wait(50);
+      SendRemoteNumber(ENTRADA,SALIDA4,luz);
+      Wait(50);
+
+  }
+
+}
+
+task main()
+{        //siempre sensores en main ;)
+
+  SetSensorColorFull(SENSOR_COLOR1);
+  SetSensorColorFull(SENSOR_COLOR2);
+  SetSensorLight(SENSOR_LUZ);
+  Precedes(leer,maestro);
+
+}

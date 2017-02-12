@@ -1,0 +1,144 @@
+//constantes-------------------------------------------------
+//MAESTRO
+#define SENSOR_LUZ1 IN_1
+#define SENSOR_LUZ2 IN_2
+#define SENSOR_ULTRA1 IN_3
+#define SENSOR_COLOR IN_4             //CONTANTES NO LLEVAN ;
+#define ENTRADAMA 1                     //MAESTRO
+#define SALIDAMA 5                      //MAESTRO
+#define ENTRADAEX 5                     //EXCLAVO
+#define SALIDAEX 1                      //EXCLAVO
+
+//-----------------------------------------------------------
+
+//VARIABLES
+int luz1, luz2, ultra, color;
+
+//FUNCIONES......................................................
+
+//................................................................
+
+void imprimirDatos(){
+
+     TextOut(0,LCD_LINE2,"          " );
+     TextOut(0,LCD_LINE3,"          " );
+     TextOut(0,LCD_LINE4,"          " );
+     TextOut(0,LCD_LINE5,"          " );
+
+     TextOut(0,LCD_LINE2," LUZ1:         " );
+     TextOut(0,LCD_LINE3," LUZ2:         " );
+     TextOut(0,LCD_LINE4," ULTRA:         " );
+     TextOut(0,LCD_LINE5," COLOR:         " );
+
+     NumOut(7*6,LCD_LINE2,luz1);
+     NumOut(7*6,LCD_LINE3,luz2);
+     NumOut(7*6,LCD_LINE4,ultra);
+     NumOut(7*6,LCD_LINE5,color);
+
+}
+
+void no_conexionMA (int num){         // INICIO MAESTRO
+
+     if(!BluetoothStatus(num)==NO_ERR){
+           TextOut(5,LCD_LINE2,"NO HAY EXCLAVO");
+           Wait(2000);
+           Stop(true);
+     }
+
+}                                  //FIN MAESTRO
+
+void no_conexionEX (int num){            //EXCLAVO
+     if(!BluetoothStatus(num)==NO_ERR){
+            TextOut(5,LCD_LINE2,"DONDE ESTA MI MAESTRO");
+            Wait(2000);
+            Stop(true);
+     }
+}                                    //FIN EXCLAVO
+
+bool sensor1(int n){
+    if(luz1<n) return true;
+    else return false;
+}
+
+bool sensor2(int n){
+    if(luz2<n) return true;
+    else return false;
+  }
+
+bool sensor3(int n){
+     if(ultra<n) return true;
+     else return false;
+}
+
+int sensor4(){
+     if(color==1) return 0;
+     if(color==6) return 1;
+     if(color==3) return 2;
+}
+
+void avanzar(int velocidad, int opcion){
+     switch(opcion){
+         case 1:
+              if(sensor1(45)) Off(OUT_AC);
+              else OnFwd(OUT_AC,velocidad);
+         break;
+         case 2:
+               if(sensor2(45)) Off(OUT_AC);
+               else OnFwd(OUT_AC,velocidad);
+         break;
+         case 3:
+               if(sensor3(20)) Off(OUT_AC);
+               else OnFwd(OUT_AC,velocidad);
+         break;
+         case 4:
+               if(sensor4()==0) Off(OUT_AC);
+               if(sensor4()==1) OnFwd(OUT_AC,velocidad);
+               if(sensor4()==2) OnRev(OUT_AC,velocidad);
+         break;
+     }
+}
+
+//TAREAS PRINCIPALES------------------------------------------------------------
+
+task programa(){    //no contradecirme en los task ._.
+     while(true){
+          avanzar(75,4);
+     }
+}
+
+task leer(){
+     while(true){
+         luz1=Sensor(SENSOR_LUZ1);
+         luz2=Sensor(SENSOR_LUZ2);
+         ultra=SensorUS(SENSOR_ULTRA1);
+         ColorSensorReadType csr;
+         csr.Port = S1;
+         SysColorSensorRead(csr);
+         color=csr.ColorValue;
+         imprimirDatos();
+     }
+}
+
+task main(){        //siempre sensores en main ;)
+     SetSensorLight(SENSOR_LUZ1);
+     SetSensorLight(SENSOR_LUZ2);
+     SetSensorLowspeed(SENSOR_ULTRA1);
+     SetSensorColorFull(SENSOR_COLOR);
+     Precedes(programa,leer);
+}
+
+task maestro(){
+     int tacto=0;
+     SetSensorTouch(S1);
+     while(true){
+        no_conexion(1);
+        tacto=Sensor(S1);
+        if(tacto==1){
+              SendRemoteNumber(ENTRADA,SALIDA,3);
+        }
+        else {
+              SendRemoteNumber(ENTRADA,SALIDA,2);
+        }
+        Wait(50);
+     }
+}
