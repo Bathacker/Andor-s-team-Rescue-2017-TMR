@@ -1,16 +1,18 @@
 //MAESTRO
 //constantes-------------------------------------------------
-#define SENSOR_COLOR1 IN_4
-#define SENSOR_COLOR2 IN_1
-#define SENSOR_LUZ IN_3             //CONSTANTES NO LLEVAN ;
+#define SENSOR_COLOR1 IN_3
+#define SENSOR_COLOR2 IN_2
+#define SENSOR_LUZ1 IN_4
+#define SENSOR_LUZ2 IN_1             //CONSTANTES NO LLEVAN ;
 #define ENTRADA 1                     //MAESTRO
 #define SALIDA2 2                      //MAESTRO
 #define SALIDA3 3
 #define SALIDA4 4
+#define SALIDA5 5
 //-----------------------------------------------------------
 
 //VARIABLES
-int color1, color2, luz;
+int color1, color2, luz1, luz2;
 
 //FUNCIONES......................................................
 
@@ -22,15 +24,17 @@ void imprimirDatos()
   TextOut(0,LCD_LINE2,"          " );
   TextOut(0,LCD_LINE3,"          " );
   TextOut(0,LCD_LINE4,"          " );
-
+  TextOut(0,LCD_LINE5,"          " );
 
   TextOut(0,LCD_LINE2," COLOR1:            " );
   TextOut(0,LCD_LINE3," COLOR2:            " );
-  TextOut(0,LCD_LINE4," LUZ:               " );
+  TextOut(0,LCD_LINE4," LUZ1:               " );
+  TextOut(0,LCD_LINE5," LUZ2:               " );
 
   NumOut(7*7,LCD_LINE2,color1);
   NumOut(7*7,LCD_LINE3,color2);
-  NumOut(7*7,LCD_LINE4,luz);
+  NumOut(7*7,LCD_LINE4,luz1);
+  NumOut(7*7,LCD_LINE5,luz2);
 
 }
 
@@ -63,7 +67,8 @@ task leer()
     csr2.Port = SENSOR_COLOR2;
     SysColorSensorRead(csr2);
     color2 = csr2.ColorValue;
-    luz = Sensor(SENSOR_LUZ);
+    luz1 = Sensor(SENSOR_LUZ1);
+    luz2 = Sensor(SENSOR_LUZ2);
     imprimirDatos();
 
   }
@@ -78,11 +83,13 @@ task maestro()
 
     no_conexion(1);
     SendRemoteNumber(ENTRADA,SALIDA2,color1);
-    Wait(50);
+    Wait(20);
     SendRemoteNumber(ENTRADA,SALIDA3,color2);
-    Wait(50);
-    SendRemoteNumber(ENTRADA,SALIDA4,luz);
-    Wait(50);
+    Wait(20);
+    SendRemoteNumber(ENTRADA,SALIDA4,luz1);
+    Wait(20);
+    SendRemoteNumber(ENTRADA,SALIDA5,luz2);
+    Wait(20);
 
   }
 
@@ -93,7 +100,8 @@ task main()
 
   SetSensorColorFull(SENSOR_COLOR1);
   SetSensorColorFull(SENSOR_COLOR2);
-  SetSensorLight(SENSOR_LUZ);
+  SetSensorLight(SENSOR_LUZ1);
+  SetSensorLight(SENSOR_LUZ2);
   Precedes(leer,maestro);
 
 }

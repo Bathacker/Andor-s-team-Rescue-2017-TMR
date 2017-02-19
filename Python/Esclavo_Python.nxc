@@ -6,12 +6,13 @@
 #define ENTRADA2 2
 #define ENTRADA3 3                     //ESCLAVO
 #define ENTRADA4 4
+#define ENTRADA5 5
 #define SALIDA 1                      //ESCLAVO
 
 //------------------------------------------------------------
 
 //VARIABLES
-int color1, color2, luz;
+int color1, color2, luz1, luz2;
 int ultra1, ultra2;
 
 //FUNCIONES.......................................................
@@ -26,18 +27,21 @@ void imprimirDatos()
     TextOut(0,LCD_LINE4,"          " );
     TextOut(0,LCD_LINE5,"          " );
     TextOut(0,LCD_LINE6,"          " );
+    TextOut(0,LCD_LINE7,"          " );
 
-    TextOut(0,LCD_LINE2," COLOR1:            " );
-    TextOut(0,LCD_LINE3," COLOR2:            " );
-    TextOut(0,LCD_LINE4," LUZ:               " );
-    TextOut(0,LCD_LINE5," ULTRA1:            " );
-    TextOut(0,LCD_LINE6," ULTRA2:            " );
+    TextOut(0,LCD_LINE2," COLOR1:             " );
+    TextOut(0,LCD_LINE3," COLOR2:             " );
+    TextOut(0,LCD_LINE4," LUZ1:               " );
+    TextOut(0,LCD_LINE5," LUZ2:               " );
+    TextOut(0,LCD_LINE6," ULTRA1:             " );
+    TextOut(0,LCD_LINE7," ULTRA2:             " );
 
     NumOut(7*7,LCD_LINE2,color1);
     NumOut(7*7,LCD_LINE3,color2);
-    NumOut(7*7,LCD_LINE4,luz);
-    NumOut(7*7,LCD_LINE5,ultra1);
-    NumOut(7*7,LCD_LINE6,ultra2);
+    NumOut(7*7,LCD_LINE4,luz1);
+    NumOut(7*7,LCD_LINE5,luz2);
+    NumOut(7*7,LCD_LINE6,ultra1);
+    NumOut(7*7,LCD_LINE7,ultra2);
 
 }
 
@@ -95,25 +99,25 @@ void alto()
 void esquivar()
 {
 
-    izquierda(30);
+    izquierda(40);
     Wait(300);
     alto();
-    adelante(40);
+    adelante(50);
     Wait(500);
     alto();
-    derecha(30);
+    derecha(40);
     Wait(300);
     alto();
-    adelante(40);
+    adelante(50);
     Wait(500);
     alto();
-    derecha(30);
+    derecha(40);
     Wait(300);
     alto();
-    adelante(40);
+    adelante(50);
     Wait(500);
     alto();
-    izquierda(30);
+    izquierda(40);
     Wait(300);
     alto();
 
@@ -124,28 +128,16 @@ void alinear()
 
     while(color1 != 1)
     {
-            
-        do
-        {
 
-            alto();
-            izquierda(30);
+        derecha(40);
 
-        }while(luz < 45);
-            
     }
 
     while(color2 != 1)
     {
-            
-        do
-        {
 
-            alto();
-            derecha(30);
+        izquierda(40);
 
-        }while(luz < 45);
-            
     }
 
 }
@@ -169,7 +161,7 @@ void seguirLinea()
             if(color1 == 3)
             {
 
-                izquierda(30);
+                izquierda(40);
                 Wait(100);
                 alto();
 
@@ -178,105 +170,123 @@ void seguirLinea()
             if(color2 == 3)
             {
 
-                derecha(30);
+                derecha(40);
                 Wait(100);
                 alto();
 
             }
 
-        }
-        
-        if(luz < 45 && color1 == 6 && color2 == 6)
-        {
-
-            alto();
-            alinear();
-            adelante(40);
-
-        }
-
-        if(luz < 45 && color1 == 1 && color2 == 6)
-        {
-
-            atras(40);
-            Wait(150);
-            alto();
-
-            do
+            if(color1 == 3 && color2 == 3)
             {
 
-                izquierda(30);
+                izquierda(40);
+                Wait(200);
 
-            }while(luz < 45 && color1 == 6 && color2 == 6);
+                do
+                {
 
-            alto();
-            alinear();
+                    izquierda(40);
+
+                }while(luz1 > 45 && color1 == 6 && color2 == 1 && luz2 > 45);
+
+            }
 
         }
 
-        if(luz < 45 && color1 == 6 && color2 == 1)
+        if(luz1 > 45 && color1 == 6 && color2 == 6 && luz2 > 45)
         {
 
-            atras(40);
-            Wait(150);
-
-            do
-            {
-
-                derecha(30);
-
-            }while(luz < 45 && color1 == 6 && color2 == 6);
-
-            alto();
-            alinear();
+            adelante(50);
 
         }
 
-        if(luz > 45 && color1 == 6 && color2 == 1)
-        {
-            
-            do
-            {
-            
-                derecha(30);
-            
-            }while(luz < 45 && color1 == 6 && color2 == 6);
-
-            alto();
-            alinear();
-        
-        }
-
-        if(luz > 45 && color1 == 1 && color2 == 6)
-        {
-         
-            do
-            {
-            
-                izquierda(30);
-            
-            }while(luz < 45 && color1 == 6 && color2 == 6);
-        
-            alto();
-            alinear();
-
-        }
-
-        if(luz < 45 && color1 == 1 && color2 == 1)
+        if(luz1 > 45 && color1 == 1 && color2 == 6 && luz2 > 45)
         {
 
             do
             {
 
-                adelante(40);
+                izquierda(40);
 
-            }while(luz < 45 && color1 == 6 && color2 == 6)
-
-            alto();
-            alinear();
+            }while(luz1 > 45 && color1 == 6 && color2 == 6 && luz2 > 45);
 
         }
-      
+
+        if(luz1 > 45 && color1 == 6 && color2 == 1 && luz2 > 45)
+        {
+
+            do
+            {
+
+                derecha(40);
+
+            }while(luz1 > 45 && color1 == 6 && color2 == 6 && luz2 > 45);
+
+        }
+
+        if(luz1 < 45 && color1 == 6 && color2 == 6 && luz2 > 45)
+        {
+
+            do
+            {
+
+                izquierda(40);
+
+            }while(luz1 > 45 && color1 == 6 && color2 == 1 && luz2 > 45)
+
+
+        }
+
+        if(luz1 > 45 && color1 == 6 && color2 == 6 && luz2 < 45)
+        {
+
+            do
+            {
+
+                derecha(40);
+
+            }while(luz1 > 45 && color1 == 1 && color2 == 6 && luz2 > 45)
+
+        }
+
+        if(luz1 > 45 && color1 == 6 && color2 == 1 && luz2 < 45)
+        {
+
+            adelante(50);
+            Wait(30);
+
+            do
+            {
+
+                derecha(40);
+
+            }while(luz1 > 45 && color1 == 1 && color2 == 6 && luz2 > 45);
+
+        }
+
+        if(luz1 < 45 && color1 == 1 && color2 == 6 && luz2 > 45)
+        {
+
+            adelante(50);
+            Wait(30);
+
+            do
+            {
+
+                izquierda(40);
+
+            }while(luz1 > 45 && color1 == 6 && color2 == 1 && luz2 > 45);
+
+        }
+
+        if(luz1 < 45 && color1 == 1 && color2 == 1 && luz2 < 45)
+        {
+
+            adelante(50);
+            Wait(100);
+
+        }
+
     }
 
 }
@@ -293,7 +303,7 @@ task programa()
 task leer()
 {
 
-    int recibir1, recibir2, recibir3;
+    int recibir1, recibir2, recibir3, recibir4;
 
     while(true)
     {
@@ -309,7 +319,10 @@ task leer()
             color2 = recibir2;
 
         if(ReceiveRemoteNumber(ENTRADA4,true,recibir3) != STAT_MSG_EMPTY_MAILBOX)
-            luz = recibir3;
+            luz1 = recibir3;
+
+        if(ReceiveRemoteNumber(ENTRADA5,true,recibir4) != STAT_MSG_EMPTY_MAILBOX)
+            luz2 = recibir4;
 
         imprimirDatos();
 
@@ -325,3 +338,9 @@ task main()
     Precedes(programa,leer);
 
 }
+rLowspeed(SENSOR_ULTRA1);
+    SetSensorLowspeed(SENSOR_ULTRA2);
+    Precedes(programa,leer);
+
+}
+
