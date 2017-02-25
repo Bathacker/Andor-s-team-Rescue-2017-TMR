@@ -99,25 +99,25 @@ void alto()
 void esquivar()
 {
 
-    izquierda(30);
+    izquierda(40);
     Wait(300);
     alto();
-    adelante(40);
+    adelante(50);
     Wait(500);
     alto();
-    derecha(30);
+    derecha(40);
     Wait(300);
     alto();
-    adelante(40);
+    adelante(50);
     Wait(500);
     alto();
-    derecha(30);
+    derecha(40);
     Wait(300);
     alto();
-    adelante(40);
+    adelante(50);
     Wait(500);
     alto();
-    izquierda(30);
+    izquierda(40);
     Wait(300);
     alto();
 
@@ -129,14 +129,14 @@ void alinear()
     while(color1 != 1)
     {
 
-        derecha(30);
+        derecha(40);
 
     }
 
     while(color2 != 1)
     {
 
-        izquierda(30);
+        izquierda(40);
 
     }
 
@@ -161,7 +161,7 @@ void seguirLinea()
             if(color1 == 3)
             {
 
-                izquierda(30);
+                izquierda(40);
                 Wait(100);
                 alto();
 
@@ -170,7 +170,7 @@ void seguirLinea()
             if(color2 == 3)
             {
 
-                derecha(30);
+                derecha(40);
                 Wait(100);
                 alto();
 
@@ -179,15 +179,14 @@ void seguirLinea()
             if(color1 == 3 && color2 == 3)
             {
 
-                izquierda(30);
+                izquierda(40);
                 Wait(200);
 
                 do
                 {
+                    izquierda(40);
 
-                    izquierda(30);
-
-                }while(luz1 > 45 && color1 == 6 && color2 == 1 && luz2 > 45);
+                }while(color2 == 1);
 
             }
 
@@ -196,7 +195,7 @@ void seguirLinea()
         if(luz1 > 45 && color1 == 6 && color2 == 6 && luz2 > 45)
         {
 
-            adelante(40);
+            adelante(50);
 
         }
 
@@ -206,9 +205,9 @@ void seguirLinea()
             do
             {
 
-                izquierda(30);
+                izquierda(40);
 
-            }while(luz1 > 45 && color1 == 6 && color2 == 1 && luz2 > 45);
+            }while(luz1 > 45 && color1 == 6 && color2 == 6 && luz2 > 45);
 
         }
 
@@ -218,9 +217,9 @@ void seguirLinea()
             do
             {
 
-                derecha(30);
+                derecha(40);
 
-            }while(luz1 > 45 && color1 == 1 && color2 == 6 && luz2 > 45);
+            }while(luz1 > 45 && color1 == 6 && color2 == 6 && luz2 > 45);
 
         }
 
@@ -230,9 +229,9 @@ void seguirLinea()
             do
             {
 
-                izquierda(30);
+                izquierda(40);
 
-            }while(luz1 > 45 && color1 == 6 && color2 == 1 && luz2 > 45)
+            }while(color2 == 1)
 
 
         }
@@ -243,9 +242,9 @@ void seguirLinea()
             do
             {
 
-                derecha(30);
+                derecha(40);
 
-            }while(luz1 > 45 && color1 == 1 && color2 == 6 && luz2 > 45)
+            }while(color1 == 1)
 
         }
 
@@ -255,9 +254,9 @@ void seguirLinea()
             do
             {
 
-                derecha(30);
+                derecha(40);
 
-            }while(luz1 > 45 && color1 == 1 && color2 == 6 && luz2 > 45);
+            }while(color1 == 1);
 
         }
 
@@ -267,17 +266,17 @@ void seguirLinea()
             do
             {
 
-                izquierda(30);
+                izquierda(40);
 
-            }while(luz1 > 45 && color1 == 6 && color2 == 1 && luz2 > 45);
+            }while(color2 == 1);
 
         }
 
         if(luz1 < 45 && color1 == 1 && color2 == 1 && luz2 < 45)
         {
 
-            adelante(40);
-            Wait(200);
+            adelante(50);
+            Wait(100);
 
         }
 
@@ -332,5 +331,4 @@ task main()
     Precedes(programa,leer);
 
 }
-
 

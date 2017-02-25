@@ -123,25 +123,6 @@ void esquivar()
 
 }
 
-void alinear()
-{
-
-    while(color1 != 1)
-    {
-
-        derecha(40);
-
-    }
-
-    while(color2 != 1)
-    {
-
-        izquierda(40);
-
-    }
-
-}
-
 void seguirLinea()
 {
 
@@ -184,10 +165,9 @@ void seguirLinea()
 
                 do
                 {
-
                     izquierda(40);
 
-                }while(luz1 > 45 && color1 == 6 && color2 == 1 && luz2 > 45);
+                }while(color2 == 1);
 
             }
 
@@ -203,24 +183,14 @@ void seguirLinea()
         if(luz1 > 45 && color1 == 1 && color2 == 6 && luz2 > 45)
         {
 
-            do
-            {
-
-                izquierda(40);
-
-            }while(luz1 > 45 && color1 == 6 && color2 == 6 && luz2 > 45);
+            izquierda(40);
 
         }
 
         if(luz1 > 45 && color1 == 6 && color2 == 1 && luz2 > 45)
         {
 
-            do
-            {
-
-                derecha(40);
-
-            }while(luz1 > 45 && color1 == 6 && color2 == 6 && luz2 > 45);
+            derecha(40);
 
         }
 
@@ -232,7 +202,7 @@ void seguirLinea()
 
                 izquierda(40);
 
-            }while(luz1 > 45 && color1 == 6 && color2 == 1 && luz2 > 45)
+            }while(color2 == 1)
 
 
         }
@@ -245,37 +215,38 @@ void seguirLinea()
 
                 derecha(40);
 
-            }while(luz1 > 45 && color1 == 1 && color2 == 6 && luz2 > 45)
+            }while(color1 == 1)
 
         }
 
         if(luz1 > 45 && color1 == 6 && color2 == 1 && luz2 < 45)
         {
 
-            adelante(50);
-            Wait(30);
-
             do
             {
 
                 derecha(40);
 
-            }while(luz1 > 45 && color1 == 1 && color2 == 6 && luz2 > 45);
+            }while(color1 == 1);
 
         }
 
         if(luz1 < 45 && color1 == 1 && color2 == 6 && luz2 > 45)
         {
 
-            adelante(50);
-            Wait(30);
-
             do
             {
 
                 izquierda(40);
 
-            }while(luz1 > 45 && color1 == 6 && color2 == 1 && luz2 > 45);
+            }while(color2 == 1);
+
+        }
+        
+        if(luz1 > 45 && color1 == 1 && color2 == 1 && luz2 > 45)
+        {
+
+            adelante(50);
 
         }
 
@@ -334,11 +305,6 @@ task main()
 {        //siempre sensores en main ;)
 
     SetSensorLowspeed(SENSOR_ULTRA1);
-    SetSensorLowspeed(SENSOR_ULTRA2);
-    Precedes(programa,leer);
-
-}
-rLowspeed(SENSOR_ULTRA1);
     SetSensorLowspeed(SENSOR_ULTRA2);
     Precedes(programa,leer);
 
