@@ -182,28 +182,28 @@ void seguirLinea()
         {
 
             atras(40);
-            Wait(150);
+            Wait(250);
 
         }
 
         if(luz1 > 45 && color1 == 1 && color2 == 6 && luz2 > 45)
         {
 
-            izquierda(57);
+            izquierda(40);
 
         }
 
         if(luz1 > 45 && color1 == 6 && color2 == 1 && luz2 > 45)
         {
 
-            derecha(57);
+            derecha(40);
 
         }
 
         if(luz1 < 45 && color1 == 6 && color2 == 6 && luz2 > 45)
         {
 
-            izquierda(57);
+            izquierda(40);
             until(color2 == 1);
 
         }
@@ -211,7 +211,7 @@ void seguirLinea()
         if(luz1 > 45 && color1 == 6 && color2 == 6 && luz2 < 45)
         {
 
-            derecha(57);
+            derecha(40);
             until(color1 == 1);
 
         }
@@ -220,13 +220,13 @@ void seguirLinea()
         {
 
             Off(OUT_A);
-            OnRev(OUT_C, 57);
+            OnRev(OUT_C, 40);
             Wait(100);
-            Off(OUT_AC);
+            alto();
             do
             {
 
-                 derecha(57);
+                 derecha(40);
 
             }while(color1 == 1);
 
@@ -236,13 +236,13 @@ void seguirLinea()
         {
 
             Off(OUT_C);
-            OnRev(OUT_A, 57);
+            OnRev(OUT_A, 40);
             Wait(100);
-            Off(OUT_AC);
+            alto();
             do
             {
 
-                 izquierda(57);
+                 izquierda(40);
 
             }while(color2 == 1);
 
@@ -252,7 +252,7 @@ void seguirLinea()
         {
 
             Off(OUT_A);
-            OnRev(OUT_C, 57);
+            OnRev(OUT_C, 40);
             until(luz2 < 45);
 
         }
@@ -261,7 +261,7 @@ void seguirLinea()
         {
 
             Off(OUT_A);
-            OnRev(OUT_A, 57);
+            OnRev(OUT_A, 40);
             until(luz1 > 45);
 
         }
@@ -270,7 +270,7 @@ void seguirLinea()
         {
 
             adelante(40);
-            Wait(155);
+            Wait(300);
 
         }
 
@@ -283,8 +283,8 @@ void seguirLinea()
 task programa()
 {    //no contradecirme en los task ._.
 
-    //seguirLinea();
-    OnFwd(OUT_AC, 100);
+    seguirLinea();
+
 }
 
 task leer()

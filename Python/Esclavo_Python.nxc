@@ -182,28 +182,28 @@ void seguirLinea()
         {
 
             atras(40);
-            Wait(150);
+            Wait(250);
 
         }
 
         if(luz1 > 45 && color1 == 1 && color2 == 6 && luz2 > 45)
         {
 
-            izquierda(57);
+            izquierda(50);
 
         }
 
         if(luz1 > 45 && color1 == 6 && color2 == 1 && luz2 > 45)
         {
 
-            derecha(57);
+            derecha(50);
 
         }
 
         if(luz1 < 45 && color1 == 6 && color2 == 6 && luz2 > 45)
         {
 
-            izquierda(57);
+            izquierda(50);
             until(color2 == 1);
 
         }
@@ -211,7 +211,7 @@ void seguirLinea()
         if(luz1 > 45 && color1 == 6 && color2 == 6 && luz2 < 45)
         {
 
-            derecha(57);
+            derecha(50);
             until(color1 == 1);
 
         }
@@ -220,13 +220,13 @@ void seguirLinea()
         {
 
             Off(OUT_A);
-            OnRev(OUT_C, 57);
+            OnRev(OUT_C, 50);
             Wait(100);
-            Off(OUT_AC);
+            alto();
             do
             {
 
-                 derecha(57);
+                 derecha(50);
 
             }while(color1 == 1);
 
@@ -236,13 +236,13 @@ void seguirLinea()
         {
 
             Off(OUT_C);
-            OnRev(OUT_A, 57);
+            OnRev(OUT_A, 50);
             Wait(100);
-            Off(OUT_AC);
+            alto();
             do
             {
 
-                 izquierda(57);
+                 izquierda(50);
 
             }while(color2 == 1);
 
@@ -252,7 +252,7 @@ void seguirLinea()
         {
 
             Off(OUT_A);
-            OnRev(OUT_C, 57);
+            OnRev(OUT_C, 50);
             until(luz2 < 45);
 
         }
@@ -261,7 +261,7 @@ void seguirLinea()
         {
 
             Off(OUT_A);
-            OnRev(OUT_A, 57);
+            OnRev(OUT_A, 50);
             until(luz1 > 45);
 
         }
@@ -270,7 +270,7 @@ void seguirLinea()
         {
 
             adelante(40);
-            Wait(155);
+            Wait(300);
 
         }
 
