@@ -123,32 +123,13 @@ void esquivar()
 
 }
 
-void alinear()
-{
-
-    while(color1 != 1)
-    {
-
-        derecha(40);
-
-    }
-
-    while(color2 != 1)
-    {
-
-        izquierda(40);
-
-    }
-
-}
-
 void seguirLinea()
 {
 
     while(true)
     {
 
-        if(ultra1 < 20 || ultra2 < 20)
+        /*if(ultra1 < 20 || ultra2 < 20)
         {
 
             esquivar();
@@ -162,8 +143,7 @@ void seguirLinea()
             {
 
                 izquierda(40);
-                Wait(100);
-                alto();
+                until(color2 == 1);
 
             }
 
@@ -171,8 +151,7 @@ void seguirLinea()
             {
 
                 derecha(40);
-                Wait(100);
-                alto();
+                until(color1 == 1);
 
             }
 
@@ -190,71 +169,64 @@ void seguirLinea()
 
             }
 
-        }
+        }*/
 
         if(luz1 > 45 && color1 == 6 && color2 == 6 && luz2 > 45)
         {
 
-            adelante(50);
+            adelante(40);
+
+        }
+        
+        if(luz1 > 45 && color1 == 1 && color2 == 1 && luz2 >45)
+        {
+
+            atras(40);
+            Wait(150);
 
         }
 
         if(luz1 > 45 && color1 == 1 && color2 == 6 && luz2 > 45)
         {
 
-            do
-            {
-
-                izquierda(40);
-
-            }while(luz1 > 45 && color1 == 6 && color2 == 6 && luz2 > 45);
+            izquierda(57);
 
         }
 
         if(luz1 > 45 && color1 == 6 && color2 == 1 && luz2 > 45)
         {
 
-            do
-            {
-
-                derecha(40);
-
-            }while(luz1 > 45 && color1 == 6 && color2 == 6 && luz2 > 45);
+            derecha(57);
 
         }
 
         if(luz1 < 45 && color1 == 6 && color2 == 6 && luz2 > 45)
         {
 
-            do
-            {
-
-                izquierda(40);
-
-            }while(color2 == 1)
-
+            izquierda(57);
+            until(color2 == 1);
 
         }
 
         if(luz1 > 45 && color1 == 6 && color2 == 6 && luz2 < 45)
         {
 
-            do
-            {
-
-                derecha(40);
-
-            }while(color1 == 1)
+            derecha(57);
+            until(color1 == 1);
 
         }
 
         if(luz1 > 45 && color1 == 6 && color2 == 1 && luz2 < 45)
         {
 
+            Off(OUT_A);
+            OnRev(OUT_C, 57);
+            Wait(100);
+            Off(OUT_AC);
             do
             {
 
-                derecha(40);
+                 derecha(57);
 
             }while(color1 == 1);
 
@@ -263,20 +235,42 @@ void seguirLinea()
         if(luz1 < 45 && color1 == 1 && color2 == 6 && luz2 > 45)
         {
 
+            Off(OUT_C);
+            OnRev(OUT_A, 57);
+            Wait(100);
+            Off(OUT_AC);
             do
             {
 
-                izquierda(40);
+                 izquierda(57);
 
             }while(color2 == 1);
+
+        }
+        
+        if(luz1 < 45 && color1 == 1 && color2 == 1 && luz2 > 45)
+        {
+
+            Off(OUT_A);
+            OnRev(OUT_C, 57);
+            until(luz2 < 45);
+
+        }
+
+        if(luz1 > 45 && color1 == 1 && color2 == 1 && luz2 < 45)
+        {
+
+            Off(OUT_A);
+            OnRev(OUT_A, 57);
+            until(luz1 > 45);
 
         }
 
         if(luz1 < 45 && color1 == 1 && color2 == 1 && luz2 < 45)
         {
 
-            adelante(50);
-            Wait(100);
+            adelante(40);
+            Wait(155);
 
         }
 
@@ -289,8 +283,8 @@ void seguirLinea()
 task programa()
 {    //no contradecirme en los task ._.
 
-    seguirLinea();
-
+    //seguirLinea();
+    OnFwd(OUT_AC, 100);
 }
 
 task leer()
