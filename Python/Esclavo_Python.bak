@@ -14,6 +14,7 @@
 //VARIABLES
 int color1, color2, luz1, luz2;
 int ultra1, ultra2;
+//int direccion;
 
 //FUNCIONES.......................................................
 
@@ -129,7 +130,7 @@ void seguirLinea()
     while(true)
     {
 
-        /*if(ultra1 < 20 || ultra2 < 20)
+        if(ultra1 < 20 || ultra2 < 20)
         {
 
             esquivar();
@@ -143,19 +144,30 @@ void seguirLinea()
             {
 
                 izquierda(40);
-                until(color2 == 1);
+                Wait(700);
+                do
+                {
+
+                    izquierda(40);
+
+                }while(color2 == 1);
 
             }
 
             if(color2 == 3)
             {
 
+                alto();
+
+                derecha(40);
+                until(color1 == 1);
+
                 derecha(40);
                 until(color1 == 1);
 
             }
 
-            if(color1 == 3 && color2 == 3)
+            /*if(color1 == 3 && color2 == 3)
             {
 
                 izquierda(40);
@@ -167,9 +179,9 @@ void seguirLinea()
 
                 }while(color2 == 1);
 
-            }
+            }*/
 
-        }*/
+        }
 
         if(luz1 > 45 && color1 == 6 && color2 == 6 && luz2 > 45)
         {
@@ -218,33 +230,17 @@ void seguirLinea()
 
         if(luz1 > 45 && color1 == 6 && color2 == 1 && luz2 < 45)
         {
-
-            Off(OUT_A);
-            OnRev(OUT_C, 40);
-            Wait(100);
-            alto();
-            do
-            {
-
-                 derecha(40);
-
-            }while(color1 == 1);
+        
+            derecha(40);
+            until(color1 == 1);
 
         }
 
         if(luz1 < 45 && color1 == 1 && color2 == 6 && luz2 > 45)
         {
 
-            Off(OUT_C);
-            OnRev(OUT_A, 40);
-            Wait(100);
-            alto();
-            do
-            {
-
-                 izquierda(40);
-
-            }while(color2 == 1);
+            izquierda(40);
+            until(color2 == 1);
 
         }
         
@@ -270,7 +266,7 @@ void seguirLinea()
         {
 
             adelante(40);
-            Wait(300);
+            Wait(550);
 
         }
 
