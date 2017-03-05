@@ -130,7 +130,7 @@ void seguirLinea()
     while(true)
     {
 
-        if(ultra1 < 20 || ultra2 < 20)
+        if(/*ultra1 < 20 ||*/ultra2 < 20)
         {
 
             esquivar();
@@ -143,6 +143,9 @@ void seguirLinea()
             if(color1 == 3)
             {
 
+                alto();
+                adelnate(40);
+                Wait(400);
                 izquierda(40);
                 Wait(700);
                 do
@@ -158,12 +161,16 @@ void seguirLinea()
             {
 
                 alto();
-
+                adelante(40);
+                Wait(400);
                 derecha(40);
-                until(color1 == 1);
+                Wait(700);
+                do
+                {
 
-                derecha(40);
-                until(color1 == 1);
+                    derecha(40);
+
+                }while(color1 == 1);
 
             }
 
