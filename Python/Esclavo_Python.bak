@@ -144,7 +144,7 @@ void seguirLinea()
             {
 
                 alto();
-                adelnate(40);
+                adelante(40);
                 Wait(400);
                 izquierda(40);
                 Wait(700);
@@ -255,17 +255,29 @@ void seguirLinea()
         {
 
             Off(OUT_A);
-            OnRev(OUT_C, 40);
-            until(luz2 < 45);
+            OnRev(OUT_A, 40);
+            Wait(150);
+            do
+            {
+
+                izquierda(40);
+
+            }while(luz2 > 45);
 
         }
 
         if(luz1 > 45 && color1 == 1 && color2 == 1 && luz2 < 45)
         {
 
-            Off(OUT_A);
-            OnRev(OUT_A, 40);
-            until(luz1 > 45);
+            Off(OUT_C);
+            OnRev(OUT_C, 40);
+            Wait(150);
+            do
+            {
+
+                derecha(40);
+
+            }while(luz1 > 45);
 
         }
 
