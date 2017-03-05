@@ -58,10 +58,10 @@ void no_conexion(int num){            //ESCLAVO
 //TAREAS PRINCIPALES------------------------------------------------------------
 
 void adelante(){
-    OnRev(OUT_AC,30);
+    OnRev(OUT_AC,40);
 }
 void atras(){
-    OnFwd(OUT_AC,30);
+    OnFwd(OUT_AC,40);
 }
 void izquierda(int n){
    OnRev(OUT_C, n);
@@ -99,12 +99,12 @@ void obstaculo(){
 task programa(){    //no contradecirme en los task ._.
 while(true){
        //OBSTACULO
-       if(/*ultra1 < 20 ||*/ultra2 < 20)
+       /*if(ultra1 < 20 ||ultra2 < 20)
         {
 
             obstaculo();
 
-        }
+        }*/
         //Puntos verdes
         if(color1 == 3 || color2 == 3)
         {
@@ -143,11 +143,11 @@ while(true){
 
             }
 
-            /*if(color1 == 3 && color2 == 3)
+            if(color1 == 3 && color2 == 3)
             {
 
                 izquierda(40);
-                Wait(200);
+                Wait(1500);
 
                 do
                 {
@@ -155,10 +155,10 @@ while(true){
 
                 }while(color2 == 1);
 
-            }*/
+            }
 
         }
-        //luz blanco y color negro
+         //luz blanco y color negro
 
        if(luz > 45 && color1 == 1 && color2 == 1 && luz2 > 45){
           atras();
@@ -208,12 +208,12 @@ while(true){
        }
        //luz negro - color1 blanco - color2 blanco- luz2 blanco
        if(luz < 40 && color1 == 6 && color2 == 6 && luz2 > 40){
-          izquierda(30);
+          izquierda(40);
           until(color2 == 1);
        }
        //luz blanco- color1 blanco - color2 blanco- luz2 negro
        if(luz > 40 && color1 == 6 && color2 == 6 && luz2 < 40){
-          derecha(30);
+          derecha(40);
           until(color1 == 1);
        }
     }

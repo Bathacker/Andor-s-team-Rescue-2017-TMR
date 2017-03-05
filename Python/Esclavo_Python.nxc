@@ -193,14 +193,14 @@ void seguirLinea()
         if(luz1 > 45 && color1 == 6 && color2 == 6 && luz2 > 45)
         {
 
-            adelante(40);
+            adelante(35);
 
         }
         
         if(luz1 > 45 && color1 == 1 && color2 == 1 && luz2 >45)
         {
 
-            atras(40);
+            atras(35);
             Wait(250);
 
         }
@@ -208,21 +208,21 @@ void seguirLinea()
         if(luz1 > 45 && color1 == 1 && color2 == 6 && luz2 > 45)
         {
 
-            izquierda(45);
+            izquierda(40);
 
         }
 
         if(luz1 > 45 && color1 == 6 && color2 == 1 && luz2 > 45)
         {
 
-            derecha(45);
+            derecha(40);
 
         }
 
         if(luz1 < 45 && color1 == 6 && color2 == 6 && luz2 > 45)
         {
 
-            izquierda(45);
+            izquierda(40);
             until(color2 == 1);
 
         }
@@ -230,7 +230,7 @@ void seguirLinea()
         if(luz1 > 45 && color1 == 6 && color2 == 6 && luz2 < 45)
         {
 
-            derecha(45);
+            derecha(40);
             until(color1 == 1);
 
         }
@@ -238,7 +238,7 @@ void seguirLinea()
         if(luz1 > 45 && color1 == 6 && color2 == 1 && luz2 < 45)
         {
         
-            derecha(45);
+            derecha(40);
             until(color1 == 1);
 
         }
@@ -246,7 +246,7 @@ void seguirLinea()
         if(luz1 < 45 && color1 == 1 && color2 == 6 && luz2 > 45)
         {
 
-            izquierda(45);
+            izquierda(40);
             until(color2 == 1);
 
         }
@@ -255,12 +255,12 @@ void seguirLinea()
         {
 
             Off(OUT_A);
-            OnRev(OUT_A, 45);
+            OnRev(OUT_A, 40);
             Wait(150);
             do
             {
 
-                izquierda(45);
+                izquierda(40);
 
             }while(luz2 > 45);
 
@@ -270,12 +270,12 @@ void seguirLinea()
         {
 
             Off(OUT_C);
-            OnRev(OUT_C, 45);
+            OnRev(OUT_C, 40);
             Wait(150);
             do
             {
 
-                derecha(45);
+                derecha(40);
 
             }while(luz1 > 45);
 
@@ -284,7 +284,7 @@ void seguirLinea()
         if(luz1 < 45 && color1 == 1 && color2 == 1 && luz2 < 45)
         {
 
-            adelante(40);
+            adelante(30);
             Wait(550);
 
         }

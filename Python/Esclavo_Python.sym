@@ -1242,7 +1242,7 @@ Clump	Line	PC	Source
 12	195	202	#line 195 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Esclavo_Python.nxc"
 12	196	202		brtst 4, __ASM_Label_671, __D0seguirLinea
 12	195	205	#line 195 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Esclavo_Python.nxc"
-12	196	205		set __adelante_7qG2_vel_7qG2_000, 40
+12	196	205		set __adelante_7qG2_vel_7qG2_000, 35
 12	195	208	#line 195 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Esclavo_Python.nxc"
 12	197	208	#line 197 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Esclavo_Python.nxc"
 12	198	208		subcall adelante, __adelante_return
@@ -1285,7 +1285,7 @@ Clump	Line	PC	Source
 12	202	255	#line 202 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Esclavo_Python.nxc"
 12	203	255		brtst 4, __ASM_Label_676, __D0seguirLinea
 12	202	258	#line 202 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Esclavo_Python.nxc"
-12	203	258		set __atras_7qG2_vel_7qG2_000, 40
+12	203	258		set __atras_7qG2_vel_7qG2_000, 35
 12	202	261	#line 202 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Esclavo_Python.nxc"
 12	203	261	#line 203 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Esclavo_Python.nxc"
 12	204	261		subcall atras, __atras_return
@@ -1662,7 +1662,7 @@ Clump	Line	PC	Source
 12	257	712		brtst 4, __ASM_Label_737, __D0seguirLinea
 12	257	715	#line 257 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Esclavo_Python.nxc"
 12	258	715	#pragma macro 7
-12	258	715		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+12	258	715		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
 12	5852	738	#line 5852 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Esclavo_Python.nxc"
 12	257	738	#line 257 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Esclavo_Python.nxc"
 12	257	738	#line 257 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Esclavo_Python.nxc"
@@ -1671,7 +1671,7 @@ Clump	Line	PC	Source
 12	259	741	#pragma macro 10
 12	259	741		acquire __OnRevMutex
 12	259	742		neg __OnRev_Tmp, __D0seguirLinea
-12	259	745		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+12	259	745		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
 12	259	768		release __OnRevMutex
 12	5857	769	#line 5857 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Esclavo_Python.nxc"
 12	258	769	#line 258 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Esclavo_Python.nxc"
@@ -1740,7 +1740,7 @@ Clump	Line	PC	Source
 12	272	839		brtst 4, __ASM_Label_750, __D0seguirLinea
 12	272	842	#line 272 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Esclavo_Python.nxc"
 12	273	842	#pragma macro 7
-12	273	842		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+12	273	842		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
 12	5947	865	#line 5947 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Esclavo_Python.nxc"
 12	272	865	#line 272 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Esclavo_Python.nxc"
 12	272	865	#line 272 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Esclavo_Python.nxc"
@@ -1749,7 +1749,7 @@ Clump	Line	PC	Source
 12	274	868	#pragma macro 10
 12	274	868		acquire __OnRevMutex
 12	274	869		neg __OnRev_Tmp, __D0seguirLinea
-12	274	872		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+12	274	872		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
 12	274	895		release __OnRevMutex
 12	5952	896	#line 5952 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Esclavo_Python.nxc"
 12	273	896	#line 273 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Esclavo_Python.nxc"
@@ -1817,7 +1817,7 @@ Clump	Line	PC	Source
 12	286	966	#line 286 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Esclavo_Python.nxc"
 12	287	966		brtst 4, __ASM_Label_763, __D0seguirLinea
 12	286	969	#line 286 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Esclavo_Python.nxc"
-12	287	969		set __adelante_7qG2_vel_7qG2_000, 40
+12	287	969		set __adelante_7qG2_vel_7qG2_000, 30
 12	286	972	#line 286 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Esclavo_Python.nxc"
 12	287	972	#line 287 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Esclavo_Python.nxc"
 12	288	972		subcall adelante, __adelante_return
