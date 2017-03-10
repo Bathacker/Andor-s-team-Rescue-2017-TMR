@@ -1,0 +1,2033 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__CLSRMutex1	9	0	0	4	2
+1	__signed_stack_001no_conexion	6	1	4	4	4
+2	__CLSWMutex1	9	0	8	4	2
+3	__signed_stack_002no_conexion	6	1	12	4	2
+4	__rotate_theAngle4	5	1	16	4	2
+5	__signed_stack_002imprimirDatos	6	1	20	4	36
+6	__signed_stack_001imprimirDatos	6	1	24	4	36
+7	__signed_stack_001leer	6	1	28	4	8
+8	__TextOutMutex	9	0	32	4	38
+9	__CLSWMutex0	9	0	36	4	2
+10	__signed_stack_003programa	6	1	40	4	6
+11	__CLSCSMutex0	9	0	44	4	2
+12	__signed_stack_004programa	6	1	48	4	6
+13	__CLSRMutex0	9	0	52	4	2
+14	__signed_stack_001programa	6	1	56	4	128
+15	__Wait_7qG2_ms_7qG2_000_inline_no_conexion	5	1	60	4	2
+16	__signed_stack_002programa	6	1	64	4	6
+17	__CLSCSMutex1	9	0	68	4	2
+18	__DU0SetSensorLowspeed_inline_main	5	1	72	4	10
+19	__rotate_angle4	6	1	76	4	7
+20	__D0adelante	6	1	80	4	2
+21	__D0derecha	6	1	84	4	4
+22	__D0atras	6	1	88	4	2
+23	__rotateMutex2	9	0	92	4	6
+24	__MRMutex	9	0	96	4	8
+25	__RRNTmpVal	6	1	100	4	16
+26	__rotateMutex0	9	0	104	4	6
+27	__OnRevMutex	9	0	108	4	6
+28	__D0SetSensorLowspeed_inline_main	6	1	112	4	4
+29	__D0programa	6	1	116	4	290
+30	__RLSBmutex0	9	0	120	4	2
+31	__Wait_7qG2_ms_7qG2_000_inline_programa	5	1	124	4	8
+32	__D0no_conexion	6	1	128	4	9
+33	__D0imprimirDatos	6	1	132	4	30
+34	__RLSBmutex1	9	0	136	4	2
+35	__D0leer	6	1	140	4	32
+36	__D0izquierda	6	1	144	4	4
+37	color1	4	1	148	2	21
+38	__rotate_OldRotCount4	4	1	150	2	2
+39	__derecha_7qG2_n_7qG2_000	4	1	152	2	7
+40	__izquierda_7qG2_n_7qG2_000	4	1	154	2	8
+41	__rotate_RotCount4	4	1	156	2	4
+42	__leer_7qG2_recibir3_7qG2_000	4	1	158	2	2
+43	__leer_7qG2_recibir4_7qG2_000	4	1	160	2	2
+44	__leer_7qG2_recibir1_7qG2_000	4	1	162	2	2
+45	__leer_7qG2_recibir2_7qG2_000	4	1	164	2	2
+46	ultra1	4	1	166	2	2
+47	ultra2	4	1	168	2	2
+48	luz2	4	1	170	2	13
+49	color2	4	1	172	2	22
+50	luz	4	1	174	2	13
+51	__no_conexion_7qG2_num_7qG2_000	4	1	176	2	2
+52	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	178	1	4
+53	__constVal15	2	0	179	1	4
+54	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	180	1	4
+55	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	181	1	4
+56	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	182	1	4
+57	__RRNErr	1	1	183	1	4
+58	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	184	1	2
+59	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	185	1	4
+60	__PFTmp	1	1	186	1	1
+61	__constValNeg100	2	0	187	1	2
+62	__derecha_return	1	1	188	1	7
+63	__atras_return	1	1	189	1	3
+64	__no_conexion_return	1	1	190	1	3
+65	__imprimirDatos_return	1	1	191	1	3
+66	__izquierda_return	1	1	192	1	8
+67	____initialize_global_data_return	1	1	193	1	3
+68	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	194	1	10
+69	__adelante_return	1	1	195	1	6
+70	__constVal63	2	0	196	1	10
+71	__constVal96	2	0	197	1	13
+72	__constVal1	2	0	198	1	14
+73	__constVal0	2	1	199	1	45
+74	__constVal50	2	0	200	1	1
+75	__rotate_thePower4	2	1	201	1	4
+76	__rotate_theTurnPct4	2	1	202	1	4
+77	__constVal32	2	0	203	1	36
+78	____RotateMotor4_return	1	1	204	1	5
+79	__constVal5	2	0	205	1	1
+80	__ResetSensorPort	1	1	206	1	4
+81	__ResetSensorTmp	1	1	207	1	2
+82	____RotateMotor4_sign_tmp	2	1	208	1	4
+83	__constVal3	2	0	209	1	11
+84	__constVal4	2	0	210	1	1
+85	__rotate_rs4	1	1	211	1	2
+86	__rotate_sync4	1	1	212	1	4
+87	__rotate_stop4	1	1	213	1	4
+88	__rotate_turnpct4	2	1	214	1	5
+89	__OnRev_Tmp	2	1	215	1	6
+90	__rotate_power4	1	1	216	1	6
+91	__rotate_firstPort4	1	1	217	1	5
+92	__rotate_theUF4	1	1	218	1	6
+93	__rotate_theRVP4	1	1	219	1	4
+94	__rotate_theRVI4	1	1	220	1	4
+95	__rotate_theRVD4	1	1	221	1	4
+96	__rotate_theOM4	1	1	222	1	7
+97	__rotate_theRM4	1	1	223	1	4
+98	__rotate_theRS4	1	1	224	1	3
+99	____ResetSensorSubroutine_return	1	1	225	1	4
+100	__RLSBResult0	2	1	226	1	7
+101	__RLSBytesCount0	1	1	227	1	7
+102	____ReadLSBytes0_return	1	1	228	1	3
+103	__LSWriteOptions0	1	1	229	1	1
+104	__LSWriteOptions1	1	1	230	1	1
+105	__RLSBIterations0	1	1	231	1	4
+106	__RLSBIterations1	1	1	232	1	4
+107	__constVal2	2	0	233	1	3
+108	__RLSBytesCount1	1	1	234	1	7
+109	____ReadLSBytes1_return	1	1	235	1	3
+110	__RLSBResult1	2	1	236	1	7
+111	__CLSWArgs0	8	0	4	12	5
+112	__CLSWArgs0.Result	2	1	240	1	5
+113	__CLSWArgs0.Port	1	1	241	1	5
+114	__CLSWArgs0.Buffer	7	0	242	4	5
+115	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+116	__CLSWArgs0.ReturnLen	1	1	244	1	5
+117	__CLSCSArgs0	8	0	3	4	4
+118	__CLSCSArgs0.Result	2	1	248	1	4
+119	__CLSCSArgs0.Port	1	1	249	1	4
+120	__CLSCSArgs0.BytesReady	1	1	250	1	4
+121	__CLSRArgs0	8	0	4	12	5
+122	__CLSRArgs0.Result	2	1	252	1	5
+123	__CLSRArgs0.Port	1	1	253	1	5
+124	__CLSRArgs0.Buffer	7	0	254	4	5
+125	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+126	__CLSRArgs0.BufferLen	1	1	256	1	5
+127	__CLSWArgs1	8	0	4	12	5
+128	__CLSWArgs1.Result	2	1	260	1	5
+129	__CLSWArgs1.Port	1	1	261	1	5
+130	__CLSWArgs1.Buffer	7	0	262	4	5
+131	__CLSWArgs1.Buffer.Buffer_type	1	0	0	1	0
+132	__CLSWArgs1.ReturnLen	1	1	264	1	5
+133	__CLSCSArgs1	8	0	3	4	4
+134	__CLSCSArgs1.Result	2	1	268	1	4
+135	__CLSCSArgs1.Port	1	1	269	1	4
+136	__CLSCSArgs1.BytesReady	1	1	270	1	4
+137	__TextOutArgs	8	0	4	16	114
+138	__TextOutArgs.Result	2	1	272	1	114
+139	__TextOutArgs.Location	8	0	2	4	114
+140	__TextOutArgs.Location.X	4	1	276	2	114
+141	__TextOutArgs.Location.Y	4	1	278	2	114
+142	__TextOutArgs.Text	7	0	280	4	114
+143	__TextOutArgs.Text.Text_type	1	0	0	1	0
+144	__TextOutArgs.Options	5	1	284	4	114
+145	__MRArgs	8	0	4	8	20
+146	__MRArgs.Result	2	1	288	1	20
+147	__MRArgs.QueueID	1	1	289	1	20
+148	__MRArgs.Remove	1	1	290	1	20
+149	__MRArgs.Message	7	0	292	4	20
+150	__MRArgs.Message.Message_type	1	0	0	1	0
+151	__CLSRArgs1	8	0	4	12	5
+152	__CLSRArgs1.Result	2	1	296	1	5
+153	__CLSRArgs1.Port	1	1	297	1	5
+154	__CLSRArgs1.Buffer	7	0	298	4	5
+155	__CLSRArgs1.Buffer.Buffer_type	1	0	0	1	0
+156	__CLSRArgs1.BufferLen	1	1	300	1	5
+157	__CBTCSArgs	8	0	2	4	3
+158	__CBTCSArgs.Result	2	1	304	1	3
+159	__CBTCSArgs.Connection	1	1	305	1	3
+160	__OUT_AC	7	0	306	4	9
+161	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+162	__strbufimprimirDatos	7	0	308	4	24
+163	__strbufimprimirDatos.__strbufimprimirDatos_type	1	0	0	1	0
+164	__RLSLastGoodRead1	7	0	310	4	2
+165	__RLSLastGoodRead1.__RLSLastGoodRead1_type	1	0	0	1	0
+166	__RLSReadBuf1	7	0	312	4	8
+167	__RLSReadBuf1.__RLSReadBuf1_type	1	0	0	1	0
+168	__rotate_ports4	7	0	314	4	8
+169	__rotate_ports4.__rotate_ports4_type	1	0	0	1	0
+170	__constStr0013	7	0	316	4	1
+171	__constStr0013.__constStr0013_type	1	1	0	1	0
+172	__RLSBbufLSWrite1	7	0	318	4	2
+173	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+174	__constStr0012	7	0	320	4	1
+175	__constStr0012.__constStr0012_type	1	1	0	1	0
+176	__constStr0015	7	0	322	4	1
+177	__constStr0015.__constStr0015_type	1	1	0	1	0
+178	__constStr0014	7	0	324	4	1
+179	__constStr0014.__constStr0014_type	1	1	0	1	0
+180	__constStr0016	7	0	326	4	1
+181	__constStr0016.__constStr0016_type	1	1	0	1	0
+182	__constStr0010	7	0	328	4	1
+183	__constStr0010.__constStr0010_type	1	1	0	1	0
+184	__constStr0009	7	0	330	4	6
+185	__constStr0009.__constStr0009_type	1	1	0	1	0
+186	__RLSReadBuf0	7	0	332	4	8
+187	__RLSReadBuf0.__RLSReadBuf0_type	1	0	0	1	0
+188	__RLSLastGoodRead0	7	0	334	4	2
+189	__RLSLastGoodRead0.__RLSLastGoodRead0_type	1	0	0	1	0
+190	__constStr0011	7	0	336	4	1
+191	__constStr0011.__constStr0011_type	1	1	0	1	0
+192	__strbufno_conexion	7	0	338	4	2
+193	__strbufno_conexion.__strbufno_conexion_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	212	0	#line 212 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+0	213	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	212	2	#line 212 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+0	212	2	#line 212 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+0	213	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 0
+0	212	5	#line 212 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+0	213	5	#line 213 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+0	214	5		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	4342	7	#line 4342 "NXCDefs.h"
+0	4343	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4342	9	#line 4342 "NXCDefs.h"
+0	4342	9	#line 4342 "NXCDefs.h"
+0	4343	9		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	4342	11	#line 4342 "NXCDefs.h"
+0	4343	11		tst 5, __D0SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4342	14	#line 4342 "NXCDefs.h"
+0	4343	14		brtst 4, __004__ASM_Label_36, __D0SetSensorLowspeed_inline_main
+0	4342	17	#line 4342 "NXCDefs.h"
+0	4343	17		set __DU0SetSensorLowspeed_inline_main, 11
+0	4342	20	#line 4342 "NXCDefs.h"
+0	4342	20	#line 4342 "NXCDefs.h"
+0	4343	20		jmp __004__ASM_Label_37
+0	4342	22	#line 4342 "NXCDefs.h"
+0	4343	22		set __DU0SetSensorLowspeed_inline_main, 10
+0	4342	25	#line 4342 "NXCDefs.h"
+0	4342	25	#line 4342 "NXCDefs.h"
+0	4343	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4247	27	#line 4247 "NXCDefs.h"
+0	4248	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4247	31	#line 4247 "NXCDefs.h"
+0	4343	31	#line 4343 "NXCDefs.h"
+0	4343	31	#line 4343 "NXCDefs.h"
+0	4344	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4343	33	#line 4343 "NXCDefs.h"
+0	4343	33	#line 4343 "NXCDefs.h"
+0	4344	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4343	36	#line 4343 "NXCDefs.h"
+0	4260	36	#line 4260 "NXCDefs.h"
+0	4261	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	4260	40	#line 4260 "NXCDefs.h"
+0	4344	40	#line 4344 "NXCDefs.h"
+0	4344	40	#line 4344 "NXCDefs.h"
+0	4345	40		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4344	42	#line 4344 "NXCDefs.h"
+0	4278	42	#line 4278 "NXCDefs.h"
+0	4279	42	#pragma macro 4
+0	4279	42		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4279	44		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6564	46	#line 6564 "NXCDefs.h"
+0	4278	46	#line 4278 "NXCDefs.h"
+0	4345	46	#line 4345 "NXCDefs.h"
+0	213	46	#line 213 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+0	213	46	#line 213 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+0	214	46		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 1
+0	213	49	#line 213 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+0	214	49	#line 214 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+0	215	49		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	4342	51	#line 4342 "NXCDefs.h"
+0	4343	51		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4342	53	#line 4342 "NXCDefs.h"
+0	4342	53	#line 4342 "NXCDefs.h"
+0	4343	53		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	4342	55	#line 4342 "NXCDefs.h"
+0	4343	55		tst 5, __D0SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4342	58	#line 4342 "NXCDefs.h"
+0	4343	58		brtst 4, __005__ASM_Label_36, __D0SetSensorLowspeed_inline_main
+0	4342	61	#line 4342 "NXCDefs.h"
+0	4343	61		set __DU0SetSensorLowspeed_inline_main, 11
+0	4342	64	#line 4342 "NXCDefs.h"
+0	4342	64	#line 4342 "NXCDefs.h"
+0	4343	64		jmp __005__ASM_Label_37
+0	4342	66	#line 4342 "NXCDefs.h"
+0	4343	66		set __DU0SetSensorLowspeed_inline_main, 10
+0	4342	69	#line 4342 "NXCDefs.h"
+0	4342	69	#line 4342 "NXCDefs.h"
+0	4343	69		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4247	71	#line 4247 "NXCDefs.h"
+0	4248	71		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4247	75	#line 4247 "NXCDefs.h"
+0	4343	75	#line 4343 "NXCDefs.h"
+0	4343	75	#line 4343 "NXCDefs.h"
+0	4344	75		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4343	77	#line 4343 "NXCDefs.h"
+0	4343	77	#line 4343 "NXCDefs.h"
+0	4344	77		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4343	80	#line 4343 "NXCDefs.h"
+0	4260	80	#line 4260 "NXCDefs.h"
+0	4261	80		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	4260	84	#line 4260 "NXCDefs.h"
+0	4344	84	#line 4344 "NXCDefs.h"
+0	4344	84	#line 4344 "NXCDefs.h"
+0	4345	84		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4344	86	#line 4344 "NXCDefs.h"
+0	4278	86	#line 4278 "NXCDefs.h"
+0	4279	86	#pragma macro 4
+0	4279	86		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4279	88		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6627	90	#line 6627 "NXCDefs.h"
+0	4278	90	#line 4278 "NXCDefs.h"
+0	4345	90	#line 4345 "NXCDefs.h"
+0	214	90	#line 214 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+0	215	90	#line 215 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+0	215	90	#line 215 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+0	216	90		exit 0, 1
+1	5279	0		brtst 4, __rotate_Done4, __rotate_angle4
+1	5280	3		set ____RotateMotor4_sign_tmp, 0
+1	5280	6		brtst EQ, __sign_4, __rotate_angle4
+1	5280	9		set ____RotateMotor4_sign_tmp, -1
+1	5280	12		brtst LT, __sign_4, __rotate_angle4
+1	5280	15		set ____RotateMotor4_sign_tmp, 1
+1	5280	18	__sign_4:	mov __rotate_thePower4, ____RotateMotor4_sign_tmp
+1	5281	20		abs __rotate_theAngle4, __rotate_angle4
+1	5282	23		mul __rotate_thePower4, __rotate_thePower4, __rotate_power4
+1	5284	27		set __rotate_theUF4, 23
+1	5285	30		brtst 4, __rotate_NoSync4, __rotate_sync4
+1	5286	33		set __rotate_theOM4, 7
+1	5287	36		set __rotate_theRM4, 2
+1	5288	39		mov __rotate_theTurnPct4, __rotate_turnpct4
+1	5289	41		brtst 4, __rotate_Start4, __rotate_theTurnPct4
+1	5290	44		add __rotate_theUF4, __rotate_theUF4, __constVal32
+1	5291	48		jmp __rotate_Start4
+1	5293	50		set __rotate_theOM4, 3
+1	5294	53		set __rotate_theRM4, 0
+1	5295	56		set __rotate_theTurnPct4, 0
+1	5297	59		set __rotate_theRS4, 32
+1	5298	62		setout __rotate_ports4, 1, __rotate_theOM4, 8, __rotate_theRM4, 5, __rotate_theAngle4, 6, __rotate_theRS4, 10, __rotate_theRVP4, 11, __rotate_theRVI4, 12, __rotate_theRVD4, 2, __rotate_thePower4, 7, __rotate_turnpct4, 0, __rotate_theUF4
+1	5301	85		index __rotate_firstPort4, __rotate_ports4, 65535
+1	5303	89		getout __rotate_power4, __rotate_firstPort4, 2
+1	5304	93		brtst 4, __rotate_doneRunning4, __rotate_power4
+1	5305	96		getout __rotate_rs4, __rotate_firstPort4, 6
+1	5306	100		brcmp 4, __rotate_Running4, __rotate_rs4, __constVal32
+1	5308	104		brtst 4, __rotate_Reset4, __rotate_stop4
+1	5310	107		set __rotate_theOM4, 7
+1	5311	110		set __rotate_theUF4, 7
+1	5312	113		setout __rotate_ports4, 1, __rotate_theOM4, 8, __constVal1, 6, __rotate_theRS4, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF4
+1	5314	128		getout __rotate_RotCount4, __rotate_firstPort4, 14
+1	5316	132		mov __rotate_OldRotCount4, __rotate_RotCount4
+1	5317	134		wait2 NA, __constVal50
+1	5319	137		getout __rotate_RotCount4, __rotate_firstPort4, 14
+1	5320	141		brcmp 5, __rotate_Stabilize4, __rotate_OldRotCount4, __rotate_RotCount4
+1	5321	145		set __rotate_theOM4, 4
+1	5322	148		setout __rotate_ports4, 8, __rotate_theRM4, 6, __constVal0, 1, __rotate_theOM4, 0, __constVal1
+1	5325	159		brtst 4, __rotate_Done4, __rotate_theTurnPct4
+1	5326	162		setout __rotate_ports4, 0, __constVal32
+1	5328	167		subret ____RotateMotor4_return
+2	5476	0		setin __constVal1, __ResetSensorPort, 5
+2	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+2	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+2	5480	11		subret ____ResetSensorSubroutine_return
+3	6281	0	#pragma macro 25
+3	6281	0		acquire __CLSWMutex0
+3	6281	1		or __CLSWArgs0.Port, __constVal0, __LSWriteOptions0
+3	6281	5		mov __CLSWArgs0.ReturnLen, __RLSBytesCount0
+3	6281	7		mov __CLSWArgs0.Buffer, __RLSReadBuf0
+3	6281	9		syscall 21, __CLSWArgs0
+3	6281	12		mov __RLSBResult0, __CLSWArgs0.Result
+3	6281	14		release __CLSWMutex0
+3	6282	15	#line 6282 "NXTDefs.h"
+3	6283	15		brtst 5, __RLSBError0, __RLSBResult0
+3	6284	18		set __RLSBIterations0, 60
+3	6286	21	#pragma macro 23
+3	6286	21		acquire __CLSCSMutex0
+3	6286	22		set __CLSCSArgs0.Port, 0
+3	6286	25		syscall 23, __CLSCSArgs0
+3	6286	28		mov __RLSBytesCount0, __CLSCSArgs0.BytesReady
+3	6286	30		mov __RLSBResult0, __CLSCSArgs0.Result
+3	6286	32		release __CLSCSMutex0
+3	6286	33	#line 6286 "NXTDefs.h"
+3	6287	33		sub __RLSBIterations0, __RLSBIterations0, __constVal1
+3	6288	37		brtst 2, __RLSBError0, __RLSBIterations0
+3	6289	40		brtst 0, __RLSBError0, __RLSBResult0
+3	6290	43		brtst 4, __RLSBReadyToRead0, __RLSBResult0
+3	6292	46		wait2 NA, __constVal1
+3	6293	49		jmp __RLSBDoCheckStatus0
+3	6295	51		brtst 4, __RLSBReturn0, __RLSBytesCount0
+3	6296	54		arrinit __RLSReadBuf0, __constVal0, __RLSBytesCount0
+3	6298	58	#pragma macro 25
+3	6298	58		acquire __CLSRMutex0
+3	6298	59		set __CLSRArgs0.Port, 0
+3	6298	62		mov __CLSRArgs0.BufferLen, __RLSBytesCount0
+3	6298	64		syscall 22, __CLSRArgs0
+3	6298	67		mov __RLSReadBuf0, __CLSRArgs0.Buffer
+3	6298	69		mov __RLSBResult0, __CLSRArgs0.Result
+3	6298	71		release __CLSRMutex0
+3	6298	72	#line 6298 "NXTDefs.h"
+3	6299	72		brtst 5, __RLSBError0, __RLSBResult0
+3	6300	75		mov __RLSLastGoodRead0, __RLSReadBuf0
+3	6301	77		jmp __RLSBDone0
+3	6303	79		mov __RLSReadBuf0, __RLSLastGoodRead0
+3	6305	81		arrsize __RLSBytesCount0, __RLSReadBuf0
+3	6307	84		subret ____ReadLSBytes0_return
+4	6319	0	#pragma macro 25
+4	6319	0		acquire __CLSWMutex1
+4	6319	1		or __CLSWArgs1.Port, __constVal1, __LSWriteOptions1
+4	6319	5		mov __CLSWArgs1.ReturnLen, __RLSBytesCount1
+4	6319	7		mov __CLSWArgs1.Buffer, __RLSReadBuf1
+4	6319	9		syscall 21, __CLSWArgs1
+4	6319	12		mov __RLSBResult1, __CLSWArgs1.Result
+4	6319	14		release __CLSWMutex1
+4	6319	15	#line 6319 "NXTDefs.h"
+4	6320	15		brtst 5, __RLSBError1, __RLSBResult1
+4	6321	18		set __RLSBIterations1, 60
+4	6323	21	#pragma macro 23
+4	6323	21		acquire __CLSCSMutex1
+4	6323	22		set __CLSCSArgs1.Port, 1
+4	6323	25		syscall 23, __CLSCSArgs1
+4	6323	28		mov __RLSBytesCount1, __CLSCSArgs1.BytesReady
+4	6323	30		mov __RLSBResult1, __CLSCSArgs1.Result
+4	6323	32		release __CLSCSMutex1
+4	6323	33	#line 6323 "NXTDefs.h"
+4	6324	33		sub __RLSBIterations1, __RLSBIterations1, __constVal1
+4	6325	37		brtst 2, __RLSBError1, __RLSBIterations1
+4	6326	40		brtst 0, __RLSBError1, __RLSBResult1
+4	6327	43		brtst 4, __RLSBReadyToRead1, __RLSBResult1
+4	6329	46		wait2 NA, __constVal1
+4	6330	49		jmp __RLSBDoCheckStatus1
+4	6332	51		brtst 4, __RLSBReturn1, __RLSBytesCount1
+4	6333	54		arrinit __RLSReadBuf1, __constVal0, __RLSBytesCount1
+4	6335	58	#pragma macro 25
+4	6335	58		acquire __CLSRMutex1
+4	6335	59		set __CLSRArgs1.Port, 1
+4	6335	62		mov __CLSRArgs1.BufferLen, __RLSBytesCount1
+4	6335	64		syscall 22, __CLSRArgs1
+4	6335	67		mov __RLSReadBuf1, __CLSRArgs1.Buffer
+4	6335	69		mov __RLSBResult1, __CLSRArgs1.Result
+4	6335	71		release __CLSRMutex1
+4	6335	72	#line 6335 "NXTDefs.h"
+4	6336	72		brtst 5, __RLSBError1, __RLSBResult1
+4	6337	75		mov __RLSLastGoodRead1, __RLSReadBuf1
+4	6338	77		jmp __RLSBDone1
+4	6340	79		mov __RLSReadBuf1, __RLSLastGoodRead1
+4	6342	81		arrsize __RLSBytesCount1, __RLSReadBuf1
+4	6344	84		subret ____ReadLSBytes1_return
+5	23	0	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	24	0		set __signed_stack_001imprimirDatos, 0
+5	23	3	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	23	3	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	24	3		set __signed_stack_002imprimirDatos, 56
+5	23	6	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	23	6	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	24	6		strcat __strbufimprimirDatos, __constStr0009
+5	24	10	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	25	10		acquire __TextOutMutex
+5	24	11	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	25	11		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	24	14	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	25	14		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	24	17	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	25	17		set __TextOutArgs.Options, 0
+5	24	20	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	25	20		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	24	22	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	25	22		syscall 13, __TextOutArgs
+5	24	25	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	25	25		mov __D0imprimirDatos, __TextOutArgs.Result
+5	24	27	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	25	27		release __TextOutMutex
+5	24	28	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	24	28	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	25	28		set __signed_stack_001imprimirDatos, 0
+5	24	31	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	24	31	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	25	31		set __signed_stack_002imprimirDatos, 48
+5	24	34	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	24	34	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	25	34		strcat __strbufimprimirDatos, __constStr0009
+5	25	38	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	26	38		acquire __TextOutMutex
+5	25	39	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	26	39		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	25	42	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	26	42		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	25	45	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	26	45		set __TextOutArgs.Options, 0
+5	25	48	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	26	48		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	25	50	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	26	50		syscall 13, __TextOutArgs
+5	25	53	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	26	53		mov __D0imprimirDatos, __TextOutArgs.Result
+5	25	55	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	26	55		release __TextOutMutex
+5	25	56	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	25	56	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	26	56		set __signed_stack_001imprimirDatos, 0
+5	25	59	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	25	59	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	26	59		set __signed_stack_002imprimirDatos, 40
+5	25	62	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	25	62	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	26	62		strcat __strbufimprimirDatos, __constStr0009
+5	26	66	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	27	66		acquire __TextOutMutex
+5	26	67	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	27	67		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	26	70	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	27	70		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	26	73	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	27	73		set __TextOutArgs.Options, 0
+5	26	76	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	27	76		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	26	78	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	27	78		syscall 13, __TextOutArgs
+5	26	81	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	27	81		mov __D0imprimirDatos, __TextOutArgs.Result
+5	26	83	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	27	83		release __TextOutMutex
+5	26	84	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	26	84	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	27	84		set __signed_stack_001imprimirDatos, 0
+5	26	87	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	26	87	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	27	87		set __signed_stack_002imprimirDatos, 32
+5	26	90	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	26	90	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	27	90		strcat __strbufimprimirDatos, __constStr0009
+5	27	94	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	28	94		acquire __TextOutMutex
+5	27	95	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	28	95		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	27	98	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	28	98		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	27	101	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	28	101		set __TextOutArgs.Options, 0
+5	27	104	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	28	104		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	27	106	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	28	106		syscall 13, __TextOutArgs
+5	27	109	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	28	109		mov __D0imprimirDatos, __TextOutArgs.Result
+5	27	111	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	28	111		release __TextOutMutex
+5	27	112	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	27	112	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	28	112		set __signed_stack_001imprimirDatos, 0
+5	27	115	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	27	115	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	28	115		set __signed_stack_002imprimirDatos, 24
+5	27	118	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	27	118	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	28	118		strcat __strbufimprimirDatos, __constStr0009
+5	28	122	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	29	122		acquire __TextOutMutex
+5	28	123	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	29	123		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	28	126	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	29	126		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	28	129	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	29	129		set __TextOutArgs.Options, 0
+5	28	132	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	29	132		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	28	134	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	29	134		syscall 13, __TextOutArgs
+5	28	137	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	29	137		mov __D0imprimirDatos, __TextOutArgs.Result
+5	28	139	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	29	139		release __TextOutMutex
+5	28	140	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	28	140	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	29	140		set __signed_stack_001imprimirDatos, 0
+5	28	143	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	28	143	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	29	143		set __signed_stack_002imprimirDatos, 16
+5	28	146	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	28	146	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	29	146		strcat __strbufimprimirDatos, __constStr0009
+5	30	150	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	31	150		acquire __TextOutMutex
+5	30	151	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	31	151		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	30	154	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	31	154		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	30	157	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	31	157		set __TextOutArgs.Options, 0
+5	30	160	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	31	160		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	30	162	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	31	162		syscall 13, __TextOutArgs
+5	30	165	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	31	165		mov __D0imprimirDatos, __TextOutArgs.Result
+5	30	167	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	31	167		release __TextOutMutex
+5	30	168	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	30	168	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	31	168		set __signed_stack_001imprimirDatos, 0
+5	30	171	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	30	171	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	31	171		set __signed_stack_002imprimirDatos, 56
+5	30	174	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	30	174	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	31	174		strcat __strbufimprimirDatos, __constStr0010
+5	31	178	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	32	178		acquire __TextOutMutex
+5	31	179	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	32	179		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	31	182	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	32	182		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	31	185	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	32	185		set __TextOutArgs.Options, 0
+5	31	188	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	32	188		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	31	190	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	32	190		syscall 13, __TextOutArgs
+5	31	193	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	32	193		mov __D0imprimirDatos, __TextOutArgs.Result
+5	31	195	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	32	195		release __TextOutMutex
+5	31	196	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	31	196	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	32	196		set __signed_stack_001imprimirDatos, 0
+5	31	199	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	31	199	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	32	199		set __signed_stack_002imprimirDatos, 48
+5	31	202	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	31	202	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	32	202		strcat __strbufimprimirDatos, __constStr0011
+5	32	206	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	33	206		acquire __TextOutMutex
+5	32	207	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	33	207		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	32	210	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	33	210		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	32	213	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	33	213		set __TextOutArgs.Options, 0
+5	32	216	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	33	216		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	32	218	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	33	218		syscall 13, __TextOutArgs
+5	32	221	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	33	221		mov __D0imprimirDatos, __TextOutArgs.Result
+5	32	223	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	33	223		release __TextOutMutex
+5	32	224	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	32	224	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	33	224		set __signed_stack_001imprimirDatos, 0
+5	32	227	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	32	227	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	33	227		set __signed_stack_002imprimirDatos, 40
+5	32	230	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	32	230	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	33	230		strcat __strbufimprimirDatos, __constStr0012
+5	33	234	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	34	234		acquire __TextOutMutex
+5	33	235	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	34	235		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	33	238	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	34	238		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	33	241	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	34	241		set __TextOutArgs.Options, 0
+5	33	244	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	34	244		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	33	246	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	34	246		syscall 13, __TextOutArgs
+5	33	249	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	34	249		mov __D0imprimirDatos, __TextOutArgs.Result
+5	33	251	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	34	251		release __TextOutMutex
+5	33	252	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	33	252	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	34	252		set __signed_stack_001imprimirDatos, 0
+5	33	255	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	33	255	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	34	255		set __signed_stack_002imprimirDatos, 32
+5	33	258	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	33	258	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	34	258		strcat __strbufimprimirDatos, __constStr0013
+5	34	262	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	35	262		acquire __TextOutMutex
+5	34	263	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	35	263		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	34	266	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	35	266		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	34	269	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	35	269		set __TextOutArgs.Options, 0
+5	34	272	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	35	272		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	34	274	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	35	274		syscall 13, __TextOutArgs
+5	34	277	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	35	277		mov __D0imprimirDatos, __TextOutArgs.Result
+5	34	279	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	35	279		release __TextOutMutex
+5	34	280	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	34	280	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	35	280		set __signed_stack_001imprimirDatos, 0
+5	34	283	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	34	283	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	35	283		set __signed_stack_002imprimirDatos, 24
+5	34	286	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	34	286	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	35	286		strcat __strbufimprimirDatos, __constStr0014
+5	35	290	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	36	290		acquire __TextOutMutex
+5	35	291	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	36	291		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	35	294	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	36	294		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	35	297	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	36	297		set __TextOutArgs.Options, 0
+5	35	300	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	36	300		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	35	302	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	36	302		syscall 13, __TextOutArgs
+5	35	305	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	36	305		mov __D0imprimirDatos, __TextOutArgs.Result
+5	35	307	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	36	307		release __TextOutMutex
+5	35	308	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	35	308	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	36	308		set __signed_stack_001imprimirDatos, 0
+5	35	311	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	35	311	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	36	311		set __signed_stack_002imprimirDatos, 16
+5	35	314	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	35	314	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	36	314		strcat __strbufimprimirDatos, __constStr0015
+5	37	318	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	38	318		acquire __TextOutMutex
+5	37	319	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	38	319		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	37	322	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	38	322		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	37	325	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	38	325		set __TextOutArgs.Options, 0
+5	37	328	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	38	328		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	37	330	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	38	330		syscall 13, __TextOutArgs
+5	37	333	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	38	333		mov __D0imprimirDatos, __TextOutArgs.Result
+5	37	335	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	38	335		release __TextOutMutex
+5	37	336	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	37	336	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	38	336		set __signed_stack_001imprimirDatos, 42
+5	37	339	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	37	339	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	38	339		set __signed_stack_002imprimirDatos, 56
+5	37	342	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	37	342	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	38	342		mov __D0imprimirDatos, color1
+5	38	344	#line 38 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	39	344		acquire __TextOutMutex
+5	38	345	#line 38 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	39	345		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	38	348	#line 38 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	39	348		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	38	351	#line 38 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	39	351		set __TextOutArgs.Options, 0
+5	38	354	#line 38 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	39	354		numtostr __TextOutArgs.Text, __D0imprimirDatos
+5	38	357	#line 38 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	39	357		syscall 13, __TextOutArgs
+5	38	360	#line 38 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	39	360		mov __D0imprimirDatos, __TextOutArgs.Result
+5	38	362	#line 38 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	39	362		release __TextOutMutex
+5	38	363	#line 38 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	38	363	#line 38 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	39	363		set __signed_stack_001imprimirDatos, 42
+5	38	366	#line 38 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	38	366	#line 38 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	39	366		set __signed_stack_002imprimirDatos, 48
+5	38	369	#line 38 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	38	369	#line 38 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	39	369		mov __D0imprimirDatos, color2
+5	39	371	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	40	371		acquire __TextOutMutex
+5	39	372	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	40	372		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	39	375	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	40	375		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	39	378	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	40	378		set __TextOutArgs.Options, 0
+5	39	381	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	40	381		numtostr __TextOutArgs.Text, __D0imprimirDatos
+5	39	384	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	40	384		syscall 13, __TextOutArgs
+5	39	387	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	40	387		mov __D0imprimirDatos, __TextOutArgs.Result
+5	39	389	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	40	389		release __TextOutMutex
+5	39	390	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	39	390	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	40	390		set __signed_stack_001imprimirDatos, 42
+5	39	393	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	39	393	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	40	393		set __signed_stack_002imprimirDatos, 40
+5	39	396	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	39	396	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	40	396		mov __D0imprimirDatos, luz
+5	40	398	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	41	398		acquire __TextOutMutex
+5	40	399	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	41	399		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	40	402	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	41	402		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	40	405	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	41	405		set __TextOutArgs.Options, 0
+5	40	408	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	41	408		numtostr __TextOutArgs.Text, __D0imprimirDatos
+5	40	411	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	41	411		syscall 13, __TextOutArgs
+5	40	414	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	41	414		mov __D0imprimirDatos, __TextOutArgs.Result
+5	40	416	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	41	416		release __TextOutMutex
+5	40	417	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	40	417	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	41	417		set __signed_stack_001imprimirDatos, 42
+5	40	420	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	40	420	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	41	420		set __signed_stack_002imprimirDatos, 32
+5	40	423	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	40	423	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	41	423		mov __D0imprimirDatos, luz2
+5	41	425	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	42	425		acquire __TextOutMutex
+5	41	426	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	42	426		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	41	429	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	42	429		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	41	432	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	42	432		set __TextOutArgs.Options, 0
+5	41	435	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	42	435		numtostr __TextOutArgs.Text, __D0imprimirDatos
+5	41	438	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	42	438		syscall 13, __TextOutArgs
+5	41	441	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	42	441		mov __D0imprimirDatos, __TextOutArgs.Result
+5	41	443	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	42	443		release __TextOutMutex
+5	41	444	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	41	444	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	42	444		set __signed_stack_001imprimirDatos, 49
+5	41	447	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	41	447	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	42	447		set __signed_stack_002imprimirDatos, 24
+5	41	450	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	41	450	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	42	450		mov __D0imprimirDatos, ultra1
+5	42	452	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	43	452		acquire __TextOutMutex
+5	42	453	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	43	453		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	42	456	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	43	456		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	42	459	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	43	459		set __TextOutArgs.Options, 0
+5	42	462	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	43	462		numtostr __TextOutArgs.Text, __D0imprimirDatos
+5	42	465	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	43	465		syscall 13, __TextOutArgs
+5	42	468	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	43	468		mov __D0imprimirDatos, __TextOutArgs.Result
+5	42	470	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	43	470		release __TextOutMutex
+5	42	471	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	42	471	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	43	471		set __signed_stack_001imprimirDatos, 49
+5	42	474	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	42	474	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	43	474		set __signed_stack_002imprimirDatos, 16
+5	42	477	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	42	477	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	43	477		mov __D0imprimirDatos, ultra2
+5	44	479	#line 44 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	45	479		acquire __TextOutMutex
+5	44	480	#line 44 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	45	480		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	44	483	#line 44 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	45	483		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	44	486	#line 44 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	45	486		set __TextOutArgs.Options, 0
+5	44	489	#line 44 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	45	489		numtostr __TextOutArgs.Text, __D0imprimirDatos
+5	44	492	#line 44 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	45	492		syscall 13, __TextOutArgs
+5	44	495	#line 44 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	45	495		mov __D0imprimirDatos, __TextOutArgs.Result
+5	44	497	#line 44 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	45	497		release __TextOutMutex
+5	44	498	#line 44 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	46	498	#line 46 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+5	47	498		subret __imprimirDatos_return
+6	48	0	#line 48 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+6	49	0	#pragma macro 5
+6	49	0		mov __CBTCSArgs.Connection, __no_conexion_7qG2_num_7qG2_000
+6	49	2		syscall 28, __CBTCSArgs
+6	49	5		mov __D0no_conexion, __CBTCSArgs.Result
+6	4991	7	#line 4991 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+6	48	7	#line 48 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+6	49	7		not __signed_stack_001no_conexion, __D0no_conexion
+6	48	10	#line 48 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+6	48	10	#line 48 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+6	49	10		set __D0no_conexion, 0
+6	48	13	#line 48 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+6	49	13		cmp 4, __D0no_conexion, __signed_stack_001no_conexion, __D0no_conexion
+6	49	17	#line 49 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+6	50	17		brtst 4, __ASM_Label_575, __D0no_conexion
+6	49	20	#line 49 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+6	50	20		set __signed_stack_001no_conexion, 5
+6	49	23	#line 49 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+6	49	23	#line 49 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+6	50	23		set __signed_stack_002no_conexion, 48
+6	49	26	#line 49 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+6	49	26	#line 49 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+6	50	26		strcat __strbufno_conexion, __constStr0016
+6	50	30	#line 50 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+6	51	30		acquire __TextOutMutex
+6	50	31	#line 50 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+6	51	31		mov __TextOutArgs.Location.X, __signed_stack_001no_conexion
+6	50	34	#line 50 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+6	51	34		mov __TextOutArgs.Location.Y, __signed_stack_002no_conexion
+6	50	37	#line 50 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+6	51	37		set __TextOutArgs.Options, 0
+6	50	40	#line 50 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+6	51	40		mov __TextOutArgs.Text, __strbufno_conexion
+6	50	42	#line 50 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+6	51	42		syscall 13, __TextOutArgs
+6	50	45	#line 50 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+6	51	45		mov __D0no_conexion, __TextOutArgs.Result
+6	50	47	#line 50 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+6	51	47		release __TextOutMutex
+6	50	48	#line 50 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+6	50	48	#line 50 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+6	51	48		set __Wait_7qG2_ms_7qG2_000_inline_no_conexion, 2000
+6	50	51	#line 50 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+6	8551	51	#line 8551 "NXCDefs.h"
+6	8552	51		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_no_conexion
+6	8551	54	#line 8551 "NXCDefs.h"
+6	51	54	#line 51 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+6	51	54	#line 51 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+6	52	54		set __D0no_conexion, 1
+6	52	57	#line 52 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+6	53	57		stop __D0no_conexion
+6	52	59	#line 52 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+6	58	59	#line 58 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+6	58	59	#line 58 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+6	59	59		subret __no_conexion_return
+7	59	0	#line 59 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+7	60	0		set __D0adelante, 35
+7	60	3	#line 60 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+7	61	3	#pragma macro 10
+7	61	3		acquire __OnRevMutex
+7	61	4		neg __OnRev_Tmp, __D0adelante
+7	61	7		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	61	30		release __OnRevMutex
+7	5064	31	#line 5064 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+7	60	31	#line 60 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+7	61	31	#line 61 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+7	62	31		subret __adelante_return
+8	62	0	#line 62 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+8	63	0		set __D0atras, 35
+8	63	3	#line 63 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+8	64	3	#pragma macro 7
+8	64	3		setout __OUT_AC, 2, __D0atras, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	5074	26	#line 5074 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+8	63	26	#line 63 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+8	64	26	#line 64 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+8	65	26		subret __atras_return
+9	65	0	#line 65 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+9	66	0		mov __D0izquierda, __izquierda_7qG2_n_7qG2_000
+9	66	2	#line 66 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+9	67	2	#pragma macro 10
+9	67	2		acquire __OnRevMutex
+9	67	3		neg __OnRev_Tmp, __D0izquierda
+9	67	6		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	67	29		release __OnRevMutex
+9	5090	30	#line 5090 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+9	66	30	#line 66 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+9	66	30	#line 66 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+9	67	30		mov __D0izquierda, __izquierda_7qG2_n_7qG2_000
+9	67	32	#line 67 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+9	68	32	#pragma macro 7
+9	68	32		setout __constVal0, 2, __D0izquierda, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	5097	55	#line 5097 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+9	67	55	#line 67 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+9	68	55	#line 68 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+9	69	55		subret __izquierda_return
+10	69	0	#line 69 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+10	70	0		mov __D0derecha, __derecha_7qG2_n_7qG2_000
+10	70	2	#line 70 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+10	71	2	#pragma macro 10
+10	71	2		acquire __OnRevMutex
+10	71	3		neg __OnRev_Tmp, __D0derecha
+10	71	6		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+10	71	29		release __OnRevMutex
+10	5113	30	#line 5113 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+10	70	30	#line 70 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+10	70	30	#line 70 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+10	71	30		mov __D0derecha, __derecha_7qG2_n_7qG2_000
+10	71	32	#line 71 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+10	72	32	#pragma macro 7
+10	72	32		setout __constVal2, 2, __D0derecha, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+10	5120	55	#line 5120 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+10	71	55	#line 71 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+10	72	55	#line 72 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+10	73	55		subret __derecha_return
+11	84	0	#line 84 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	85	0		set __D0programa, 1
+11	86	3	#line 86 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	87	3		tst 5, __D0programa, __D0programa
+11	86	6	#line 86 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	87	6		brtst 4, __ASM_Label_601, __D0programa
+11	86	9	#line 86 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	87	9		mov __signed_stack_001programa, color1
+11	86	11	#line 86 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	86	11	#line 86 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	87	11		set __D0programa, 3
+11	86	14	#line 86 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	87	14		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	86	18	#line 86 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	87	18		brtst 5, __ASM_Label_604, __D0programa
+11	86	21	#line 86 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	87	21		mov __signed_stack_001programa, color2
+11	86	23	#line 86 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	87	23	#line 87 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	88	23		set __D0programa, 3
+11	87	26	#line 87 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	88	26		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	89	30	#line 89 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	90	30		brtst 4, __ASM_Label_607, __D0programa
+11	89	33	#line 89 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	90	33		mov __signed_stack_001programa, color1
+11	89	35	#line 89 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	90	35	#line 90 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	91	35		set __D0programa, 3
+11	90	38	#line 90 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	91	38		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	92	42	#line 92 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	93	42		brtst 4, __ASM_Label_610, __D0programa
+11	93	45	#line 93 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	94	45	#pragma macro 7
+11	94	45		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+11	5214	68	#line 5214 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	93	68	#line 93 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	94	68	#line 94 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	95	68		subcall adelante, __adelante_return
+11	94	70	#line 94 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	94	70	#line 94 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	95	70		mov __signed_stack_001programa, color1
+11	94	72	#line 94 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	94	72	#line 94 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	95	72		set __D0programa, 1
+11	94	75	#line 94 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	95	75		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	94	79	#line 94 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	95	79		brtst 4, __ASM_Label_616, __D0programa
+11	94	82	#line 94 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	95	82		mov __signed_stack_001programa, color2
+11	94	84	#line 94 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	94	84	#line 94 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	95	84		set __D0programa, 1
+11	94	87	#line 94 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	95	87		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	94	91	#line 94 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	95	91		not __D0programa, __D0programa
+11	95	94	#line 95 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	96	94		tst 5, __D0programa, __D0programa
+11	95	97	#line 95 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	96	97		brtst 4, __ASM_Label_612, __D0programa
+11	95	100	#line 95 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	95	100	#line 95 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	96	100		jmp __ASM_Label_611
+11	95	102	#line 95 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	95	102	#line 95 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	96	102		set __signed_stack_001programa, 50
+11	95	105	#line 95 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	95	105	#line 95 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	96	105		set __signed_stack_002programa, 200
+11	95	108	#line 95 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	95	108	#line 95 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	96	108		mov __signed_stack_003programa, __constValNeg100
+11	95	110	#line 95 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	95	110	#line 95 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	96	110		set __signed_stack_004programa, 1
+11	95	113	#line 95 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	95	113	#line 95 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	96	113		set __D0programa, 1
+11	96	116	#line 96 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	97	116	#pragma macro 35
+11	97	116		acquire __rotateMutex0
+11	97	117		acquire __rotateMutex2
+11	97	118		mov __rotate_ports4, __OUT_AC
+11	97	120		mov __rotate_power4, __signed_stack_001programa
+11	97	122		mov __rotate_angle4, __signed_stack_002programa
+11	97	124		mov __rotate_turnpct4, __signed_stack_003programa
+11	97	126		mov __rotate_sync4, __signed_stack_004programa
+11	97	128		mov __rotate_stop4, __D0programa
+11	97	130		mov __rotate_theRVP4, __constVal32
+11	97	132		mov __rotate_theRVI4, __constVal0
+11	97	134		mov __rotate_theRVD4, __constVal96
+11	97	136		subcall __RotateMotor4, ____RotateMotor4_return
+11	97	138		release __rotateMutex2
+11	97	139		release __rotateMutex0
+11	5280	140	#line 5280 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	96	140	#line 96 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	96	140	#line 96 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	97	140		set __izquierda_7qG2_n_7qG2_000, 50
+11	96	143	#line 96 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	97	143	#line 97 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	98	143		subcall izquierda, __izquierda_return
+11	97	145	#line 97 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	97	145	#line 97 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	98	145		mov __signed_stack_001programa, color2
+11	97	147	#line 97 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	97	147	#line 97 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	98	147		set __D0programa, 1
+11	97	150	#line 97 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	98	150		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	97	154	#line 97 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	98	154		not __D0programa, __D0programa
+11	98	157	#line 98 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	99	157		tst 5, __D0programa, __D0programa
+11	98	160	#line 98 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	99	160		brtst 4, __ASM_Label_630, __D0programa
+11	98	163	#line 98 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	98	163	#line 98 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	99	163		jmp __ASM_Label_629
+11	98	165	#line 98 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	99	165	#line 99 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	100	165	#pragma macro 7
+11	100	165		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+11	5320	188	#line 5320 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	99	188	#line 99 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	99	188	#line 99 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	100	188		set __Wait_7qG2_ms_7qG2_000_inline_programa, 4000
+11	99	191	#line 99 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	8551	191	#line 8551 "NXCDefs.h"
+11	8552	191		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_programa
+11	8551	194	#line 8551 "NXCDefs.h"
+11	101	194	#line 101 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	103	194	#line 103 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	103	194	#line 103 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	104	194		mov __signed_stack_001programa, color2
+11	103	196	#line 103 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	104	196	#line 104 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	105	196		set __D0programa, 3
+11	104	199	#line 104 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	105	199		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	106	203	#line 106 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	107	203		brtst 4, __ASM_Label_639, __D0programa
+11	107	206	#line 107 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	108	206	#pragma macro 7
+11	108	206		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+11	5351	229	#line 5351 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	107	229	#line 107 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	108	229	#line 108 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	109	229		subcall adelante, __adelante_return
+11	108	231	#line 108 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	108	231	#line 108 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	109	231		mov __signed_stack_001programa, color1
+11	108	233	#line 108 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	108	233	#line 108 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	109	233		set __D0programa, 1
+11	108	236	#line 108 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	109	236		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	108	240	#line 108 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	109	240		brtst 4, __ASM_Label_645, __D0programa
+11	108	243	#line 108 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	109	243		mov __signed_stack_001programa, color2
+11	108	245	#line 108 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	108	245	#line 108 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	109	245		set __D0programa, 1
+11	108	248	#line 108 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	109	248		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	108	252	#line 108 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	109	252		not __D0programa, __D0programa
+11	109	255	#line 109 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	110	255		tst 5, __D0programa, __D0programa
+11	109	258	#line 109 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	110	258		brtst 4, __ASM_Label_641, __D0programa
+11	109	261	#line 109 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	109	261	#line 109 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	110	261		jmp __ASM_Label_640
+11	109	263	#line 109 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	109	263	#line 109 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	110	263		set __signed_stack_001programa, 50
+11	109	266	#line 109 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	109	266	#line 109 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	110	266		set __signed_stack_002programa, 200
+11	109	269	#line 109 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	109	269	#line 109 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	110	269		set __signed_stack_003programa, 100
+11	109	272	#line 109 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	109	272	#line 109 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	110	272		set __signed_stack_004programa, 1
+11	109	275	#line 109 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	109	275	#line 109 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	110	275		set __D0programa, 1
+11	110	278	#line 110 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	111	278	#pragma macro 35
+11	111	278		acquire __rotateMutex0
+11	111	279		acquire __rotateMutex2
+11	111	280		mov __rotate_ports4, __OUT_AC
+11	111	282		mov __rotate_power4, __signed_stack_001programa
+11	111	284		mov __rotate_angle4, __signed_stack_002programa
+11	111	286		mov __rotate_turnpct4, __signed_stack_003programa
+11	111	288		mov __rotate_sync4, __signed_stack_004programa
+11	111	290		mov __rotate_stop4, __D0programa
+11	111	292		mov __rotate_theRVP4, __constVal32
+11	111	294		mov __rotate_theRVI4, __constVal0
+11	111	296		mov __rotate_theRVD4, __constVal96
+11	111	298		subcall __RotateMotor4, ____RotateMotor4_return
+11	111	300		release __rotateMutex2
+11	111	301		release __rotateMutex0
+11	5417	302	#line 5417 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	110	302	#line 110 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	110	302	#line 110 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	111	302		set __derecha_7qG2_n_7qG2_000, 50
+11	110	305	#line 110 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	111	305	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	112	305		subcall derecha, __derecha_return
+11	111	307	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	111	307	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	112	307		mov __signed_stack_001programa, color1
+11	111	309	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	111	309	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	112	309		set __D0programa, 1
+11	111	312	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	112	312		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	111	316	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	112	316		not __D0programa, __D0programa
+11	112	319	#line 112 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	113	319		tst 5, __D0programa, __D0programa
+11	112	322	#line 112 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	113	322		brtst 4, __ASM_Label_659, __D0programa
+11	112	325	#line 112 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	112	325	#line 112 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	113	325		jmp __ASM_Label_658
+11	112	327	#line 112 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	113	327	#line 113 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	114	327	#pragma macro 7
+11	114	327		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+11	5457	350	#line 5457 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	113	350	#line 113 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	113	350	#line 113 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	114	350		set __Wait_7qG2_ms_7qG2_000_inline_programa, 4000
+11	113	353	#line 113 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	8551	353	#line 8551 "NXCDefs.h"
+11	8552	353		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_programa
+11	8551	356	#line 8551 "NXCDefs.h"
+11	115	356	#line 115 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	117	356	#line 117 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	117	356	#line 117 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	118	356		mov __signed_stack_001programa, color1
+11	117	358	#line 117 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	117	358	#line 117 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	118	358		set __D0programa, 3
+11	117	361	#line 117 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	118	361		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	117	365	#line 117 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	118	365		brtst 4, __ASM_Label_667, __D0programa
+11	117	368	#line 117 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	118	368		mov __signed_stack_001programa, color2
+11	117	370	#line 117 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	118	370	#line 118 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	119	370		set __D0programa, 3
+11	118	373	#line 118 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	119	373		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	120	377	#line 120 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	121	377		brtst 4, __ASM_Label_668, __D0programa
+11	120	380	#line 120 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	121	380		set __signed_stack_001programa, 50
+11	120	383	#line 120 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	120	383	#line 120 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	121	383		set __signed_stack_002programa, 800
+11	120	386	#line 120 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	120	386	#line 120 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	121	386		mov __signed_stack_003programa, __constValNeg100
+11	120	388	#line 120 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	120	388	#line 120 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	121	388		set __signed_stack_004programa, 1
+11	120	391	#line 120 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	120	391	#line 120 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	121	391		set __D0programa, 1
+11	121	394	#line 121 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	122	394	#pragma macro 35
+11	122	394		acquire __rotateMutex0
+11	122	395		acquire __rotateMutex2
+11	122	396		mov __rotate_ports4, __OUT_AC
+11	122	398		mov __rotate_power4, __signed_stack_001programa
+11	122	400		mov __rotate_angle4, __signed_stack_002programa
+11	122	402		mov __rotate_turnpct4, __signed_stack_003programa
+11	122	404		mov __rotate_sync4, __signed_stack_004programa
+11	122	406		mov __rotate_stop4, __D0programa
+11	122	408		mov __rotate_theRVP4, __constVal32
+11	122	410		mov __rotate_theRVI4, __constVal0
+11	122	412		mov __rotate_theRVD4, __constVal96
+11	122	414		subcall __RotateMotor4, ____RotateMotor4_return
+11	122	416		release __rotateMutex2
+11	122	417		release __rotateMutex0
+11	5518	418	#line 5518 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	121	418	#line 121 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	121	418	#line 121 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	122	418		set __izquierda_7qG2_n_7qG2_000, 50
+11	121	421	#line 121 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	122	421	#line 122 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	123	421		subcall izquierda, __izquierda_return
+11	122	423	#line 122 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	122	423	#line 122 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	123	423		mov __signed_stack_001programa, color2
+11	122	425	#line 122 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	122	425	#line 122 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	123	425		set __D0programa, 1
+11	122	428	#line 122 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	123	428		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	122	432	#line 122 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	123	432		not __D0programa, __D0programa
+11	124	435	#line 124 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	125	435		tst 5, __D0programa, __D0programa
+11	124	438	#line 124 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	125	438		brtst 4, __ASM_Label_682, __D0programa
+11	124	441	#line 124 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	124	441	#line 124 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	125	441		jmp __ASM_Label_681
+11	124	443	#line 124 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	130	443	#line 130 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	130	443	#line 130 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	130	443	#line 130 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	131	443		mov __signed_stack_001programa, luz
+11	130	445	#line 130 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	130	445	#line 130 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	131	445		set __D0programa, 45
+11	130	448	#line 130 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	131	448		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+11	130	452	#line 130 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	131	452		brtst 4, __ASM_Label_688, __D0programa
+11	130	455	#line 130 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	131	455		mov __signed_stack_001programa, color1
+11	130	457	#line 130 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	130	457	#line 130 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	131	457		set __D0programa, 1
+11	130	460	#line 130 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	131	460		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	130	464	#line 130 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	131	464		brtst 4, __ASM_Label_688, __D0programa
+11	130	467	#line 130 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	131	467		mov __signed_stack_001programa, color2
+11	130	469	#line 130 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	130	469	#line 130 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	131	469		set __D0programa, 1
+11	130	472	#line 130 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	131	472		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	130	476	#line 130 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	131	476		brtst 4, __ASM_Label_688, __D0programa
+11	130	479	#line 130 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	131	479		mov __signed_stack_001programa, luz2
+11	130	481	#line 130 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	130	481	#line 130 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	131	481		set __D0programa, 45
+11	130	484	#line 130 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	131	484		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+11	131	488	#line 131 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	132	488		brtst 4, __ASM_Label_689, __D0programa
+11	132	491	#line 132 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	133	491		subcall atras, __atras_return
+11	132	493	#line 132 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	132	493	#line 132 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	133	493		set __Wait_7qG2_ms_7qG2_000_inline_programa, 200
+11	132	496	#line 132 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	8551	496	#line 8551 "NXCDefs.h"
+11	8552	496		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_programa
+11	8551	499	#line 8551 "NXCDefs.h"
+11	134	499	#line 134 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	136	499	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	136	499	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	137	499		mov __signed_stack_001programa, luz
+11	136	501	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	136	501	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	137	501		set __D0programa, 45
+11	136	504	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	137	504		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+11	136	508	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	137	508		brtst 4, __ASM_Label_693, __D0programa
+11	136	511	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	137	511		mov __signed_stack_001programa, color1
+11	136	513	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	136	513	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	137	513		set __D0programa, 6
+11	136	516	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	137	516		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	136	520	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	137	520		brtst 4, __ASM_Label_693, __D0programa
+11	136	523	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	137	523		mov __signed_stack_001programa, color2
+11	136	525	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	136	525	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	137	525		set __D0programa, 6
+11	136	528	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	137	528		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	136	532	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	137	532		brtst 4, __ASM_Label_693, __D0programa
+11	136	535	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	137	535		mov __signed_stack_001programa, luz2
+11	136	537	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	136	537	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	137	537		set __D0programa, 45
+11	136	540	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	137	540		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+11	137	544	#line 137 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	138	544		brtst 4, __ASM_Label_694, __D0programa
+11	139	547	#line 139 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	140	547		subcall adelante, __adelante_return
+11	139	549	#line 139 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	141	549	#line 141 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	141	549	#line 141 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	142	549		mov __signed_stack_001programa, luz
+11	141	551	#line 141 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	141	551	#line 141 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	142	551		set __D0programa, 45
+11	141	554	#line 141 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	142	554		cmp 0, __D0programa, __signed_stack_001programa, __D0programa
+11	141	558	#line 141 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	142	558		brtst 4, __ASM_Label_696, __D0programa
+11	141	561	#line 141 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	142	561		mov __signed_stack_001programa, color1
+11	141	563	#line 141 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	141	563	#line 141 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	142	563		set __D0programa, 1
+11	141	566	#line 141 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	142	566		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	141	570	#line 141 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	142	570		brtst 4, __ASM_Label_696, __D0programa
+11	141	573	#line 141 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	142	573		mov __signed_stack_001programa, color2
+11	141	575	#line 141 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	141	575	#line 141 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	142	575		set __D0programa, 1
+11	141	578	#line 141 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	142	578		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	141	582	#line 141 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	142	582		brtst 4, __ASM_Label_696, __D0programa
+11	141	585	#line 141 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	142	585		mov __signed_stack_001programa, luz2
+11	141	587	#line 141 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	141	587	#line 141 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	142	587		set __D0programa, 45
+11	141	590	#line 141 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	142	590		cmp 0, __D0programa, __signed_stack_001programa, __D0programa
+11	142	594	#line 142 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	143	594		brtst 4, __ASM_Label_697, __D0programa
+11	143	597	#line 143 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	144	597		subcall adelante, __adelante_return
+11	143	599	#line 143 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	143	599	#line 143 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	144	599		set __Wait_7qG2_ms_7qG2_000_inline_programa, 600
+11	143	602	#line 143 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	8551	602	#line 8551 "NXCDefs.h"
+11	8552	602		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_programa
+11	8551	605	#line 8551 "NXCDefs.h"
+11	144	605	#line 144 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	146	605	#line 146 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	146	605	#line 146 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	147	605		mov __signed_stack_001programa, luz
+11	146	607	#line 146 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	146	607	#line 146 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	147	607		set __D0programa, 45
+11	146	610	#line 146 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	147	610		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+11	146	614	#line 146 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	147	614		brtst 4, __ASM_Label_701, __D0programa
+11	146	617	#line 146 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	147	617		mov __signed_stack_001programa, color1
+11	146	619	#line 146 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	146	619	#line 146 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	147	619		set __D0programa, 1
+11	146	622	#line 146 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	147	622		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	146	626	#line 146 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	147	626		brtst 4, __ASM_Label_701, __D0programa
+11	146	629	#line 146 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	147	629		mov __signed_stack_001programa, color2
+11	146	631	#line 146 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	146	631	#line 146 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	147	631		set __D0programa, 1
+11	146	634	#line 146 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	147	634		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	146	638	#line 146 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	147	638		brtst 4, __ASM_Label_701, __D0programa
+11	146	641	#line 146 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	147	641		mov __signed_stack_001programa, luz2
+11	146	643	#line 146 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	146	643	#line 146 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	147	643		set __D0programa, 45
+11	146	646	#line 146 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	147	646		cmp 0, __D0programa, __signed_stack_001programa, __D0programa
+11	147	650	#line 147 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	148	650		brtst 4, __ASM_Label_702, __D0programa
+11	147	653	#line 147 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	148	653		set __derecha_7qG2_n_7qG2_000, 100
+11	147	656	#line 147 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	148	656	#line 148 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	149	656		subcall derecha, __derecha_return
+11	148	658	#line 148 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	150	658	#line 150 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	150	658	#line 150 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	151	658		mov __signed_stack_001programa, luz
+11	150	660	#line 150 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	150	660	#line 150 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	151	660		set __D0programa, 45
+11	150	663	#line 150 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	151	663		cmp 0, __D0programa, __signed_stack_001programa, __D0programa
+11	150	667	#line 150 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	151	667		brtst 4, __ASM_Label_706, __D0programa
+11	150	670	#line 150 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	151	670		mov __signed_stack_001programa, color1
+11	150	672	#line 150 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	150	672	#line 150 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	151	672		set __D0programa, 1
+11	150	675	#line 150 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	151	675		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	150	679	#line 150 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	151	679		brtst 4, __ASM_Label_706, __D0programa
+11	150	682	#line 150 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	151	682		mov __signed_stack_001programa, color2
+11	150	684	#line 150 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	150	684	#line 150 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	151	684		set __D0programa, 1
+11	150	687	#line 150 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	151	687		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	150	691	#line 150 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	151	691		brtst 4, __ASM_Label_706, __D0programa
+11	150	694	#line 150 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	151	694		mov __signed_stack_001programa, luz2
+11	150	696	#line 150 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	150	696	#line 150 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	151	696		set __D0programa, 45
+11	150	699	#line 150 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	151	699		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+11	151	703	#line 151 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	152	703		brtst 4, __ASM_Label_707, __D0programa
+11	151	706	#line 151 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	152	706		set __izquierda_7qG2_n_7qG2_000, 100
+11	151	709	#line 151 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	153	709	#line 153 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	154	709		subcall izquierda, __izquierda_return
+11	153	711	#line 153 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	155	711	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	155	711	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	156	711		mov __signed_stack_001programa, luz
+11	155	713	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	155	713	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	156	713		set __D0programa, 45
+11	155	716	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	156	716		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+11	155	720	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	156	720		brtst 4, __ASM_Label_711, __D0programa
+11	155	723	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	156	723		mov __signed_stack_001programa, color1
+11	155	725	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	155	725	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	156	725		set __D0programa, 6
+11	155	728	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	156	728		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	155	732	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	156	732		brtst 4, __ASM_Label_711, __D0programa
+11	155	735	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	156	735		mov __signed_stack_001programa, color2
+11	155	737	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	155	737	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	156	737		set __D0programa, 1
+11	155	740	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	156	740		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	155	744	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	156	744		brtst 4, __ASM_Label_711, __D0programa
+11	155	747	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	156	747		mov __signed_stack_001programa, luz2
+11	155	749	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	155	749	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	156	749		set __D0programa, 45
+11	155	752	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	156	752		cmp 0, __D0programa, __signed_stack_001programa, __D0programa
+11	156	756	#line 156 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	157	756		brtst 4, __ASM_Label_712, __D0programa
+11	156	759	#line 156 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	157	759		set __derecha_7qG2_n_7qG2_000, 85
+11	156	762	#line 156 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	157	762	#line 157 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	158	762		subcall derecha, __derecha_return
+11	157	764	#line 157 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	157	764	#line 157 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	158	764		mov __signed_stack_001programa, color1
+11	157	766	#line 157 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	157	766	#line 157 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	158	766		set __D0programa, 1
+11	157	769	#line 157 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	158	769		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	157	773	#line 157 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	158	773		not __D0programa, __D0programa
+11	159	776	#line 159 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	160	776		tst 5, __D0programa, __D0programa
+11	159	779	#line 159 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	160	779		brtst 4, __ASM_Label_716, __D0programa
+11	159	782	#line 159 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	159	782	#line 159 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	160	782		jmp __ASM_Label_715
+11	159	784	#line 159 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	161	784	#line 161 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	161	784	#line 161 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	162	784		mov __signed_stack_001programa, luz
+11	161	786	#line 161 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	161	786	#line 161 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	162	786		set __D0programa, 45
+11	161	789	#line 161 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	162	789		cmp 0, __D0programa, __signed_stack_001programa, __D0programa
+11	161	793	#line 161 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	162	793		brtst 4, __ASM_Label_722, __D0programa
+11	161	796	#line 161 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	162	796		mov __signed_stack_001programa, color1
+11	161	798	#line 161 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	161	798	#line 161 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	162	798		set __D0programa, 1
+11	161	801	#line 161 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	162	801		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	161	805	#line 161 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	162	805		brtst 4, __ASM_Label_722, __D0programa
+11	161	808	#line 161 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	162	808		mov __signed_stack_001programa, color2
+11	161	810	#line 161 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	161	810	#line 161 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	162	810		set __D0programa, 6
+11	161	813	#line 161 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	162	813		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	161	817	#line 161 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	162	817		brtst 4, __ASM_Label_722, __D0programa
+11	161	820	#line 161 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	162	820		mov __signed_stack_001programa, luz2
+11	161	822	#line 161 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	161	822	#line 161 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	162	822		set __D0programa, 45
+11	161	825	#line 161 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	162	825		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+11	162	829	#line 162 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	163	829		brtst 4, __ASM_Label_723, __D0programa
+11	162	832	#line 162 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	163	832		set __izquierda_7qG2_n_7qG2_000, 85
+11	162	835	#line 162 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	163	835	#line 163 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	164	835		subcall izquierda, __izquierda_return
+11	163	837	#line 163 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	163	837	#line 163 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	164	837		mov __signed_stack_001programa, color2
+11	163	839	#line 163 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	163	839	#line 163 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	164	839		set __D0programa, 1
+11	163	842	#line 163 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	164	842		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	163	846	#line 163 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	164	846		not __D0programa, __D0programa
+11	165	849	#line 165 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	166	849		tst 5, __D0programa, __D0programa
+11	165	852	#line 165 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	166	852		brtst 4, __ASM_Label_727, __D0programa
+11	165	855	#line 165 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	165	855	#line 165 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	166	855		jmp __ASM_Label_726
+11	165	857	#line 165 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	167	857	#line 167 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	167	857	#line 167 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	168	857		mov __signed_stack_001programa, luz
+11	167	859	#line 167 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	167	859	#line 167 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	168	859		set __D0programa, 45
+11	167	862	#line 167 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	168	862		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+11	167	866	#line 167 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	168	866		brtst 4, __ASM_Label_733, __D0programa
+11	167	869	#line 167 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	168	869		mov __signed_stack_001programa, color1
+11	167	871	#line 167 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	167	871	#line 167 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	168	871		set __D0programa, 1
+11	167	874	#line 167 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	168	874		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	167	878	#line 167 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	168	878		brtst 4, __ASM_Label_733, __D0programa
+11	167	881	#line 167 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	168	881		mov __signed_stack_001programa, color2
+11	167	883	#line 167 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	167	883	#line 167 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	168	883		set __D0programa, 6
+11	167	886	#line 167 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	168	886		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	167	890	#line 167 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	168	890		brtst 4, __ASM_Label_733, __D0programa
+11	167	893	#line 167 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	168	893		mov __signed_stack_001programa, luz2
+11	167	895	#line 167 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	167	895	#line 167 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	168	895		set __D0programa, 45
+11	167	898	#line 167 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	168	898		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+11	168	902	#line 168 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	169	902		brtst 4, __ASM_Label_734, __D0programa
+11	168	905	#line 168 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	169	905		set __izquierda_7qG2_n_7qG2_000, 70
+11	168	908	#line 168 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	170	908	#line 170 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	171	908		subcall izquierda, __izquierda_return
+11	170	910	#line 170 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	172	910	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	172	910	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	173	910		mov __signed_stack_001programa, luz
+11	172	912	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	172	912	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	173	912		set __D0programa, 45
+11	172	915	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	173	915		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+11	172	919	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	173	919		brtst 4, __ASM_Label_738, __D0programa
+11	172	922	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	173	922		mov __signed_stack_001programa, color1
+11	172	924	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	172	924	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	173	924		set __D0programa, 6
+11	172	927	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	173	927		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	172	931	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	173	931		brtst 4, __ASM_Label_738, __D0programa
+11	172	934	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	173	934		mov __signed_stack_001programa, color2
+11	172	936	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	172	936	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	173	936		set __D0programa, 1
+11	172	939	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	173	939		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	172	943	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	173	943		brtst 4, __ASM_Label_738, __D0programa
+11	172	946	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	173	946		mov __signed_stack_001programa, luz2
+11	172	948	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	172	948	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	173	948		set __D0programa, 45
+11	172	951	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	173	951		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+11	173	955	#line 173 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	174	955		brtst 4, __ASM_Label_739, __D0programa
+11	173	958	#line 173 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	174	958		set __derecha_7qG2_n_7qG2_000, 70
+11	173	961	#line 173 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	175	961	#line 175 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	176	961		subcall derecha, __derecha_return
+11	175	963	#line 175 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	177	963	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	177	963	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	178	963		mov __signed_stack_001programa, luz
+11	177	965	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	177	965	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	178	965		set __D0programa, 40
+11	177	968	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	178	968		cmp 0, __D0programa, __signed_stack_001programa, __D0programa
+11	177	972	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	178	972		brtst 4, __ASM_Label_743, __D0programa
+11	177	975	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	178	975		mov __signed_stack_001programa, color1
+11	177	977	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	177	977	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	178	977		set __D0programa, 6
+11	177	980	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	178	980		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	177	984	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	178	984		brtst 4, __ASM_Label_743, __D0programa
+11	177	987	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	178	987		mov __signed_stack_001programa, color2
+11	177	989	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	177	989	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	178	989		set __D0programa, 6
+11	177	992	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	178	992		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	177	996	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	178	996		brtst 4, __ASM_Label_743, __D0programa
+11	177	999	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	178	999		mov __signed_stack_001programa, luz2
+11	177	1001	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	177	1001	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	178	1001		set __D0programa, 40
+11	177	1004	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	178	1004		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+11	178	1008	#line 178 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	179	1008		brtst 4, __ASM_Label_744, __D0programa
+11	178	1011	#line 178 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	179	1011		set __izquierda_7qG2_n_7qG2_000, 50
+11	178	1014	#line 178 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	179	1014	#line 179 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	180	1014		subcall izquierda, __izquierda_return
+11	179	1016	#line 179 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	179	1016	#line 179 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	180	1016		mov __signed_stack_001programa, color2
+11	179	1018	#line 179 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	179	1018	#line 179 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	180	1018		set __D0programa, 1
+11	179	1021	#line 179 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	180	1021		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	179	1025	#line 179 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	180	1025		not __D0programa, __D0programa
+11	180	1028	#line 180 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	181	1028		tst 5, __D0programa, __D0programa
+11	180	1031	#line 180 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	181	1031		brtst 4, __ASM_Label_748, __D0programa
+11	180	1034	#line 180 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	180	1034	#line 180 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	181	1034		jmp __ASM_Label_747
+11	180	1036	#line 180 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	182	1036	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	182	1036	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	183	1036		mov __signed_stack_001programa, luz
+11	182	1038	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	182	1038	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	183	1038		set __D0programa, 40
+11	182	1041	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	183	1041		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+11	182	1045	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	183	1045		brtst 4, __ASM_Label_754, __D0programa
+11	182	1048	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	183	1048		mov __signed_stack_001programa, color1
+11	182	1050	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	182	1050	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	183	1050		set __D0programa, 6
+11	182	1053	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	183	1053		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	182	1057	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	183	1057		brtst 4, __ASM_Label_754, __D0programa
+11	182	1060	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	183	1060		mov __signed_stack_001programa, color2
+11	182	1062	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	182	1062	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	183	1062		set __D0programa, 6
+11	182	1065	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	183	1065		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	182	1069	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	183	1069		brtst 4, __ASM_Label_754, __D0programa
+11	182	1072	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	183	1072		mov __signed_stack_001programa, luz2
+11	182	1074	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	182	1074	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	183	1074		set __D0programa, 40
+11	182	1077	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	183	1077		cmp 0, __D0programa, __signed_stack_001programa, __D0programa
+11	183	1081	#line 183 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	184	1081		brtst 4, __ASM_Label_755, __D0programa
+11	183	1084	#line 183 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	184	1084		set __derecha_7qG2_n_7qG2_000, 50
+11	183	1087	#line 183 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	184	1087	#line 184 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	185	1087		subcall derecha, __derecha_return
+11	184	1089	#line 184 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	184	1089	#line 184 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	185	1089		mov __signed_stack_001programa, color1
+11	184	1091	#line 184 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	184	1091	#line 184 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	185	1091		set __D0programa, 1
+11	184	1094	#line 184 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	185	1094		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	184	1098	#line 184 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	185	1098		not __D0programa, __D0programa
+11	185	1101	#line 185 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	186	1101		tst 5, __D0programa, __D0programa
+11	185	1104	#line 185 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	186	1104		brtst 4, __ASM_Label_759, __D0programa
+11	185	1107	#line 185 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	185	1107	#line 185 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	186	1107		jmp __ASM_Label_758
+11	185	1109	#line 185 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	187	1109	#line 187 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	189	1109	#line 189 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	190	1109		jmp __ASM_Label_600
+11	189	1111	#line 189 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+11	190	1111		exit -1, -1
+12	191	0	#line 191 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	192	0		set __D0leer, 1
+12	192	3	#line 192 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	193	3		tst 5, __D0leer, __D0leer
+12	192	6	#line 192 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	193	6		brtst 4, __ASM_Label_765, __D0leer
+12	192	9	#line 192 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	193	9	#pragma macro 26
+12	193	9		acquire __RLSBmutex0
+12	193	10		mov __RLSReadBuf0, __RLSBbufLSWrite1
+12	193	12		set __RLSBytesCount0, 1
+12	193	15		wait2 NA, __constVal15
+12	193	18		subcall __ReadLSBytes0, ____ReadLSBytes0_return
+12	193	20		index __D0leer, __RLSReadBuf0, 65535
+12	193	24		release __RLSBmutex0
+12	6349	25	#line 6349 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	192	25	#line 192 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	193	25		mov ultra1, __D0leer
+12	192	27	#line 192 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	192	27	#line 192 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	193	27	#line 193 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	194	27	#pragma macro 26
+12	194	27		acquire __RLSBmutex1
+12	194	28		mov __RLSReadBuf1, __RLSBbufLSWrite1
+12	194	30		set __RLSBytesCount1, 1
+12	194	33		wait2 NA, __constVal15
+12	194	36		subcall __ReadLSBytes1, ____ReadLSBytes1_return
+12	194	38		index __D0leer, __RLSReadBuf1, 65535
+12	194	42		release __RLSBmutex1
+12	6357	43	#line 6357 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	193	43	#line 193 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	194	43		mov ultra2, __D0leer
+12	193	45	#line 193 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	193	45	#line 193 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	194	45	#line 194 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	195	45		set __no_conexion_7qG2_num_7qG2_000, 0
+12	194	48	#line 194 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	195	48	#line 195 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	196	48		subcall no_conexion, __no_conexion_return
+12	195	50	#line 195 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	195	50	#line 195 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	196	50	#pragma macro 9
+12	196	50		acquire __MRMutex
+12	196	51		mov __MRArgs.QueueID, __constVal2
+12	196	53		mov __MRArgs.Remove, __constVal1
+12	196	55		set __RRNTmpVal, 0
+12	196	58		syscall 27, __MRArgs
+12	196	61		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+12	196	66		mov __leer_7qG2_recibir1_7qG2_000, __RRNTmpVal
+12	196	68		mov __D0leer, __MRArgs.Result
+12	196	70		release __MRMutex
+12	6372	71	#line 6372 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	195	71	#line 195 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	196	71		mov __signed_stack_001leer, __D0leer
+12	195	73	#line 195 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	196	73		set __D0leer, 64
+12	195	76	#line 195 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	196	76		cmp 5, __D0leer, __signed_stack_001leer, __D0leer
+12	196	80	#line 196 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	197	80		brtst 4, __ASM_Label_776, __D0leer
+12	197	83	#line 197 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	198	83		mov color1, __leer_7qG2_recibir1_7qG2_000
+12	197	85	#line 197 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	197	85	#line 197 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	198	85	#line 198 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	198	85	#line 198 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	199	85	#pragma macro 9
+12	199	85		acquire __MRMutex
+12	199	86		mov __MRArgs.QueueID, __constVal3
+12	199	88		mov __MRArgs.Remove, __constVal1
+12	199	90		set __RRNTmpVal, 0
+12	199	93		syscall 27, __MRArgs
+12	199	96		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+12	199	101		mov __leer_7qG2_recibir2_7qG2_000, __RRNTmpVal
+12	199	103		mov __D0leer, __MRArgs.Result
+12	199	105		release __MRMutex
+12	6395	106	#line 6395 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	198	106	#line 198 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	199	106		mov __signed_stack_001leer, __D0leer
+12	198	108	#line 198 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	199	108		set __D0leer, 64
+12	198	111	#line 198 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	199	111		cmp 5, __D0leer, __signed_stack_001leer, __D0leer
+12	199	115	#line 199 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	200	115		brtst 4, __ASM_Label_781, __D0leer
+12	200	118	#line 200 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	201	118		mov color2, __leer_7qG2_recibir2_7qG2_000
+12	200	120	#line 200 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	200	120	#line 200 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	201	120	#line 201 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	201	120	#line 201 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	202	120	#pragma macro 9
+12	202	120		acquire __MRMutex
+12	202	121		mov __MRArgs.QueueID, __constVal4
+12	202	123		mov __MRArgs.Remove, __constVal1
+12	202	125		set __RRNTmpVal, 0
+12	202	128		syscall 27, __MRArgs
+12	202	131		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+12	202	136		mov __leer_7qG2_recibir3_7qG2_000, __RRNTmpVal
+12	202	138		mov __D0leer, __MRArgs.Result
+12	202	140		release __MRMutex
+12	6418	141	#line 6418 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	201	141	#line 201 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	202	141		mov __signed_stack_001leer, __D0leer
+12	201	143	#line 201 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	202	143		set __D0leer, 64
+12	201	146	#line 201 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	202	146		cmp 5, __D0leer, __signed_stack_001leer, __D0leer
+12	202	150	#line 202 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	203	150		brtst 4, __ASM_Label_786, __D0leer
+12	203	153	#line 203 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	204	153		mov luz, __leer_7qG2_recibir3_7qG2_000
+12	203	155	#line 203 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	203	155	#line 203 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	204	155	#line 204 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	204	155	#line 204 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	205	155	#pragma macro 9
+12	205	155		acquire __MRMutex
+12	205	156		mov __MRArgs.QueueID, __constVal5
+12	205	158		mov __MRArgs.Remove, __constVal1
+12	205	160		set __RRNTmpVal, 0
+12	205	163		syscall 27, __MRArgs
+12	205	166		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+12	205	171		mov __leer_7qG2_recibir4_7qG2_000, __RRNTmpVal
+12	205	173		mov __D0leer, __MRArgs.Result
+12	205	175		release __MRMutex
+12	6441	176	#line 6441 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	204	176	#line 204 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	205	176		mov __signed_stack_001leer, __D0leer
+12	204	178	#line 204 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	205	178		set __D0leer, 64
+12	204	181	#line 204 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	205	181		cmp 5, __D0leer, __signed_stack_001leer, __D0leer
+12	205	185	#line 205 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	206	185		brtst 4, __ASM_Label_791, __D0leer
+12	206	188	#line 206 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	207	188		mov luz2, __leer_7qG2_recibir4_7qG2_000
+12	206	190	#line 206 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	206	190	#line 206 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	207	190	#line 207 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	208	190	#line 208 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	209	190		subcall imprimirDatos, __imprimirDatos_return
+12	208	192	#line 208 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	211	192	#line 211 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	212	192		jmp __ASM_Label_764
+12	211	194	#line 211 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+12	212	194		exit -1, -1
+13	218	0	#line 218 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc"
+13	219	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc
+1	__RotateMotor4	93	NXTDefs.h
+2	__ResetSensorSubroutine	262	NXTDefs.h
+3	__ReadLSBytes0	275	NXTDefs.h
+4	__ReadLSBytes1	361	NXTDefs.h
+5	imprimirDatos	447	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc
+6	no_conexion	947	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc
+7	adelante	1008	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc
+8	atras	1041	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc
+9	izquierda	1069	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc
+10	derecha	1126	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc
+11	programa	1183	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc
+12	leer	2297	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc
+13	__initialize_global_data	2494	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo1.nxc

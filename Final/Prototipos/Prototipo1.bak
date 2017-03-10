@@ -14,7 +14,6 @@
 //VARIABLES
 int color1, color2, luz, luz2;
 int ultra1, ultra2;
-int val = 3;
 
 //FUNCIONES......................................................
 
@@ -58,10 +57,10 @@ void no_conexion(int num){            //ESCLAVO
 //TAREAS PRINCIPALES------------------------------------------------------------
 
 void adelante(){
-    OnRev(OUT_AC,40);
+    OnRev(OUT_AC,35);
 }
 void atras(){
-    OnFwd(OUT_AC,40);
+    OnFwd(OUT_AC,35);
 }
 void izquierda(int n){
    OnRev(OUT_C, n);
@@ -71,42 +70,21 @@ void derecha(int n){
    OnRev(OUT_A, n);
    OnFwd(OUT_C, n);
 }
-void obstaculo(){
-  izquierda(40);
-  Wait(300);
-  Off(OUT_AC);
-  adelante();
-  Wait(500);
-  Off(OUT_AC);
-  derecha(40);
-  Wait(300);
-  Off(OUT_AC);
-  adelante();
-  Wait(500);
-  Off(OUT_AC);
-  derecha(40);
-  Wait(300);
-  Off(OUT_AC);
-  adelante();
-  Wait(500);
-  Off(OUT_AC);
-  izquierda(40);
-  Wait(300);
-  Off(OUT_AC);
+void derecha2(int n){
+   OnRev(OUT_C, n);
+   Off(OUT_A);
+
+}
+void izquierda2(int n){
+   OnRev(OUT_A, n);
+   Off(OUT_B);
 }
 
-
 task programa(){    //no contradecirme en los task ._.
-while(true){
-       //OBSTACULO
-       /*if(ultra1 < 20 ||ultra2 < 20)
-        {
 
-            obstaculo();
-
-        }*/
-        //Puntos verdes
-        if(color1 == 3 || color2 == 3)
+    while(true){
+       //puntos verdes
+       if(color1 == 3 || color2 == 3)
         {
 
             if(color1 == 3)
@@ -114,15 +92,12 @@ while(true){
 
                 Off(OUT_AC);
                 adelante();
-                Wait(400);
-                izquierda(40);
-                Wait(700);
-                do
-                {
-
-                    izquierda(40);
-
-                }while(color2 == 1);
+                until(color1 == 1 && color2 == 1);
+                RotateMotorEx(OUT_AC, 50, 200, -100, true, true);
+                izquierda(50);
+                until(color2 == 1);
+                Off(OUT_AC);
+                Wait(4000);
 
             }
 
@@ -131,49 +106,42 @@ while(true){
 
                 Off(OUT_AC);
                 adelante();
-                Wait(400);
-                derecha(40);
-                Wait(700);
-                do
-                {
-
-                    derecha(40);
-
-                }while(color1 == 1);
+                until(color1 == 1 && color2 == 1);
+                RotateMotorEx(OUT_AC, 50, 200, 100, true, true);
+                derecha(50);
+                until(color1 == 1);
+                Off(OUT_AC);
+                Wait(4000);
 
             }
 
             if(color1 == 3 && color2 == 3)
             {
 
-                izquierda(40);
-                Wait(1500);
-
-                do
-                {
-                    izquierda(40);
-
-                }while(color2 == 1);
+                RotateMotorEx(OUT_AC, 50, 800, -100, true, true);
+                izquierda(50);
+                until(color2 == 1);
 
             }
 
         }
-         //luz blanco y color negro
 
-       if(luz > 45 && color1 == 1 && color2 == 1 && luz2 > 45){
+       //luz blanco y color negro
+
+        if(luz > 45 && color1 == 1 && color2 == 1 && luz2 > 45){
           atras();
           Wait(200);
 
         }
        //Si todos los sensores detectan blanco
-       if(luz > 45 && color1 == 6 && color2 == 6 && luz2 > 45){
+if(luz > 45 && color1 == 6 && color2 == 6 && luz2 > 45){
           adelante();
 
         }
         //Si todos los sensores detectan negro
         if(luz < 45 && color1 == 1 && color2 == 1 && luz2 < 45){
           adelante();
-
+          Wait(700);
        }
         //luz blanco - color negro - color2 negro - luz 2 negro
         if(luz > 45 && color1 == 1 && color2 == 1 && luz2 < 45){
@@ -240,7 +208,6 @@ task leer(){
         imprimirDatos();
     }
 }
-
 
 task main(){        //siempre sensores en main ;)
    SetSensorLowspeed(SENSOR_ULTRA1);

@@ -1,0 +1,1076 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0izquierda	6	1	0	4	4
+1	__D0imprimirDatos	6	1	4	4	20
+2	__D0leer	6	1	8	4	28
+3	__D0programa	6	1	12	4	98
+4	__D0no_conexion	6	1	16	4	9
+5	__D0derecha	6	1	20	4	4
+6	__TextOutMutex	9	0	24	4	26
+7	__rotate_theAngle4	5	1	28	4	2
+8	__MRMutex	9	0	32	4	8
+9	__D0adelante	6	1	36	4	2
+10	__RRNTmpVal	6	1	40	4	16
+11	__signed_stack_003programa	6	1	44	4	6
+12	__signed_stack_002programa	6	1	48	4	6
+13	__signed_stack_004programa	6	1	52	4	6
+14	__Wait_7qG2_ms_7qG2_000_inline_programa	5	1	56	4	6
+15	__Wait_7qG2_ms_7qG2_000_inline_no_conexion	5	1	60	4	2
+16	__signed_stack_001programa	6	1	64	4	40
+17	__signed_stack_002imprimirDatos	6	1	68	4	24
+18	__signed_stack_001imprimirDatos	6	1	72	4	24
+19	__signed_stack_001leer	6	1	76	4	8
+20	__signed_stack_002no_conexion	6	1	80	4	2
+21	__signed_stack_001no_conexion	6	1	84	4	4
+22	__rotateMutex2	9	0	88	4	6
+23	__rotate_angle4	6	1	92	4	7
+24	__OnRevMutex	9	0	96	4	6
+25	__rotateMutex0	9	0	100	4	6
+26	__rotate_RotCount4	4	1	104	2	4
+27	__no_conexion_7qG2_num_7qG2_000	4	1	106	2	2
+28	__rotate_OldRotCount4	4	1	108	2	2
+29	__leer_7qG2_recibir4_7qG2_000	4	1	110	2	2
+30	luz	4	1	112	2	3
+31	color2	4	1	114	2	10
+32	color1	4	1	116	2	9
+33	luz2	4	1	118	2	3
+34	__leer_7qG2_recibir1_7qG2_000	4	1	120	2	2
+35	__derecha_7qG2_n_7qG2_000	4	1	122	2	3
+36	__izquierda_7qG2_n_7qG2_000	4	1	124	2	4
+37	__leer_7qG2_recibir2_7qG2_000	4	1	126	2	2
+38	__leer_7qG2_recibir3_7qG2_000	4	1	128	2	2
+39	__rotate_sync4	1	1	130	1	4
+40	__rotate_power4	1	1	131	1	6
+41	__rotate_stop4	1	1	132	1	4
+42	__rotate_firstPort4	1	1	133	1	5
+43	__izquierda_return	1	1	134	1	4
+44	__constVal63	2	0	135	1	9
+45	____initialize_global_data_return	1	1	136	1	3
+46	__derecha_return	1	1	137	1	3
+47	__constVal96	2	0	138	1	12
+48	__no_conexion_return	1	1	139	1	3
+49	__imprimirDatos_return	1	1	140	1	3
+50	__adelante_return	1	1	141	1	5
+51	__OnRev_Tmp	2	1	142	1	6
+52	__rotate_turnpct4	2	1	143	1	5
+53	__constVal0	2	1	144	1	39
+54	__constVal50	2	0	145	1	1
+55	____RotateMotor4_return	1	1	146	1	5
+56	__RRNErr	1	1	147	1	4
+57	__rotate_theRVD4	1	1	148	1	4
+58	__constVal1	2	0	149	1	6
+59	__constVal5	2	0	150	1	1
+60	__constVal4	2	0	151	1	1
+61	__constVal3	2	0	152	1	10
+62	__rotate_rs4	1	1	153	1	2
+63	____RotateMotor4_sign_tmp	2	1	154	1	4
+64	__constVal2	2	0	155	1	3
+65	__rotate_theOM4	1	1	156	1	7
+66	__rotate_theRS4	1	1	157	1	3
+67	__constVal32	2	0	158	1	33
+68	__rotate_theTurnPct4	2	1	159	1	4
+69	__rotate_theRM4	1	1	160	1	4
+70	__rotate_theRVP4	1	1	161	1	4
+71	__constValNeg100	2	0	162	1	2
+72	__rotate_thePower4	2	1	163	1	4
+73	__PFTmp	1	1	164	1	1
+74	__rotate_theUF4	1	1	165	1	6
+75	__rotate_theRVI4	1	1	166	1	4
+76	__TextOutArgs	8	0	4	16	78
+77	__TextOutArgs.Result	2	1	168	1	78
+78	__TextOutArgs.Location	8	0	2	4	78
+79	__TextOutArgs.Location.X	4	1	172	2	78
+80	__TextOutArgs.Location.Y	4	1	174	2	78
+81	__TextOutArgs.Text	7	0	176	4	78
+82	__TextOutArgs.Text.Text_type	1	0	0	1	0
+83	__TextOutArgs.Options	5	1	180	4	78
+84	__CBTCSArgs	8	0	2	4	3
+85	__CBTCSArgs.Result	2	1	184	1	3
+86	__CBTCSArgs.Connection	1	1	185	1	3
+87	__MRArgs	8	0	4	8	20
+88	__MRArgs.Result	2	1	188	1	20
+89	__MRArgs.QueueID	1	1	189	1	20
+90	__MRArgs.Remove	1	1	190	1	20
+91	__MRArgs.Message	7	0	192	4	20
+92	__MRArgs.Message.Message_type	1	0	0	1	0
+93	__OUT_AC	7	0	194	4	8
+94	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+95	__strbufimprimirDatos	7	0	196	4	16
+96	__strbufimprimirDatos.__strbufimprimirDatos_type	1	0	0	1	0
+97	__constStr0009	7	0	198	4	4
+98	__constStr0009.__constStr0009_type	1	1	0	1	0
+99	__strbufno_conexion	7	0	200	4	2
+100	__strbufno_conexion.__strbufno_conexion_type	1	0	0	1	0
+101	__rotate_ports4	7	0	202	4	8
+102	__rotate_ports4.__rotate_ports4_type	1	0	0	1	0
+103	__constStr0010	7	0	204	4	1
+104	__constStr0010.__constStr0010_type	1	1	0	1	0
+105	__constStr0013	7	0	206	4	1
+106	__constStr0013.__constStr0013_type	1	1	0	1	0
+107	__constStr0014	7	0	208	4	1
+108	__constStr0014.__constStr0014_type	1	1	0	1	0
+109	__constStr0011	7	0	210	4	1
+110	__constStr0011.__constStr0011_type	1	1	0	1	0
+111	__constStr0012	7	0	212	4	1
+112	__constStr0012.__constStr0012_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	143	0	#line 143 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+0	144	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	143	2	#line 143 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+0	144	2	#line 144 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+0	144	2	#line 144 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+0	145	2		exit 0, 1
+1	5279	0		brtst 4, __rotate_Done4, __rotate_angle4
+1	5280	3		set ____RotateMotor4_sign_tmp, 0
+1	5280	6		brtst EQ, __sign_4, __rotate_angle4
+1	5280	9		set ____RotateMotor4_sign_tmp, -1
+1	5280	12		brtst LT, __sign_4, __rotate_angle4
+1	5280	15		set ____RotateMotor4_sign_tmp, 1
+1	5280	18	__sign_4:	mov __rotate_thePower4, ____RotateMotor4_sign_tmp
+1	5281	20		abs __rotate_theAngle4, __rotate_angle4
+1	5282	23		mul __rotate_thePower4, __rotate_thePower4, __rotate_power4
+1	5284	27		set __rotate_theUF4, 23
+1	5285	30		brtst 4, __rotate_NoSync4, __rotate_sync4
+1	5286	33		set __rotate_theOM4, 7
+1	5287	36		set __rotate_theRM4, 2
+1	5288	39		mov __rotate_theTurnPct4, __rotate_turnpct4
+1	5289	41		brtst 4, __rotate_Start4, __rotate_theTurnPct4
+1	5290	44		add __rotate_theUF4, __rotate_theUF4, __constVal32
+1	5291	48		jmp __rotate_Start4
+1	5293	50		set __rotate_theOM4, 3
+1	5294	53		set __rotate_theRM4, 0
+1	5295	56		set __rotate_theTurnPct4, 0
+1	5297	59		set __rotate_theRS4, 32
+1	5298	62		setout __rotate_ports4, 1, __rotate_theOM4, 8, __rotate_theRM4, 5, __rotate_theAngle4, 6, __rotate_theRS4, 10, __rotate_theRVP4, 11, __rotate_theRVI4, 12, __rotate_theRVD4, 2, __rotate_thePower4, 7, __rotate_turnpct4, 0, __rotate_theUF4
+1	5301	85		index __rotate_firstPort4, __rotate_ports4, 65535
+1	5303	89		getout __rotate_power4, __rotate_firstPort4, 2
+1	5304	93		brtst 4, __rotate_doneRunning4, __rotate_power4
+1	5305	96		getout __rotate_rs4, __rotate_firstPort4, 6
+1	5306	100		brcmp 4, __rotate_Running4, __rotate_rs4, __constVal32
+1	5308	104		brtst 4, __rotate_Reset4, __rotate_stop4
+1	5310	107		set __rotate_theOM4, 7
+1	5311	110		set __rotate_theUF4, 7
+1	5312	113		setout __rotate_ports4, 1, __rotate_theOM4, 8, __constVal1, 6, __rotate_theRS4, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF4
+1	5314	128		getout __rotate_RotCount4, __rotate_firstPort4, 14
+1	5316	132		mov __rotate_OldRotCount4, __rotate_RotCount4
+1	5317	134		wait2 NA, __constVal50
+1	5319	137		getout __rotate_RotCount4, __rotate_firstPort4, 14
+1	5320	141		brcmp 5, __rotate_Stabilize4, __rotate_OldRotCount4, __rotate_RotCount4
+1	5321	145		set __rotate_theOM4, 4
+1	5322	148		setout __rotate_ports4, 8, __rotate_theRM4, 6, __constVal0, 1, __rotate_theOM4, 0, __constVal1
+1	5325	159		brtst 4, __rotate_Done4, __rotate_theTurnPct4
+1	5326	162		setout __rotate_ports4, 0, __constVal32
+1	5328	167		subret ____RotateMotor4_return
+2	22	0	#line 22 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	23	0		set __signed_stack_001imprimirDatos, 0
+2	22	3	#line 22 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	22	3	#line 22 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	23	3		set __signed_stack_002imprimirDatos, 56
+2	22	6	#line 22 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	22	6	#line 22 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	23	6		strcat __strbufimprimirDatos, __constStr0009
+2	23	10	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	24	10		acquire __TextOutMutex
+2	23	11	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	24	11		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+2	23	13	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	24	13		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+2	23	15	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	24	15		set __TextOutArgs.Options, 0
+2	23	18	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	24	18		mov __TextOutArgs.Text, __strbufimprimirDatos
+2	23	20	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	24	20		syscall 13, __TextOutArgs
+2	23	23	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	24	23		mov __D0imprimirDatos, __TextOutArgs.Result
+2	23	25	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	24	25		release __TextOutMutex
+2	23	26	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	23	26	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	24	26		set __signed_stack_001imprimirDatos, 0
+2	23	29	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	23	29	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	24	29		set __signed_stack_002imprimirDatos, 48
+2	23	32	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	23	32	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	24	32		strcat __strbufimprimirDatos, __constStr0009
+2	24	36	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	25	36		acquire __TextOutMutex
+2	24	37	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	25	37		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+2	24	39	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	25	39		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+2	24	41	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	25	41		set __TextOutArgs.Options, 0
+2	24	44	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	25	44		mov __TextOutArgs.Text, __strbufimprimirDatos
+2	24	46	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	25	46		syscall 13, __TextOutArgs
+2	24	49	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	25	49		mov __D0imprimirDatos, __TextOutArgs.Result
+2	24	51	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	25	51		release __TextOutMutex
+2	24	52	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	24	52	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	25	52		set __signed_stack_001imprimirDatos, 0
+2	24	55	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	24	55	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	25	55		set __signed_stack_002imprimirDatos, 40
+2	24	58	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	24	58	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	25	58		strcat __strbufimprimirDatos, __constStr0009
+2	25	62	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	26	62		acquire __TextOutMutex
+2	25	63	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	26	63		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+2	25	65	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	26	65		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+2	25	67	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	26	67		set __TextOutArgs.Options, 0
+2	25	70	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	26	70		mov __TextOutArgs.Text, __strbufimprimirDatos
+2	25	72	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	26	72		syscall 13, __TextOutArgs
+2	25	75	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	26	75		mov __D0imprimirDatos, __TextOutArgs.Result
+2	25	77	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	26	77		release __TextOutMutex
+2	25	78	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	25	78	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	26	78		set __signed_stack_001imprimirDatos, 0
+2	25	81	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	25	81	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	26	81		set __signed_stack_002imprimirDatos, 32
+2	25	84	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	25	84	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	26	84		strcat __strbufimprimirDatos, __constStr0009
+2	27	88	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	28	88		acquire __TextOutMutex
+2	27	89	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	28	89		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+2	27	91	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	28	91		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+2	27	93	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	28	93		set __TextOutArgs.Options, 0
+2	27	96	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	28	96		mov __TextOutArgs.Text, __strbufimprimirDatos
+2	27	98	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	28	98		syscall 13, __TextOutArgs
+2	27	101	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	28	101		mov __D0imprimirDatos, __TextOutArgs.Result
+2	27	103	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	28	103		release __TextOutMutex
+2	27	104	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	27	104	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	28	104		set __signed_stack_001imprimirDatos, 0
+2	27	107	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	27	107	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	28	107		set __signed_stack_002imprimirDatos, 56
+2	27	110	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	27	110	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	28	110		strcat __strbufimprimirDatos, __constStr0010
+2	28	114	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	29	114		acquire __TextOutMutex
+2	28	115	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	29	115		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+2	28	117	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	29	117		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+2	28	119	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	29	119		set __TextOutArgs.Options, 0
+2	28	122	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	29	122		mov __TextOutArgs.Text, __strbufimprimirDatos
+2	28	124	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	29	124		syscall 13, __TextOutArgs
+2	28	127	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	29	127		mov __D0imprimirDatos, __TextOutArgs.Result
+2	28	129	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	29	129		release __TextOutMutex
+2	28	130	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	28	130	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	29	130		set __signed_stack_001imprimirDatos, 0
+2	28	133	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	28	133	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	29	133		set __signed_stack_002imprimirDatos, 48
+2	28	136	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	28	136	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	29	136		strcat __strbufimprimirDatos, __constStr0011
+2	29	140	#line 29 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	30	140		acquire __TextOutMutex
+2	29	141	#line 29 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	30	141		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+2	29	143	#line 29 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	30	143		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+2	29	145	#line 29 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	30	145		set __TextOutArgs.Options, 0
+2	29	148	#line 29 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	30	148		mov __TextOutArgs.Text, __strbufimprimirDatos
+2	29	150	#line 29 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	30	150		syscall 13, __TextOutArgs
+2	29	153	#line 29 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	30	153		mov __D0imprimirDatos, __TextOutArgs.Result
+2	29	155	#line 29 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	30	155		release __TextOutMutex
+2	29	156	#line 29 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	29	156	#line 29 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	30	156		set __signed_stack_001imprimirDatos, 0
+2	29	159	#line 29 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	29	159	#line 29 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	30	159		set __signed_stack_002imprimirDatos, 40
+2	29	162	#line 29 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	29	162	#line 29 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	30	162		strcat __strbufimprimirDatos, __constStr0012
+2	30	166	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	31	166		acquire __TextOutMutex
+2	30	167	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	31	167		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+2	30	169	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	31	169		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+2	30	171	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	31	171		set __TextOutArgs.Options, 0
+2	30	174	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	31	174		mov __TextOutArgs.Text, __strbufimprimirDatos
+2	30	176	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	31	176		syscall 13, __TextOutArgs
+2	30	179	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	31	179		mov __D0imprimirDatos, __TextOutArgs.Result
+2	30	181	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	31	181		release __TextOutMutex
+2	30	182	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	30	182	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	31	182		set __signed_stack_001imprimirDatos, 0
+2	30	185	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	30	185	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	31	185		set __signed_stack_002imprimirDatos, 32
+2	30	188	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	30	188	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	31	188		strcat __strbufimprimirDatos, __constStr0013
+2	32	192	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	33	192		acquire __TextOutMutex
+2	32	193	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	33	193		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+2	32	195	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	33	195		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+2	32	197	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	33	197		set __TextOutArgs.Options, 0
+2	32	200	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	33	200		mov __TextOutArgs.Text, __strbufimprimirDatos
+2	32	202	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	33	202		syscall 13, __TextOutArgs
+2	32	205	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	33	205		mov __D0imprimirDatos, __TextOutArgs.Result
+2	32	207	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	33	207		release __TextOutMutex
+2	32	208	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	32	208	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	33	208		set __signed_stack_001imprimirDatos, 42
+2	32	211	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	32	211	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	33	211		set __signed_stack_002imprimirDatos, 56
+2	32	214	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	32	214	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	33	214		mov __D0imprimirDatos, color1
+2	33	216	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	34	216		acquire __TextOutMutex
+2	33	217	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	34	217		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+2	33	219	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	34	219		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+2	33	221	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	34	221		set __TextOutArgs.Options, 0
+2	33	224	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	34	224		numtostr __TextOutArgs.Text, __D0imprimirDatos
+2	33	227	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	34	227		syscall 13, __TextOutArgs
+2	33	230	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	34	230		mov __D0imprimirDatos, __TextOutArgs.Result
+2	33	232	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	34	232		release __TextOutMutex
+2	33	233	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	33	233	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	34	233		set __signed_stack_001imprimirDatos, 42
+2	33	236	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	33	236	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	34	236		set __signed_stack_002imprimirDatos, 48
+2	33	239	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	33	239	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	34	239		mov __D0imprimirDatos, color2
+2	34	241	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	35	241		acquire __TextOutMutex
+2	34	242	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	35	242		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+2	34	244	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	35	244		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+2	34	246	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	35	246		set __TextOutArgs.Options, 0
+2	34	249	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	35	249		numtostr __TextOutArgs.Text, __D0imprimirDatos
+2	34	252	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	35	252		syscall 13, __TextOutArgs
+2	34	255	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	35	255		mov __D0imprimirDatos, __TextOutArgs.Result
+2	34	257	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	35	257		release __TextOutMutex
+2	34	258	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	34	258	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	35	258		set __signed_stack_001imprimirDatos, 42
+2	34	261	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	34	261	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	35	261		set __signed_stack_002imprimirDatos, 40
+2	34	264	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	34	264	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	35	264		mov __D0imprimirDatos, luz
+2	35	266	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	36	266		acquire __TextOutMutex
+2	35	267	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	36	267		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+2	35	269	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	36	269		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+2	35	271	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	36	271		set __TextOutArgs.Options, 0
+2	35	274	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	36	274		numtostr __TextOutArgs.Text, __D0imprimirDatos
+2	35	277	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	36	277		syscall 13, __TextOutArgs
+2	35	280	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	36	280		mov __D0imprimirDatos, __TextOutArgs.Result
+2	35	282	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	36	282		release __TextOutMutex
+2	35	283	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	35	283	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	36	283		set __signed_stack_001imprimirDatos, 42
+2	35	286	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	35	286	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	36	286		set __signed_stack_002imprimirDatos, 32
+2	35	289	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	35	289	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	36	289		mov __D0imprimirDatos, luz2
+2	37	291	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	38	291		acquire __TextOutMutex
+2	37	292	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	38	292		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+2	37	294	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	38	294		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+2	37	296	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	38	296		set __TextOutArgs.Options, 0
+2	37	299	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	38	299		numtostr __TextOutArgs.Text, __D0imprimirDatos
+2	37	302	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	38	302		syscall 13, __TextOutArgs
+2	37	305	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	38	305		mov __D0imprimirDatos, __TextOutArgs.Result
+2	37	307	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	38	307		release __TextOutMutex
+2	37	308	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	39	308	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+2	40	308		subret __imprimirDatos_return
+3	41	0	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+3	42	0	#pragma macro 5
+3	42	0		mov __CBTCSArgs.Connection, __no_conexion_7qG2_num_7qG2_000
+3	42	2		syscall 28, __CBTCSArgs
+3	42	5		mov __D0no_conexion, __CBTCSArgs.Result
+3	4649	7	#line 4649 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+3	41	7	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+3	42	7		not __signed_stack_001no_conexion, __D0no_conexion
+3	41	10	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+3	41	10	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+3	42	10		set __D0no_conexion, 0
+3	41	13	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+3	42	13		cmp 4, __D0no_conexion, __signed_stack_001no_conexion, __D0no_conexion
+3	42	17	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+3	43	17		brtst 4, __ASM_Label_547, __D0no_conexion
+3	42	20	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+3	43	20		set __signed_stack_001no_conexion, 5
+3	42	23	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+3	42	23	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+3	43	23		set __signed_stack_002no_conexion, 48
+3	42	26	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+3	42	26	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+3	43	26		strcat __strbufno_conexion, __constStr0014
+3	43	30	#line 43 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+3	44	30		acquire __TextOutMutex
+3	43	31	#line 43 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+3	44	31		mov __TextOutArgs.Location.X, __signed_stack_001no_conexion
+3	43	33	#line 43 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+3	44	33		mov __TextOutArgs.Location.Y, __signed_stack_002no_conexion
+3	43	35	#line 43 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+3	44	35		set __TextOutArgs.Options, 0
+3	43	38	#line 43 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+3	44	38		mov __TextOutArgs.Text, __strbufno_conexion
+3	43	40	#line 43 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+3	44	40		syscall 13, __TextOutArgs
+3	43	43	#line 43 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+3	44	43		mov __D0no_conexion, __TextOutArgs.Result
+3	43	45	#line 43 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+3	44	45		release __TextOutMutex
+3	43	46	#line 43 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+3	43	46	#line 43 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+3	44	46		set __Wait_7qG2_ms_7qG2_000_inline_no_conexion, 2000
+3	43	49	#line 43 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+3	8551	49	#line 8551 "NXCDefs.h"
+3	8552	49		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_no_conexion
+3	8551	52	#line 8551 "NXCDefs.h"
+3	44	52	#line 44 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+3	44	52	#line 44 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+3	45	52		set __D0no_conexion, 1
+3	45	55	#line 45 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+3	46	55		stop __D0no_conexion
+3	45	57	#line 45 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+3	51	57	#line 51 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+3	51	57	#line 51 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+3	52	57		subret __no_conexion_return
+4	52	0	#line 52 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+4	53	0		set __D0adelante, 40
+4	53	3	#line 53 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+4	54	3	#pragma macro 10
+4	54	3		acquire __OnRevMutex
+4	54	4		neg __OnRev_Tmp, __D0adelante
+4	54	7		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	54	30		release __OnRevMutex
+4	4722	31	#line 4722 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+4	53	31	#line 53 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+4	54	31	#line 54 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+4	55	31		subret __adelante_return
+5	58	0	#line 58 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+5	59	0		mov __D0izquierda, __izquierda_7qG2_n_7qG2_000
+5	59	2	#line 59 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+5	60	2	#pragma macro 10
+5	60	2		acquire __OnRevMutex
+5	60	3		neg __OnRev_Tmp, __D0izquierda
+5	60	6		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	60	29		release __OnRevMutex
+5	4748	30	#line 4748 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+5	59	30	#line 59 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+5	59	30	#line 59 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+5	60	30		mov __D0izquierda, __izquierda_7qG2_n_7qG2_000
+5	60	32	#line 60 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+5	61	32	#pragma macro 7
+5	61	32		setout __constVal0, 2, __D0izquierda, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	4755	55	#line 4755 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+5	60	55	#line 60 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+5	61	55	#line 61 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+5	62	55		subret __izquierda_return
+6	62	0	#line 62 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+6	63	0		mov __D0derecha, __derecha_7qG2_n_7qG2_000
+6	63	2	#line 63 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+6	64	2	#pragma macro 10
+6	64	2		acquire __OnRevMutex
+6	64	3		neg __OnRev_Tmp, __D0derecha
+6	64	6		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	64	29		release __OnRevMutex
+6	4771	30	#line 4771 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+6	63	30	#line 63 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+6	63	30	#line 63 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+6	64	30		mov __D0derecha, __derecha_7qG2_n_7qG2_000
+6	64	32	#line 64 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+6	65	32	#pragma macro 7
+6	65	32		setout __constVal2, 2, __D0derecha, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	4778	55	#line 4778 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+6	64	55	#line 64 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+6	66	55	#line 66 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+6	67	55		subret __derecha_return
+7	67	0	#line 67 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	68	0		set __D0programa, 1
+7	69	3	#line 69 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	70	3		tst 5, __D0programa, __D0programa
+7	69	6	#line 69 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	70	6		brtst 4, __ASM_Label_569, __D0programa
+7	69	9	#line 69 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	70	9		mov __signed_stack_001programa, color1
+7	69	11	#line 69 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	69	11	#line 69 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	70	11		set __D0programa, 3
+7	69	14	#line 69 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	70	14		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+7	69	18	#line 69 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	70	18		brtst 5, __ASM_Label_572, __D0programa
+7	69	21	#line 69 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	70	21		mov __signed_stack_001programa, color2
+7	69	23	#line 69 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	70	23	#line 70 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	71	23		set __D0programa, 3
+7	70	26	#line 70 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	71	26		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+7	72	30	#line 72 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	73	30		brtst 4, __ASM_Label_575, __D0programa
+7	72	33	#line 72 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	73	33		mov __signed_stack_001programa, color1
+7	72	35	#line 72 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	73	35	#line 73 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	74	35		set __D0programa, 3
+7	73	38	#line 73 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	74	38		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+7	75	42	#line 75 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	76	42		brtst 4, __ASM_Label_578, __D0programa
+7	76	45	#line 76 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	77	45	#pragma macro 7
+7	77	45		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	4834	68	#line 4834 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	76	68	#line 76 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	77	68	#line 77 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	78	68		subcall adelante, __adelante_return
+7	77	70	#line 77 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	77	70	#line 77 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	78	70		mov __signed_stack_001programa, color1
+7	77	72	#line 77 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	77	72	#line 77 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	78	72		set __D0programa, 1
+7	77	75	#line 77 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	78	75		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+7	77	79	#line 77 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	78	79		brtst 4, __ASM_Label_584, __D0programa
+7	77	82	#line 77 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	78	82		mov __signed_stack_001programa, color2
+7	77	84	#line 77 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	77	84	#line 77 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	78	84		set __D0programa, 1
+7	77	87	#line 77 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	78	87		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+7	77	91	#line 77 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	78	91		not __D0programa, __D0programa
+7	78	94	#line 78 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	79	94		tst 5, __D0programa, __D0programa
+7	78	97	#line 78 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	79	97		brtst 4, __ASM_Label_580, __D0programa
+7	78	100	#line 78 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	78	100	#line 78 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	79	100		jmp __ASM_Label_579
+7	78	102	#line 78 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	78	102	#line 78 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	79	102		set __signed_stack_001programa, 50
+7	78	105	#line 78 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	78	105	#line 78 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	79	105		set __signed_stack_002programa, 200
+7	78	108	#line 78 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	78	108	#line 78 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	79	108		mov __signed_stack_003programa, __constValNeg100
+7	78	110	#line 78 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	78	110	#line 78 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	79	110		set __signed_stack_004programa, 1
+7	78	113	#line 78 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	78	113	#line 78 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	79	113		set __D0programa, 1
+7	79	116	#line 79 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	80	116	#pragma macro 35
+7	80	116		acquire __rotateMutex0
+7	80	117		acquire __rotateMutex2
+7	80	118		mov __rotate_ports4, __OUT_AC
+7	80	120		mov __rotate_power4, __signed_stack_001programa
+7	80	122		mov __rotate_angle4, __signed_stack_002programa
+7	80	124		mov __rotate_turnpct4, __signed_stack_003programa
+7	80	126		mov __rotate_sync4, __signed_stack_004programa
+7	80	128		mov __rotate_stop4, __D0programa
+7	80	130		mov __rotate_theRVP4, __constVal32
+7	80	132		mov __rotate_theRVI4, __constVal0
+7	80	134		mov __rotate_theRVD4, __constVal96
+7	80	136		subcall __RotateMotor4, ____RotateMotor4_return
+7	80	138		release __rotateMutex2
+7	80	139		release __rotateMutex0
+7	4900	140	#line 4900 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	79	140	#line 79 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	79	140	#line 79 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	80	140		set __izquierda_7qG2_n_7qG2_000, 50
+7	79	143	#line 79 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	80	143	#line 80 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	81	143		subcall izquierda, __izquierda_return
+7	80	145	#line 80 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	80	145	#line 80 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	81	145		mov __signed_stack_001programa, color2
+7	80	147	#line 80 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	80	147	#line 80 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	81	147		set __D0programa, 1
+7	80	150	#line 80 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	81	150		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+7	80	154	#line 80 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	81	154		not __D0programa, __D0programa
+7	81	157	#line 81 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	82	157		tst 5, __D0programa, __D0programa
+7	81	160	#line 81 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	82	160		brtst 4, __ASM_Label_598, __D0programa
+7	81	163	#line 81 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	81	163	#line 81 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	82	163		jmp __ASM_Label_597
+7	81	165	#line 81 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	82	165	#line 82 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	83	165	#pragma macro 7
+7	83	165		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	4940	188	#line 4940 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	82	188	#line 82 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	82	188	#line 82 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	83	188		set __Wait_7qG2_ms_7qG2_000_inline_programa, 4000
+7	82	191	#line 82 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	8551	191	#line 8551 "NXCDefs.h"
+7	8552	191		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_programa
+7	8551	194	#line 8551 "NXCDefs.h"
+7	84	194	#line 84 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	86	194	#line 86 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	86	194	#line 86 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	87	194		mov __signed_stack_001programa, color2
+7	86	196	#line 86 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	87	196	#line 87 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	88	196		set __D0programa, 3
+7	87	199	#line 87 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	88	199		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+7	89	203	#line 89 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	90	203		brtst 4, __ASM_Label_607, __D0programa
+7	90	206	#line 90 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	91	206	#pragma macro 7
+7	91	206		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	4971	229	#line 4971 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	90	229	#line 90 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	91	229	#line 91 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	92	229		subcall adelante, __adelante_return
+7	91	231	#line 91 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	91	231	#line 91 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	92	231		mov __signed_stack_001programa, color1
+7	91	233	#line 91 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	91	233	#line 91 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	92	233		set __D0programa, 1
+7	91	236	#line 91 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	92	236		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+7	91	240	#line 91 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	92	240		brtst 4, __ASM_Label_613, __D0programa
+7	91	243	#line 91 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	92	243		mov __signed_stack_001programa, color2
+7	91	245	#line 91 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	91	245	#line 91 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	92	245		set __D0programa, 1
+7	91	248	#line 91 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	92	248		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+7	91	252	#line 91 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	92	252		not __D0programa, __D0programa
+7	92	255	#line 92 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	93	255		tst 5, __D0programa, __D0programa
+7	92	258	#line 92 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	93	258		brtst 4, __ASM_Label_609, __D0programa
+7	92	261	#line 92 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	92	261	#line 92 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	93	261		jmp __ASM_Label_608
+7	92	263	#line 92 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	92	263	#line 92 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	93	263		set __signed_stack_001programa, 50
+7	92	266	#line 92 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	92	266	#line 92 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	93	266		set __signed_stack_002programa, 200
+7	92	269	#line 92 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	92	269	#line 92 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	93	269		set __signed_stack_003programa, 100
+7	92	272	#line 92 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	92	272	#line 92 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	93	272		set __signed_stack_004programa, 1
+7	92	275	#line 92 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	92	275	#line 92 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	93	275		set __D0programa, 1
+7	93	278	#line 93 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	94	278	#pragma macro 35
+7	94	278		acquire __rotateMutex0
+7	94	279		acquire __rotateMutex2
+7	94	280		mov __rotate_ports4, __OUT_AC
+7	94	282		mov __rotate_power4, __signed_stack_001programa
+7	94	284		mov __rotate_angle4, __signed_stack_002programa
+7	94	286		mov __rotate_turnpct4, __signed_stack_003programa
+7	94	288		mov __rotate_sync4, __signed_stack_004programa
+7	94	290		mov __rotate_stop4, __D0programa
+7	94	292		mov __rotate_theRVP4, __constVal32
+7	94	294		mov __rotate_theRVI4, __constVal0
+7	94	296		mov __rotate_theRVD4, __constVal96
+7	94	298		subcall __RotateMotor4, ____RotateMotor4_return
+7	94	300		release __rotateMutex2
+7	94	301		release __rotateMutex0
+7	5037	302	#line 5037 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	93	302	#line 93 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	93	302	#line 93 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	94	302		set __derecha_7qG2_n_7qG2_000, 50
+7	93	305	#line 93 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	94	305	#line 94 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	95	305		subcall derecha, __derecha_return
+7	94	307	#line 94 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	94	307	#line 94 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	95	307		mov __signed_stack_001programa, color1
+7	94	309	#line 94 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	94	309	#line 94 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	95	309		set __D0programa, 1
+7	94	312	#line 94 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	95	312		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+7	94	316	#line 94 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	95	316		not __D0programa, __D0programa
+7	95	319	#line 95 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	96	319		tst 5, __D0programa, __D0programa
+7	95	322	#line 95 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	96	322		brtst 4, __ASM_Label_627, __D0programa
+7	95	325	#line 95 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	95	325	#line 95 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	96	325		jmp __ASM_Label_626
+7	95	327	#line 95 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	96	327	#line 96 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	97	327	#pragma macro 7
+7	97	327		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	5077	350	#line 5077 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	96	350	#line 96 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	96	350	#line 96 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	97	350		set __Wait_7qG2_ms_7qG2_000_inline_programa, 4000
+7	96	353	#line 96 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	8551	353	#line 8551 "NXCDefs.h"
+7	8552	353		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_programa
+7	8551	356	#line 8551 "NXCDefs.h"
+7	98	356	#line 98 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	100	356	#line 100 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	100	356	#line 100 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	101	356		mov __signed_stack_001programa, color1
+7	100	358	#line 100 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	100	358	#line 100 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	101	358		set __D0programa, 3
+7	100	361	#line 100 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	101	361		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+7	100	365	#line 100 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	101	365		brtst 4, __ASM_Label_635, __D0programa
+7	100	368	#line 100 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	101	368		mov __signed_stack_001programa, color2
+7	100	370	#line 100 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	101	370	#line 101 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	102	370		set __D0programa, 3
+7	101	373	#line 101 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	102	373		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+7	103	377	#line 103 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	104	377		brtst 4, __ASM_Label_636, __D0programa
+7	103	380	#line 103 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	104	380		set __signed_stack_001programa, 50
+7	103	383	#line 103 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	103	383	#line 103 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	104	383		set __signed_stack_002programa, 800
+7	103	386	#line 103 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	103	386	#line 103 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	104	386		mov __signed_stack_003programa, __constValNeg100
+7	103	388	#line 103 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	103	388	#line 103 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	104	388		set __signed_stack_004programa, 1
+7	103	391	#line 103 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	103	391	#line 103 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	104	391		set __D0programa, 1
+7	104	394	#line 104 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	105	394	#pragma macro 35
+7	105	394		acquire __rotateMutex0
+7	105	395		acquire __rotateMutex2
+7	105	396		mov __rotate_ports4, __OUT_AC
+7	105	398		mov __rotate_power4, __signed_stack_001programa
+7	105	400		mov __rotate_angle4, __signed_stack_002programa
+7	105	402		mov __rotate_turnpct4, __signed_stack_003programa
+7	105	404		mov __rotate_sync4, __signed_stack_004programa
+7	105	406		mov __rotate_stop4, __D0programa
+7	105	408		mov __rotate_theRVP4, __constVal32
+7	105	410		mov __rotate_theRVI4, __constVal0
+7	105	412		mov __rotate_theRVD4, __constVal96
+7	105	414		subcall __RotateMotor4, ____RotateMotor4_return
+7	105	416		release __rotateMutex2
+7	105	417		release __rotateMutex0
+7	5138	418	#line 5138 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	104	418	#line 104 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	104	418	#line 104 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	105	418		set __izquierda_7qG2_n_7qG2_000, 50
+7	104	421	#line 104 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	105	421	#line 105 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	106	421		subcall izquierda, __izquierda_return
+7	105	423	#line 105 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	105	423	#line 105 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	106	423		mov __signed_stack_001programa, color2
+7	105	425	#line 105 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	105	425	#line 105 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	106	425		set __D0programa, 1
+7	105	428	#line 105 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	106	428		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+7	105	432	#line 105 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	106	432		not __D0programa, __D0programa
+7	107	435	#line 107 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	108	435		tst 5, __D0programa, __D0programa
+7	107	438	#line 107 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	108	438		brtst 4, __ASM_Label_650, __D0programa
+7	107	441	#line 107 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	107	441	#line 107 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	108	441		jmp __ASM_Label_649
+7	107	443	#line 107 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	111	443	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	111	443	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	111	443	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	112	443		mov __signed_stack_001programa, luz
+7	111	445	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	111	445	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	112	445		set __D0programa, 45
+7	111	448	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	112	448		cmp 0, __D0programa, __signed_stack_001programa, __D0programa
+7	111	452	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	112	452		brtst 4, __ASM_Label_656, __D0programa
+7	111	455	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	112	455		mov __signed_stack_001programa, color1
+7	111	457	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	111	457	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	112	457		set __D0programa, 1
+7	111	460	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	112	460		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+7	111	464	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	112	464		brtst 4, __ASM_Label_656, __D0programa
+7	111	467	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	112	467		mov __signed_stack_001programa, color2
+7	111	469	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	111	469	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	112	469		set __D0programa, 1
+7	111	472	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	112	472		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+7	111	476	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	112	476		brtst 4, __ASM_Label_656, __D0programa
+7	111	479	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	112	479		mov __signed_stack_001programa, luz2
+7	111	481	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	112	481	#line 112 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	113	481		set __D0programa, 45
+7	112	484	#line 112 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	113	484		cmp 0, __D0programa, __signed_stack_001programa, __D0programa
+7	114	488	#line 114 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	115	488		brtst 4, __ASM_Label_657, __D0programa
+7	115	491	#line 115 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	116	491		subcall adelante, __adelante_return
+7	115	493	#line 115 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	115	493	#line 115 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	116	493		set __Wait_7qG2_ms_7qG2_000_inline_programa, 500
+7	115	496	#line 115 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	8551	496	#line 8551 "NXCDefs.h"
+7	8552	496		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_programa
+7	8551	499	#line 8551 "NXCDefs.h"
+7	117	499	#line 117 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	119	499	#line 119 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	121	499	#line 121 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	122	499		jmp __ASM_Label_568
+7	121	501	#line 121 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+7	122	501		exit -1, -1
+8	123	0	#line 123 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	124	0		set __D0leer, 1
+8	124	3	#line 124 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	125	3		tst 5, __D0leer, __D0leer
+8	124	6	#line 124 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	125	6		brtst 4, __ASM_Label_661, __D0leer
+8	124	9	#line 124 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	125	9		set __no_conexion_7qG2_num_7qG2_000, 0
+8	124	12	#line 124 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	125	12	#line 125 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	126	12		subcall no_conexion, __no_conexion_return
+8	125	14	#line 125 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	125	14	#line 125 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	126	14	#pragma macro 9
+8	126	14		acquire __MRMutex
+8	126	15		mov __MRArgs.QueueID, __constVal2
+8	126	17		mov __MRArgs.Remove, __constVal1
+8	126	19		set __RRNTmpVal, 0
+8	126	22		syscall 27, __MRArgs
+8	126	25		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+8	126	30		mov __leer_7qG2_recibir1_7qG2_000, __RRNTmpVal
+8	126	32		mov __D0leer, __MRArgs.Result
+8	126	34		release __MRMutex
+8	5282	35	#line 5282 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	125	35	#line 125 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	126	35		mov __signed_stack_001leer, __D0leer
+8	125	37	#line 125 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	126	37		set __D0leer, 64
+8	125	40	#line 125 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	126	40		cmp 5, __D0leer, __signed_stack_001leer, __D0leer
+8	126	44	#line 126 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	127	44		brtst 4, __ASM_Label_668, __D0leer
+8	127	47	#line 127 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	128	47		mov color1, __leer_7qG2_recibir1_7qG2_000
+8	127	49	#line 127 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	127	49	#line 127 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	128	49	#line 128 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	128	49	#line 128 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	129	49	#pragma macro 9
+8	129	49		acquire __MRMutex
+8	129	50		mov __MRArgs.QueueID, __constVal3
+8	129	52		mov __MRArgs.Remove, __constVal1
+8	129	54		set __RRNTmpVal, 0
+8	129	57		syscall 27, __MRArgs
+8	129	60		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+8	129	65		mov __leer_7qG2_recibir2_7qG2_000, __RRNTmpVal
+8	129	67		mov __D0leer, __MRArgs.Result
+8	129	69		release __MRMutex
+8	5305	70	#line 5305 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	128	70	#line 128 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	129	70		mov __signed_stack_001leer, __D0leer
+8	128	72	#line 128 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	129	72		set __D0leer, 64
+8	128	75	#line 128 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	129	75		cmp 5, __D0leer, __signed_stack_001leer, __D0leer
+8	129	79	#line 129 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	130	79		brtst 4, __ASM_Label_673, __D0leer
+8	130	82	#line 130 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	131	82		mov color2, __leer_7qG2_recibir2_7qG2_000
+8	130	84	#line 130 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	130	84	#line 130 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	131	84	#line 131 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	131	84	#line 131 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	132	84	#pragma macro 9
+8	132	84		acquire __MRMutex
+8	132	85		mov __MRArgs.QueueID, __constVal4
+8	132	87		mov __MRArgs.Remove, __constVal1
+8	132	89		set __RRNTmpVal, 0
+8	132	92		syscall 27, __MRArgs
+8	132	95		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+8	132	100		mov __leer_7qG2_recibir3_7qG2_000, __RRNTmpVal
+8	132	102		mov __D0leer, __MRArgs.Result
+8	132	104		release __MRMutex
+8	5328	105	#line 5328 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	131	105	#line 131 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	132	105		mov __signed_stack_001leer, __D0leer
+8	131	107	#line 131 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	132	107		set __D0leer, 64
+8	131	110	#line 131 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	132	110		cmp 5, __D0leer, __signed_stack_001leer, __D0leer
+8	132	114	#line 132 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	133	114		brtst 4, __ASM_Label_678, __D0leer
+8	133	117	#line 133 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	134	117		mov luz, __leer_7qG2_recibir3_7qG2_000
+8	133	119	#line 133 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	133	119	#line 133 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	134	119	#line 134 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	134	119	#line 134 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	135	119	#pragma macro 9
+8	135	119		acquire __MRMutex
+8	135	120		mov __MRArgs.QueueID, __constVal5
+8	135	122		mov __MRArgs.Remove, __constVal1
+8	135	124		set __RRNTmpVal, 0
+8	135	127		syscall 27, __MRArgs
+8	135	130		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+8	135	135		mov __leer_7qG2_recibir4_7qG2_000, __RRNTmpVal
+8	135	137		mov __D0leer, __MRArgs.Result
+8	135	139		release __MRMutex
+8	5351	140	#line 5351 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	134	140	#line 134 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	135	140		mov __signed_stack_001leer, __D0leer
+8	134	142	#line 134 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	135	142		set __D0leer, 64
+8	134	145	#line 134 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	135	145		cmp 5, __D0leer, __signed_stack_001leer, __D0leer
+8	135	149	#line 135 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	136	149		brtst 4, __ASM_Label_683, __D0leer
+8	136	152	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	137	152		mov luz2, __leer_7qG2_recibir4_7qG2_000
+8	136	154	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	136	154	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	137	154	#line 137 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	138	154	#line 138 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	139	154		subcall imprimirDatos, __imprimirDatos_return
+8	138	156	#line 138 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	142	156	#line 142 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	143	156		jmp __ASM_Label_660
+8	142	158	#line 142 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+8	143	158		exit -1, -1
+9	147	0	#line 147 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc"
+9	148	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc
+1	__RotateMotor4	5	NXTDefs.h
+2	imprimirDatos	174	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc
+3	no_conexion	484	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc
+4	adelante	543	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc
+5	izquierda	576	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc
+6	derecha	633	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc
+7	programa	690	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc
+8	leer	1194	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc
+9	__initialize_global_data	1355	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Python\Verdes_Python.nxc
