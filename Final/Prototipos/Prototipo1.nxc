@@ -77,7 +77,7 @@ void derecha2(int n){
 }
 void izquierda2(int n){
    OnRev(OUT_A, n);
-   Off(OUT_B);
+   Off(OUT_C);
 }
 
 task programa(){    //no contradecirme en los task ._.
@@ -176,12 +176,12 @@ if(luz > 45 && color1 == 6 && color2 == 6 && luz2 > 45){
        }
        //luz negro - color1 blanco - color2 blanco- luz2 blanco
        if(luz < 40 && color1 == 6 && color2 == 6 && luz2 > 40){
-          izquierda(40);
+          izquierda(50);
           until(color2 == 1);
        }
        //luz blanco- color1 blanco - color2 blanco- luz2 negro
        if(luz > 40 && color1 == 6 && color2 == 6 && luz2 < 40){
-          derecha(40);
+          derecha(50);
           until(color1 == 1);
        }
     }
