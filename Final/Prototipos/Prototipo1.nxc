@@ -13,11 +13,43 @@
 
 //VARIABLES
 int color1, color2, luz, luz2;
+int color_a, color_b;
 int ultra1, ultra2;
+int lum = 50;
 
 //FUNCIONES......................................................
 
 //................................................................
+
+int color_1()
+{
+
+    if(color1 == 1 || color1 == 2)
+    {
+
+        return 1;
+
+    }
+    
+    else
+        return color1;
+
+}
+
+int color_2()
+{
+
+    if(color2 == 1 || color2 == 2)
+    {
+
+        return 1;
+
+    }
+
+    else
+        return color2;
+
+}
 
 void imprimirDatos(){
 
@@ -35,8 +67,8 @@ void imprimirDatos(){
     TextOut(0,LCD_LINE5," ULTRA1:         " );
     TextOut(0,LCD_LINE6," ULTRA2:         " );
 
-    NumOut(7*6,LCD_LINE1,color1);
-    NumOut(7*6,LCD_LINE2,color2);
+    NumOut(7*6,LCD_LINE1,color_a);
+    NumOut(7*6,LCD_LINE2,color_b);
     NumOut(7*6,LCD_LINE3,luz);
     NumOut(7*6,LCD_LINE4,luz2);
     NumOut(7*7,LCD_LINE5,ultra1);
@@ -83,106 +115,111 @@ void izquierda2(int n){
 task programa(){    //no contradecirme en los task ._.
 
     while(true){
-       //puntos verdes
-       if(color1 == 3 || color2 == 3)
+
+        //puntos verdes
+        if(color_a == 3 || color_b == 3)
         {
 
-            if(color1 == 3)
+            if(color_a == 3)
             {
 
                 Off(OUT_AC);
                 adelante();
-                until(color1 == 1 && color2 == 1);
-                RotateMotorEx(OUT_AC, 50, 200, -100, true, true);
-                izquierda(50);
-                until(color2 == 1);
+                until(color_a == 1 || color_b == 1);
+                RotateMotor(OUT_AC, 70, -150);
+                RotateMotorEx(OUT_AC, 70, 250, -100, true, true);
+                izquierda(60);
+                until(color_b == 1);
                 Off(OUT_AC);
-                Wait(4000);
 
             }
 
-            if(color2 == 3)
+            if(color_b == 3)
             {
 
                 Off(OUT_AC);
                 adelante();
-                until(color1 == 1 && color2 == 1);
-                RotateMotorEx(OUT_AC, 50, 200, 100, true, true);
-                derecha(50);
-                until(color1 == 1);
+                until(color_a == 1 && color_b == 1);
+                RotateMotor(OUT_AC, 70, -150);
+                RotateMotorEx(OUT_AC, 70, 250, 100, true, true);
+                derecha(60);
+                until(color_a == 1);
                 Off(OUT_AC);
-                Wait(4000);
 
             }
 
-            if(color1 == 3 && color2 == 3)
+            if(color_a == 3 && color_b == 3)
             {
 
-                RotateMotorEx(OUT_AC, 50, 800, -100, true, true);
+                RotateMotorEx(OUT_AC, 50, 850, -100, true, true);
                 izquierda(50);
-                until(color2 == 1);
+                until(color_b == 1);
 
             }
 
         }
 
-       //luz blanco y color negro
+        else
+        {
 
-        if(luz > 45 && color1 == 1 && color2 == 1 && luz2 > 45){
+          //luz blanco y color negro
+
+       if(luz > lum && color_a == 1 && color_b == 1 && luz2 > lum){
           atras();
           Wait(200);
 
         }
        //Si todos los sensores detectan blanco
-if(luz > 45 && color1 == 6 && color2 == 6 && luz2 > 45){
+          if(luz > lum && color_a == 6 && color_b == 6 && luz2 > lum){
           adelante();
 
         }
         //Si todos los sensores detectan negro
-        if(luz < 45 && color1 == 1 && color2 == 1 && luz2 < 45){
+        if(luz < lum && color_a == 1 && color_b == 1 && luz2 < lum){
           adelante();
-          Wait(600);
+          //Wait(600);
        }
         //luz blanco - color negro - color2 negro - luz 2 negro
-        if(luz > 45 && color1 == 1 && color2 == 1 && luz2 < 45){
+        if(luz > lum && color_a == 1 && color_b == 1 && luz2 < lum){
            derecha(100);
        }
         //luz negro - color negro - color2 negro - luz2 blanco
-        if(luz < 45 && color1 == 1 && color2 == 1 && luz2 > 45){
+        if(luz < lum && color_a == 1 && color_b == 1 && luz2 > lum){
           izquierda(100);
 
        }
        //luz blanco - color negro - color2 blanco - color2 negro
-        if(luz > 45 && color1 == 6 && color2 == 1 && luz2 < 45){
+        if(luz > lum && color_a == 6 && color_b == 1 && luz2 < lum){
            derecha(85);
-           until(color1 == 1);
+           until(color_a == 1);
 
        }
        // luz negro - color negro. color2 blanco- luz2 blanco
-        if(luz < 45 && color1 == 1 && color2 == 6 && luz2 > 45){
+        if(luz < lum && color_a == 1 && color_b == 6 && luz2 > lum){
            izquierda(85);
-           until(color2==1);
+           until(color_b == 1);
 
        }
         // luz blanco - color negro - color2 blanco - luz2 blanco
-        if(luz > 45 && color1 == 1 && color2 == 6 && luz2 > 45){
+        if(luz > lum && color_a == 1 && color_b == 6 && luz2 > lum){
            izquierda(70);
 
        }
         // luz blanco - color blanco - color2 negro- luz blanco
-        if(luz > 45 && color1 == 6 && color2 == 1 && luz2 > 45){
+        if(luz > lum && color_a == 6 && color_b == 1 && luz2 > lum){
            derecha(70);
 
        }
        //luz negro - color1 blanco - color2 blanco- luz2 blanco
-       if(luz < 40 && color1 == 6 && color2 == 6 && luz2 > 40){
-          izquierda(50);
-          until(color2 == 1);
+       if(luz < lum && color_a == 6 && color_b == 6 && luz2 > lum){
+          izquierda(40);
+          until(color_b == 1);
        }
        //luz blanco- color1 blanco - color2 blanco- luz2 negro
-       if(luz > 40 && color1 == 6 && color2 == 6 && luz2 < 40){
-          derecha(50);
-          until(color1 == 1);
+       if(luz > lum && color_a == 6 && color_b == 6 && luz2 < lum){
+          derecha(40);
+          until(color_a == 1);
+       }
        }
     }
 }
@@ -192,6 +229,8 @@ task leer(){
     while(true){
         ultra1=SensorUS(SENSOR_ULTRA1);
         ultra2=SensorUS(SENSOR_ULTRA2);
+        color_a = color_1();
+        color_b = color_2();
         no_conexion(0);
         if(ReceiveRemoteNumber(ENTRADA2,true,recibir1) != STAT_MSG_EMPTY_MAILBOX){
             color1=recibir1;
