@@ -1,0 +1,215 @@
+//ESCALVO
+//constantes-------------------------------------------------
+
+#define SENSOR_ULTRA1 IN_1
+#define SENSOR_ULTRA2 IN_2           //CONSTANTES NO LLEVAN
+#define ENTRADA2 2
+#define ENTRADA3 3                     //ESCLAVO
+#define ENTRADA4 4
+#define ENTRADA5 5
+#define SALIDA 1                      //ESCLAVO
+
+//-----------------------------------------------------------
+
+//VARIABLES
+int color1, color2, luz, luz2;
+int ultra1, ultra2;
+int valuz = 45;
+
+//FUNCIONES......................................................
+
+//................................................................
+
+void imprimirDatos(){
+
+     TextOut(0,LCD_LINE1,"          " );
+     TextOut(0,LCD_LINE2,"          " );
+     TextOut(0,LCD_LINE3,"          " );
+     TextOut(0,LCD_LINE4,"          " );
+     TextOut(0,LCD_LINE5,"          " );
+     TextOut(0,LCD_LINE6,"          " );
+
+     TextOut(0,LCD_LINE1," COLOR1:         " );
+     TextOut(0,LCD_LINE2," COLOR2:         " );
+     TextOut(0,LCD_LINE3," LUZ:            " );
+     TextOut(0,LCD_LINE4," LUZ2:            " );
+     TextOut(0,LCD_LINE5," ULTRA1:         " );
+     TextOut(0,LCD_LINE6," ULTRA2:         " );
+
+     NumOut(7*6,LCD_LINE1,color1);
+     NumOut(7*6,LCD_LINE2,color2);
+     NumOut(7*6,LCD_LINE3,luz);
+     NumOut(7*6,LCD_LINE4,luz2);
+     NumOut(7*7,LCD_LINE5,ultra1);
+     NumOut(7*7,LCD_LINE6,ultra2);
+
+}
+
+void no_conexion(int num){            //ESCLAVO
+
+     if(!BluetoothStatus(num)==NO_ERR){
+            TextOut(5,LCD_LINE2,"DONDE ESTA MI MAESTRO");
+            Wait(2000);
+            Stop(true);
+     }
+}                                    //FIN ESCLAVO
+
+
+//TAREAS PRINCIPALES------------------------------------------------------------
+int color_1(){
+    if(color1 == 1 || color1 == 2){
+       return 1;
+    }
+    else{
+        return color1;
+    }
+}
+int color_2(){
+    if(color2 == 1 || color2 == 2){
+       return 1;
+    }
+    else{
+        return color2;
+    }
+}
+void adelante(){
+     OnRev(OUT_AC,35);
+}
+void atras(){
+     OnFwd(OUT_AC,35);
+}
+void izquierda(int n){
+    OnRev(OUT_C, n);
+    OnFwd(OUT_A, n);
+}
+void derecha(int n){
+    OnRev(OUT_A, n);
+    OnFwd(OUT_C, n);
+}
+void derecha2(int n){
+    OnRev(OUT_C, n);
+    Off(OUT_A);
+
+}
+void izquierda2(int n){
+    OnRev(OUT_A, n);
+    Off(OUT_C);
+}
+void obstaculo(){
+   RotateMotorEx(OUT_AC,80,620,-100,true,true);
+   RotateMotor(OUT_AC,70,-550); //ADELANTE
+   Off(OUT_AC);
+   RotateMotorEx(OUT_AC,80,620,100,true,true);
+   RotateMotor(OUT_AC,70,-800); //ADELANTE
+   Off(OUT_AC);
+   RotateMotorEx(OUT_AC,80,620,100,true,true);
+   RotateMotor(OUT_AC,70,-200); //ADELANTE
+   Off(OUT_AC);
+   OnRev(OUT_AC,30);
+   until(luz < valuz);
+   Off(OUT_AC);
+   RotateMotor(OUT_AC,70,-70); //ADELANTE
+   Off(OUT_AC);
+}
+
+task programa(){    //no contradecirme en los task ._.
+
+     Wait(3000);
+     while(true){
+        //OBSTACULO
+        if(ultra1 <=10  || ultra2 <=10){
+          TextOut(7*7,LCD_LINE7,"VEO ALGO");
+          obstaculo();
+        }
+        else{
+        TextOut(7*7,LCD_LINE7,"              ");
+         //INICIA RECORRIDO
+         
+        //luz blanco y color negro
+        if(luz > valuz && color_1() == 1 && color_2() == 1 && luz2 > valuz){
+           atras();
+           Wait(200);
+
+         }
+        //Si todos los sensores detectan blanco
+        if(luz > valuz && color_1() == 6 && color_2() == 6 && luz2 > valuz){
+           adelante();
+           
+         }
+         //Si todos los sensores detectan negro
+         if(luz < valuz && color_1() == 1 && color_2() == 1 && luz2 < valuz){
+           adelante();
+
+        }
+         //luz blanco - color negro - color2 negro - luz 2 negro
+         if(luz > valuz && color_1() == 1 && color_2() == 1 && luz2 < valuz){
+            derecha(100);
+        }
+         //luz negro - color negro - color2 negro - luz2 blanco
+         if(luz < valuz && color_1() == 1 && color_2() == 1 && luz2 > valuz){
+           izquierda(100);
+
+        }
+        //luz blanco - color negro - color2 blanco - color2 negro
+         if(luz > valuz && color_1() == 6 && color_2() == 1 && luz2 < valuz){
+            derecha(85);
+            until(color1 == 1);
+
+        }
+        // luz negro - color negro. color2 blanco- luz2 blanco
+         if(luz < valuz && color_1() == 1 && color_2() == 6 && luz2 > valuz){
+            izquierda(85);
+            until(color2==1);
+
+        }
+         // luz blanco - color negro - color2 blanco - luz2 blanco
+         if(luz > valuz && color_1() == 1 && color_2() == 6 && luz2 > valuz){
+            izquierda(70);
+
+        }
+         // luz blanco - color blanco - color2 negro- luz blanco
+         if(luz > valuz && color_1() == 6 && color_2() == 1 && luz2 > valuz){
+            derecha(70);
+
+        }
+        //luz negro - color1 blanco - color2 blanco- luz2 blanco
+        if(luz < valuz && color_1() == 6 && color_2() == 6 && luz2 > valuz){
+           izquierda(50);
+           until(color2 == 1);
+        }
+        //luz blanco- color1 blanco - color2 blanco- luz2 negro
+        if(luz > valuz && color_1() == 6 && color_2() == 6 && luz2 < valuz){
+           derecha(50);
+           until(color1 == 1);
+        }
+    }
+  }
+}
+
+task leer(){
+     int recibir1, recibir2, recibir3, recibir4;
+     while(true){
+         ultra1=SensorUS(SENSOR_ULTRA1);
+         ultra2=SensorUS(SENSOR_ULTRA2);
+         no_conexion(0);
+         if(ReceiveRemoteNumber(ENTRADA2,true,recibir1) != STAT_MSG_EMPTY_MAILBOX){
+             color1=recibir1;
+          }
+            if(ReceiveRemoteNumber(ENTRADA3,true,recibir2) != STAT_MSG_EMPTY_MAILBOX){
+             color2=recibir2;
+          }
+            if(ReceiveRemoteNumber(ENTRADA4,true,recibir3) != STAT_MSG_EMPTY_MAILBOX){
+             luz=recibir3;
+          }
+          if(ReceiveRemoteNumber(ENTRADA5,true,recibir4) != STAT_MSG_EMPTY_MAILBOX){
+             luz2=recibir4;
+          }
+         imprimirDatos();
+     }
+}
+
+task main(){        //siempre sensores en main ;)
+    SetSensorLowspeed(SENSOR_ULTRA1);
+    SetSensorLowspeed(SENSOR_ULTRA2);
+     Precedes(programa,leer);
+}
