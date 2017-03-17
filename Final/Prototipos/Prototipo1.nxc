@@ -119,14 +119,13 @@ task programa(){    //no contradecirme en los task ._.
         //puntos verdes
         if(color_a == 3 || color_b == 3)
         {
-
+            
             if(color_a == 3)
             {
 
                 Off(OUT_AC);
                 adelante();
                 until(color_a == 1 || color_b == 1);
-                RotateMotor(OUT_AC, 70, -150);
                 RotateMotorEx(OUT_AC, 70, 250, -100, true, true);
                 izquierda(60);
                 until(color_b == 1);
@@ -212,12 +211,12 @@ task programa(){    //no contradecirme en los task ._.
        }
        //luz negro - color1 blanco - color2 blanco- luz2 blanco
        if(luz < lum && color_a == 6 && color_b == 6 && luz2 > lum){
-          izquierda(40);
+          izquierda(50);
           until(color_b == 1);
        }
        //luz blanco- color1 blanco - color2 blanco- luz2 negro
        if(luz > lum && color_a == 6 && color_b == 6 && luz2 < lum){
-          derecha(40);
+          derecha(50);
           until(color_a == 1);
        }
        }
@@ -229,8 +228,7 @@ task leer(){
     while(true){
         ultra1=SensorUS(SENSOR_ULTRA1);
         ultra2=SensorUS(SENSOR_ULTRA2);
-        color_a = color_1();
-        color_b = color_2();
+
         no_conexion(0);
         if(ReceiveRemoteNumber(ENTRADA2,true,recibir1) != STAT_MSG_EMPTY_MAILBOX){
             color1=recibir1;
@@ -244,6 +242,8 @@ task leer(){
          if(ReceiveRemoteNumber(ENTRADA5,true,recibir4) != STAT_MSG_EMPTY_MAILBOX){
             luz2=recibir4;
          }
+        color_a = color_1();
+        color_b = color_2();
         imprimirDatos();
     }
 }

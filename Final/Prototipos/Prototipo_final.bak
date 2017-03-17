@@ -13,43 +13,12 @@
 
 //VARIABLES
 int color1, color2, luz, luz2;
-int color_a, color_b;
 int ultra1, ultra2;
-int lum = 50;
+int valuz = 45;
 
 //FUNCIONES......................................................
 
 //................................................................
-
-int color_1()
-{
-
-    if(color1 == 1 || color1 == 2)
-    {
-
-        return 1;
-
-    }
-    
-    else
-        return color1;
-
-}
-
-int color_2()
-{
-
-    if(color2 == 1 || color2 == 2)
-    {
-
-        return 1;
-
-    }
-
-    else
-        return color2;
-
-}
 
 void imprimirDatos(){
 
@@ -67,8 +36,8 @@ void imprimirDatos(){
     TextOut(0,LCD_LINE5," ULTRA1:         " );
     TextOut(0,LCD_LINE6," ULTRA2:         " );
 
-    NumOut(7*6,LCD_LINE1,color_a);
-    NumOut(7*6,LCD_LINE2,color_b);
+    NumOut(7*6,LCD_LINE1,color1);
+    NumOut(7*6,LCD_LINE2,color2);
     NumOut(7*6,LCD_LINE3,luz);
     NumOut(7*6,LCD_LINE4,luz2);
     NumOut(7*7,LCD_LINE5,ultra1);
@@ -109,52 +78,72 @@ void derecha2(int n){
 }
 void izquierda2(int n){
    OnRev(OUT_A, n);
-   Off(OUT_C);
+   Off(OUT_B);
+}
+
+void obstaculo(){
+   RotateMotorEx(OUT_AC,80,620,-100,true,true);
+   RotateMotor(OUT_AC,70,-550); //ADELANTE
+   Off(OUT_AC);
+   RotateMotorEx(OUT_AC,80,620,100,true,true);
+   RotateMotor(OUT_AC,70,-800); //ADELANTE
+   Off(OUT_AC);
+   RotateMotorEx(OUT_AC,80,620,100,true,true);
+   RotateMotor(OUT_AC,70,-200); //ADELANTE
+   Off(OUT_AC);
+   OnRev(OUT_AC,30);
+   until(luz < valuz);
+   Off(OUT_AC);
+   RotateMotor(OUT_AC,70,-70); //ADELANTE
+   Off(OUT_AC);
 }
 
 task programa(){    //no contradecirme en los task ._.
 
+    Wait(3000);
     while(true){
-
-        //puntos verdes
-        if(color_a == 3 || color_b == 3)
+       //luz blanco y color negro
+       //puntos verdes
+        if(color1 == 3 || color2 == 3)
         {
-
-            if(color_a == 3)
+            Off(OUT_AC);
+            Wait(600);
+            RotateMotor(OUT_AC, 70, -25);
+            if(color1 == 3 && color2 !=3)
             {
 
                 Off(OUT_AC);
                 adelante();
-                until(color_a == 1 || color_b == 1);
+                until(color1 == 1 || color2 == 1);
                 RotateMotor(OUT_AC, 70, -150);
                 RotateMotorEx(OUT_AC, 70, 250, -100, true, true);
                 izquierda(60);
-                until(color_b == 1);
+                until(color2 == 1);
                 Off(OUT_AC);
 
             }
 
-            if(color_b == 3)
+            if(color2 == 3 && color1 != 3)
             {
 
                 Off(OUT_AC);
                 adelante();
-                until(color_a == 1 && color_b == 1);
+                until(color1== 1 || color2 == 1);
                 RotateMotor(OUT_AC, 70, -150);
                 RotateMotorEx(OUT_AC, 70, 250, 100, true, true);
                 derecha(60);
-                until(color_a == 1);
+                until(color1 == 1);
                 Off(OUT_AC);
 
             }
 
-            if(color_a == 3 && color_b == 3)
+            if(color1 == 3 && color2 == 3)
             {
 
                 RotateMotorEx(OUT_AC, 50, 850, -100, true, true);
                 izquierda(50);
-                until(color_b == 1);
-
+                until(color2 == 1);
+                Off(OUT_AC);
             }
 
         }
@@ -162,65 +151,64 @@ task programa(){    //no contradecirme en los task ._.
         else
         {
 
-          //luz blanco y color negro
-
-       if(luz > lum && color_a == 1 && color_b == 1 && luz2 > lum){
+       if(luz > valuz && color1 == 1 && color2 == 1 && luz2 > valuz){
           atras();
           Wait(200);
 
         }
        //Si todos los sensores detectan blanco
-          if(luz > lum && color_a == 6 && color_b == 6 && luz2 > lum){
+if(luz > valuz && color1 == 6 && color2 == 6 && luz2 > valuz){
           adelante();
 
         }
         //Si todos los sensores detectan negro
-        if(luz < lum && color_a == 1 && color_b == 1 && luz2 < lum){
+        if(luz < valuz && color1 == 1 && color2 == 1 && luz2 < valuz){
           adelante();
-          //Wait(600);
+          Wait(200);
+
        }
         //luz blanco - color negro - color2 negro - luz 2 negro
-        if(luz > lum && color_a == 1 && color_b == 1 && luz2 < lum){
+        if(luz > valuz && color1 == 1 && color2 == 1 && luz2 < valuz){
            derecha(100);
        }
         //luz negro - color negro - color2 negro - luz2 blanco
-        if(luz < lum && color_a == 1 && color_b == 1 && luz2 > lum){
+        if(luz < valuz && color1 == 1 && color2 == 1 && luz2 > valuz){
           izquierda(100);
 
        }
        //luz blanco - color negro - color2 blanco - color2 negro
-        if(luz > lum && color_a == 6 && color_b == 1 && luz2 < lum){
+        if(luz > valuz && color1 == 6 && color2 == 1 && luz2 < valuz){
            derecha(85);
-           until(color_a == 1);
+           until(color1 == 1);
 
        }
        // luz negro - color negro. color2 blanco- luz2 blanco
-        if(luz < lum && color_a == 1 && color_b == 6 && luz2 > lum){
+        if(luz < valuz && color1 == 1 && color2 == 6 && luz2 > valuz){
            izquierda(85);
-           until(color_b == 1);
+           until(color2==1);
 
        }
         // luz blanco - color negro - color2 blanco - luz2 blanco
-        if(luz > lum && color_a == 1 && color_b == 6 && luz2 > lum){
+        if(luz > valuz && color1 == 1 && color2 == 6 && luz2 > valuz){
            izquierda(70);
 
        }
         // luz blanco - color blanco - color2 negro- luz blanco
-        if(luz > lum && color_a == 6 && color_b == 1 && luz2 > lum){
+        if(luz > valuz && color1 == 6 && color2 == 1 && luz2 > valuz){
            derecha(70);
 
        }
        //luz negro - color1 blanco - color2 blanco- luz2 blanco
-       if(luz < lum && color_a == 6 && color_b == 6 && luz2 > lum){
-          izquierda(40);
-          until(color_b == 1);
+       if(luz < valuz && color1 == 6 && color2 == 6 && luz2 > valuz){
+          izquierda(55);
+          until(color2 == 1);
        }
        //luz blanco- color1 blanco - color2 blanco- luz2 negro
-       if(luz > lum && color_a == 6 && color_b == 6 && luz2 < lum){
-          derecha(40);
-          until(color_a == 1);
+       if(luz > valuz && color1 == 6 && color2 == 6 && luz2 < valuz){
+          derecha(55);
+          until(color1 == 1);
        }
-       }
+     }
     }
 }
 
@@ -229,8 +217,6 @@ task leer(){
     while(true){
         ultra1=SensorUS(SENSOR_ULTRA1);
         ultra2=SensorUS(SENSOR_ULTRA2);
-        color_a = color_1();
-        color_b = color_2();
         no_conexion(0);
         if(ReceiveRemoteNumber(ENTRADA2,true,recibir1) != STAT_MSG_EMPTY_MAILBOX){
             color1=recibir1;
