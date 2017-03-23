@@ -20,196 +20,306 @@ int valuz = 45;
 
 //................................................................
 
-void imprimirDatos(){
+int color_1()
+{
 
-    TextOut(0,LCD_LINE1,"          " );
-    TextOut(0,LCD_LINE2,"          " );
-    TextOut(0,LCD_LINE3,"          " );
-    TextOut(0,LCD_LINE4,"          " );
-    TextOut(0,LCD_LINE5,"          " );
-    TextOut(0,LCD_LINE6,"          " );
+  if(color1 == 1 || color1 == 2)
+    return 1;
 
-    TextOut(0,LCD_LINE1," COLOR1:         " );
-    TextOut(0,LCD_LINE2," COLOR2:         " );
-    TextOut(0,LCD_LINE3," LUZ:            " );
-    TextOut(0,LCD_LINE4," LUZ2:            " );
-    TextOut(0,LCD_LINE5," ULTRA1:         " );
-    TextOut(0,LCD_LINE6," ULTRA2:         " );
-
-    NumOut(7*6,LCD_LINE1,color1);
-    NumOut(7*6,LCD_LINE2,color2);
-    NumOut(7*6,LCD_LINE3,luz);
-    NumOut(7*6,LCD_LINE4,luz2);
-    NumOut(7*7,LCD_LINE5,ultra1);
-    NumOut(7*7,LCD_LINE6,ultra2);
+  else
+    return color1;
 
 }
 
-void no_conexion(int num){            //ESCLAVO
+int color_2()
+{
 
-    if(!BluetoothStatus(num)==NO_ERR){
-           TextOut(5,LCD_LINE2,"DONDE ESTA MI MAESTRO");
-           Wait(2000);
-           Stop(true);
-    }
+  if(color2 == 1 || color2 == 2)
+    return 1;
+
+  else
+    return color2;
+
+}
+
+void imprimirDatos()
+{
+
+  TextOut(0,LCD_LINE1,"          " );
+  TextOut(0,LCD_LINE2,"          " );
+  TextOut(0,LCD_LINE3,"          " );
+  TextOut(0,LCD_LINE4,"          " );
+  TextOut(0,LCD_LINE5,"          " );
+  TextOut(0,LCD_LINE6,"          " );
+
+  TextOut(0,LCD_LINE1," COLOR1:         " );
+  TextOut(0,LCD_LINE2," COLOR2:         " );
+  TextOut(0,LCD_LINE3," LUZ:            " );
+  TextOut(0,LCD_LINE4," LUZ2:            " );
+  TextOut(0,LCD_LINE5," ULTRA1:         " );
+  TextOut(0,LCD_LINE6," ULTRA2:         " );
+
+  NumOut(7*6,LCD_LINE1,color_1());
+  NumOut(7*6,LCD_LINE2,color_2());
+  NumOut(7*6,LCD_LINE3,luz);
+  NumOut(7*6,LCD_LINE4,luz2);
+  NumOut(7*7,LCD_LINE5,ultra1);
+  NumOut(7*7,LCD_LINE6,ultra2);
+
+}
+
+void no_conexion(int num)
+{            //ESCLAVO
+
+  if(!BluetoothStatus(num)==NO_ERR)
+  {
+  
+    TextOut(5,LCD_LINE2,"DONDE ESTA MI MAESTRO");
+    Wait(2000);
+    Stop(true);
+  
+  }
+
 }                                    //FIN ESCLAVO
 
 
 //TAREAS PRINCIPALES------------------------------------------------------------
 
-void adelante(){
-    OnRev(OUT_AC,35);
-}
-void atras(){
-    OnFwd(OUT_AC,35);
-}
-void izquierda(int n){
-   OnRev(OUT_C, n);
-   OnFwd(OUT_A, n);
-}
-void derecha(int n){
-   OnRev(OUT_A, n);
-   OnFwd(OUT_C, n);
-}
-void derecha2(int n){
-   OnRev(OUT_C, n);
-   Off(OUT_A);
+void adelante()
+{
+
+  OnRev(OUT_AC,35);
 
 }
-void izquierda2(int n){
-   OnRev(OUT_A, n);
-   Off(OUT_B);
+
+void atras()
+{
+
+  OnFwd(OUT_AC,35);
+
 }
 
-void obstaculo(){
-   RotateMotorEx(OUT_AC,80,620,-100,true,true);
-   RotateMotor(OUT_AC,70,-550); //ADELANTE
-   Off(OUT_AC);
-   RotateMotorEx(OUT_AC,80,620,100,true,true);
-   RotateMotor(OUT_AC,70,-800); //ADELANTE
-   Off(OUT_AC);
-   RotateMotorEx(OUT_AC,80,620,100,true,true);
-   RotateMotor(OUT_AC,70,-200); //ADELANTE
-   Off(OUT_AC);
-   OnRev(OUT_AC,30);
-   until(luz < valuz);
-   Off(OUT_AC);
-   RotateMotor(OUT_AC,70,-70); //ADELANTE
-   Off(OUT_AC);
+void izquierda(int n)
+{
+
+  OnRev(OUT_C, n);
+  OnFwd(OUT_A, n);
+
 }
 
-task programa(){    //no contradecirme en los task ._.
+void derecha(int n)
+{
 
-    Wait(3000);
-    while(true){
-       //luz blanco y color negro
-       //puntos verdes
-        if(color1 == 3 || color2 == 3)
+  OnRev(OUT_A, n);
+  OnFwd(OUT_C, n);
+
+}
+
+void derecha2(int n)
+{
+
+  OnRev(OUT_C, n);
+  Off(OUT_A);
+
+}
+
+void izquierda2(int n)
+{
+
+  OnRev(OUT_A, n);
+  Off(OUT_B);
+
+}
+
+void obstaculo()
+{
+
+  RotateMotorEx(OUT_AC,80,620,-100,true,true);
+  RotateMotor(OUT_AC,70,-600); //ADELANTE
+  Off(OUT_AC);
+  RotateMotorEx(OUT_AC,80,770,100,true,true);
+  RotateMotor(OUT_AC,70,-1050); //ADELANTE
+  Off(OUT_AC);
+  RotateMotorEx(OUT_AC,80,650,100,true,true);
+  RotateMotor(OUT_AC,70,-250); //ADELANTE
+  Off(OUT_AC);
+  do{
+  OnRev(OUT_AC,30);
+  }while(luz2>valuz);
+  Off(OUT_AC);
+  RotateMotor(OUT_AC,70,-60); //ADELANTE
+  Off(OUT_AC);
+
+}
+
+task programa()
+{    //no contradecirme en los task ._.
+
+  Wait(3000);
+  while(true)
+  {
+    //OBSTACULO
+    if(ultra1 <= 10 || ultra2 <= 10)
+    {
+    
+      TextOut(7*7,LCD_LINE7,"VEO ALGO");
+      obstaculo();
+    
+    }
+    
+    else
+    {
+    
+      TextOut(7*7,LCD_LINE7,"              ");
+      //INICIA RECORRIDO
+      //puntos verdes
+      if(color_1() == 3 || color_2() == 3)
+      {
+      
+        Off(OUT_AC);
+        Wait(600);
+        RotateMotor(OUT_AC, 70, -25);
+      
+        if(color_1() == 3 && color_2() !=3)
         {
-            Off(OUT_AC);
-            Wait(600);
-            RotateMotor(OUT_AC, 70, -25);
-            if(color1 == 3 && color2 !=3)
-            {
 
-                Off(OUT_AC);
-                adelante();
-                until(color1 == 1 || color2 == 1);
-                RotateMotor(OUT_AC, 70, -150);
-                RotateMotorEx(OUT_AC, 70, 250, -100, true, true);
-                izquierda(60);
-                until(color2 == 1);
-                Off(OUT_AC);
-
-            }
-
-            if(color2 == 3 && color1 != 3)
-            {
-
-                Off(OUT_AC);
-                adelante();
-                until(color1== 1 || color2 == 1);
-                RotateMotor(OUT_AC, 70, -150);
-                RotateMotorEx(OUT_AC, 70, 250, 100, true, true);
-                derecha(60);
-                until(color1 == 1);
-                Off(OUT_AC);
-
-            }
-
-            if(color1 == 3 && color2 == 3)
-            {
-
-                RotateMotorEx(OUT_AC, 50, 850, -100, true, true);
-                izquierda(50);
-                until(color2 == 1);
-                Off(OUT_AC);
-            }
+          Off(OUT_AC);
+          adelante();
+          until(color_1() == 1 || color_2() == 1);
+          RotateMotor(OUT_AC, 70, -150);
+          RotateMotorEx(OUT_AC, 70, 250, -100, true, true);
+          izquierda(60);
+          until(color_2() == 1);
+          Off(OUT_AC);
 
         }
 
-        else
+        if(color_2() == 3 && color_1() != 3)
         {
 
-       if(luz > valuz && color1 == 1 && color2 == 1 && luz2 > valuz){
+          Off(OUT_AC);
+          adelante();
+          until(color_1() == 1 || color_2() == 1);
+          RotateMotor(OUT_AC, 70, -150);
+          RotateMotorEx(OUT_AC, 70, 250, 100, true, true);
+          derecha(60);
+          until(color_1() == 1);
+          Off(OUT_AC);
+
+        }
+
+        if(color_1() == 3 && color_2() == 3)
+        {
+
+          RotateMotorEx(OUT_AC, 50, 850, -100, true, true);
+          izquierda(50);
+          until(color_2() == 1);
+          Off(OUT_AC);
+        }
+
+      }
+
+      else
+      {
+
+        if(luz > valuz && color_1() == 1 && color_2() == 1 && luz2 > valuz)
+        {
+      
           atras();
           Wait(200);
-
+        
         }
-       //Si todos los sensores detectan blanco
-if(luz > valuz && color1 == 6 && color2 == 6 && luz2 > valuz){
+        
+        //Si todos los sensores detectan blanco
+        if(luz > valuz && color_1() == 6 && color_2() == 6 && luz2 > valuz)
+        {
+        
           adelante();
 
         }
+        
         //Si todos los sensores detectan negro
-        if(luz < valuz && color1 == 1 && color2 == 1 && luz2 < valuz){
+        if(luz < valuz && color_1() == 1 && color_2() == 1 && luz2 < valuz)
+        {
+        
           adelante();
-          Wait(200);
+          Wait(600);
 
-       }
+        }
+        
         //luz blanco - color negro - color2 negro - luz 2 negro
-        if(luz > valuz && color1 == 1 && color2 == 1 && luz2 < valuz){
-           derecha(100);
-       }
+        if(luz > valuz && color_1() == 1 && color_2() == 1 && luz2 < valuz)
+        {
+        
+          derecha(100);
+        
+        }
+        
         //luz negro - color negro - color2 negro - luz2 blanco
-        if(luz < valuz && color1 == 1 && color2 == 1 && luz2 > valuz){
+        if(luz < valuz && color_1() == 1 && color_2() == 1 && luz2 > valuz)
+        {
+        
           izquierda(100);
 
-       }
-       //luz blanco - color negro - color2 blanco - color2 negro
-        if(luz > valuz && color1 == 6 && color2 == 1 && luz2 < valuz){
-           derecha(85);
-           until(color1 == 1);
+        }
+        
+        //luz blanco - color negro - color2 blanco - color2 negro
+        if(luz > valuz && color_1() == 6 && color_2() == 1 && luz2 < valuz)
+        {
+        
+          derecha(85);
+          until(color_1() == 1);
+        
+        }
+        
+        // luz negro - color negro. color2 blanco- luz2 blanco
+        if(luz < valuz && color_1() == 1 && color_2() == 6 && luz2 > valuz)
+        {
+        
+          izquierda(85);
+          until(color_2() == 1);
 
-       }
-       // luz negro - color negro. color2 blanco- luz2 blanco
-        if(luz < valuz && color1 == 1 && color2 == 6 && luz2 > valuz){
-           izquierda(85);
-           until(color2==1);
-
-       }
+        }
+        
         // luz blanco - color negro - color2 blanco - luz2 blanco
-        if(luz > valuz && color1 == 1 && color2 == 6 && luz2 > valuz){
-           izquierda(70);
+        if(luz > valuz && color_1() == 1 && color_2() == 6 && luz2 > valuz)
+        {
+        
+          izquierda(70);
 
-       }
+        }
+        
         // luz blanco - color blanco - color2 negro- luz blanco
-        if(luz > valuz && color1 == 6 && color2 == 1 && luz2 > valuz){
-           derecha(70);
+        if(luz > valuz && color_1() == 6 && color_2() == 1 && luz2 > valuz)
+        {
+        
+          derecha(70);
 
-       }
-       //luz negro - color1 blanco - color2 blanco- luz2 blanco
-       if(luz < valuz && color1 == 6 && color2 == 6 && luz2 > valuz){
+        }
+        
+        //luz negro - color1 blanco - color2 blanco- luz2 blanco
+        if(luz < valuz && color_1() == 6 && color_2() == 6 && luz2 > valuz)
+        {
+        
           izquierda(55);
-          until(color2 == 1);
-       }
-       //luz blanco- color1 blanco - color2 blanco- luz2 negro
-       if(luz > valuz && color1 == 6 && color2 == 6 && luz2 < valuz){
+          until(color_2() == 1);
+        
+        }
+        
+        //luz blanco- color1 blanco - color2 blanco- luz2 negro
+        if(luz > valuz && color_1() == 6 && color_2() == 6 && luz2 < valuz)
+        {
+        
           derecha(55);
-          until(color1 == 1);
-       }
-     }
+          until(color_1() == 1);
+        }
+       
+      }
+  
     }
+    
+  }
+
 }
 
 task leer(){

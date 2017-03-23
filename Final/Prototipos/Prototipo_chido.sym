@@ -1,0 +1,2127 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__RRNTmpVal	6	1	0	4	16
+1	__D0adelante	6	1	4	4	2
+2	__RLSBmutex1	9	0	8	4	2
+3	__MRMutex	9	0	12	4	8
+4	__D0imprimirDatos	6	1	16	4	30
+5	__D0izquierda	6	1	20	4	4
+6	__D0atras	6	1	24	4	2
+7	__D0derecha	6	1	28	4	4
+8	__CLSRMutex0	9	0	32	4	2
+9	__CLSCSMutex1	9	0	36	4	2
+10	__CLSCSMutex0	9	0	40	4	2
+11	__CLSWMutex0	9	0	44	4	2
+12	__TextOutMutex	9	0	48	4	38
+13	__RLSBmutex0	9	0	52	4	2
+14	__CLSWMutex1	9	0	56	4	2
+15	__CLSRMutex1	9	0	60	4	2
+16	__signed_stack_001programa	6	1	64	4	138
+17	__signed_stack_002programa	6	1	68	4	6
+18	__signed_stack_001no_conexion	6	1	72	4	4
+19	__signed_stack_002no_conexion	6	1	76	4	2
+20	__Wait_7qG2_ms_7qG2_000_inline_no_conexion	5	1	80	4	2
+21	__Wait_7qG2_ms_7qG2_000_inline_programa	5	1	84	4	6
+22	__signed_stack_003programa	6	1	88	4	6
+23	__signed_stack_004programa	6	1	92	4	6
+24	__D0programa	6	1	96	4	304
+25	__D0SetSensorLowspeed_inline_main	6	1	100	4	4
+26	__D0leer	6	1	104	4	32
+27	__D0no_conexion	6	1	108	4	9
+28	__signed_stack_002imprimirDatos	6	1	112	4	36
+29	__signed_stack_001leer	6	1	116	4	8
+30	__DU0SetSensorLowspeed_inline_main	5	1	120	4	10
+31	__signed_stack_001imprimirDatos	6	1	124	4	36
+32	__rotateMutex2	9	0	128	4	12
+33	__rotateMutex0	9	0	132	4	12
+34	__OnRevMutex	9	0	136	4	6
+35	__rotate_angle4	6	1	140	4	10
+36	__rotate_theAngle4	5	1	144	4	2
+37	color2	4	1	148	2	23
+38	luz	4	1	150	2	13
+39	color1	4	1	152	2	22
+40	__rotate_RotCount4	4	1	154	2	4
+41	__rotate_OldRotCount4	4	1	156	2	2
+42	luz2	4	1	158	2	13
+43	__constValNeg250	4	0	160	2	2
+44	__leer_7qG2_recibir1_7qG2_000	4	1	162	2	2
+45	__no_conexion_7qG2_num_7qG2_000	4	1	164	2	2
+46	__derecha_7qG2_n_7qG2_000	4	1	166	2	7
+47	__izquierda_7qG2_n_7qG2_000	4	1	168	2	8
+48	ultra2	4	1	170	2	2
+49	ultra1	4	1	172	2	2
+50	__leer_7qG2_recibir4_7qG2_000	4	1	174	2	2
+51	__leer_7qG2_recibir2_7qG2_000	4	1	176	2	2
+52	__leer_7qG2_recibir3_7qG2_000	4	1	178	2	2
+53	__constVal1	2	0	180	1	17
+54	__rotate_power4	1	1	181	1	9
+55	__LSWriteOptions0	1	1	182	1	1
+56	__constVal0	2	1	183	1	62
+57	____RotateMotor4_sign_tmp	2	1	184	1	4
+58	____RotateMotor4_return	1	1	185	1	8
+59	__constVal50	2	0	186	1	1
+60	____initialize_global_data_return	1	1	187	1	3
+61	__rotate_theUF4	1	1	188	1	6
+62	__rotate_theOM4	1	1	189	1	7
+63	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	190	1	10
+64	__rotate_turnpct4	2	1	191	1	8
+65	__rotate_firstPort4	1	1	192	1	5
+66	__rotate_sync4	1	1	193	1	7
+67	__rotate_stop4	1	1	194	1	7
+68	__imprimirDatos_return	1	1	195	1	3
+69	__constVal63	2	0	196	1	12
+70	__constVal96	2	0	197	1	18
+71	__adelante_return	1	1	198	1	6
+72	__atras_return	1	1	199	1	3
+73	__constVal4	2	0	200	1	1
+74	__izquierda_return	1	1	201	1	8
+75	__constVal5	2	0	202	1	1
+76	__OnRev_Tmp	2	1	203	1	6
+77	__ResetSensorTmp	1	1	204	1	2
+78	____ResetSensorSubroutine_return	1	1	205	1	4
+79	__constVal3	2	0	206	1	13
+80	__constValNeg25	2	0	207	1	1
+81	__derecha_return	1	1	208	1	7
+82	__no_conexion_return	1	1	209	1	3
+83	__ResetSensorPort	1	1	210	1	4
+84	__rotate_theRM4	1	1	211	1	4
+85	__RLSBResult1	2	1	212	1	7
+86	__RLSBytesCount1	1	1	213	1	7
+87	____ReadLSBytes1_return	1	1	214	1	3
+88	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	215	1	4
+89	__constVal2	2	0	216	1	3
+90	__rotate_thePower4	2	1	217	1	4
+91	__RLSBIterations1	1	1	218	1	4
+92	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	219	1	4
+93	__rotate_theTurnPct4	2	1	220	1	4
+94	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	221	1	4
+95	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	222	1	2
+96	____ReadLSBytes0_return	1	1	223	1	3
+97	__RLSBIterations0	1	1	224	1	4
+98	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	225	1	4
+99	__RLSBResult0	2	1	226	1	7
+100	__RLSBytesCount0	1	1	227	1	7
+101	__constVal15	2	0	228	1	4
+102	__LSWriteOptions1	1	1	229	1	1
+103	__PFTmp	1	1	230	1	1
+104	__rotate_theRS4	1	1	231	1	3
+105	__constValNeg100	2	0	232	1	2
+106	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	233	1	4
+107	__rotate_theRVP4	1	1	234	1	7
+108	__rotate_theRVI4	1	1	235	1	7
+109	__rotate_rs4	1	1	236	1	2
+110	__rotate_theRVD4	1	1	237	1	7
+111	__RRNErr	1	1	238	1	4
+112	__constVal32	2	0	239	1	45
+113	__CLSWArgs0	8	0	4	12	5
+114	__CLSWArgs0.Result	2	1	240	1	5
+115	__CLSWArgs0.Port	1	1	241	1	5
+116	__CLSWArgs0.Buffer	7	0	242	4	5
+117	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+118	__CLSWArgs0.ReturnLen	1	1	244	1	5
+119	__MRArgs	8	0	4	8	20
+120	__MRArgs.Result	2	1	248	1	20
+121	__MRArgs.QueueID	1	1	249	1	20
+122	__MRArgs.Remove	1	1	250	1	20
+123	__MRArgs.Message	7	0	252	4	20
+124	__MRArgs.Message.Message_type	1	0	0	1	0
+125	__CLSRArgs0	8	0	4	12	5
+126	__CLSRArgs0.Result	2	1	256	1	5
+127	__CLSRArgs0.Port	1	1	257	1	5
+128	__CLSRArgs0.Buffer	7	0	258	4	5
+129	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+130	__CLSRArgs0.BufferLen	1	1	260	1	5
+131	__CLSCSArgs1	8	0	3	4	4
+132	__CLSCSArgs1.Result	2	1	264	1	4
+133	__CLSCSArgs1.Port	1	1	265	1	4
+134	__CLSCSArgs1.BytesReady	1	1	266	1	4
+135	__CLSRArgs1	8	0	4	12	5
+136	__CLSRArgs1.Result	2	1	268	1	5
+137	__CLSRArgs1.Port	1	1	269	1	5
+138	__CLSRArgs1.Buffer	7	0	270	4	5
+139	__CLSRArgs1.Buffer.Buffer_type	1	0	0	1	0
+140	__CLSRArgs1.BufferLen	1	1	272	1	5
+141	__CBTCSArgs	8	0	2	4	3
+142	__CBTCSArgs.Result	2	1	276	1	3
+143	__CBTCSArgs.Connection	1	1	277	1	3
+144	__TextOutArgs	8	0	4	16	114
+145	__TextOutArgs.Result	2	1	280	1	114
+146	__TextOutArgs.Location	8	0	2	4	114
+147	__TextOutArgs.Location.X	4	1	284	2	114
+148	__TextOutArgs.Location.Y	4	1	286	2	114
+149	__TextOutArgs.Text	7	0	288	4	114
+150	__TextOutArgs.Text.Text_type	1	0	0	1	0
+151	__TextOutArgs.Options	5	1	292	4	114
+152	__CLSWArgs1	8	0	4	12	5
+153	__CLSWArgs1.Result	2	1	296	1	5
+154	__CLSWArgs1.Port	1	1	297	1	5
+155	__CLSWArgs1.Buffer	7	0	298	4	5
+156	__CLSWArgs1.Buffer.Buffer_type	1	0	0	1	0
+157	__CLSWArgs1.ReturnLen	1	1	300	1	5
+158	__CLSCSArgs0	8	0	3	4	4
+159	__CLSCSArgs0.Result	2	1	304	1	4
+160	__CLSCSArgs0.Port	1	1	305	1	4
+161	__CLSCSArgs0.BytesReady	1	1	306	1	4
+162	__OUT_AC	7	0	308	4	14
+163	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+164	__strbufimprimirDatos	7	0	310	4	24
+165	__strbufimprimirDatos.__strbufimprimirDatos_type	1	0	0	1	0
+166	__RLSReadBuf1	7	0	312	4	8
+167	__RLSReadBuf1.__RLSReadBuf1_type	1	0	0	1	0
+168	__rotate_ports4	7	0	314	4	11
+169	__rotate_ports4.__rotate_ports4_type	1	0	0	1	0
+170	__strbufno_conexion	7	0	316	4	2
+171	__strbufno_conexion.__strbufno_conexion_type	1	0	0	1	0
+172	__RLSLastGoodRead0	7	0	318	4	2
+173	__RLSLastGoodRead0.__RLSLastGoodRead0_type	1	0	0	1	0
+174	__RLSBbufLSWrite1	7	0	320	4	2
+175	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+176	__RLSLastGoodRead1	7	0	322	4	2
+177	__RLSLastGoodRead1.__RLSLastGoodRead1_type	1	0	0	1	0
+178	__RLSReadBuf0	7	0	324	4	8
+179	__RLSReadBuf0.__RLSReadBuf0_type	1	0	0	1	0
+180	__constStr0014	7	0	326	4	1
+181	__constStr0014.__constStr0014_type	1	1	0	1	0
+182	__constStr0013	7	0	328	4	1
+183	__constStr0013.__constStr0013_type	1	1	0	1	0
+184	__constStr0016	7	0	330	4	1
+185	__constStr0016.__constStr0016_type	1	1	0	1	0
+186	__constStr0015	7	0	332	4	1
+187	__constStr0015.__constStr0015_type	1	1	0	1	0
+188	__constStr0010	7	0	334	4	1
+189	__constStr0010.__constStr0010_type	1	1	0	1	0
+190	__constStr0009	7	0	336	4	6
+191	__constStr0009.__constStr0009_type	1	1	0	1	0
+192	__constStr0012	7	0	338	4	1
+193	__constStr0012.__constStr0012_type	1	1	0	1	0
+194	__constStr0011	7	0	340	4	1
+195	__constStr0011.__constStr0011_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	218	0	#line 218 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+0	219	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	218	2	#line 218 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+0	218	2	#line 218 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+0	219	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 0
+0	218	5	#line 218 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+0	219	5	#line 219 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+0	220	5		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	4342	7	#line 4342 "NXCDefs.h"
+0	4343	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4342	9	#line 4342 "NXCDefs.h"
+0	4342	9	#line 4342 "NXCDefs.h"
+0	4343	9		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	4342	11	#line 4342 "NXCDefs.h"
+0	4343	11		tst 5, __D0SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4342	14	#line 4342 "NXCDefs.h"
+0	4343	14		brtst 4, __004__ASM_Label_36, __D0SetSensorLowspeed_inline_main
+0	4342	17	#line 4342 "NXCDefs.h"
+0	4343	17		set __DU0SetSensorLowspeed_inline_main, 11
+0	4342	20	#line 4342 "NXCDefs.h"
+0	4342	20	#line 4342 "NXCDefs.h"
+0	4343	20		jmp __004__ASM_Label_37
+0	4342	22	#line 4342 "NXCDefs.h"
+0	4343	22		set __DU0SetSensorLowspeed_inline_main, 10
+0	4342	25	#line 4342 "NXCDefs.h"
+0	4342	25	#line 4342 "NXCDefs.h"
+0	4343	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4247	27	#line 4247 "NXCDefs.h"
+0	4248	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4247	31	#line 4247 "NXCDefs.h"
+0	4343	31	#line 4343 "NXCDefs.h"
+0	4343	31	#line 4343 "NXCDefs.h"
+0	4344	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4343	33	#line 4343 "NXCDefs.h"
+0	4343	33	#line 4343 "NXCDefs.h"
+0	4344	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4343	36	#line 4343 "NXCDefs.h"
+0	4260	36	#line 4260 "NXCDefs.h"
+0	4261	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	4260	40	#line 4260 "NXCDefs.h"
+0	4344	40	#line 4344 "NXCDefs.h"
+0	4344	40	#line 4344 "NXCDefs.h"
+0	4345	40		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4344	42	#line 4344 "NXCDefs.h"
+0	4278	42	#line 4278 "NXCDefs.h"
+0	4279	42	#pragma macro 4
+0	4279	42		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4279	44		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6624	46	#line 6624 "NXCDefs.h"
+0	4278	46	#line 4278 "NXCDefs.h"
+0	4345	46	#line 4345 "NXCDefs.h"
+0	219	46	#line 219 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+0	219	46	#line 219 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+0	220	46		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 1
+0	219	49	#line 219 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+0	220	49	#line 220 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+0	221	49		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	4342	51	#line 4342 "NXCDefs.h"
+0	4343	51		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4342	53	#line 4342 "NXCDefs.h"
+0	4342	53	#line 4342 "NXCDefs.h"
+0	4343	53		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	4342	55	#line 4342 "NXCDefs.h"
+0	4343	55		tst 5, __D0SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4342	58	#line 4342 "NXCDefs.h"
+0	4343	58		brtst 4, __005__ASM_Label_36, __D0SetSensorLowspeed_inline_main
+0	4342	61	#line 4342 "NXCDefs.h"
+0	4343	61		set __DU0SetSensorLowspeed_inline_main, 11
+0	4342	64	#line 4342 "NXCDefs.h"
+0	4342	64	#line 4342 "NXCDefs.h"
+0	4343	64		jmp __005__ASM_Label_37
+0	4342	66	#line 4342 "NXCDefs.h"
+0	4343	66		set __DU0SetSensorLowspeed_inline_main, 10
+0	4342	69	#line 4342 "NXCDefs.h"
+0	4342	69	#line 4342 "NXCDefs.h"
+0	4343	69		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4247	71	#line 4247 "NXCDefs.h"
+0	4248	71		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4247	75	#line 4247 "NXCDefs.h"
+0	4343	75	#line 4343 "NXCDefs.h"
+0	4343	75	#line 4343 "NXCDefs.h"
+0	4344	75		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4343	77	#line 4343 "NXCDefs.h"
+0	4343	77	#line 4343 "NXCDefs.h"
+0	4344	77		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4343	80	#line 4343 "NXCDefs.h"
+0	4260	80	#line 4260 "NXCDefs.h"
+0	4261	80		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	4260	84	#line 4260 "NXCDefs.h"
+0	4344	84	#line 4344 "NXCDefs.h"
+0	4344	84	#line 4344 "NXCDefs.h"
+0	4345	84		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4344	86	#line 4344 "NXCDefs.h"
+0	4278	86	#line 4278 "NXCDefs.h"
+0	4279	86	#pragma macro 4
+0	4279	86		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4279	88		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6687	90	#line 6687 "NXCDefs.h"
+0	4278	90	#line 4278 "NXCDefs.h"
+0	4345	90	#line 4345 "NXCDefs.h"
+0	220	90	#line 220 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+0	221	90	#line 221 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+0	221	90	#line 221 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+0	222	90		exit 0, 1
+1	5279	0		brtst 4, __rotate_Done4, __rotate_angle4
+1	5280	3		set ____RotateMotor4_sign_tmp, 0
+1	5280	6		brtst EQ, __sign_4, __rotate_angle4
+1	5280	9		set ____RotateMotor4_sign_tmp, -1
+1	5280	12		brtst LT, __sign_4, __rotate_angle4
+1	5280	15		set ____RotateMotor4_sign_tmp, 1
+1	5280	18	__sign_4:	mov __rotate_thePower4, ____RotateMotor4_sign_tmp
+1	5281	20		abs __rotate_theAngle4, __rotate_angle4
+1	5282	23		mul __rotate_thePower4, __rotate_thePower4, __rotate_power4
+1	5284	27		set __rotate_theUF4, 23
+1	5285	30		brtst 4, __rotate_NoSync4, __rotate_sync4
+1	5286	33		set __rotate_theOM4, 7
+1	5287	36		set __rotate_theRM4, 2
+1	5288	39		mov __rotate_theTurnPct4, __rotate_turnpct4
+1	5289	41		brtst 4, __rotate_Start4, __rotate_theTurnPct4
+1	5290	44		add __rotate_theUF4, __rotate_theUF4, __constVal32
+1	5291	48		jmp __rotate_Start4
+1	5293	50		set __rotate_theOM4, 3
+1	5294	53		set __rotate_theRM4, 0
+1	5295	56		set __rotate_theTurnPct4, 0
+1	5297	59		set __rotate_theRS4, 32
+1	5298	62		setout __rotate_ports4, 1, __rotate_theOM4, 8, __rotate_theRM4, 5, __rotate_theAngle4, 6, __rotate_theRS4, 10, __rotate_theRVP4, 11, __rotate_theRVI4, 12, __rotate_theRVD4, 2, __rotate_thePower4, 7, __rotate_turnpct4, 0, __rotate_theUF4
+1	5301	85		index __rotate_firstPort4, __rotate_ports4, 65535
+1	5303	89		getout __rotate_power4, __rotate_firstPort4, 2
+1	5304	93		brtst 4, __rotate_doneRunning4, __rotate_power4
+1	5305	96		getout __rotate_rs4, __rotate_firstPort4, 6
+1	5306	100		brcmp 4, __rotate_Running4, __rotate_rs4, __constVal32
+1	5308	104		brtst 4, __rotate_Reset4, __rotate_stop4
+1	5310	107		set __rotate_theOM4, 7
+1	5311	110		set __rotate_theUF4, 7
+1	5312	113		setout __rotate_ports4, 1, __rotate_theOM4, 8, __constVal1, 6, __rotate_theRS4, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF4
+1	5314	128		getout __rotate_RotCount4, __rotate_firstPort4, 14
+1	5316	132		mov __rotate_OldRotCount4, __rotate_RotCount4
+1	5317	134		wait2 NA, __constVal50
+1	5319	137		getout __rotate_RotCount4, __rotate_firstPort4, 14
+1	5320	141		brcmp 5, __rotate_Stabilize4, __rotate_OldRotCount4, __rotate_RotCount4
+1	5321	145		set __rotate_theOM4, 4
+1	5322	148		setout __rotate_ports4, 8, __rotate_theRM4, 6, __constVal0, 1, __rotate_theOM4, 0, __constVal1
+1	5325	159		brtst 4, __rotate_Done4, __rotate_theTurnPct4
+1	5326	162		setout __rotate_ports4, 0, __constVal32
+1	5328	167		subret ____RotateMotor4_return
+2	5476	0		setin __constVal1, __ResetSensorPort, 5
+2	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+2	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+2	5480	11		subret ____ResetSensorSubroutine_return
+3	6281	0	#pragma macro 25
+3	6281	0		acquire __CLSWMutex0
+3	6281	1		or __CLSWArgs0.Port, __constVal0, __LSWriteOptions0
+3	6281	5		mov __CLSWArgs0.ReturnLen, __RLSBytesCount0
+3	6281	7		mov __CLSWArgs0.Buffer, __RLSReadBuf0
+3	6281	9		syscall 21, __CLSWArgs0
+3	6281	12		mov __RLSBResult0, __CLSWArgs0.Result
+3	6281	14		release __CLSWMutex0
+3	6282	15	#line 6282 "NXTDefs.h"
+3	6283	15		brtst 5, __RLSBError0, __RLSBResult0
+3	6284	18		set __RLSBIterations0, 60
+3	6286	21	#pragma macro 23
+3	6286	21		acquire __CLSCSMutex0
+3	6286	22		set __CLSCSArgs0.Port, 0
+3	6286	25		syscall 23, __CLSCSArgs0
+3	6286	28		mov __RLSBytesCount0, __CLSCSArgs0.BytesReady
+3	6286	30		mov __RLSBResult0, __CLSCSArgs0.Result
+3	6286	32		release __CLSCSMutex0
+3	6286	33	#line 6286 "NXTDefs.h"
+3	6287	33		sub __RLSBIterations0, __RLSBIterations0, __constVal1
+3	6288	37		brtst 2, __RLSBError0, __RLSBIterations0
+3	6289	40		brtst 0, __RLSBError0, __RLSBResult0
+3	6290	43		brtst 4, __RLSBReadyToRead0, __RLSBResult0
+3	6292	46		wait2 NA, __constVal1
+3	6293	49		jmp __RLSBDoCheckStatus0
+3	6295	51		brtst 4, __RLSBReturn0, __RLSBytesCount0
+3	6296	54		arrinit __RLSReadBuf0, __constVal0, __RLSBytesCount0
+3	6298	58	#pragma macro 25
+3	6298	58		acquire __CLSRMutex0
+3	6298	59		set __CLSRArgs0.Port, 0
+3	6298	62		mov __CLSRArgs0.BufferLen, __RLSBytesCount0
+3	6298	64		syscall 22, __CLSRArgs0
+3	6298	67		mov __RLSReadBuf0, __CLSRArgs0.Buffer
+3	6298	69		mov __RLSBResult0, __CLSRArgs0.Result
+3	6298	71		release __CLSRMutex0
+3	6298	72	#line 6298 "NXTDefs.h"
+3	6299	72		brtst 5, __RLSBError0, __RLSBResult0
+3	6300	75		mov __RLSLastGoodRead0, __RLSReadBuf0
+3	6301	77		jmp __RLSBDone0
+3	6303	79		mov __RLSReadBuf0, __RLSLastGoodRead0
+3	6305	81		arrsize __RLSBytesCount0, __RLSReadBuf0
+3	6307	84		subret ____ReadLSBytes0_return
+4	6319	0	#pragma macro 25
+4	6319	0		acquire __CLSWMutex1
+4	6319	1		or __CLSWArgs1.Port, __constVal1, __LSWriteOptions1
+4	6319	5		mov __CLSWArgs1.ReturnLen, __RLSBytesCount1
+4	6319	7		mov __CLSWArgs1.Buffer, __RLSReadBuf1
+4	6319	9		syscall 21, __CLSWArgs1
+4	6319	12		mov __RLSBResult1, __CLSWArgs1.Result
+4	6319	14		release __CLSWMutex1
+4	6319	15	#line 6319 "NXTDefs.h"
+4	6320	15		brtst 5, __RLSBError1, __RLSBResult1
+4	6321	18		set __RLSBIterations1, 60
+4	6323	21	#pragma macro 23
+4	6323	21		acquire __CLSCSMutex1
+4	6323	22		set __CLSCSArgs1.Port, 1
+4	6323	25		syscall 23, __CLSCSArgs1
+4	6323	28		mov __RLSBytesCount1, __CLSCSArgs1.BytesReady
+4	6323	30		mov __RLSBResult1, __CLSCSArgs1.Result
+4	6323	32		release __CLSCSMutex1
+4	6323	33	#line 6323 "NXTDefs.h"
+4	6324	33		sub __RLSBIterations1, __RLSBIterations1, __constVal1
+4	6325	37		brtst 2, __RLSBError1, __RLSBIterations1
+4	6326	40		brtst 0, __RLSBError1, __RLSBResult1
+4	6327	43		brtst 4, __RLSBReadyToRead1, __RLSBResult1
+4	6329	46		wait2 NA, __constVal1
+4	6330	49		jmp __RLSBDoCheckStatus1
+4	6332	51		brtst 4, __RLSBReturn1, __RLSBytesCount1
+4	6333	54		arrinit __RLSReadBuf1, __constVal0, __RLSBytesCount1
+4	6335	58	#pragma macro 25
+4	6335	58		acquire __CLSRMutex1
+4	6335	59		set __CLSRArgs1.Port, 1
+4	6335	62		mov __CLSRArgs1.BufferLen, __RLSBytesCount1
+4	6335	64		syscall 22, __CLSRArgs1
+4	6335	67		mov __RLSReadBuf1, __CLSRArgs1.Buffer
+4	6335	69		mov __RLSBResult1, __CLSRArgs1.Result
+4	6335	71		release __CLSRMutex1
+4	6335	72	#line 6335 "NXTDefs.h"
+4	6336	72		brtst 5, __RLSBError1, __RLSBResult1
+4	6337	75		mov __RLSLastGoodRead1, __RLSReadBuf1
+4	6338	77		jmp __RLSBDone1
+4	6340	79		mov __RLSReadBuf1, __RLSLastGoodRead1
+4	6342	81		arrsize __RLSBytesCount1, __RLSReadBuf1
+4	6344	84		subret ____ReadLSBytes1_return
+5	23	0	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	24	0		set __signed_stack_001imprimirDatos, 0
+5	23	3	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	23	3	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	24	3		set __signed_stack_002imprimirDatos, 56
+5	23	6	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	23	6	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	24	6		strcat __strbufimprimirDatos, __constStr0009
+5	24	10	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	25	10		acquire __TextOutMutex
+5	24	11	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	25	11		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	24	13	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	25	13		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	24	15	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	25	15		set __TextOutArgs.Options, 0
+5	24	18	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	25	18		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	24	20	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	25	20		syscall 13, __TextOutArgs
+5	24	23	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	25	23		mov __D0imprimirDatos, __TextOutArgs.Result
+5	24	26	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	25	26		release __TextOutMutex
+5	24	27	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	24	27	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	25	27		set __signed_stack_001imprimirDatos, 0
+5	24	30	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	24	30	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	25	30		set __signed_stack_002imprimirDatos, 48
+5	24	33	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	24	33	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	25	33		strcat __strbufimprimirDatos, __constStr0009
+5	25	37	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	26	37		acquire __TextOutMutex
+5	25	38	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	26	38		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	25	40	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	26	40		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	25	42	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	26	42		set __TextOutArgs.Options, 0
+5	25	45	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	26	45		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	25	47	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	26	47		syscall 13, __TextOutArgs
+5	25	50	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	26	50		mov __D0imprimirDatos, __TextOutArgs.Result
+5	25	53	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	26	53		release __TextOutMutex
+5	25	54	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	25	54	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	26	54		set __signed_stack_001imprimirDatos, 0
+5	25	57	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	25	57	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	26	57		set __signed_stack_002imprimirDatos, 40
+5	25	60	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	25	60	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	26	60		strcat __strbufimprimirDatos, __constStr0009
+5	26	64	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	27	64		acquire __TextOutMutex
+5	26	65	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	27	65		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	26	67	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	27	67		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	26	69	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	27	69		set __TextOutArgs.Options, 0
+5	26	72	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	27	72		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	26	74	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	27	74		syscall 13, __TextOutArgs
+5	26	77	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	27	77		mov __D0imprimirDatos, __TextOutArgs.Result
+5	26	80	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	27	80		release __TextOutMutex
+5	26	81	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	26	81	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	27	81		set __signed_stack_001imprimirDatos, 0
+5	26	84	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	26	84	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	27	84		set __signed_stack_002imprimirDatos, 32
+5	26	87	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	26	87	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	27	87		strcat __strbufimprimirDatos, __constStr0009
+5	27	91	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	28	91		acquire __TextOutMutex
+5	27	92	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	28	92		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	27	94	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	28	94		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	27	96	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	28	96		set __TextOutArgs.Options, 0
+5	27	99	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	28	99		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	27	101	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	28	101		syscall 13, __TextOutArgs
+5	27	104	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	28	104		mov __D0imprimirDatos, __TextOutArgs.Result
+5	27	107	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	28	107		release __TextOutMutex
+5	27	108	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	27	108	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	28	108		set __signed_stack_001imprimirDatos, 0
+5	27	111	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	27	111	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	28	111		set __signed_stack_002imprimirDatos, 24
+5	27	114	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	27	114	#line 27 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	28	114		strcat __strbufimprimirDatos, __constStr0009
+5	28	118	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	29	118		acquire __TextOutMutex
+5	28	119	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	29	119		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	28	121	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	29	121		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	28	123	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	29	123		set __TextOutArgs.Options, 0
+5	28	126	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	29	126		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	28	128	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	29	128		syscall 13, __TextOutArgs
+5	28	131	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	29	131		mov __D0imprimirDatos, __TextOutArgs.Result
+5	28	134	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	29	134		release __TextOutMutex
+5	28	135	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	28	135	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	29	135		set __signed_stack_001imprimirDatos, 0
+5	28	138	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	28	138	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	29	138		set __signed_stack_002imprimirDatos, 16
+5	28	141	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	28	141	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	29	141		strcat __strbufimprimirDatos, __constStr0009
+5	30	145	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	31	145		acquire __TextOutMutex
+5	30	146	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	31	146		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	30	148	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	31	148		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	30	150	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	31	150		set __TextOutArgs.Options, 0
+5	30	153	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	31	153		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	30	155	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	31	155		syscall 13, __TextOutArgs
+5	30	158	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	31	158		mov __D0imprimirDatos, __TextOutArgs.Result
+5	30	161	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	31	161		release __TextOutMutex
+5	30	162	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	30	162	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	31	162		set __signed_stack_001imprimirDatos, 0
+5	30	165	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	30	165	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	31	165		set __signed_stack_002imprimirDatos, 56
+5	30	168	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	30	168	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	31	168		strcat __strbufimprimirDatos, __constStr0010
+5	31	172	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	32	172		acquire __TextOutMutex
+5	31	173	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	32	173		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	31	175	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	32	175		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	31	177	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	32	177		set __TextOutArgs.Options, 0
+5	31	180	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	32	180		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	31	182	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	32	182		syscall 13, __TextOutArgs
+5	31	185	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	32	185		mov __D0imprimirDatos, __TextOutArgs.Result
+5	31	188	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	32	188		release __TextOutMutex
+5	31	189	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	31	189	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	32	189		set __signed_stack_001imprimirDatos, 0
+5	31	192	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	31	192	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	32	192		set __signed_stack_002imprimirDatos, 48
+5	31	195	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	31	195	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	32	195		strcat __strbufimprimirDatos, __constStr0011
+5	32	199	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	33	199		acquire __TextOutMutex
+5	32	200	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	33	200		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	32	202	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	33	202		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	32	204	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	33	204		set __TextOutArgs.Options, 0
+5	32	207	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	33	207		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	32	209	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	33	209		syscall 13, __TextOutArgs
+5	32	212	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	33	212		mov __D0imprimirDatos, __TextOutArgs.Result
+5	32	215	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	33	215		release __TextOutMutex
+5	32	216	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	32	216	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	33	216		set __signed_stack_001imprimirDatos, 0
+5	32	219	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	32	219	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	33	219		set __signed_stack_002imprimirDatos, 40
+5	32	222	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	32	222	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	33	222		strcat __strbufimprimirDatos, __constStr0012
+5	33	226	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	34	226		acquire __TextOutMutex
+5	33	227	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	34	227		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	33	229	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	34	229		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	33	231	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	34	231		set __TextOutArgs.Options, 0
+5	33	234	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	34	234		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	33	236	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	34	236		syscall 13, __TextOutArgs
+5	33	239	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	34	239		mov __D0imprimirDatos, __TextOutArgs.Result
+5	33	242	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	34	242		release __TextOutMutex
+5	33	243	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	33	243	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	34	243		set __signed_stack_001imprimirDatos, 0
+5	33	246	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	33	246	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	34	246		set __signed_stack_002imprimirDatos, 32
+5	33	249	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	33	249	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	34	249		strcat __strbufimprimirDatos, __constStr0013
+5	34	253	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	35	253		acquire __TextOutMutex
+5	34	254	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	35	254		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	34	256	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	35	256		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	34	258	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	35	258		set __TextOutArgs.Options, 0
+5	34	261	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	35	261		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	34	263	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	35	263		syscall 13, __TextOutArgs
+5	34	266	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	35	266		mov __D0imprimirDatos, __TextOutArgs.Result
+5	34	269	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	35	269		release __TextOutMutex
+5	34	270	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	34	270	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	35	270		set __signed_stack_001imprimirDatos, 0
+5	34	273	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	34	273	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	35	273		set __signed_stack_002imprimirDatos, 24
+5	34	276	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	34	276	#line 34 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	35	276		strcat __strbufimprimirDatos, __constStr0014
+5	35	280	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	36	280		acquire __TextOutMutex
+5	35	281	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	36	281		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	35	283	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	36	283		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	35	285	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	36	285		set __TextOutArgs.Options, 0
+5	35	288	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	36	288		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	35	290	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	36	290		syscall 13, __TextOutArgs
+5	35	293	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	36	293		mov __D0imprimirDatos, __TextOutArgs.Result
+5	35	296	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	36	296		release __TextOutMutex
+5	35	297	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	35	297	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	36	297		set __signed_stack_001imprimirDatos, 0
+5	35	300	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	35	300	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	36	300		set __signed_stack_002imprimirDatos, 16
+5	35	303	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	35	303	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	36	303		strcat __strbufimprimirDatos, __constStr0015
+5	37	307	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	38	307		acquire __TextOutMutex
+5	37	308	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	38	308		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	37	310	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	38	310		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	37	312	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	38	312		set __TextOutArgs.Options, 0
+5	37	315	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	38	315		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	37	317	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	38	317		syscall 13, __TextOutArgs
+5	37	320	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	38	320		mov __D0imprimirDatos, __TextOutArgs.Result
+5	37	323	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	38	323		release __TextOutMutex
+5	37	324	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	37	324	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	38	324		set __signed_stack_001imprimirDatos, 42
+5	37	327	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	37	327	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	38	327		set __signed_stack_002imprimirDatos, 56
+5	37	330	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	37	330	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	38	330		mov __D0imprimirDatos, color1
+5	38	332	#line 38 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	39	332		acquire __TextOutMutex
+5	38	333	#line 38 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	39	333		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	38	335	#line 38 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	39	335		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	38	337	#line 38 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	39	337		set __TextOutArgs.Options, 0
+5	38	340	#line 38 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	39	340		numtostr __TextOutArgs.Text, __D0imprimirDatos
+5	38	343	#line 38 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	39	343		syscall 13, __TextOutArgs
+5	38	346	#line 38 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	39	346		mov __D0imprimirDatos, __TextOutArgs.Result
+5	38	349	#line 38 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	39	349		release __TextOutMutex
+5	38	350	#line 38 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	38	350	#line 38 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	39	350		set __signed_stack_001imprimirDatos, 42
+5	38	353	#line 38 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	38	353	#line 38 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	39	353		set __signed_stack_002imprimirDatos, 48
+5	38	356	#line 38 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	38	356	#line 38 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	39	356		mov __D0imprimirDatos, color2
+5	39	358	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	40	358		acquire __TextOutMutex
+5	39	359	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	40	359		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	39	361	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	40	361		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	39	363	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	40	363		set __TextOutArgs.Options, 0
+5	39	366	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	40	366		numtostr __TextOutArgs.Text, __D0imprimirDatos
+5	39	369	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	40	369		syscall 13, __TextOutArgs
+5	39	372	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	40	372		mov __D0imprimirDatos, __TextOutArgs.Result
+5	39	375	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	40	375		release __TextOutMutex
+5	39	376	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	39	376	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	40	376		set __signed_stack_001imprimirDatos, 42
+5	39	379	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	39	379	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	40	379		set __signed_stack_002imprimirDatos, 40
+5	39	382	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	39	382	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	40	382		mov __D0imprimirDatos, luz
+5	40	384	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	41	384		acquire __TextOutMutex
+5	40	385	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	41	385		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	40	387	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	41	387		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	40	389	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	41	389		set __TextOutArgs.Options, 0
+5	40	392	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	41	392		numtostr __TextOutArgs.Text, __D0imprimirDatos
+5	40	395	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	41	395		syscall 13, __TextOutArgs
+5	40	398	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	41	398		mov __D0imprimirDatos, __TextOutArgs.Result
+5	40	401	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	41	401		release __TextOutMutex
+5	40	402	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	40	402	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	41	402		set __signed_stack_001imprimirDatos, 42
+5	40	405	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	40	405	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	41	405		set __signed_stack_002imprimirDatos, 32
+5	40	408	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	40	408	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	41	408		mov __D0imprimirDatos, luz2
+5	41	410	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	42	410		acquire __TextOutMutex
+5	41	411	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	42	411		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	41	413	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	42	413		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	41	415	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	42	415		set __TextOutArgs.Options, 0
+5	41	418	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	42	418		numtostr __TextOutArgs.Text, __D0imprimirDatos
+5	41	421	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	42	421		syscall 13, __TextOutArgs
+5	41	424	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	42	424		mov __D0imprimirDatos, __TextOutArgs.Result
+5	41	427	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	42	427		release __TextOutMutex
+5	41	428	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	41	428	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	42	428		set __signed_stack_001imprimirDatos, 49
+5	41	431	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	41	431	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	42	431		set __signed_stack_002imprimirDatos, 24
+5	41	434	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	41	434	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	42	434		mov __D0imprimirDatos, ultra1
+5	42	436	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	43	436		acquire __TextOutMutex
+5	42	437	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	43	437		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	42	439	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	43	439		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	42	441	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	43	441		set __TextOutArgs.Options, 0
+5	42	444	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	43	444		numtostr __TextOutArgs.Text, __D0imprimirDatos
+5	42	447	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	43	447		syscall 13, __TextOutArgs
+5	42	450	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	43	450		mov __D0imprimirDatos, __TextOutArgs.Result
+5	42	453	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	43	453		release __TextOutMutex
+5	42	454	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	42	454	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	43	454		set __signed_stack_001imprimirDatos, 49
+5	42	457	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	42	457	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	43	457		set __signed_stack_002imprimirDatos, 16
+5	42	460	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	42	460	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	43	460		mov __D0imprimirDatos, ultra2
+5	44	462	#line 44 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	45	462		acquire __TextOutMutex
+5	44	463	#line 44 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	45	463		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	44	465	#line 44 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	45	465		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	44	467	#line 44 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	45	467		set __TextOutArgs.Options, 0
+5	44	470	#line 44 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	45	470		numtostr __TextOutArgs.Text, __D0imprimirDatos
+5	44	473	#line 44 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	45	473		syscall 13, __TextOutArgs
+5	44	476	#line 44 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	45	476		mov __D0imprimirDatos, __TextOutArgs.Result
+5	44	479	#line 44 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	45	479		release __TextOutMutex
+5	44	480	#line 44 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	46	480	#line 46 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+5	47	480		subret __imprimirDatos_return
+6	48	0	#line 48 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+6	49	0	#pragma macro 5
+6	49	0		mov __CBTCSArgs.Connection, __no_conexion_7qG2_num_7qG2_000
+6	49	2		syscall 28, __CBTCSArgs
+6	49	5		mov __D0no_conexion, __CBTCSArgs.Result
+6	4991	7	#line 4991 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+6	48	7	#line 48 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+6	49	7		not __signed_stack_001no_conexion, __D0no_conexion
+6	48	10	#line 48 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+6	48	10	#line 48 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+6	49	10		set __D0no_conexion, 0
+6	48	13	#line 48 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+6	49	13		cmp 4, __D0no_conexion, __signed_stack_001no_conexion, __D0no_conexion
+6	49	17	#line 49 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+6	50	17		brtst 4, __ASM_Label_575, __D0no_conexion
+6	49	20	#line 49 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+6	50	20		set __signed_stack_001no_conexion, 5
+6	49	23	#line 49 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+6	49	23	#line 49 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+6	50	23		set __signed_stack_002no_conexion, 48
+6	49	26	#line 49 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+6	49	26	#line 49 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+6	50	26		strcat __strbufno_conexion, __constStr0016
+6	50	30	#line 50 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+6	51	30		acquire __TextOutMutex
+6	50	31	#line 50 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+6	51	31		mov __TextOutArgs.Location.X, __signed_stack_001no_conexion
+6	50	34	#line 50 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+6	51	34		mov __TextOutArgs.Location.Y, __signed_stack_002no_conexion
+6	50	37	#line 50 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+6	51	37		set __TextOutArgs.Options, 0
+6	50	40	#line 50 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+6	51	40		mov __TextOutArgs.Text, __strbufno_conexion
+6	50	42	#line 50 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+6	51	42		syscall 13, __TextOutArgs
+6	50	45	#line 50 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+6	51	45		mov __D0no_conexion, __TextOutArgs.Result
+6	50	47	#line 50 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+6	51	47		release __TextOutMutex
+6	50	48	#line 50 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+6	50	48	#line 50 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+6	51	48		set __Wait_7qG2_ms_7qG2_000_inline_no_conexion, 2000
+6	50	51	#line 50 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+6	8551	51	#line 8551 "NXCDefs.h"
+6	8552	51		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_no_conexion
+6	8551	54	#line 8551 "NXCDefs.h"
+6	51	54	#line 51 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+6	51	54	#line 51 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+6	52	54		set __D0no_conexion, 1
+6	52	57	#line 52 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+6	53	57		stop __D0no_conexion
+6	52	59	#line 52 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+6	58	59	#line 58 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+6	58	59	#line 58 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+6	59	59		subret __no_conexion_return
+7	59	0	#line 59 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+7	60	0		set __D0adelante, 35
+7	60	3	#line 60 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+7	61	3	#pragma macro 10
+7	61	3		acquire __OnRevMutex
+7	61	4		neg __OnRev_Tmp, __D0adelante
+7	61	7		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	61	30		release __OnRevMutex
+7	5064	31	#line 5064 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+7	60	31	#line 60 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+7	61	31	#line 61 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+7	62	31		subret __adelante_return
+8	62	0	#line 62 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+8	63	0		set __D0atras, 35
+8	63	3	#line 63 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+8	64	3	#pragma macro 7
+8	64	3		setout __OUT_AC, 2, __D0atras, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	5074	26	#line 5074 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+8	63	26	#line 63 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+8	64	26	#line 64 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+8	65	26		subret __atras_return
+9	65	0	#line 65 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+9	66	0		mov __D0izquierda, __izquierda_7qG2_n_7qG2_000
+9	66	2	#line 66 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+9	67	2	#pragma macro 10
+9	67	2		acquire __OnRevMutex
+9	67	3		neg __OnRev_Tmp, __D0izquierda
+9	67	6		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	67	29		release __OnRevMutex
+9	5090	30	#line 5090 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+9	66	30	#line 66 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+9	66	30	#line 66 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+9	67	30		mov __D0izquierda, __izquierda_7qG2_n_7qG2_000
+9	67	32	#line 67 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+9	68	32	#pragma macro 7
+9	68	32		setout __constVal0, 2, __D0izquierda, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	5097	55	#line 5097 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+9	67	55	#line 67 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+9	68	55	#line 68 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+9	69	55		subret __izquierda_return
+10	69	0	#line 69 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+10	70	0		mov __D0derecha, __derecha_7qG2_n_7qG2_000
+10	70	2	#line 70 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+10	71	2	#pragma macro 10
+10	71	2		acquire __OnRevMutex
+10	71	3		neg __OnRev_Tmp, __D0derecha
+10	71	6		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+10	71	29		release __OnRevMutex
+10	5113	30	#line 5113 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+10	70	30	#line 70 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+10	70	30	#line 70 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+10	71	30		mov __D0derecha, __derecha_7qG2_n_7qG2_000
+10	71	32	#line 71 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+10	72	32	#pragma macro 7
+10	72	32		setout __constVal2, 2, __D0derecha, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+10	5120	55	#line 5120 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+10	71	55	#line 71 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+10	72	55	#line 72 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+10	73	55		subret __derecha_return
+11	84	0	#line 84 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	85	0		set __D0programa, 1
+11	87	3	#line 87 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	88	3		tst 5, __D0programa, __D0programa
+11	87	6	#line 87 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	88	6		brtst 4, __ASM_Label_601, __D0programa
+11	87	9	#line 87 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	88	9		mov __signed_stack_001programa, color1
+11	87	11	#line 87 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	87	11	#line 87 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	88	11		set __D0programa, 3
+11	87	14	#line 87 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	88	14		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	87	18	#line 87 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	88	18		brtst 5, __ASM_Label_604, __D0programa
+11	87	21	#line 87 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	88	21		mov __signed_stack_001programa, color2
+11	87	23	#line 87 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	88	23	#line 88 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	89	23		set __D0programa, 3
+11	88	26	#line 88 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	89	26		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	89	30	#line 89 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	90	30		brtst 4, __ASM_Label_607, __D0programa
+11	90	33	#line 90 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	91	33	#pragma macro 7
+11	91	33		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+11	5200	56	#line 5200 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	90	56	#line 90 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	90	56	#line 90 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	91	56		set __Wait_7qG2_ms_7qG2_000_inline_programa, 600
+11	90	59	#line 90 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	8551	59	#line 8551 "NXCDefs.h"
+11	8552	59		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_programa
+11	8551	62	#line 8551 "NXCDefs.h"
+11	91	62	#line 91 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	91	62	#line 91 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	92	62		set __signed_stack_001programa, 70
+11	91	65	#line 91 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	91	65	#line 91 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	92	65		mov __D0programa, __constValNeg25
+11	92	67	#line 92 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	93	67	#pragma macro 35
+11	93	67		acquire __rotateMutex0
+11	93	68		acquire __rotateMutex2
+11	93	69		mov __rotate_ports4, __OUT_AC
+11	93	71		mov __rotate_power4, __signed_stack_001programa
+11	93	73		mov __rotate_angle4, __D0programa
+11	93	75		mov __rotate_turnpct4, __constVal0
+11	93	77		mov __rotate_sync4, __constVal0
+11	93	79		mov __rotate_stop4, __constVal1
+11	93	81		mov __rotate_theRVP4, __constVal32
+11	93	83		mov __rotate_theRVI4, __constVal0
+11	93	85		mov __rotate_theRVD4, __constVal96
+11	93	87		subcall __RotateMotor4, ____RotateMotor4_return
+11	93	89		release __rotateMutex2
+11	93	90		release __rotateMutex0
+11	5222	91	#line 5222 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	92	91	#line 92 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	92	91	#line 92 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	93	91		mov __signed_stack_001programa, color1
+11	92	93	#line 92 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	92	93	#line 92 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	93	93		set __D0programa, 3
+11	92	96	#line 92 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	93	96		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	92	100	#line 92 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	93	100		brtst 4, __ASM_Label_615, __D0programa
+11	92	103	#line 92 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	93	103		mov __signed_stack_001programa, color2
+11	92	105	#line 92 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	93	105	#line 93 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	94	105		set __D0programa, 3
+11	93	108	#line 93 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	94	108		cmp 5, __D0programa, __signed_stack_001programa, __D0programa
+11	95	112	#line 95 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	96	112		brtst 4, __ASM_Label_616, __D0programa
+11	96	115	#line 96 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	97	115	#pragma macro 7
+11	97	115		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+11	5252	138	#line 5252 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	96	138	#line 96 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	97	138	#line 97 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	98	138		subcall adelante, __adelante_return
+11	97	140	#line 97 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	97	140	#line 97 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	98	140		mov __signed_stack_001programa, color1
+11	97	142	#line 97 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	97	142	#line 97 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	98	142		set __D0programa, 1
+11	97	145	#line 97 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	98	145		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	97	149	#line 97 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	98	149		brtst 5, __ASM_Label_621, __D0programa
+11	97	152	#line 97 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	98	152		mov __signed_stack_001programa, color2
+11	97	154	#line 97 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	97	154	#line 97 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	98	154		set __D0programa, 1
+11	97	157	#line 97 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	98	157		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	97	161	#line 97 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	98	161		not __D0programa, __D0programa
+11	98	164	#line 98 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	99	164		tst 5, __D0programa, __D0programa
+11	98	167	#line 98 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	99	167		brtst 4, __ASM_Label_618, __D0programa
+11	98	170	#line 98 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	98	170	#line 98 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	99	170		jmp __ASM_Label_617
+11	98	172	#line 98 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	98	172	#line 98 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	99	172		set __signed_stack_001programa, 70
+11	98	175	#line 98 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	98	175	#line 98 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	99	175		mov __D0programa, __constValNeg250
+11	99	177	#line 99 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	100	177	#pragma macro 35
+11	100	177		acquire __rotateMutex0
+11	100	178		acquire __rotateMutex2
+11	100	179		mov __rotate_ports4, __OUT_AC
+11	100	181		mov __rotate_power4, __signed_stack_001programa
+11	100	183		mov __rotate_angle4, __D0programa
+11	100	185		mov __rotate_turnpct4, __constVal0
+11	100	187		mov __rotate_sync4, __constVal0
+11	100	189		mov __rotate_stop4, __constVal1
+11	100	191		mov __rotate_theRVP4, __constVal32
+11	100	193		mov __rotate_theRVI4, __constVal0
+11	100	195		mov __rotate_theRVD4, __constVal96
+11	100	197		subcall __RotateMotor4, ____RotateMotor4_return
+11	100	199		release __rotateMutex2
+11	100	200		release __rotateMutex0
+11	5304	201	#line 5304 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	99	201	#line 99 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	99	201	#line 99 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	100	201		set __signed_stack_001programa, 70
+11	99	204	#line 99 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	99	204	#line 99 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	100	204		set __signed_stack_002programa, 250
+11	99	207	#line 99 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	99	207	#line 99 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	100	207		mov __signed_stack_003programa, __constValNeg100
+11	99	209	#line 99 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	99	209	#line 99 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	100	209		set __signed_stack_004programa, 1
+11	99	212	#line 99 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	99	212	#line 99 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	100	212		set __D0programa, 1
+11	100	215	#line 100 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	101	215	#pragma macro 35
+11	101	215		acquire __rotateMutex0
+11	101	216		acquire __rotateMutex2
+11	101	217		mov __rotate_ports4, __OUT_AC
+11	101	219		mov __rotate_power4, __signed_stack_001programa
+11	101	221		mov __rotate_angle4, __signed_stack_002programa
+11	101	223		mov __rotate_turnpct4, __signed_stack_003programa
+11	101	225		mov __rotate_sync4, __signed_stack_004programa
+11	101	227		mov __rotate_stop4, __D0programa
+11	101	229		mov __rotate_theRVP4, __constVal32
+11	101	231		mov __rotate_theRVI4, __constVal0
+11	101	233		mov __rotate_theRVD4, __constVal96
+11	101	235		subcall __RotateMotor4, ____RotateMotor4_return
+11	101	237		release __rotateMutex2
+11	101	238		release __rotateMutex0
+11	5330	239	#line 5330 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	100	239	#line 100 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	100	239	#line 100 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	101	239		set __izquierda_7qG2_n_7qG2_000, 60
+11	100	242	#line 100 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	101	242	#line 101 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	102	242		subcall izquierda, __izquierda_return
+11	101	244	#line 101 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	101	244	#line 101 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	102	244		mov __signed_stack_001programa, color2
+11	101	246	#line 101 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	101	246	#line 101 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	102	246		set __D0programa, 1
+11	101	249	#line 101 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	102	249		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	101	253	#line 101 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	102	253		not __D0programa, __D0programa
+11	102	256	#line 102 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	103	256		tst 5, __D0programa, __D0programa
+11	102	259	#line 102 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	103	259		brtst 4, __ASM_Label_641, __D0programa
+11	102	262	#line 102 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	102	262	#line 102 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	103	262		jmp __ASM_Label_640
+11	102	264	#line 102 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	104	264	#line 104 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	105	264	#pragma macro 7
+11	105	264		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+11	5370	287	#line 5370 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	104	287	#line 104 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	106	287	#line 106 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	106	287	#line 106 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	107	287		mov __signed_stack_001programa, color2
+11	106	289	#line 106 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	106	289	#line 106 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	107	289		set __D0programa, 3
+11	106	292	#line 106 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	107	292		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	106	296	#line 106 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	107	296		brtst 4, __ASM_Label_647, __D0programa
+11	106	299	#line 106 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	107	299		mov __signed_stack_001programa, color1
+11	106	301	#line 106 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	107	301	#line 107 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	108	301		set __D0programa, 3
+11	107	304	#line 107 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	108	304		cmp 5, __D0programa, __signed_stack_001programa, __D0programa
+11	109	308	#line 109 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	110	308		brtst 4, __ASM_Label_648, __D0programa
+11	110	311	#line 110 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	111	311	#pragma macro 7
+11	111	311		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+11	5401	334	#line 5401 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	110	334	#line 110 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	111	334	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	112	334		subcall adelante, __adelante_return
+11	111	336	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	111	336	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	112	336		mov __signed_stack_001programa, color1
+11	111	338	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	111	338	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	112	338		set __D0programa, 1
+11	111	341	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	112	341		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	111	345	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	112	345		brtst 5, __ASM_Label_653, __D0programa
+11	111	348	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	112	348		mov __signed_stack_001programa, color2
+11	111	350	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	111	350	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	112	350		set __D0programa, 1
+11	111	353	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	112	353		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	111	357	#line 111 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	112	357		not __D0programa, __D0programa
+11	112	360	#line 112 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	113	360		tst 5, __D0programa, __D0programa
+11	112	363	#line 112 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	113	363		brtst 4, __ASM_Label_650, __D0programa
+11	112	366	#line 112 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	112	366	#line 112 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	113	366		jmp __ASM_Label_649
+11	112	368	#line 112 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	112	368	#line 112 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	113	368		set __signed_stack_001programa, 70
+11	112	371	#line 112 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	112	371	#line 112 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	113	371		mov __D0programa, __constValNeg250
+11	113	373	#line 113 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	114	373	#pragma macro 35
+11	114	373		acquire __rotateMutex0
+11	114	374		acquire __rotateMutex2
+11	114	375		mov __rotate_ports4, __OUT_AC
+11	114	377		mov __rotate_power4, __signed_stack_001programa
+11	114	379		mov __rotate_angle4, __D0programa
+11	114	381		mov __rotate_turnpct4, __constVal0
+11	114	383		mov __rotate_sync4, __constVal0
+11	114	385		mov __rotate_stop4, __constVal1
+11	114	387		mov __rotate_theRVP4, __constVal32
+11	114	389		mov __rotate_theRVI4, __constVal0
+11	114	391		mov __rotate_theRVD4, __constVal96
+11	114	393		subcall __RotateMotor4, ____RotateMotor4_return
+11	114	395		release __rotateMutex2
+11	114	396		release __rotateMutex0
+11	5453	397	#line 5453 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	113	397	#line 113 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	113	397	#line 113 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	114	397		set __signed_stack_001programa, 70
+11	113	400	#line 113 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	113	400	#line 113 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	114	400		set __signed_stack_002programa, 250
+11	113	403	#line 113 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	113	403	#line 113 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	114	403		set __signed_stack_003programa, 100
+11	113	406	#line 113 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	113	406	#line 113 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	114	406		set __signed_stack_004programa, 1
+11	113	409	#line 113 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	113	409	#line 113 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	114	409		set __D0programa, 1
+11	114	412	#line 114 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	115	412	#pragma macro 35
+11	115	412		acquire __rotateMutex0
+11	115	413		acquire __rotateMutex2
+11	115	414		mov __rotate_ports4, __OUT_AC
+11	115	416		mov __rotate_power4, __signed_stack_001programa
+11	115	418		mov __rotate_angle4, __signed_stack_002programa
+11	115	420		mov __rotate_turnpct4, __signed_stack_003programa
+11	115	422		mov __rotate_sync4, __signed_stack_004programa
+11	115	424		mov __rotate_stop4, __D0programa
+11	115	426		mov __rotate_theRVP4, __constVal32
+11	115	428		mov __rotate_theRVI4, __constVal0
+11	115	430		mov __rotate_theRVD4, __constVal96
+11	115	432		subcall __RotateMotor4, ____RotateMotor4_return
+11	115	434		release __rotateMutex2
+11	115	435		release __rotateMutex0
+11	5479	436	#line 5479 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	114	436	#line 114 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	114	436	#line 114 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	115	436		set __derecha_7qG2_n_7qG2_000, 60
+11	114	439	#line 114 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	115	439	#line 115 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	116	439		subcall derecha, __derecha_return
+11	115	441	#line 115 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	115	441	#line 115 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	116	441		mov __signed_stack_001programa, color1
+11	115	443	#line 115 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	115	443	#line 115 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	116	443		set __D0programa, 1
+11	115	446	#line 115 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	116	446		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	115	450	#line 115 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	116	450		not __D0programa, __D0programa
+11	116	453	#line 116 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	117	453		tst 5, __D0programa, __D0programa
+11	116	456	#line 116 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	117	456		brtst 4, __ASM_Label_673, __D0programa
+11	116	459	#line 116 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	116	459	#line 116 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	117	459		jmp __ASM_Label_672
+11	116	461	#line 116 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	118	461	#line 118 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	119	461	#pragma macro 7
+11	119	461		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+11	5519	484	#line 5519 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	118	484	#line 118 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	120	484	#line 120 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	120	484	#line 120 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	121	484		mov __signed_stack_001programa, color1
+11	120	486	#line 120 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	120	486	#line 120 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	121	486		set __D0programa, 3
+11	120	489	#line 120 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	121	489		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	120	493	#line 120 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	121	493		brtst 4, __ASM_Label_679, __D0programa
+11	120	496	#line 120 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	121	496		mov __signed_stack_001programa, color2
+11	120	498	#line 120 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	121	498	#line 121 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	122	498		set __D0programa, 3
+11	121	501	#line 121 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	122	501		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	123	505	#line 123 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	124	505		brtst 4, __ASM_Label_680, __D0programa
+11	123	508	#line 123 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	124	508		set __signed_stack_001programa, 50
+11	123	511	#line 123 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	123	511	#line 123 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	124	511		set __signed_stack_002programa, 850
+11	123	514	#line 123 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	123	514	#line 123 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	124	514		mov __signed_stack_003programa, __constValNeg100
+11	123	516	#line 123 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	123	516	#line 123 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	124	516		set __signed_stack_004programa, 1
+11	123	519	#line 123 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	123	519	#line 123 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	124	519		set __D0programa, 1
+11	124	522	#line 124 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	125	522	#pragma macro 35
+11	125	522		acquire __rotateMutex0
+11	125	523		acquire __rotateMutex2
+11	125	524		mov __rotate_ports4, __OUT_AC
+11	125	526		mov __rotate_power4, __signed_stack_001programa
+11	125	528		mov __rotate_angle4, __signed_stack_002programa
+11	125	530		mov __rotate_turnpct4, __signed_stack_003programa
+11	125	532		mov __rotate_sync4, __signed_stack_004programa
+11	125	534		mov __rotate_stop4, __D0programa
+11	125	536		mov __rotate_theRVP4, __constVal32
+11	125	538		mov __rotate_theRVI4, __constVal0
+11	125	540		mov __rotate_theRVD4, __constVal96
+11	125	542		subcall __RotateMotor4, ____RotateMotor4_return
+11	125	544		release __rotateMutex2
+11	125	545		release __rotateMutex0
+11	5572	546	#line 5572 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	124	546	#line 124 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	124	546	#line 124 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	125	546		set __izquierda_7qG2_n_7qG2_000, 50
+11	124	549	#line 124 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	125	549	#line 125 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	126	549		subcall izquierda, __izquierda_return
+11	125	551	#line 125 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	125	551	#line 125 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	126	551		mov __signed_stack_001programa, color2
+11	125	553	#line 125 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	125	553	#line 125 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	126	553		set __D0programa, 1
+11	125	556	#line 125 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	126	556		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	125	560	#line 125 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	126	560		not __D0programa, __D0programa
+11	126	563	#line 126 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	127	563		tst 5, __D0programa, __D0programa
+11	126	566	#line 126 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	127	566		brtst 4, __ASM_Label_694, __D0programa
+11	126	569	#line 126 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	126	569	#line 126 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	127	569		jmp __ASM_Label_693
+11	126	571	#line 126 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	127	571	#line 127 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	128	571	#pragma macro 7
+11	128	571		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+11	5612	594	#line 5612 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	127	594	#line 127 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	131	594	#line 131 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	134	594	#line 134 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	135	594		jmp __ASM_Label_699
+11	134	596	#line 134 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	135	596		mov __signed_stack_001programa, luz
+11	134	598	#line 134 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	134	598	#line 134 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	135	598		set __D0programa, 45
+11	134	601	#line 134 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	135	601		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+11	134	605	#line 134 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	135	605		brtst 4, __ASM_Label_701, __D0programa
+11	134	608	#line 134 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	135	608		mov __signed_stack_001programa, color1
+11	134	610	#line 134 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	134	610	#line 134 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	135	610		set __D0programa, 1
+11	134	613	#line 134 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	135	613		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	134	617	#line 134 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	135	617		brtst 4, __ASM_Label_701, __D0programa
+11	134	620	#line 134 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	135	620		mov __signed_stack_001programa, color2
+11	134	622	#line 134 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	134	622	#line 134 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	135	622		set __D0programa, 1
+11	134	625	#line 134 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	135	625		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	134	629	#line 134 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	135	629		brtst 4, __ASM_Label_701, __D0programa
+11	134	632	#line 134 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	135	632		mov __signed_stack_001programa, luz2
+11	134	634	#line 134 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	134	634	#line 134 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	135	634		set __D0programa, 45
+11	134	637	#line 134 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	135	637		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+11	135	641	#line 135 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	136	641		brtst 4, __ASM_Label_702, __D0programa
+11	136	644	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	137	644		subcall atras, __atras_return
+11	136	646	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	136	646	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	137	646		set __Wait_7qG2_ms_7qG2_000_inline_programa, 200
+11	136	649	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	8551	649	#line 8551 "NXCDefs.h"
+11	8552	649		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_programa
+11	8551	652	#line 8551 "NXCDefs.h"
+11	138	652	#line 138 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	140	652	#line 140 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	140	652	#line 140 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	141	652		mov __signed_stack_001programa, luz
+11	140	654	#line 140 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	140	654	#line 140 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	141	654		set __D0programa, 45
+11	140	657	#line 140 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	141	657		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+11	140	661	#line 140 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	141	661		brtst 4, __ASM_Label_706, __D0programa
+11	140	664	#line 140 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	141	664		mov __signed_stack_001programa, color1
+11	140	666	#line 140 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	140	666	#line 140 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	141	666		set __D0programa, 6
+11	140	669	#line 140 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	141	669		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	140	673	#line 140 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	141	673		brtst 4, __ASM_Label_706, __D0programa
+11	140	676	#line 140 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	141	676		mov __signed_stack_001programa, color2
+11	140	678	#line 140 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	140	678	#line 140 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	141	678		set __D0programa, 6
+11	140	681	#line 140 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	141	681		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	140	685	#line 140 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	141	685		brtst 4, __ASM_Label_706, __D0programa
+11	140	688	#line 140 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	141	688		mov __signed_stack_001programa, luz2
+11	140	690	#line 140 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	140	690	#line 140 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	141	690		set __D0programa, 45
+11	140	693	#line 140 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	141	693		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+11	141	697	#line 141 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	142	697		brtst 4, __ASM_Label_707, __D0programa
+11	143	700	#line 143 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	144	700		subcall adelante, __adelante_return
+11	143	702	#line 143 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	145	702	#line 145 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	145	702	#line 145 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	146	702		mov __signed_stack_001programa, luz
+11	145	704	#line 145 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	145	704	#line 145 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	146	704		set __D0programa, 45
+11	145	707	#line 145 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	146	707		cmp 0, __D0programa, __signed_stack_001programa, __D0programa
+11	145	711	#line 145 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	146	711		brtst 4, __ASM_Label_709, __D0programa
+11	145	714	#line 145 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	146	714		mov __signed_stack_001programa, color1
+11	145	716	#line 145 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	145	716	#line 145 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	146	716		set __D0programa, 1
+11	145	719	#line 145 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	146	719		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	145	723	#line 145 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	146	723		brtst 4, __ASM_Label_709, __D0programa
+11	145	726	#line 145 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	146	726		mov __signed_stack_001programa, color2
+11	145	728	#line 145 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	145	728	#line 145 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	146	728		set __D0programa, 1
+11	145	731	#line 145 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	146	731		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	145	735	#line 145 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	146	735		brtst 4, __ASM_Label_709, __D0programa
+11	145	738	#line 145 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	146	738		mov __signed_stack_001programa, luz2
+11	145	740	#line 145 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	145	740	#line 145 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	146	740		set __D0programa, 45
+11	145	743	#line 145 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	146	743		cmp 0, __D0programa, __signed_stack_001programa, __D0programa
+11	146	747	#line 146 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	147	747		brtst 4, __ASM_Label_710, __D0programa
+11	147	750	#line 147 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	148	750		subcall adelante, __adelante_return
+11	147	752	#line 147 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	147	752	#line 147 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	148	752		set __Wait_7qG2_ms_7qG2_000_inline_programa, 600
+11	147	755	#line 147 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	8551	755	#line 8551 "NXCDefs.h"
+11	8552	755		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_programa
+11	8551	758	#line 8551 "NXCDefs.h"
+11	149	758	#line 149 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	151	758	#line 151 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	151	758	#line 151 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	152	758		mov __signed_stack_001programa, luz
+11	151	760	#line 151 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	151	760	#line 151 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	152	760		set __D0programa, 45
+11	151	763	#line 151 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	152	763		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+11	151	767	#line 151 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	152	767		brtst 4, __ASM_Label_714, __D0programa
+11	151	770	#line 151 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	152	770		mov __signed_stack_001programa, color1
+11	151	772	#line 151 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	151	772	#line 151 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	152	772		set __D0programa, 1
+11	151	775	#line 151 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	152	775		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	151	779	#line 151 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	152	779		brtst 4, __ASM_Label_714, __D0programa
+11	151	782	#line 151 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	152	782		mov __signed_stack_001programa, color2
+11	151	784	#line 151 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	151	784	#line 151 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	152	784		set __D0programa, 1
+11	151	787	#line 151 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	152	787		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	151	791	#line 151 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	152	791		brtst 4, __ASM_Label_714, __D0programa
+11	151	794	#line 151 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	152	794		mov __signed_stack_001programa, luz2
+11	151	796	#line 151 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	151	796	#line 151 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	152	796		set __D0programa, 45
+11	151	799	#line 151 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	152	799		cmp 0, __D0programa, __signed_stack_001programa, __D0programa
+11	152	803	#line 152 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	153	803		brtst 4, __ASM_Label_715, __D0programa
+11	152	806	#line 152 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	153	806		set __derecha_7qG2_n_7qG2_000, 100
+11	152	809	#line 152 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	153	809	#line 153 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	154	809		subcall derecha, __derecha_return
+11	153	811	#line 153 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	155	811	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	155	811	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	156	811		mov __signed_stack_001programa, luz
+11	155	813	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	155	813	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	156	813		set __D0programa, 45
+11	155	816	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	156	816		cmp 0, __D0programa, __signed_stack_001programa, __D0programa
+11	155	820	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	156	820		brtst 4, __ASM_Label_719, __D0programa
+11	155	823	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	156	823		mov __signed_stack_001programa, color1
+11	155	825	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	155	825	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	156	825		set __D0programa, 1
+11	155	828	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	156	828		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	155	832	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	156	832		brtst 4, __ASM_Label_719, __D0programa
+11	155	835	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	156	835		mov __signed_stack_001programa, color2
+11	155	837	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	155	837	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	156	837		set __D0programa, 1
+11	155	840	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	156	840		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	155	844	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	156	844		brtst 4, __ASM_Label_719, __D0programa
+11	155	847	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	156	847		mov __signed_stack_001programa, luz2
+11	155	849	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	155	849	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	156	849		set __D0programa, 45
+11	155	852	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	156	852		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+11	156	856	#line 156 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	157	856		brtst 4, __ASM_Label_720, __D0programa
+11	156	859	#line 156 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	157	859		set __izquierda_7qG2_n_7qG2_000, 100
+11	156	862	#line 156 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	158	862	#line 158 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	159	862		subcall izquierda, __izquierda_return
+11	158	864	#line 158 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	160	864	#line 160 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	160	864	#line 160 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	161	864		mov __signed_stack_001programa, luz
+11	160	866	#line 160 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	160	866	#line 160 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	161	866		set __D0programa, 45
+11	160	869	#line 160 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	161	869		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+11	160	873	#line 160 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	161	873		brtst 4, __ASM_Label_724, __D0programa
+11	160	876	#line 160 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	161	876		mov __signed_stack_001programa, color1
+11	160	878	#line 160 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	160	878	#line 160 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	161	878		set __D0programa, 6
+11	160	881	#line 160 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	161	881		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	160	885	#line 160 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	161	885		brtst 4, __ASM_Label_724, __D0programa
+11	160	888	#line 160 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	161	888		mov __signed_stack_001programa, color2
+11	160	890	#line 160 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	160	890	#line 160 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	161	890		set __D0programa, 1
+11	160	893	#line 160 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	161	893		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	160	897	#line 160 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	161	897		brtst 4, __ASM_Label_724, __D0programa
+11	160	900	#line 160 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	161	900		mov __signed_stack_001programa, luz2
+11	160	902	#line 160 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	160	902	#line 160 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	161	902		set __D0programa, 45
+11	160	905	#line 160 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	161	905		cmp 0, __D0programa, __signed_stack_001programa, __D0programa
+11	161	909	#line 161 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	162	909		brtst 4, __ASM_Label_725, __D0programa
+11	161	912	#line 161 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	162	912		set __derecha_7qG2_n_7qG2_000, 85
+11	161	915	#line 161 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	162	915	#line 162 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	163	915		subcall derecha, __derecha_return
+11	162	917	#line 162 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	162	917	#line 162 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	163	917		mov __signed_stack_001programa, color1
+11	162	919	#line 162 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	162	919	#line 162 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	163	919		set __D0programa, 1
+11	162	922	#line 162 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	163	922		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	162	926	#line 162 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	163	926		not __D0programa, __D0programa
+11	164	929	#line 164 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	165	929		tst 5, __D0programa, __D0programa
+11	164	932	#line 164 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	165	932		brtst 4, __ASM_Label_729, __D0programa
+11	164	935	#line 164 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	164	935	#line 164 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	165	935		jmp __ASM_Label_728
+11	164	937	#line 164 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	166	937	#line 166 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	166	937	#line 166 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	167	937		mov __signed_stack_001programa, luz
+11	166	939	#line 166 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	166	939	#line 166 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	167	939		set __D0programa, 45
+11	166	942	#line 166 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	167	942		cmp 0, __D0programa, __signed_stack_001programa, __D0programa
+11	166	946	#line 166 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	167	946		brtst 4, __ASM_Label_735, __D0programa
+11	166	949	#line 166 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	167	949		mov __signed_stack_001programa, color1
+11	166	951	#line 166 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	166	951	#line 166 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	167	951		set __D0programa, 1
+11	166	954	#line 166 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	167	954		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	166	958	#line 166 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	167	958		brtst 4, __ASM_Label_735, __D0programa
+11	166	961	#line 166 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	167	961		mov __signed_stack_001programa, color2
+11	166	963	#line 166 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	166	963	#line 166 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	167	963		set __D0programa, 6
+11	166	966	#line 166 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	167	966		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	166	970	#line 166 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	167	970		brtst 4, __ASM_Label_735, __D0programa
+11	166	973	#line 166 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	167	973		mov __signed_stack_001programa, luz2
+11	166	975	#line 166 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	166	975	#line 166 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	167	975		set __D0programa, 45
+11	166	978	#line 166 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	167	978		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+11	167	982	#line 167 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	168	982		brtst 4, __ASM_Label_736, __D0programa
+11	167	985	#line 167 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	168	985		set __izquierda_7qG2_n_7qG2_000, 85
+11	167	988	#line 167 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	168	988	#line 168 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	169	988		subcall izquierda, __izquierda_return
+11	168	990	#line 168 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	168	990	#line 168 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	169	990		mov __signed_stack_001programa, color2
+11	168	992	#line 168 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	168	992	#line 168 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	169	992		set __D0programa, 1
+11	168	995	#line 168 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	169	995		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	168	999	#line 168 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	169	999		not __D0programa, __D0programa
+11	170	1002	#line 170 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	171	1002		tst 5, __D0programa, __D0programa
+11	170	1005	#line 170 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	171	1005		brtst 4, __ASM_Label_740, __D0programa
+11	170	1008	#line 170 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	170	1008	#line 170 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	171	1008		jmp __ASM_Label_739
+11	170	1010	#line 170 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	172	1010	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	172	1010	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	173	1010		mov __signed_stack_001programa, luz
+11	172	1012	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	172	1012	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	173	1012		set __D0programa, 45
+11	172	1015	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	173	1015		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+11	172	1019	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	173	1019		brtst 4, __ASM_Label_746, __D0programa
+11	172	1022	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	173	1022		mov __signed_stack_001programa, color1
+11	172	1024	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	172	1024	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	173	1024		set __D0programa, 1
+11	172	1027	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	173	1027		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	172	1031	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	173	1031		brtst 4, __ASM_Label_746, __D0programa
+11	172	1034	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	173	1034		mov __signed_stack_001programa, color2
+11	172	1036	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	172	1036	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	173	1036		set __D0programa, 6
+11	172	1039	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	173	1039		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	172	1043	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	173	1043		brtst 4, __ASM_Label_746, __D0programa
+11	172	1046	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	173	1046		mov __signed_stack_001programa, luz2
+11	172	1048	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	172	1048	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	173	1048		set __D0programa, 45
+11	172	1051	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	173	1051		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+11	173	1055	#line 173 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	174	1055		brtst 4, __ASM_Label_747, __D0programa
+11	173	1058	#line 173 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	174	1058		set __izquierda_7qG2_n_7qG2_000, 70
+11	173	1061	#line 173 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	175	1061	#line 175 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	176	1061		subcall izquierda, __izquierda_return
+11	175	1063	#line 175 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	177	1063	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	177	1063	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	178	1063		mov __signed_stack_001programa, luz
+11	177	1065	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	177	1065	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	178	1065		set __D0programa, 45
+11	177	1068	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	178	1068		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+11	177	1072	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	178	1072		brtst 4, __ASM_Label_751, __D0programa
+11	177	1075	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	178	1075		mov __signed_stack_001programa, color1
+11	177	1077	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	177	1077	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	178	1077		set __D0programa, 6
+11	177	1080	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	178	1080		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	177	1084	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	178	1084		brtst 4, __ASM_Label_751, __D0programa
+11	177	1087	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	178	1087		mov __signed_stack_001programa, color2
+11	177	1089	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	177	1089	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	178	1089		set __D0programa, 1
+11	177	1092	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	178	1092		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	177	1096	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	178	1096		brtst 4, __ASM_Label_751, __D0programa
+11	177	1099	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	178	1099		mov __signed_stack_001programa, luz2
+11	177	1101	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	177	1101	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	178	1101		set __D0programa, 45
+11	177	1104	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	178	1104		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+11	178	1108	#line 178 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	179	1108		brtst 4, __ASM_Label_752, __D0programa
+11	178	1111	#line 178 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	179	1111		set __derecha_7qG2_n_7qG2_000, 70
+11	178	1114	#line 178 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	180	1114	#line 180 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	181	1114		subcall derecha, __derecha_return
+11	180	1116	#line 180 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	182	1116	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	182	1116	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	183	1116		mov __signed_stack_001programa, luz
+11	182	1118	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	182	1118	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	183	1118		set __D0programa, 40
+11	182	1121	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	183	1121		cmp 0, __D0programa, __signed_stack_001programa, __D0programa
+11	182	1125	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	183	1125		brtst 4, __ASM_Label_756, __D0programa
+11	182	1128	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	183	1128		mov __signed_stack_001programa, color1
+11	182	1130	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	182	1130	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	183	1130		set __D0programa, 6
+11	182	1133	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	183	1133		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	182	1137	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	183	1137		brtst 4, __ASM_Label_756, __D0programa
+11	182	1140	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	183	1140		mov __signed_stack_001programa, color2
+11	182	1142	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	182	1142	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	183	1142		set __D0programa, 6
+11	182	1145	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	183	1145		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	182	1149	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	183	1149		brtst 4, __ASM_Label_756, __D0programa
+11	182	1152	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	183	1152		mov __signed_stack_001programa, luz2
+11	182	1154	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	182	1154	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	183	1154		set __D0programa, 40
+11	182	1157	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	183	1157		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+11	183	1161	#line 183 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	184	1161		brtst 4, __ASM_Label_757, __D0programa
+11	183	1164	#line 183 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	184	1164		set __izquierda_7qG2_n_7qG2_000, 55
+11	183	1167	#line 183 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	184	1167	#line 184 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	185	1167		subcall izquierda, __izquierda_return
+11	184	1169	#line 184 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	184	1169	#line 184 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	185	1169		mov __signed_stack_001programa, color2
+11	184	1171	#line 184 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	184	1171	#line 184 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	185	1171		set __D0programa, 1
+11	184	1174	#line 184 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	185	1174		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	184	1178	#line 184 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	185	1178		not __D0programa, __D0programa
+11	185	1181	#line 185 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	186	1181		tst 5, __D0programa, __D0programa
+11	185	1184	#line 185 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	186	1184		brtst 4, __ASM_Label_761, __D0programa
+11	185	1187	#line 185 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	185	1187	#line 185 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	186	1187		jmp __ASM_Label_760
+11	185	1189	#line 185 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	187	1189	#line 187 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	187	1189	#line 187 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	188	1189		mov __signed_stack_001programa, luz
+11	187	1191	#line 187 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	187	1191	#line 187 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	188	1191		set __D0programa, 40
+11	187	1194	#line 187 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	188	1194		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+11	187	1198	#line 187 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	188	1198		brtst 4, __ASM_Label_767, __D0programa
+11	187	1201	#line 187 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	188	1201		mov __signed_stack_001programa, color1
+11	187	1203	#line 187 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	187	1203	#line 187 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	188	1203		set __D0programa, 6
+11	187	1206	#line 187 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	188	1206		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	187	1210	#line 187 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	188	1210		brtst 4, __ASM_Label_767, __D0programa
+11	187	1213	#line 187 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	188	1213		mov __signed_stack_001programa, color2
+11	187	1215	#line 187 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	187	1215	#line 187 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	188	1215		set __D0programa, 6
+11	187	1218	#line 187 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	188	1218		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	187	1222	#line 187 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	188	1222		brtst 4, __ASM_Label_767, __D0programa
+11	187	1225	#line 187 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	188	1225		mov __signed_stack_001programa, luz2
+11	187	1227	#line 187 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	187	1227	#line 187 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	188	1227		set __D0programa, 40
+11	187	1230	#line 187 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	188	1230		cmp 0, __D0programa, __signed_stack_001programa, __D0programa
+11	188	1234	#line 188 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	189	1234		brtst 4, __ASM_Label_768, __D0programa
+11	188	1237	#line 188 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	189	1237		set __derecha_7qG2_n_7qG2_000, 55
+11	188	1240	#line 188 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	189	1240	#line 189 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	190	1240		subcall derecha, __derecha_return
+11	189	1242	#line 189 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	189	1242	#line 189 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	190	1242		mov __signed_stack_001programa, color1
+11	189	1244	#line 189 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	189	1244	#line 189 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	190	1244		set __D0programa, 1
+11	189	1247	#line 189 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	190	1247		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+11	189	1251	#line 189 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	190	1251		not __D0programa, __D0programa
+11	190	1254	#line 190 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	191	1254		tst 5, __D0programa, __D0programa
+11	190	1257	#line 190 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	191	1257		brtst 4, __ASM_Label_772, __D0programa
+11	190	1260	#line 190 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	190	1260	#line 190 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	191	1260		jmp __ASM_Label_771
+11	190	1262	#line 190 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	192	1262	#line 192 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	193	1262	#line 193 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	195	1262	#line 195 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	196	1262		jmp __ASM_Label_600
+11	195	1264	#line 195 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+11	196	1264		exit -1, -1
+12	197	0	#line 197 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	198	0		set __D0leer, 1
+12	198	3	#line 198 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	199	3		tst 5, __D0leer, __D0leer
+12	198	6	#line 198 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	199	6		brtst 4, __ASM_Label_778, __D0leer
+12	198	9	#line 198 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	199	9	#pragma macro 26
+12	199	9		acquire __RLSBmutex0
+12	199	10		mov __RLSReadBuf0, __RLSBbufLSWrite1
+12	199	12		set __RLSBytesCount0, 1
+12	199	15		wait2 NA, __constVal15
+12	199	18		subcall __ReadLSBytes0, ____ReadLSBytes0_return
+12	199	20		index __D0leer, __RLSReadBuf0, 65535
+12	199	24		release __RLSBmutex0
+12	6409	25	#line 6409 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	198	25	#line 198 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	199	25		mov ultra1, __D0leer
+12	198	27	#line 198 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	198	27	#line 198 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	199	27	#line 199 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	200	27	#pragma macro 26
+12	200	27		acquire __RLSBmutex1
+12	200	28		mov __RLSReadBuf1, __RLSBbufLSWrite1
+12	200	30		set __RLSBytesCount1, 1
+12	200	33		wait2 NA, __constVal15
+12	200	36		subcall __ReadLSBytes1, ____ReadLSBytes1_return
+12	200	38		index __D0leer, __RLSReadBuf1, 65535
+12	200	42		release __RLSBmutex1
+12	6417	43	#line 6417 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	199	43	#line 199 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	200	43		mov ultra2, __D0leer
+12	199	45	#line 199 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	199	45	#line 199 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	200	45	#line 200 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	201	45		set __no_conexion_7qG2_num_7qG2_000, 0
+12	200	48	#line 200 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	201	48	#line 201 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	202	48		subcall no_conexion, __no_conexion_return
+12	201	50	#line 201 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	201	50	#line 201 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	202	50	#pragma macro 9
+12	202	50		acquire __MRMutex
+12	202	51		mov __MRArgs.QueueID, __constVal2
+12	202	53		mov __MRArgs.Remove, __constVal1
+12	202	55		set __RRNTmpVal, 0
+12	202	58		syscall 27, __MRArgs
+12	202	61		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+12	202	66		mov __leer_7qG2_recibir1_7qG2_000, __RRNTmpVal
+12	202	68		mov __D0leer, __MRArgs.Result
+12	202	70		release __MRMutex
+12	6432	71	#line 6432 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	201	71	#line 201 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	202	71		mov __signed_stack_001leer, __D0leer
+12	201	73	#line 201 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	202	73		set __D0leer, 64
+12	201	76	#line 201 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	202	76		cmp 5, __D0leer, __signed_stack_001leer, __D0leer
+12	202	80	#line 202 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	203	80		brtst 4, __ASM_Label_789, __D0leer
+12	203	83	#line 203 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	204	83		mov color1, __leer_7qG2_recibir1_7qG2_000
+12	203	85	#line 203 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	203	85	#line 203 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	204	85	#line 204 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	204	85	#line 204 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	205	85	#pragma macro 9
+12	205	85		acquire __MRMutex
+12	205	86		mov __MRArgs.QueueID, __constVal3
+12	205	88		mov __MRArgs.Remove, __constVal1
+12	205	90		set __RRNTmpVal, 0
+12	205	93		syscall 27, __MRArgs
+12	205	96		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+12	205	101		mov __leer_7qG2_recibir2_7qG2_000, __RRNTmpVal
+12	205	103		mov __D0leer, __MRArgs.Result
+12	205	105		release __MRMutex
+12	6455	106	#line 6455 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	204	106	#line 204 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	205	106		mov __signed_stack_001leer, __D0leer
+12	204	108	#line 204 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	205	108		set __D0leer, 64
+12	204	111	#line 204 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	205	111		cmp 5, __D0leer, __signed_stack_001leer, __D0leer
+12	205	115	#line 205 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	206	115		brtst 4, __ASM_Label_794, __D0leer
+12	206	118	#line 206 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	207	118		mov color2, __leer_7qG2_recibir2_7qG2_000
+12	206	120	#line 206 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	206	120	#line 206 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	207	120	#line 207 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	207	120	#line 207 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	208	120	#pragma macro 9
+12	208	120		acquire __MRMutex
+12	208	121		mov __MRArgs.QueueID, __constVal4
+12	208	123		mov __MRArgs.Remove, __constVal1
+12	208	125		set __RRNTmpVal, 0
+12	208	128		syscall 27, __MRArgs
+12	208	131		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+12	208	136		mov __leer_7qG2_recibir3_7qG2_000, __RRNTmpVal
+12	208	138		mov __D0leer, __MRArgs.Result
+12	208	140		release __MRMutex
+12	6478	141	#line 6478 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	207	141	#line 207 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	208	141		mov __signed_stack_001leer, __D0leer
+12	207	143	#line 207 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	208	143		set __D0leer, 64
+12	207	146	#line 207 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	208	146		cmp 5, __D0leer, __signed_stack_001leer, __D0leer
+12	208	150	#line 208 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	209	150		brtst 4, __ASM_Label_799, __D0leer
+12	209	153	#line 209 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	210	153		mov luz, __leer_7qG2_recibir3_7qG2_000
+12	209	155	#line 209 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	209	155	#line 209 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	210	155	#line 210 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	210	155	#line 210 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	211	155	#pragma macro 9
+12	211	155		acquire __MRMutex
+12	211	156		mov __MRArgs.QueueID, __constVal5
+12	211	158		mov __MRArgs.Remove, __constVal1
+12	211	160		set __RRNTmpVal, 0
+12	211	163		syscall 27, __MRArgs
+12	211	166		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+12	211	171		mov __leer_7qG2_recibir4_7qG2_000, __RRNTmpVal
+12	211	173		mov __D0leer, __MRArgs.Result
+12	211	175		release __MRMutex
+12	6501	176	#line 6501 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	210	176	#line 210 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	211	176		mov __signed_stack_001leer, __D0leer
+12	210	178	#line 210 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	211	178		set __D0leer, 64
+12	210	181	#line 210 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	211	181		cmp 5, __D0leer, __signed_stack_001leer, __D0leer
+12	211	185	#line 211 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	212	185		brtst 4, __ASM_Label_804, __D0leer
+12	212	188	#line 212 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	213	188		mov luz2, __leer_7qG2_recibir4_7qG2_000
+12	212	190	#line 212 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	212	190	#line 212 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	213	190	#line 213 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	214	190	#line 214 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	215	190		subcall imprimirDatos, __imprimirDatos_return
+12	214	192	#line 214 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	217	192	#line 217 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	218	192		jmp __ASM_Label_777
+12	217	194	#line 217 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+12	218	194		exit -1, -1
+13	224	0	#line 224 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc"
+13	225	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc
+1	__RotateMotor4	93	NXTDefs.h
+2	__ResetSensorSubroutine	262	NXTDefs.h
+3	__ReadLSBytes0	275	NXTDefs.h
+4	__ReadLSBytes1	361	NXTDefs.h
+5	imprimirDatos	447	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc
+6	no_conexion	929	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc
+7	adelante	990	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc
+8	atras	1023	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc
+9	izquierda	1051	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc
+10	derecha	1108	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc
+11	programa	1165	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc
+12	leer	2432	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc
+13	__initialize_global_data	2629	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_chido.nxc

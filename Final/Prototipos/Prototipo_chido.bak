@@ -96,7 +96,7 @@ task programa(){    //no contradecirme en los task ._.
                 Off(OUT_AC);
                 adelante();
                 until(color1 == 1 || color2 == 1);
-                RotateMotor(OUT_AC, 70, -250);
+                RotateMotor(OUT_AC, 70, -150);
                 RotateMotorEx(OUT_AC, 70, 250, -100, true, true);
                 izquierda(60);
                 until(color2 == 1);
@@ -110,7 +110,7 @@ task programa(){    //no contradecirme en los task ._.
                 Off(OUT_AC);
                 adelante();
                 until(color1== 1 || color2 == 1);
-                RotateMotor(OUT_AC, 70, -250);
+                RotateMotor(OUT_AC, 70, -150);
                 RotateMotorEx(OUT_AC, 70, 250, 100, true, true);
                 derecha(60);
                 until(color1 == 1);
@@ -145,7 +145,6 @@ if(luz > 45 && color1 == 6 && color2 == 6 && luz2 > 45){
         //Si todos los sensores detectan negro
         if(luz < 45 && color1 == 1 && color2 == 1 && luz2 < 45){
           adelante();
-          Wait(600);
 
        }
         //luz blanco - color negro - color2 negro - luz 2 negro

@@ -1,0 +1,79 @@
+#define SENSOR_ULTRA1 IN_1
+#define SENSOR_ULTRA2 IN_2           //CONSTANTES NO LLEVAN
+#define ENTRADA2 2
+#define ENTRADA3 3                     //ESCLAVO
+#define ENTRADA4 4
+#define ENTRADA5 5
+#define SALIDA 1                      //ESCLAVO
+
+int color1, color2, luz, luz2;
+int ultra1, ultra2;
+
+void imprimirDatos(){
+
+     TextOut(0,LCD_LINE1,"          " );
+     TextOut(0,LCD_LINE2,"          " );
+     TextOut(0,LCD_LINE3,"          " );
+     TextOut(0,LCD_LINE4,"          " );
+     TextOut(0,LCD_LINE5,"          " );
+     TextOut(0,LCD_LINE6,"          " );
+
+     TextOut(0,LCD_LINE1," COLOR1:         " );
+     TextOut(0,LCD_LINE2," COLOR2:         " );
+     TextOut(0,LCD_LINE3," LUZ:            " );
+     TextOut(0,LCD_LINE4," LUZ2:            " );
+     TextOut(0,LCD_LINE5," ULTRA1:         " );
+     TextOut(0,LCD_LINE6," ULTRA2:         " );
+
+     NumOut(7*6,LCD_LINE1,color1);
+     NumOut(7*6,LCD_LINE2,color2);
+     NumOut(7*6,LCD_LINE3,luz);
+     NumOut(7*6,LCD_LINE4,luz2);
+     NumOut(7*7,LCD_LINE5,ultra1);
+     NumOut(7*7,LCD_LINE6,ultra2);
+
+}
+
+void no_conexion(int num){            //ESCLAVO
+
+     if(!BluetoothStatus(num)==NO_ERR){
+            TextOut(5,LCD_LINE2,"DONDE ESTA MI MAESTRO");
+            Wait(2000);
+            Stop(true);
+     }
+}
+
+task programa(){    //B motor de la garra
+
+     OnFwd(OUT_B, 100); //Se baja la garra
+     
+
+}
+
+task leer(){
+     int recibir1, recibir2, recibir3, recibir4;
+     while(true){
+         ultra1=SensorUS(SENSOR_ULTRA1);
+         ultra2=SensorUS(SENSOR_ULTRA2);
+         no_conexion(0);
+         if(ReceiveRemoteNumber(ENTRADA2,true,recibir1) != STAT_MSG_EMPTY_MAILBOX){
+             color1=recibir1;
+          }
+            if(ReceiveRemoteNumber(ENTRADA3,true,recibir2) != STAT_MSG_EMPTY_MAILBOX){
+             color2=recibir2;
+          }
+            if(ReceiveRemoteNumber(ENTRADA4,true,recibir3) != STAT_MSG_EMPTY_MAILBOX){
+             luz=recibir3;
+          }
+          if(ReceiveRemoteNumber(ENTRADA5,true,recibir4) != STAT_MSG_EMPTY_MAILBOX){
+             luz2=recibir4;
+          }
+         imprimirDatos();
+     }
+}
+
+task main(){        //siempre sensores en main ;)
+    SetSensorLowspeed(SENSOR_ULTRA1);
+    SetSensorLowspeed(SENSOR_ULTRA2);
+     Precedes(programa,leer);
+}
