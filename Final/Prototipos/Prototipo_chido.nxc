@@ -80,50 +80,72 @@ void izquierda2(int n){
    Off(OUT_B);
 }
 
+int color_1()
+{
+
+ if(color1 == 1 || color1 == 2)
+    return 1;
+   
+ else
+     return color1;
+
+}
+
+int color_2()
+{
+
+ if(color2 == 1 || color2 == 2)
+    return 1;
+
+ else
+     return color2;
+
+}
+
 task programa(){    //no contradecirme en los task ._.
 
     while(true){
        //luz blanco y color negro
        //puntos verdes
-        if(color1 == 3 || color2 == 3)
+        if(color_1() == 3 || color_2() == 3)
         {
             Off(OUT_AC);
             Wait(600);
             RotateMotor(OUT_AC, 70, -25);
-            if(color1 == 3 && color2 !=3)
+            if(color_1() == 3 && color_2() !=3)
             {
 
                 Off(OUT_AC);
                 adelante();
-                until(color1 == 1 || color2 == 1);
-                RotateMotor(OUT_AC, 70, -250);
+                until(color_1() == 1 || color_2() == 1);
+                RotateMotor(OUT_AC, 70, -150);
                 RotateMotorEx(OUT_AC, 70, 250, -100, true, true);
                 izquierda(60);
-                until(color2 == 1);
+                until(color_2() == 1);
                 Off(OUT_AC);
 
             }
 
-            if(color2 == 3 && color1 != 3)
+            if(color_2() == 3 && color_1() != 3)
             {
 
                 Off(OUT_AC);
                 adelante();
-                until(color1== 1 || color2 == 1);
-                RotateMotor(OUT_AC, 70, -250);
+                until(color_1() == 1 || color_2() == 1);
+                RotateMotor(OUT_AC, 70, -150);
                 RotateMotorEx(OUT_AC, 70, 250, 100, true, true);
                 derecha(60);
-                until(color1 == 1);
+                until(color_1() == 1);
                 Off(OUT_AC);
 
             }
 
-            if(color1 == 3 && color2 == 3)
+            if(color_1() == 3 && color_2() == 3)
             {
 
                 RotateMotorEx(OUT_AC, 50, 850, -100, true, true);
                 izquierda(50);
-                until(color2 == 1);
+                until(color_2() == 1);
                 Off(OUT_AC);
             }
 
@@ -132,62 +154,72 @@ task programa(){    //no contradecirme en los task ._.
         else
         {
 
-       if(luz > 45 && color1 == 1 && color2 == 1 && luz2 > 45){
+       if(luz > 45 && color_1() == 1 && color_2() == 1 && luz2 > 45){
           atras();
           Wait(200);
 
         }
        //Si todos los sensores detectan blanco
-if(luz > 45 && color1 == 6 && color2 == 6 && luz2 > 45){
+if(luz > 45 && color_1() == 6 && color_2() == 6 && luz2 > 45){
           adelante();
 
         }
         //Si todos los sensores detectan negro
-        if(luz < 45 && color1 == 1 && color2 == 1 && luz2 < 45){
+        if(luz < 45 && color_1() == 1 && color_2() == 1 && luz2 < 45){
           adelante();
-          Wait(600);
+          Wait(200);
 
        }
         //luz blanco - color negro - color2 negro - luz 2 negro
-        if(luz > 45 && color1 == 1 && color2 == 1 && luz2 < 45){
+        if(luz > 45 && color_1() == 1 && color_2() == 1 && luz2 < 45){
            derecha(100);
        }
         //luz negro - color negro - color2 negro - luz2 blanco
-        if(luz < 45 && color1 == 1 && color2 == 1 && luz2 > 45){
+        if(luz < 45 && color_1() == 1 && color_2() == 1 && luz2 > 45){
           izquierda(100);
 
        }
        //luz blanco - color negro - color2 blanco - color2 negro
-        if(luz > 45 && color1 == 6 && color2 == 1 && luz2 < 45){
+        if(luz > 45 && color_1() == 6 && color_2() == 1 && luz2 < 45){
            derecha(85);
-           until(color1 == 1);
+           until(color_1() == 1);
 
        }
        // luz negro - color negro. color2 blanco- luz2 blanco
-        if(luz < 45 && color1 == 1 && color2 == 6 && luz2 > 45){
+        if(luz < 45 && color_1() == 1 && color_2() == 6 && luz2 > 45){
            izquierda(85);
-           until(color2==1);
+           until(color_2() == 1);
 
        }
         // luz blanco - color negro - color2 blanco - luz2 blanco
-        if(luz > 45 && color1 == 1 && color2 == 6 && luz2 > 45){
+        if(luz > 45 && color_1() == 1 && color_2() == 6 && luz2 > 45){
            izquierda(70);
 
        }
         // luz blanco - color blanco - color2 negro- luz blanco
-        if(luz > 45 && color1 == 6 && color2 == 1 && luz2 > 45){
+        if(luz > 45 && color_1() == 6 && color_2() == 1 && luz2 > 45){
            derecha(70);
 
        }
        //luz negro - color1 blanco - color2 blanco- luz2 blanco
-       if(luz < 40 && color1 == 6 && color2 == 6 && luz2 > 40){
+       if(luz < 40 && color_1() == 6 && color_2() == 6 && luz2 > 40){
           izquierda(55);
-          until(color2 == 1);
+          until(color_2() == 1);
        }
        //luz blanco- color1 blanco - color2 blanco- luz2 negro
-       if(luz > 40 && color1 == 6 && color2 == 6 && luz2 < 40){
+       if(luz > 40 && color_1() == 6 && color_2() == 6 && luz2 < 40){
           derecha(55);
-          until(color1 == 1);
+          until(color_1() == 1);
+       }
+       //luz negro - color1 blanco - color2 negro - luz2 blanco
+       if(luz < 40 && color_1() == 6 && color_2() == 1 && luz2 > 40){
+          derecha(55);
+
+       }
+       //luz blanco - color1 negro - color2 blanco - luz2 negro
+       if(luz > 40 && color_1() == 1 && color_2() == 6 && luz2 < 40){
+          izquierda(55);
+
        }
      }
     }

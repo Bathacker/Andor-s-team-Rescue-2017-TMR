@@ -1,0 +1,2694 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0color2_b	6	1	0	4	30
+1	__D0derecha	6	1	4	4	4
+2	__D0atras	6	1	8	4	2
+3	__D0color1_a	6	1	12	4	30
+4	__D0imprimirDatos	6	1	16	4	30
+5	__D0no_conexion	6	1	20	4	9
+6	__D0obstaculo	6	1	24	4	20
+7	__D0izquierda	6	1	28	4	4
+8	__D0leer	6	1	32	4	32
+9	__D0adelante	6	1	36	4	2
+10	__CLSWMutex1	9	0	40	4	2
+11	__CLSRMutex1	9	0	44	4	2
+12	__CLSRMutex0	9	0	48	4	2
+13	__CLSCSMutex1	9	0	52	4	2
+14	__TextOutMutex	9	0	56	4	42
+15	__MRMutex	9	0	60	4	8
+16	__RRNTmpVal	6	1	64	4	16
+17	__RLSBmutex0	9	0	68	4	2
+18	__RLSBmutex1	9	0	72	4	2
+19	__D0programa	6	1	76	4	346
+20	__signed_stack_004obstaculo	6	1	80	4	6
+21	__signed_stack_001programa	6	1	84	4	162
+22	__signed_stack_002obstaculo	6	1	88	4	6
+23	__signed_stack_003obstaculo	6	1	92	4	6
+24	__signed_stack_002programa	6	1	96	4	10
+25	__Wait_7qG2_ms_7qG2_000_inline_no_conexion	5	1	100	4	2
+26	__Wait_7qG2_ms_7qG2_000_inline_programa	5	1	104	4	8
+27	__signed_stack_003programa	6	1	108	4	6
+28	__signed_stack_004programa	6	1	112	4	6
+29	__signed_stack_001obstaculo	6	1	116	4	16
+30	__signed_stack_001color1_a	6	1	120	4	4
+31	__signed_stack_001color2_b	6	1	124	4	4
+32	__D0SetSensorLowspeed_inline_main	6	1	128	4	4
+33	__DU0SetSensorLowspeed_inline_main	5	1	132	4	10
+34	__signed_stack_001imprimirDatos	6	1	136	4	36
+35	__signed_stack_001no_conexion	6	1	140	4	4
+36	__signed_stack_002no_conexion	6	1	144	4	2
+37	__signed_stack_002imprimirDatos	6	1	148	4	36
+38	__signed_stack_001leer	6	1	152	4	8
+39	__rotate_theAngle4	5	1	156	4	2
+40	__CLSCSMutex0	9	0	160	4	2
+41	__rotateMutex2	9	0	164	4	26
+42	__rotate_angle4	6	1	168	4	16
+43	__OnRevMutex	9	0	172	4	8
+44	__CLSWMutex0	9	0	176	4	2
+45	__rotateMutex0	9	0	180	4	26
+46	__rotate_RotCount4	4	1	184	2	4
+47	color1	4	1	186	2	7
+48	__derecha_7qG2_n_7qG2_000	4	1	188	2	8
+49	__izquierda_7qG2_n_7qG2_000	4	1	190	2	9
+50	ultra2	4	1	192	2	3
+51	valuz	4	0	194	2	27
+52	__no_conexion_7qG2_num_7qG2_000	4	1	196	2	2
+53	ultra1	4	1	198	2	3
+54	color2	4	1	200	2	8
+55	luz	4	1	202	2	15
+56	luz2	4	1	204	2	16
+57	__constValNeg600	4	0	206	2	1
+58	__leer_7qG2_recibir2_7qG2_000	4	1	208	2	2
+59	__leer_7qG2_recibir3_7qG2_000	4	1	210	2	2
+60	__leer_7qG2_recibir4_7qG2_000	4	1	212	2	2
+61	__leer_7qG2_recibir1_7qG2_000	4	1	214	2	2
+62	__constValNeg1050	4	0	216	2	1
+63	__constValNeg250	4	0	218	2	1
+64	__rotate_OldRotCount4	4	1	220	2	2
+65	__rotate_turnpct4	2	1	222	1	15
+66	__imprimirDatos_return	1	1	223	1	3
+67	__rotate_theUF4	1	1	224	1	6
+68	__rotate_stop4	1	1	225	1	14
+69	__rotate_power4	1	1	226	1	16
+70	__rotate_firstPort4	1	1	227	1	5
+71	__rotate_sync4	1	1	228	1	14
+72	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	229	1	10
+73	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	230	1	4
+74	____initialize_global_data_return	1	1	231	1	3
+75	__constValNeg60	2	0	232	1	1
+76	__constValNeg25	2	0	233	1	1
+77	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	234	1	4
+78	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	235	1	2
+79	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	236	1	4
+80	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	237	1	4
+81	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	238	1	4
+82	__obstaculo_return	1	1	239	1	3
+83	__color2_b_return	1	1	240	1	24
+84	__adelante_return	1	1	241	1	6
+85	__color1_a_return	1	1	242	1	24
+86	__no_conexion_return	1	1	243	1	3
+87	__OnRev_Tmp	2	1	244	1	8
+88	__izquierda_return	1	1	245	1	9
+89	__derecha_return	1	1	246	1	8
+90	__atras_return	1	1	247	1	3
+91	__constVal96	2	0	248	1	31
+92	__constVal63	2	0	249	1	18
+93	__LSWriteOptions0	1	1	250	1	1
+94	__RLSBIterations0	1	1	251	1	4
+95	____ResetSensorSubroutine_return	1	1	252	1	4
+96	__LSWriteOptions1	1	1	253	1	1
+97	__constVal3	2	0	254	1	19
+98	____RotateMotor4_return	1	1	255	1	15
+99	__RLSBIterations1	1	1	256	1	4
+100	__constValNeg100	2	0	257	1	5
+101	__constVal4	2	0	258	1	1
+102	__RLSBResult0	2	1	259	1	7
+103	__constVal5	2	0	260	1	1
+104	__RLSBytesCount0	1	1	261	1	7
+105	____ReadLSBytes0_return	1	1	262	1	3
+106	__constVal2	2	0	263	1	3
+107	__RRNErr	1	1	264	1	4
+108	__ResetSensorTmp	1	1	265	1	2
+109	__ResetSensorPort	1	1	266	1	4
+110	__rotate_theRVI4	1	1	267	1	14
+111	____ReadLSBytes1_return	1	1	268	1	3
+112	__rotate_theRVD4	1	1	269	1	14
+113	__rotate_theRM4	1	1	270	1	4
+114	__rotate_theOM4	1	1	271	1	7
+115	__rotate_theRVP4	1	1	272	1	14
+116	__rotate_theRS4	1	1	273	1	3
+117	__constVal32	2	0	274	1	70
+118	__rotate_theTurnPct4	2	1	275	1	4
+119	__constVal0	2	1	276	1	100
+120	__constVal1	2	0	277	1	19
+121	__RLSBResult1	2	1	278	1	7
+122	__rotate_rs4	1	1	279	1	2
+123	__RLSBytesCount1	1	1	280	1	7
+124	__rotate_thePower4	2	1	281	1	4
+125	__CLSWArgs0	8	0	4	12	5
+126	__CLSWArgs0.Result	2	1	284	1	5
+127	__CLSWArgs0.Port	1	1	285	1	5
+128	__CLSWArgs0.Buffer	7	0	286	4	5
+129	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+130	__CLSWArgs0.ReturnLen	1	1	288	1	5
+131	__CLSCSArgs1	8	0	3	4	4
+132	__CLSCSArgs1.Result	2	1	292	1	4
+133	__CLSCSArgs1.Port	1	1	293	1	4
+134	__CLSCSArgs1.BytesReady	1	1	294	1	4
+135	__CLSRArgs0	8	0	4	12	5
+136	__CLSRArgs0.Result	2	1	296	1	5
+137	__CLSRArgs0.Port	1	1	297	1	5
+138	__CLSRArgs0.Buffer	7	0	298	4	5
+139	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+140	__CLSRArgs0.BufferLen	1	1	300	1	5
+141	__CLSWArgs1	8	0	4	12	5
+142	__CLSWArgs1.Result	2	1	304	1	5
+143	__CLSWArgs1.Port	1	1	305	1	5
+144	__CLSWArgs1.Buffer	7	0	306	4	5
+145	__CLSWArgs1.Buffer.Buffer_type	1	0	0	1	0
+146	__CLSWArgs1.ReturnLen	1	1	308	1	5
+147	__TextOutArgs	8	0	4	16	126
+148	__TextOutArgs.Result	2	1	312	1	126
+149	__TextOutArgs.Location	8	0	2	4	126
+150	__TextOutArgs.Location.X	4	1	316	2	126
+151	__TextOutArgs.Location.Y	4	1	318	2	126
+152	__TextOutArgs.Text	7	0	320	4	126
+153	__TextOutArgs.Text.Text_type	1	0	0	1	0
+154	__TextOutArgs.Options	5	1	324	4	126
+155	__CLSCSArgs0	8	0	3	4	4
+156	__CLSCSArgs0.Result	2	1	328	1	4
+157	__CLSCSArgs0.Port	1	1	329	1	4
+158	__CLSCSArgs0.BytesReady	1	1	330	1	4
+159	__CLSRArgs1	8	0	4	12	5
+160	__CLSRArgs1.Result	2	1	332	1	5
+161	__CLSRArgs1.Port	1	1	333	1	5
+162	__CLSRArgs1.Buffer	7	0	334	4	5
+163	__CLSRArgs1.Buffer.Buffer_type	1	0	0	1	0
+164	__CLSRArgs1.BufferLen	1	1	336	1	5
+165	__CBTCSArgs	8	0	2	4	3
+166	__CBTCSArgs.Result	2	1	340	1	3
+167	__CBTCSArgs.Connection	1	1	341	1	3
+168	__MRArgs	8	0	4	8	20
+169	__MRArgs.Result	2	1	344	1	20
+170	__MRArgs.QueueID	1	1	345	1	20
+171	__MRArgs.Remove	1	1	346	1	20
+172	__MRArgs.Message	7	0	348	4	20
+173	__MRArgs.Message.Message_type	1	0	0	1	0
+174	__constStr0012	7	0	350	4	1
+175	__constStr0012.__constStr0012_type	1	1	0	1	0
+176	__constStr0011	7	0	352	4	1
+177	__constStr0011.__constStr0011_type	1	1	0	1	0
+178	__constStr0013	7	0	354	4	1
+179	__constStr0013.__constStr0013_type	1	1	0	1	0
+180	__constStr0014	7	0	356	4	1
+181	__constStr0014.__constStr0014_type	1	1	0	1	0
+182	__constStr0010	7	0	358	4	1
+183	__constStr0010.__constStr0010_type	1	1	0	1	0
+184	__strbufprograma	7	0	360	4	4
+185	__strbufprograma.__strbufprograma_type	1	0	0	1	0
+186	__rotate_ports4	7	0	362	4	18
+187	__rotate_ports4.__rotate_ports4_type	1	0	0	1	0
+188	__strbufno_conexion	7	0	364	4	2
+189	__strbufno_conexion.__strbufno_conexion_type	1	0	0	1	0
+190	__constStr0009	7	0	366	4	6
+191	__constStr0009.__constStr0009_type	1	1	0	1	0
+192	__strbufimprimirDatos	7	0	368	4	24
+193	__strbufimprimirDatos.__strbufimprimirDatos_type	1	0	0	1	0
+194	__constStr0016	7	0	370	4	1
+195	__constStr0016.__constStr0016_type	1	1	0	1	0
+196	__RLSLastGoodRead0	7	0	372	4	2
+197	__RLSLastGoodRead0.__RLSLastGoodRead0_type	1	0	0	1	0
+198	__RLSReadBuf1	7	0	374	4	8
+199	__RLSReadBuf1.__RLSReadBuf1_type	1	0	0	1	0
+200	__RLSLastGoodRead1	7	0	376	4	2
+201	__RLSLastGoodRead1.__RLSLastGoodRead1_type	1	0	0	1	0
+202	__RLSReadBuf0	7	0	378	4	8
+203	__RLSReadBuf0.__RLSReadBuf0_type	1	0	0	1	0
+204	__constStr0015	7	0	380	4	1
+205	__constStr0015.__constStr0015_type	1	1	0	1	0
+206	__RLSBbufLSWrite1	7	0	382	4	2
+207	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+208	__constStr0018	7	0	384	4	1
+209	__constStr0018.__constStr0018_type	1	1	0	1	0
+210	__OUT_AC	7	0	386	4	27
+211	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+212	__constStr0017	7	0	388	4	1
+213	__constStr0017.__constStr0017_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	347	0	#line 347 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+0	348	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	347	2	#line 347 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+0	347	2	#line 347 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+0	348	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 0
+0	347	5	#line 347 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+0	348	5	#line 348 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+0	349	5		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	4342	7	#line 4342 "NXCDefs.h"
+0	4343	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4342	9	#line 4342 "NXCDefs.h"
+0	4342	9	#line 4342 "NXCDefs.h"
+0	4343	9		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	4342	11	#line 4342 "NXCDefs.h"
+0	4343	11		tst 5, __D0SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4342	14	#line 4342 "NXCDefs.h"
+0	4343	14		brtst 4, __004__ASM_Label_36, __D0SetSensorLowspeed_inline_main
+0	4342	17	#line 4342 "NXCDefs.h"
+0	4343	17		set __DU0SetSensorLowspeed_inline_main, 11
+0	4342	20	#line 4342 "NXCDefs.h"
+0	4342	20	#line 4342 "NXCDefs.h"
+0	4343	20		jmp __004__ASM_Label_37
+0	4342	22	#line 4342 "NXCDefs.h"
+0	4343	22		set __DU0SetSensorLowspeed_inline_main, 10
+0	4342	25	#line 4342 "NXCDefs.h"
+0	4342	25	#line 4342 "NXCDefs.h"
+0	4343	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4247	27	#line 4247 "NXCDefs.h"
+0	4248	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4247	31	#line 4247 "NXCDefs.h"
+0	4343	31	#line 4343 "NXCDefs.h"
+0	4343	31	#line 4343 "NXCDefs.h"
+0	4344	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4343	33	#line 4343 "NXCDefs.h"
+0	4343	33	#line 4343 "NXCDefs.h"
+0	4344	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4343	36	#line 4343 "NXCDefs.h"
+0	4260	36	#line 4260 "NXCDefs.h"
+0	4261	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	4260	40	#line 4260 "NXCDefs.h"
+0	4344	40	#line 4344 "NXCDefs.h"
+0	4344	40	#line 4344 "NXCDefs.h"
+0	4345	40		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4344	42	#line 4344 "NXCDefs.h"
+0	4278	42	#line 4278 "NXCDefs.h"
+0	4279	42	#pragma macro 4
+0	4279	42		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4279	44		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	9784	46	#line 9784 "NXCDefs.h"
+0	4278	46	#line 4278 "NXCDefs.h"
+0	4345	46	#line 4345 "NXCDefs.h"
+0	348	46	#line 348 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+0	348	46	#line 348 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+0	349	46		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 1
+0	348	49	#line 348 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+0	349	49	#line 349 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+0	350	49		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	4342	51	#line 4342 "NXCDefs.h"
+0	4343	51		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4342	53	#line 4342 "NXCDefs.h"
+0	4342	53	#line 4342 "NXCDefs.h"
+0	4343	53		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	4342	55	#line 4342 "NXCDefs.h"
+0	4343	55		tst 5, __D0SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4342	58	#line 4342 "NXCDefs.h"
+0	4343	58		brtst 4, __005__ASM_Label_36, __D0SetSensorLowspeed_inline_main
+0	4342	61	#line 4342 "NXCDefs.h"
+0	4343	61		set __DU0SetSensorLowspeed_inline_main, 11
+0	4342	64	#line 4342 "NXCDefs.h"
+0	4342	64	#line 4342 "NXCDefs.h"
+0	4343	64		jmp __005__ASM_Label_37
+0	4342	66	#line 4342 "NXCDefs.h"
+0	4343	66		set __DU0SetSensorLowspeed_inline_main, 10
+0	4342	69	#line 4342 "NXCDefs.h"
+0	4342	69	#line 4342 "NXCDefs.h"
+0	4343	69		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4247	71	#line 4247 "NXCDefs.h"
+0	4248	71		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4247	75	#line 4247 "NXCDefs.h"
+0	4343	75	#line 4343 "NXCDefs.h"
+0	4343	75	#line 4343 "NXCDefs.h"
+0	4344	75		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4343	77	#line 4343 "NXCDefs.h"
+0	4343	77	#line 4343 "NXCDefs.h"
+0	4344	77		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4343	80	#line 4343 "NXCDefs.h"
+0	4260	80	#line 4260 "NXCDefs.h"
+0	4261	80		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	4260	84	#line 4260 "NXCDefs.h"
+0	4344	84	#line 4344 "NXCDefs.h"
+0	4344	84	#line 4344 "NXCDefs.h"
+0	4345	84		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4344	86	#line 4344 "NXCDefs.h"
+0	4278	86	#line 4278 "NXCDefs.h"
+0	4279	86	#pragma macro 4
+0	4279	86		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4279	88		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	9847	90	#line 9847 "NXCDefs.h"
+0	4278	90	#line 4278 "NXCDefs.h"
+0	4345	90	#line 4345 "NXCDefs.h"
+0	349	90	#line 349 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+0	350	90	#line 350 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+0	350	90	#line 350 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+0	351	90		exit 0, 1
+1	5279	0		brtst 4, __rotate_Done4, __rotate_angle4
+1	5280	3		sign __rotate_thePower4, __rotate_angle4
+1	5281	6		abs __rotate_theAngle4, __rotate_angle4
+1	5282	9		mul __rotate_thePower4, __rotate_thePower4, __rotate_power4
+1	5284	13		set __rotate_theUF4, 23
+1	5285	16		brtst 4, __rotate_NoSync4, __rotate_sync4
+1	5286	19		set __rotate_theOM4, 7
+1	5287	22		set __rotate_theRM4, 2
+1	5288	25		mov __rotate_theTurnPct4, __rotate_turnpct4
+1	5289	27		brtst 4, __rotate_Start4, __rotate_theTurnPct4
+1	5290	30		add __rotate_theUF4, __rotate_theUF4, __constVal32
+1	5291	34		jmp __rotate_Start4
+1	5293	36		set __rotate_theOM4, 3
+1	5294	39		set __rotate_theRM4, 0
+1	5295	42		set __rotate_theTurnPct4, 0
+1	5297	45		set __rotate_theRS4, 32
+1	5298	48		setout __rotate_ports4, 1, __rotate_theOM4, 8, __rotate_theRM4, 5, __rotate_theAngle4, 6, __rotate_theRS4, 10, __rotate_theRVP4, 11, __rotate_theRVI4, 12, __rotate_theRVD4, 2, __rotate_thePower4, 7, __rotate_turnpct4, 0, __rotate_theUF4
+1	5301	71		index __rotate_firstPort4, __rotate_ports4, 65535
+1	5303	75		getout __rotate_power4, __rotate_firstPort4, 2
+1	5304	79		brtst 4, __rotate_doneRunning4, __rotate_power4
+1	5305	82		getout __rotate_rs4, __rotate_firstPort4, 6
+1	5306	86		brcmp 4, __rotate_Running4, __rotate_rs4, __constVal32
+1	5308	90		brtst 4, __rotate_Reset4, __rotate_stop4
+1	5310	93		set __rotate_theOM4, 7
+1	5311	96		set __rotate_theUF4, 7
+1	5312	99		setout __rotate_ports4, 1, __rotate_theOM4, 8, __constVal1, 6, __rotate_theRS4, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF4
+1	5314	114		getout __rotate_RotCount4, __rotate_firstPort4, 14
+1	5316	118		mov __rotate_OldRotCount4, __rotate_RotCount4
+1	5317	120		wait 50
+1	5319	122		getout __rotate_RotCount4, __rotate_firstPort4, 14
+1	5320	126		brcmp 5, __rotate_Stabilize4, __rotate_OldRotCount4, __rotate_RotCount4
+1	5321	130		set __rotate_theOM4, 4
+1	5322	133		setout __rotate_ports4, 8, __rotate_theRM4, 6, __constVal0, 1, __rotate_theOM4, 0, __constVal1
+1	5325	144		brtst 4, __rotate_Done4, __rotate_theTurnPct4
+1	5326	147		setout __rotate_ports4, 0, __constVal32
+1	5328	152		subret ____RotateMotor4_return
+2	5476	0		setin __constVal1, __ResetSensorPort, 5
+2	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+2	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+2	5480	11		subret ____ResetSensorSubroutine_return
+3	6281	0	#pragma macro 25
+3	6281	0		acquire __CLSWMutex0
+3	6281	1		or __CLSWArgs0.Port, __constVal0, __LSWriteOptions0
+3	6281	5		mov __CLSWArgs0.ReturnLen, __RLSBytesCount0
+3	6281	7		mov __CLSWArgs0.Buffer, __RLSReadBuf0
+3	6281	9		syscall 21, __CLSWArgs0
+3	6281	12		mov __RLSBResult0, __CLSWArgs0.Result
+3	6281	14		release __CLSWMutex0
+3	6282	15	#line 6282 "NXTDefs.h"
+3	6283	15		brtst 5, __RLSBError0, __RLSBResult0
+3	6284	18		set __RLSBIterations0, 60
+3	6286	21	#pragma macro 23
+3	6286	21		acquire __CLSCSMutex0
+3	6286	22		set __CLSCSArgs0.Port, 0
+3	6286	25		syscall 23, __CLSCSArgs0
+3	6286	28		mov __RLSBytesCount0, __CLSCSArgs0.BytesReady
+3	6286	30		mov __RLSBResult0, __CLSCSArgs0.Result
+3	6286	32		release __CLSCSMutex0
+3	6286	33	#line 6286 "NXTDefs.h"
+3	6287	33		sub __RLSBIterations0, __RLSBIterations0, __constVal1
+3	6288	37		brtst 2, __RLSBError0, __RLSBIterations0
+3	6289	40		brtst 0, __RLSBError0, __RLSBResult0
+3	6290	43		brtst 4, __RLSBReadyToRead0, __RLSBResult0
+3	6292	46		wait 1
+3	6293	48		jmp __RLSBDoCheckStatus0
+3	6295	50		brtst 4, __RLSBReturn0, __RLSBytesCount0
+3	6296	53		arrinit __RLSReadBuf0, __constVal0, __RLSBytesCount0
+3	6298	57	#pragma macro 25
+3	6298	57		acquire __CLSRMutex0
+3	6298	58		set __CLSRArgs0.Port, 0
+3	6298	61		mov __CLSRArgs0.BufferLen, __RLSBytesCount0
+3	6298	63		syscall 22, __CLSRArgs0
+3	6298	66		mov __RLSReadBuf0, __CLSRArgs0.Buffer
+3	6298	68		mov __RLSBResult0, __CLSRArgs0.Result
+3	6298	70		release __CLSRMutex0
+3	6298	71	#line 6298 "NXTDefs.h"
+3	6299	71		brtst 5, __RLSBError0, __RLSBResult0
+3	6300	74		mov __RLSLastGoodRead0, __RLSReadBuf0
+3	6301	76		jmp __RLSBDone0
+3	6303	78		mov __RLSReadBuf0, __RLSLastGoodRead0
+3	6305	80		arrsize __RLSBytesCount0, __RLSReadBuf0
+3	6307	83		subret ____ReadLSBytes0_return
+4	6319	0	#pragma macro 25
+4	6319	0		acquire __CLSWMutex1
+4	6319	1		or __CLSWArgs1.Port, __constVal1, __LSWriteOptions1
+4	6319	5		mov __CLSWArgs1.ReturnLen, __RLSBytesCount1
+4	6319	7		mov __CLSWArgs1.Buffer, __RLSReadBuf1
+4	6319	9		syscall 21, __CLSWArgs1
+4	6319	12		mov __RLSBResult1, __CLSWArgs1.Result
+4	6319	14		release __CLSWMutex1
+4	6319	15	#line 6319 "NXTDefs.h"
+4	6320	15		brtst 5, __RLSBError1, __RLSBResult1
+4	6321	18		set __RLSBIterations1, 60
+4	6323	21	#pragma macro 23
+4	6323	21		acquire __CLSCSMutex1
+4	6323	22		set __CLSCSArgs1.Port, 1
+4	6323	25		syscall 23, __CLSCSArgs1
+4	6323	28		mov __RLSBytesCount1, __CLSCSArgs1.BytesReady
+4	6323	30		mov __RLSBResult1, __CLSCSArgs1.Result
+4	6323	32		release __CLSCSMutex1
+4	6323	33	#line 6323 "NXTDefs.h"
+4	6324	33		sub __RLSBIterations1, __RLSBIterations1, __constVal1
+4	6325	37		brtst 2, __RLSBError1, __RLSBIterations1
+4	6326	40		brtst 0, __RLSBError1, __RLSBResult1
+4	6327	43		brtst 4, __RLSBReadyToRead1, __RLSBResult1
+4	6329	46		wait 1
+4	6330	48		jmp __RLSBDoCheckStatus1
+4	6332	50		brtst 4, __RLSBReturn1, __RLSBytesCount1
+4	6333	53		arrinit __RLSReadBuf1, __constVal0, __RLSBytesCount1
+4	6335	57	#pragma macro 25
+4	6335	57		acquire __CLSRMutex1
+4	6335	58		set __CLSRArgs1.Port, 1
+4	6335	61		mov __CLSRArgs1.BufferLen, __RLSBytesCount1
+4	6335	63		syscall 22, __CLSRArgs1
+4	6335	66		mov __RLSReadBuf1, __CLSRArgs1.Buffer
+4	6335	68		mov __RLSBResult1, __CLSRArgs1.Result
+4	6335	70		release __CLSRMutex1
+4	6335	71	#line 6335 "NXTDefs.h"
+4	6336	71		brtst 5, __RLSBError1, __RLSBResult1
+4	6337	74		mov __RLSLastGoodRead1, __RLSReadBuf1
+4	6338	76		jmp __RLSBDone1
+4	6340	78		mov __RLSReadBuf1, __RLSLastGoodRead1
+4	6342	80		arrsize __RLSBytesCount1, __RLSReadBuf1
+4	6344	83		subret ____ReadLSBytes1_return
+5	25	0	#line 25 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	26	0		set __signed_stack_001imprimirDatos, 0
+5	25	3	#line 25 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	25	3	#line 25 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	26	3		set __signed_stack_002imprimirDatos, 56
+5	25	6	#line 25 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	25	6	#line 25 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	26	6		strcat __strbufimprimirDatos, __constStr0009
+5	26	10	#line 26 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	27	10		acquire __TextOutMutex
+5	26	11	#line 26 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	27	11		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	26	13	#line 26 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	27	13		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	26	15	#line 26 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	27	15		set __TextOutArgs.Options, 0
+5	26	18	#line 26 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	27	18		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	26	20	#line 26 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	27	20		syscall 13, __TextOutArgs
+5	26	23	#line 26 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	27	23		mov __D0imprimirDatos, __TextOutArgs.Result
+5	26	26	#line 26 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	27	26		release __TextOutMutex
+5	26	27	#line 26 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	26	27	#line 26 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	27	27		set __signed_stack_001imprimirDatos, 0
+5	26	30	#line 26 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	26	30	#line 26 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	27	30		set __signed_stack_002imprimirDatos, 48
+5	26	33	#line 26 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	26	33	#line 26 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	27	33		strcat __strbufimprimirDatos, __constStr0009
+5	27	37	#line 27 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	28	37		acquire __TextOutMutex
+5	27	38	#line 27 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	28	38		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	27	40	#line 27 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	28	40		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	27	42	#line 27 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	28	42		set __TextOutArgs.Options, 0
+5	27	45	#line 27 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	28	45		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	27	47	#line 27 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	28	47		syscall 13, __TextOutArgs
+5	27	50	#line 27 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	28	50		mov __D0imprimirDatos, __TextOutArgs.Result
+5	27	53	#line 27 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	28	53		release __TextOutMutex
+5	27	54	#line 27 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	27	54	#line 27 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	28	54		set __signed_stack_001imprimirDatos, 0
+5	27	57	#line 27 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	27	57	#line 27 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	28	57		set __signed_stack_002imprimirDatos, 40
+5	27	60	#line 27 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	27	60	#line 27 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	28	60		strcat __strbufimprimirDatos, __constStr0009
+5	28	64	#line 28 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	29	64		acquire __TextOutMutex
+5	28	65	#line 28 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	29	65		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	28	67	#line 28 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	29	67		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	28	69	#line 28 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	29	69		set __TextOutArgs.Options, 0
+5	28	72	#line 28 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	29	72		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	28	74	#line 28 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	29	74		syscall 13, __TextOutArgs
+5	28	77	#line 28 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	29	77		mov __D0imprimirDatos, __TextOutArgs.Result
+5	28	80	#line 28 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	29	80		release __TextOutMutex
+5	28	81	#line 28 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	28	81	#line 28 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	29	81		set __signed_stack_001imprimirDatos, 0
+5	28	84	#line 28 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	28	84	#line 28 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	29	84		set __signed_stack_002imprimirDatos, 32
+5	28	87	#line 28 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	28	87	#line 28 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	29	87		strcat __strbufimprimirDatos, __constStr0009
+5	29	91	#line 29 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	30	91		acquire __TextOutMutex
+5	29	92	#line 29 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	30	92		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	29	94	#line 29 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	30	94		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	29	96	#line 29 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	30	96		set __TextOutArgs.Options, 0
+5	29	99	#line 29 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	30	99		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	29	101	#line 29 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	30	101		syscall 13, __TextOutArgs
+5	29	104	#line 29 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	30	104		mov __D0imprimirDatos, __TextOutArgs.Result
+5	29	107	#line 29 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	30	107		release __TextOutMutex
+5	29	108	#line 29 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	29	108	#line 29 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	30	108		set __signed_stack_001imprimirDatos, 0
+5	29	111	#line 29 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	29	111	#line 29 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	30	111		set __signed_stack_002imprimirDatos, 24
+5	29	114	#line 29 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	29	114	#line 29 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	30	114		strcat __strbufimprimirDatos, __constStr0009
+5	30	118	#line 30 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	31	118		acquire __TextOutMutex
+5	30	119	#line 30 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	31	119		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	30	121	#line 30 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	31	121		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	30	123	#line 30 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	31	123		set __TextOutArgs.Options, 0
+5	30	126	#line 30 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	31	126		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	30	128	#line 30 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	31	128		syscall 13, __TextOutArgs
+5	30	131	#line 30 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	31	131		mov __D0imprimirDatos, __TextOutArgs.Result
+5	30	134	#line 30 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	31	134		release __TextOutMutex
+5	30	135	#line 30 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	30	135	#line 30 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	31	135		set __signed_stack_001imprimirDatos, 0
+5	30	138	#line 30 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	30	138	#line 30 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	31	138		set __signed_stack_002imprimirDatos, 16
+5	30	141	#line 30 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	30	141	#line 30 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	31	141		strcat __strbufimprimirDatos, __constStr0009
+5	32	145	#line 32 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	33	145		acquire __TextOutMutex
+5	32	146	#line 32 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	33	146		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	32	148	#line 32 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	33	148		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	32	150	#line 32 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	33	150		set __TextOutArgs.Options, 0
+5	32	153	#line 32 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	33	153		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	32	155	#line 32 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	33	155		syscall 13, __TextOutArgs
+5	32	158	#line 32 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	33	158		mov __D0imprimirDatos, __TextOutArgs.Result
+5	32	161	#line 32 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	33	161		release __TextOutMutex
+5	32	162	#line 32 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	32	162	#line 32 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	33	162		set __signed_stack_001imprimirDatos, 0
+5	32	165	#line 32 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	32	165	#line 32 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	33	165		set __signed_stack_002imprimirDatos, 56
+5	32	168	#line 32 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	32	168	#line 32 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	33	168		strcat __strbufimprimirDatos, __constStr0010
+5	33	172	#line 33 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	34	172		acquire __TextOutMutex
+5	33	173	#line 33 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	34	173		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	33	175	#line 33 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	34	175		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	33	177	#line 33 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	34	177		set __TextOutArgs.Options, 0
+5	33	180	#line 33 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	34	180		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	33	182	#line 33 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	34	182		syscall 13, __TextOutArgs
+5	33	185	#line 33 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	34	185		mov __D0imprimirDatos, __TextOutArgs.Result
+5	33	188	#line 33 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	34	188		release __TextOutMutex
+5	33	189	#line 33 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	33	189	#line 33 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	34	189		set __signed_stack_001imprimirDatos, 0
+5	33	192	#line 33 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	33	192	#line 33 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	34	192		set __signed_stack_002imprimirDatos, 48
+5	33	195	#line 33 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	33	195	#line 33 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	34	195		strcat __strbufimprimirDatos, __constStr0011
+5	34	199	#line 34 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	35	199		acquire __TextOutMutex
+5	34	200	#line 34 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	35	200		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	34	202	#line 34 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	35	202		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	34	204	#line 34 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	35	204		set __TextOutArgs.Options, 0
+5	34	207	#line 34 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	35	207		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	34	209	#line 34 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	35	209		syscall 13, __TextOutArgs
+5	34	212	#line 34 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	35	212		mov __D0imprimirDatos, __TextOutArgs.Result
+5	34	215	#line 34 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	35	215		release __TextOutMutex
+5	34	216	#line 34 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	34	216	#line 34 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	35	216		set __signed_stack_001imprimirDatos, 0
+5	34	219	#line 34 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	34	219	#line 34 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	35	219		set __signed_stack_002imprimirDatos, 40
+5	34	222	#line 34 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	34	222	#line 34 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	35	222		strcat __strbufimprimirDatos, __constStr0012
+5	35	226	#line 35 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	36	226		acquire __TextOutMutex
+5	35	227	#line 35 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	36	227		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	35	229	#line 35 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	36	229		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	35	231	#line 35 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	36	231		set __TextOutArgs.Options, 0
+5	35	234	#line 35 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	36	234		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	35	236	#line 35 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	36	236		syscall 13, __TextOutArgs
+5	35	239	#line 35 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	36	239		mov __D0imprimirDatos, __TextOutArgs.Result
+5	35	242	#line 35 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	36	242		release __TextOutMutex
+5	35	243	#line 35 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	35	243	#line 35 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	36	243		set __signed_stack_001imprimirDatos, 0
+5	35	246	#line 35 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	35	246	#line 35 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	36	246		set __signed_stack_002imprimirDatos, 32
+5	35	249	#line 35 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	35	249	#line 35 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	36	249		strcat __strbufimprimirDatos, __constStr0013
+5	36	253	#line 36 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	37	253		acquire __TextOutMutex
+5	36	254	#line 36 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	37	254		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	36	256	#line 36 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	37	256		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	36	258	#line 36 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	37	258		set __TextOutArgs.Options, 0
+5	36	261	#line 36 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	37	261		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	36	263	#line 36 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	37	263		syscall 13, __TextOutArgs
+5	36	266	#line 36 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	37	266		mov __D0imprimirDatos, __TextOutArgs.Result
+5	36	269	#line 36 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	37	269		release __TextOutMutex
+5	36	270	#line 36 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	36	270	#line 36 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	37	270		set __signed_stack_001imprimirDatos, 0
+5	36	273	#line 36 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	36	273	#line 36 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	37	273		set __signed_stack_002imprimirDatos, 24
+5	36	276	#line 36 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	36	276	#line 36 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	37	276		strcat __strbufimprimirDatos, __constStr0014
+5	37	280	#line 37 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	38	280		acquire __TextOutMutex
+5	37	281	#line 37 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	38	281		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	37	283	#line 37 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	38	283		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	37	285	#line 37 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	38	285		set __TextOutArgs.Options, 0
+5	37	288	#line 37 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	38	288		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	37	290	#line 37 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	38	290		syscall 13, __TextOutArgs
+5	37	293	#line 37 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	38	293		mov __D0imprimirDatos, __TextOutArgs.Result
+5	37	296	#line 37 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	38	296		release __TextOutMutex
+5	37	297	#line 37 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	37	297	#line 37 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	38	297		set __signed_stack_001imprimirDatos, 0
+5	37	300	#line 37 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	37	300	#line 37 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	38	300		set __signed_stack_002imprimirDatos, 16
+5	37	303	#line 37 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	37	303	#line 37 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	38	303		strcat __strbufimprimirDatos, __constStr0015
+5	39	307	#line 39 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	40	307		acquire __TextOutMutex
+5	39	308	#line 39 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	40	308		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	39	310	#line 39 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	40	310		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	39	312	#line 39 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	40	312		set __TextOutArgs.Options, 0
+5	39	315	#line 39 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	40	315		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	39	317	#line 39 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	40	317		syscall 13, __TextOutArgs
+5	39	320	#line 39 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	40	320		mov __D0imprimirDatos, __TextOutArgs.Result
+5	39	323	#line 39 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	40	323		release __TextOutMutex
+5	39	324	#line 39 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	39	324	#line 39 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	40	324		set __signed_stack_001imprimirDatos, 42
+5	39	327	#line 39 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	39	327	#line 39 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	40	327		set __signed_stack_002imprimirDatos, 56
+5	39	330	#line 39 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	39	330	#line 39 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	40	330		mov __D0imprimirDatos, color1
+5	40	332	#line 40 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	41	332		acquire __TextOutMutex
+5	40	333	#line 40 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	41	333		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	40	335	#line 40 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	41	335		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	40	337	#line 40 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	41	337		set __TextOutArgs.Options, 0
+5	40	340	#line 40 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	41	340		numtostr __TextOutArgs.Text, __D0imprimirDatos
+5	40	343	#line 40 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	41	343		syscall 13, __TextOutArgs
+5	40	346	#line 40 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	41	346		mov __D0imprimirDatos, __TextOutArgs.Result
+5	40	349	#line 40 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	41	349		release __TextOutMutex
+5	40	350	#line 40 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	40	350	#line 40 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	41	350		set __signed_stack_001imprimirDatos, 42
+5	40	353	#line 40 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	40	353	#line 40 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	41	353		set __signed_stack_002imprimirDatos, 48
+5	40	356	#line 40 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	40	356	#line 40 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	41	356		mov __D0imprimirDatos, color2
+5	41	358	#line 41 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	42	358		acquire __TextOutMutex
+5	41	359	#line 41 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	42	359		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	41	361	#line 41 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	42	361		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	41	363	#line 41 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	42	363		set __TextOutArgs.Options, 0
+5	41	366	#line 41 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	42	366		numtostr __TextOutArgs.Text, __D0imprimirDatos
+5	41	369	#line 41 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	42	369		syscall 13, __TextOutArgs
+5	41	372	#line 41 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	42	372		mov __D0imprimirDatos, __TextOutArgs.Result
+5	41	375	#line 41 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	42	375		release __TextOutMutex
+5	41	376	#line 41 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	41	376	#line 41 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	42	376		set __signed_stack_001imprimirDatos, 42
+5	41	379	#line 41 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	41	379	#line 41 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	42	379		set __signed_stack_002imprimirDatos, 40
+5	41	382	#line 41 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	41	382	#line 41 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	42	382		mov __D0imprimirDatos, luz
+5	42	384	#line 42 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	43	384		acquire __TextOutMutex
+5	42	385	#line 42 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	43	385		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	42	387	#line 42 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	43	387		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	42	389	#line 42 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	43	389		set __TextOutArgs.Options, 0
+5	42	392	#line 42 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	43	392		numtostr __TextOutArgs.Text, __D0imprimirDatos
+5	42	395	#line 42 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	43	395		syscall 13, __TextOutArgs
+5	42	398	#line 42 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	43	398		mov __D0imprimirDatos, __TextOutArgs.Result
+5	42	401	#line 42 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	43	401		release __TextOutMutex
+5	42	402	#line 42 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	42	402	#line 42 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	43	402		set __signed_stack_001imprimirDatos, 42
+5	42	405	#line 42 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	42	405	#line 42 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	43	405		set __signed_stack_002imprimirDatos, 32
+5	42	408	#line 42 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	42	408	#line 42 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	43	408		mov __D0imprimirDatos, luz2
+5	43	410	#line 43 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	44	410		acquire __TextOutMutex
+5	43	411	#line 43 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	44	411		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	43	413	#line 43 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	44	413		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	43	415	#line 43 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	44	415		set __TextOutArgs.Options, 0
+5	43	418	#line 43 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	44	418		numtostr __TextOutArgs.Text, __D0imprimirDatos
+5	43	421	#line 43 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	44	421		syscall 13, __TextOutArgs
+5	43	424	#line 43 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	44	424		mov __D0imprimirDatos, __TextOutArgs.Result
+5	43	427	#line 43 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	44	427		release __TextOutMutex
+5	43	428	#line 43 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	43	428	#line 43 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	44	428		set __signed_stack_001imprimirDatos, 49
+5	43	431	#line 43 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	43	431	#line 43 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	44	431		set __signed_stack_002imprimirDatos, 24
+5	43	434	#line 43 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	43	434	#line 43 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	44	434		mov __D0imprimirDatos, ultra1
+5	44	436	#line 44 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	45	436		acquire __TextOutMutex
+5	44	437	#line 44 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	45	437		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	44	439	#line 44 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	45	439		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	44	441	#line 44 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	45	441		set __TextOutArgs.Options, 0
+5	44	444	#line 44 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	45	444		numtostr __TextOutArgs.Text, __D0imprimirDatos
+5	44	447	#line 44 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	45	447		syscall 13, __TextOutArgs
+5	44	450	#line 44 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	45	450		mov __D0imprimirDatos, __TextOutArgs.Result
+5	44	453	#line 44 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	45	453		release __TextOutMutex
+5	44	454	#line 44 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	44	454	#line 44 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	45	454		set __signed_stack_001imprimirDatos, 49
+5	44	457	#line 44 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	44	457	#line 44 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	45	457		set __signed_stack_002imprimirDatos, 16
+5	44	460	#line 44 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	44	460	#line 44 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	45	460		mov __D0imprimirDatos, ultra2
+5	46	462	#line 46 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	47	462		acquire __TextOutMutex
+5	46	463	#line 46 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	47	463		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	46	465	#line 46 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	47	465		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	46	467	#line 46 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	47	467		set __TextOutArgs.Options, 0
+5	46	470	#line 46 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	47	470		numtostr __TextOutArgs.Text, __D0imprimirDatos
+5	46	473	#line 46 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	47	473		syscall 13, __TextOutArgs
+5	46	476	#line 46 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	47	476		mov __D0imprimirDatos, __TextOutArgs.Result
+5	46	479	#line 46 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	47	479		release __TextOutMutex
+5	46	480	#line 46 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	48	480	#line 48 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+5	49	480		subret __imprimirDatos_return
+6	51	0	#line 51 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+6	52	0	#pragma macro 5
+6	52	0		mov __CBTCSArgs.Connection, __no_conexion_7qG2_num_7qG2_000
+6	52	2		syscall 28, __CBTCSArgs
+6	52	5		mov __D0no_conexion, __CBTCSArgs.Result
+6	7574	8	#line 7574 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+6	51	8	#line 51 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+6	52	8		not __signed_stack_001no_conexion, __D0no_conexion
+6	51	11	#line 51 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+6	52	11	#line 52 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+6	53	11		set __D0no_conexion, 0
+6	52	14	#line 52 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+6	53	14		cmp 4, __D0no_conexion, __signed_stack_001no_conexion, __D0no_conexion
+6	54	18	#line 54 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+6	55	18		brtst 4, __ASM_Label_690, __D0no_conexion
+6	54	21	#line 54 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+6	55	21		set __signed_stack_001no_conexion, 5
+6	54	24	#line 54 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+6	54	24	#line 54 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+6	55	24		set __signed_stack_002no_conexion, 48
+6	54	27	#line 54 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+6	54	27	#line 54 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+6	55	27		strcat __strbufno_conexion, __constStr0016
+6	55	31	#line 55 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+6	56	31		acquire __TextOutMutex
+6	55	32	#line 55 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+6	56	32		mov __TextOutArgs.Location.X, __signed_stack_001no_conexion
+6	55	34	#line 55 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+6	56	34		mov __TextOutArgs.Location.Y, __signed_stack_002no_conexion
+6	55	36	#line 55 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+6	56	36		set __TextOutArgs.Options, 0
+6	55	39	#line 55 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+6	56	39		mov __TextOutArgs.Text, __strbufno_conexion
+6	55	41	#line 55 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+6	56	41		syscall 13, __TextOutArgs
+6	55	44	#line 55 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+6	56	44		mov __D0no_conexion, __TextOutArgs.Result
+6	55	47	#line 55 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+6	56	47		release __TextOutMutex
+6	55	48	#line 55 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+6	55	48	#line 55 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+6	56	48		set __Wait_7qG2_ms_7qG2_000_inline_no_conexion, 2000
+6	55	51	#line 55 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+6	8551	51	#line 8551 "NXCDefs.h"
+6	8552	51		waitv __Wait_7qG2_ms_7qG2_000_inline_no_conexion
+6	8551	53	#line 8551 "NXCDefs.h"
+6	56	53	#line 56 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+6	56	53	#line 56 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+6	57	53		set __D0no_conexion, 1
+6	58	56	#line 58 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+6	59	56		stop __D0no_conexion
+6	58	58	#line 58 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+6	65	58	#line 65 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+6	65	58	#line 65 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+6	66	58		subret __no_conexion_return
+7	66	0	#line 66 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+7	67	0		mov __signed_stack_001color1_a, color1
+7	66	2	#line 66 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+7	66	2	#line 66 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+7	67	2		set __D0color1_a, 1
+7	66	5	#line 66 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+7	67	5		cmp 4, __D0color1_a, __signed_stack_001color1_a, __D0color1_a
+7	66	9	#line 66 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+7	67	9		brtst 5, __ASM_Label_699, __D0color1_a
+7	66	12	#line 66 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+7	67	12		mov __signed_stack_001color1_a, color1
+7	66	14	#line 66 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+7	66	14	#line 66 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+7	67	14		set __D0color1_a, 2
+7	66	17	#line 66 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+7	67	17		cmp 4, __D0color1_a, __signed_stack_001color1_a, __D0color1_a
+7	66	21	#line 66 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+7	67	21		brtst 4, __ASM_Label_702, __D0color1_a
+7	67	24	#line 67 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+7	68	24		set __D0color1_a, 1
+7	67	27	#line 67 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+7	68	27		subret __color1_a_return
+7	67	29	#line 67 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+7	67	29	#line 67 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+7	68	29		jmp __ASM_Label_705
+7	68	31	#line 68 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+7	69	31		mov __D0color1_a, color1
+7	68	33	#line 68 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+7	69	33		subret __color1_a_return
+7	68	35	#line 68 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+7	68	35	#line 68 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+7	70	35	#line 70 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+7	71	35		subret __color1_a_return
+8	71	0	#line 71 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+8	72	0		mov __signed_stack_001color2_b, color2
+8	71	2	#line 71 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+8	71	2	#line 71 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+8	72	2		set __D0color2_b, 1
+8	71	5	#line 71 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+8	72	5		cmp 4, __D0color2_b, __signed_stack_001color2_b, __D0color2_b
+8	71	9	#line 71 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+8	72	9		brtst 5, __ASM_Label_708, __D0color2_b
+8	71	12	#line 71 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+8	72	12		mov __signed_stack_001color2_b, color2
+8	71	14	#line 71 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+8	71	14	#line 71 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+8	72	14		set __D0color2_b, 2
+8	71	17	#line 71 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+8	72	17		cmp 4, __D0color2_b, __signed_stack_001color2_b, __D0color2_b
+8	71	21	#line 71 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+8	72	21		brtst 4, __ASM_Label_711, __D0color2_b
+8	72	24	#line 72 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+8	73	24		set __D0color2_b, 1
+8	72	27	#line 72 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+8	73	27		subret __color2_b_return
+8	72	29	#line 72 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+8	72	29	#line 72 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+8	73	29		jmp __ASM_Label_714
+8	73	31	#line 73 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+8	74	31		mov __D0color2_b, color2
+8	73	33	#line 73 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+8	74	33		subret __color2_b_return
+8	73	35	#line 73 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+8	73	35	#line 73 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+8	75	35	#line 75 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+8	76	35		subret __color2_b_return
+9	78	0	#line 78 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+9	79	0		set __D0adelante, 35
+9	80	3	#line 80 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+9	81	3	#pragma macro 10
+9	81	3		acquire __OnRevMutex
+9	81	4		neg __OnRev_Tmp, __D0adelante
+9	81	7		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	81	30		release __OnRevMutex
+9	7745	31	#line 7745 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+9	80	31	#line 80 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+9	82	31	#line 82 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+9	83	31		subret __adelante_return
+10	85	0	#line 85 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+10	86	0		set __D0atras, 35
+10	87	3	#line 87 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+10	88	3	#pragma macro 7
+10	88	3		setout __OUT_AC, 2, __D0atras, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+10	7755	26	#line 7755 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+10	87	26	#line 87 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+10	89	26	#line 89 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+10	90	26		subret __atras_return
+11	92	0	#line 92 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+11	93	0		mov __D0izquierda, __izquierda_7qG2_n_7qG2_000
+11	93	2	#line 93 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+11	94	2	#pragma macro 10
+11	94	2		acquire __OnRevMutex
+11	94	3		neg __OnRev_Tmp, __D0izquierda
+11	94	6		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+11	94	29		release __OnRevMutex
+11	7771	30	#line 7771 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+11	93	30	#line 93 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+11	93	30	#line 93 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+11	94	30		mov __D0izquierda, __izquierda_7qG2_n_7qG2_000
+11	95	32	#line 95 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+11	96	32	#pragma macro 7
+11	96	32		setout __constVal0, 2, __D0izquierda, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+11	7778	55	#line 7778 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+11	95	55	#line 95 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+11	97	55	#line 97 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+11	98	55		subret __izquierda_return
+12	100	0	#line 100 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+12	101	0		mov __D0derecha, __derecha_7qG2_n_7qG2_000
+12	101	2	#line 101 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+12	102	2	#pragma macro 10
+12	102	2		acquire __OnRevMutex
+12	102	3		neg __OnRev_Tmp, __D0derecha
+12	102	6		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+12	102	29		release __OnRevMutex
+12	7794	30	#line 7794 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+12	101	30	#line 101 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+12	101	30	#line 101 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+12	102	30		mov __D0derecha, __derecha_7qG2_n_7qG2_000
+12	103	32	#line 103 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+12	104	32	#pragma macro 7
+12	104	32		setout __constVal2, 2, __D0derecha, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+12	7801	55	#line 7801 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+12	103	55	#line 103 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+12	105	55	#line 105 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+12	106	55		subret __derecha_return
+13	124	0	#line 124 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	125	0		set __signed_stack_001obstaculo, 80
+13	124	3	#line 124 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	124	3	#line 124 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	125	3		set __signed_stack_002obstaculo, 620
+13	124	6	#line 124 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	124	6	#line 124 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	125	6		mov __signed_stack_003obstaculo, __constValNeg100
+13	124	8	#line 124 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	124	8	#line 124 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	125	8		set __signed_stack_004obstaculo, 1
+13	124	11	#line 124 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	124	11	#line 124 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	125	11		set __D0obstaculo, 1
+13	125	14	#line 125 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	126	14	#pragma macro 35
+13	126	14		acquire __rotateMutex0
+13	126	15		acquire __rotateMutex2
+13	126	16		mov __rotate_ports4, __OUT_AC
+13	126	18		mov __rotate_power4, __signed_stack_001obstaculo
+13	126	20		mov __rotate_angle4, __signed_stack_002obstaculo
+13	126	22		mov __rotate_turnpct4, __signed_stack_003obstaculo
+13	126	24		mov __rotate_sync4, __signed_stack_004obstaculo
+13	126	26		mov __rotate_stop4, __D0obstaculo
+13	126	28		mov __rotate_theRVP4, __constVal32
+13	126	30		mov __rotate_theRVI4, __constVal0
+13	126	32		mov __rotate_theRVD4, __constVal96
+13	126	34		subcall __RotateMotor4, ____RotateMotor4_return
+13	126	36		release __rotateMutex2
+13	126	37		release __rotateMutex0
+13	7869	38	#line 7869 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	125	38	#line 125 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	125	38	#line 125 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	126	38		set __signed_stack_001obstaculo, 70
+13	125	41	#line 125 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	125	41	#line 125 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	126	41		mov __D0obstaculo, __constValNeg600
+13	126	43	#line 126 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	127	43	#pragma macro 35
+13	127	43		acquire __rotateMutex0
+13	127	44		acquire __rotateMutex2
+13	127	45		mov __rotate_ports4, __OUT_AC
+13	127	47		mov __rotate_power4, __signed_stack_001obstaculo
+13	127	49		mov __rotate_angle4, __D0obstaculo
+13	127	51		mov __rotate_turnpct4, __constVal0
+13	127	53		mov __rotate_sync4, __constVal0
+13	127	55		mov __rotate_stop4, __constVal1
+13	127	57		mov __rotate_theRVP4, __constVal32
+13	127	59		mov __rotate_theRVI4, __constVal0
+13	127	61		mov __rotate_theRVD4, __constVal96
+13	127	63		subcall __RotateMotor4, ____RotateMotor4_return
+13	127	65		release __rotateMutex2
+13	127	66		release __rotateMutex0
+13	7883	67	#line 7883 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	126	67	#line 126 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	127	67	#line 127 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	128	67	#pragma macro 7
+13	128	67		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+13	7887	90	#line 7887 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	127	90	#line 127 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	127	90	#line 127 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	128	90		set __signed_stack_001obstaculo, 80
+13	127	93	#line 127 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	127	93	#line 127 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	128	93		set __signed_stack_002obstaculo, 770
+13	127	96	#line 127 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	127	96	#line 127 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	128	96		set __signed_stack_003obstaculo, 100
+13	127	99	#line 127 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	127	99	#line 127 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	128	99		set __signed_stack_004obstaculo, 1
+13	127	102	#line 127 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	127	102	#line 127 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	128	102		set __D0obstaculo, 1
+13	128	105	#line 128 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	129	105	#pragma macro 35
+13	129	105		acquire __rotateMutex0
+13	129	106		acquire __rotateMutex2
+13	129	107		mov __rotate_ports4, __OUT_AC
+13	129	109		mov __rotate_power4, __signed_stack_001obstaculo
+13	129	111		mov __rotate_angle4, __signed_stack_002obstaculo
+13	129	113		mov __rotate_turnpct4, __signed_stack_003obstaculo
+13	129	115		mov __rotate_sync4, __signed_stack_004obstaculo
+13	129	117		mov __rotate_stop4, __D0obstaculo
+13	129	119		mov __rotate_theRVP4, __constVal32
+13	129	121		mov __rotate_theRVI4, __constVal0
+13	129	123		mov __rotate_theRVD4, __constVal96
+13	129	125		subcall __RotateMotor4, ____RotateMotor4_return
+13	129	127		release __rotateMutex2
+13	129	128		release __rotateMutex0
+13	7912	129	#line 7912 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	128	129	#line 128 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	128	129	#line 128 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	129	129		set __signed_stack_001obstaculo, 70
+13	128	132	#line 128 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	128	132	#line 128 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	129	132		mov __D0obstaculo, __constValNeg1050
+13	129	134	#line 129 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	130	134	#pragma macro 35
+13	130	134		acquire __rotateMutex0
+13	130	135		acquire __rotateMutex2
+13	130	136		mov __rotate_ports4, __OUT_AC
+13	130	138		mov __rotate_power4, __signed_stack_001obstaculo
+13	130	140		mov __rotate_angle4, __D0obstaculo
+13	130	142		mov __rotate_turnpct4, __constVal0
+13	130	144		mov __rotate_sync4, __constVal0
+13	130	146		mov __rotate_stop4, __constVal1
+13	130	148		mov __rotate_theRVP4, __constVal32
+13	130	150		mov __rotate_theRVI4, __constVal0
+13	130	152		mov __rotate_theRVD4, __constVal96
+13	130	154		subcall __RotateMotor4, ____RotateMotor4_return
+13	130	156		release __rotateMutex2
+13	130	157		release __rotateMutex0
+13	7926	158	#line 7926 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	129	158	#line 129 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	130	158	#line 130 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	131	158	#pragma macro 7
+13	131	158		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+13	7930	181	#line 7930 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	130	181	#line 130 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	130	181	#line 130 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	131	181		set __signed_stack_001obstaculo, 80
+13	130	184	#line 130 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	130	184	#line 130 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	131	184		set __signed_stack_002obstaculo, 650
+13	130	187	#line 130 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	130	187	#line 130 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	131	187		set __signed_stack_003obstaculo, 100
+13	130	190	#line 130 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	130	190	#line 130 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	131	190		set __signed_stack_004obstaculo, 1
+13	130	193	#line 130 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	130	193	#line 130 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	131	193		set __D0obstaculo, 1
+13	131	196	#line 131 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	132	196	#pragma macro 35
+13	132	196		acquire __rotateMutex0
+13	132	197		acquire __rotateMutex2
+13	132	198		mov __rotate_ports4, __OUT_AC
+13	132	200		mov __rotate_power4, __signed_stack_001obstaculo
+13	132	202		mov __rotate_angle4, __signed_stack_002obstaculo
+13	132	204		mov __rotate_turnpct4, __signed_stack_003obstaculo
+13	132	206		mov __rotate_sync4, __signed_stack_004obstaculo
+13	132	208		mov __rotate_stop4, __D0obstaculo
+13	132	210		mov __rotate_theRVP4, __constVal32
+13	132	212		mov __rotate_theRVI4, __constVal0
+13	132	214		mov __rotate_theRVD4, __constVal96
+13	132	216		subcall __RotateMotor4, ____RotateMotor4_return
+13	132	218		release __rotateMutex2
+13	132	219		release __rotateMutex0
+13	7955	220	#line 7955 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	131	220	#line 131 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	131	220	#line 131 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	132	220		set __signed_stack_001obstaculo, 70
+13	131	223	#line 131 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	131	223	#line 131 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	132	223		mov __D0obstaculo, __constValNeg250
+13	132	225	#line 132 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	133	225	#pragma macro 35
+13	133	225		acquire __rotateMutex0
+13	133	226		acquire __rotateMutex2
+13	133	227		mov __rotate_ports4, __OUT_AC
+13	133	229		mov __rotate_power4, __signed_stack_001obstaculo
+13	133	231		mov __rotate_angle4, __D0obstaculo
+13	133	233		mov __rotate_turnpct4, __constVal0
+13	133	235		mov __rotate_sync4, __constVal0
+13	133	237		mov __rotate_stop4, __constVal1
+13	133	239		mov __rotate_theRVP4, __constVal32
+13	133	241		mov __rotate_theRVI4, __constVal0
+13	133	243		mov __rotate_theRVD4, __constVal96
+13	133	245		subcall __RotateMotor4, ____RotateMotor4_return
+13	133	247		release __rotateMutex2
+13	133	248		release __rotateMutex0
+13	7969	249	#line 7969 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	132	249	#line 132 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	133	249	#line 133 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	134	249	#pragma macro 7
+13	134	249		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+13	7973	272	#line 7973 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	133	272	#line 133 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	134	272	#line 134 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	135	272		set __D0obstaculo, 30
+13	135	275	#line 135 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	136	275	#pragma macro 10
+13	136	275		acquire __OnRevMutex
+13	136	276		neg __OnRev_Tmp, __D0obstaculo
+13	136	279		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+13	136	302		release __OnRevMutex
+13	7979	303	#line 7979 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	135	303	#line 135 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	135	303	#line 135 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	136	303		mov __signed_stack_001obstaculo, luz2
+13	135	305	#line 135 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	135	305	#line 135 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	136	305		mov __D0obstaculo, valuz
+13	135	307	#line 135 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	136	307		cmp 1, __D0obstaculo, __signed_stack_001obstaculo, __D0obstaculo
+13	136	311	#line 136 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	137	311		brtst 4, __ASM_Label_776, __D0obstaculo
+13	136	314	#line 136 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	137	314		jmp __ASM_Label_775
+13	136	316	#line 136 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	136	316	#line 136 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	137	316	#line 137 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	138	316	#pragma macro 7
+13	138	316		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+13	8001	339	#line 8001 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	137	339	#line 137 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	137	339	#line 137 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	138	339		set __signed_stack_001obstaculo, 70
+13	137	342	#line 137 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	137	342	#line 137 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	138	342		mov __D0obstaculo, __constValNeg60
+13	138	344	#line 138 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	139	344	#pragma macro 35
+13	139	344		acquire __rotateMutex0
+13	139	345		acquire __rotateMutex2
+13	139	346		mov __rotate_ports4, __OUT_AC
+13	139	348		mov __rotate_power4, __signed_stack_001obstaculo
+13	139	350		mov __rotate_angle4, __D0obstaculo
+13	139	352		mov __rotate_turnpct4, __constVal0
+13	139	354		mov __rotate_sync4, __constVal0
+13	139	356		mov __rotate_stop4, __constVal1
+13	139	358		mov __rotate_theRVP4, __constVal32
+13	139	360		mov __rotate_theRVI4, __constVal0
+13	139	362		mov __rotate_theRVD4, __constVal96
+13	139	364		subcall __RotateMotor4, ____RotateMotor4_return
+13	139	366		release __rotateMutex2
+13	139	367		release __rotateMutex0
+13	8011	368	#line 8011 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	138	368	#line 138 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	140	368	#line 140 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	141	368	#pragma macro 7
+13	141	368		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+13	8015	391	#line 8015 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	140	391	#line 140 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	142	391	#line 142 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+13	143	391		subret __obstaculo_return
+14	145	0	#line 145 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	146	0		set __Wait_7qG2_ms_7qG2_000_inline_programa, 3000
+14	145	3	#line 145 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	8551	3	#line 8551 "NXCDefs.h"
+14	8552	3		waitv __Wait_7qG2_ms_7qG2_000_inline_programa
+14	8551	5	#line 8551 "NXCDefs.h"
+14	146	5	#line 146 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	147	5	#line 147 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	148	5		set __D0programa, 1
+14	150	8	#line 150 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	151	8		tst 5, __D0programa, __D0programa
+14	150	11	#line 150 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	151	11		brtst 4, __ASM_Label_788, __D0programa
+14	150	14	#line 150 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	151	14		mov __signed_stack_001programa, ultra1
+14	150	16	#line 150 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	150	16	#line 150 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	151	16		set __D0programa, 10
+14	150	19	#line 150 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	151	19		cmp 2, __D0programa, __signed_stack_001programa, __D0programa
+14	150	23	#line 150 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	151	23		brtst 5, __ASM_Label_791, __D0programa
+14	150	26	#line 150 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	151	26		mov __signed_stack_001programa, ultra2
+14	150	28	#line 150 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	151	28	#line 151 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	152	28		set __D0programa, 10
+14	151	31	#line 151 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	152	31		cmp 2, __D0programa, __signed_stack_001programa, __D0programa
+14	153	35	#line 153 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	154	35		brtst 4, __ASM_Label_794, __D0programa
+14	153	38	#line 153 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	154	38		set __signed_stack_001programa, 49
+14	153	41	#line 153 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	153	41	#line 153 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	154	41		set __signed_stack_002programa, 8
+14	153	44	#line 153 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	153	44	#line 153 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	154	44		strcat __strbufprograma, __constStr0017
+14	154	48	#line 154 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	155	48		acquire __TextOutMutex
+14	154	49	#line 154 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	155	49		mov __TextOutArgs.Location.X, __signed_stack_001programa
+14	154	52	#line 154 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	155	52		mov __TextOutArgs.Location.Y, __signed_stack_002programa
+14	154	54	#line 154 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	155	54		set __TextOutArgs.Options, 0
+14	154	57	#line 154 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	155	57		mov __TextOutArgs.Text, __strbufprograma
+14	154	59	#line 154 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	155	59		syscall 13, __TextOutArgs
+14	154	62	#line 154 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	155	62		mov __D0programa, __TextOutArgs.Result
+14	154	65	#line 154 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	155	65		release __TextOutMutex
+14	154	66	#line 154 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	156	66	#line 156 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	157	66		subcall obstaculo, __obstaculo_return
+14	156	68	#line 156 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	161	68	#line 161 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	162	68		jmp __ASM_Label_799
+14	161	70	#line 161 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	162	70		set __signed_stack_001programa, 49
+14	161	73	#line 161 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	161	73	#line 161 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	162	73		set __signed_stack_002programa, 8
+14	161	76	#line 161 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	161	76	#line 161 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	162	76		strcat __strbufprograma, __constStr0018
+14	165	80	#line 165 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	166	80		acquire __TextOutMutex
+14	165	81	#line 165 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	166	81		mov __TextOutArgs.Location.X, __signed_stack_001programa
+14	165	84	#line 165 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	166	84		mov __TextOutArgs.Location.Y, __signed_stack_002programa
+14	165	86	#line 165 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	166	86		set __TextOutArgs.Options, 0
+14	165	89	#line 165 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	166	89		mov __TextOutArgs.Text, __strbufprograma
+14	165	91	#line 165 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	166	91		syscall 13, __TextOutArgs
+14	165	94	#line 165 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	166	94		mov __D0programa, __TextOutArgs.Result
+14	165	97	#line 165 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	166	97		release __TextOutMutex
+14	165	98	#line 165 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	165	98	#line 165 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	166	98		subcall color1_a, __color1_a_return
+14	165	100	#line 165 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	166	100		mov __signed_stack_001programa, __D0color1_a
+14	165	102	#line 165 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	165	102	#line 165 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	166	102		set __D0programa, 3
+14	165	105	#line 165 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	166	105		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	165	109	#line 165 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	166	109		brtst 5, __ASM_Label_804, __D0programa
+14	165	112	#line 165 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	166	112		subcall color2_b, __color2_b_return
+14	165	114	#line 165 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	166	114		mov __signed_stack_001programa, __D0color2_b
+14	165	116	#line 165 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	166	116	#line 166 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	167	116		set __D0programa, 3
+14	166	119	#line 166 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	167	119		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	168	123	#line 168 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	169	123		brtst 4, __ASM_Label_807, __D0programa
+14	169	126	#line 169 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	170	126	#pragma macro 7
+14	170	126		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+14	8168	149	#line 8168 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	169	149	#line 169 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	169	149	#line 169 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	170	149		set __Wait_7qG2_ms_7qG2_000_inline_programa, 500
+14	169	152	#line 169 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	8551	152	#line 8551 "NXCDefs.h"
+14	8552	152		waitv __Wait_7qG2_ms_7qG2_000_inline_programa
+14	8551	154	#line 8551 "NXCDefs.h"
+14	170	154	#line 170 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	170	154	#line 170 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	171	154		set __signed_stack_001programa, 70
+14	170	157	#line 170 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	170	157	#line 170 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	171	157		mov __D0programa, __constValNeg25
+14	172	159	#line 172 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	173	159	#pragma macro 35
+14	173	159		acquire __rotateMutex0
+14	173	160		acquire __rotateMutex2
+14	173	161		mov __rotate_ports4, __OUT_AC
+14	173	163		mov __rotate_power4, __signed_stack_001programa
+14	173	165		mov __rotate_angle4, __D0programa
+14	173	167		mov __rotate_turnpct4, __constVal0
+14	173	169		mov __rotate_sync4, __constVal0
+14	173	171		mov __rotate_stop4, __constVal1
+14	173	173		mov __rotate_theRVP4, __constVal32
+14	173	175		mov __rotate_theRVI4, __constVal0
+14	173	177		mov __rotate_theRVD4, __constVal96
+14	173	179		subcall __RotateMotor4, ____RotateMotor4_return
+14	173	181		release __rotateMutex2
+14	173	182		release __rotateMutex0
+14	8186	183	#line 8186 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	172	183	#line 172 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	172	183	#line 172 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	173	183		subcall color1_a, __color1_a_return
+14	172	185	#line 172 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	173	185		mov __signed_stack_001programa, __D0color1_a
+14	172	187	#line 172 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	172	187	#line 172 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	173	187		set __D0programa, 3
+14	172	190	#line 172 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	173	190		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	172	194	#line 172 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	173	194		brtst 4, __ASM_Label_815, __D0programa
+14	172	197	#line 172 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	173	197		subcall color2_b, __color2_b_return
+14	172	199	#line 172 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	173	199		mov __signed_stack_001programa, __D0color2_b
+14	172	201	#line 172 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	173	201	#line 173 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	174	201		set __D0programa, 3
+14	173	204	#line 173 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	174	204		cmp 5, __D0programa, __signed_stack_001programa, __D0programa
+14	175	208	#line 175 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	176	208		brtst 4, __ASM_Label_816, __D0programa
+14	176	211	#line 176 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	177	211	#pragma macro 7
+14	177	211		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+14	8220	234	#line 8220 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	176	234	#line 176 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	177	234	#line 177 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	178	234		subcall adelante, __adelante_return
+14	177	236	#line 177 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	177	236	#line 177 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	178	236		subcall color1_a, __color1_a_return
+14	177	238	#line 177 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	178	238		mov __signed_stack_001programa, __D0color1_a
+14	177	240	#line 177 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	177	240	#line 177 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	178	240		set __D0programa, 1
+14	177	243	#line 177 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	178	243		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	177	247	#line 177 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	178	247		brtst 5, __ASM_Label_821, __D0programa
+14	177	250	#line 177 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	178	250		subcall color2_b, __color2_b_return
+14	177	252	#line 177 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	178	252		mov __signed_stack_001programa, __D0color2_b
+14	177	254	#line 177 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	177	254	#line 177 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	178	254		set __D0programa, 1
+14	177	257	#line 177 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	178	257		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	177	261	#line 177 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	178	261		not __D0programa, __D0programa
+14	178	264	#line 178 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	179	264		tst 5, __D0programa, __D0programa
+14	178	267	#line 178 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	179	267		brtst 4, __ASM_Label_818, __D0programa
+14	178	270	#line 178 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	178	270	#line 178 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	179	270		jmp __ASM_Label_817
+14	178	272	#line 178 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	178	272	#line 178 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	179	272		set __signed_stack_001programa, 70
+14	178	275	#line 178 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	178	275	#line 178 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	179	275		mov __D0programa, __constValNeg100
+14	179	277	#line 179 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	180	277	#pragma macro 35
+14	180	277		acquire __rotateMutex0
+14	180	278		acquire __rotateMutex2
+14	180	279		mov __rotate_ports4, __OUT_AC
+14	180	281		mov __rotate_power4, __signed_stack_001programa
+14	180	283		mov __rotate_angle4, __D0programa
+14	180	285		mov __rotate_turnpct4, __constVal0
+14	180	287		mov __rotate_sync4, __constVal0
+14	180	289		mov __rotate_stop4, __constVal1
+14	180	291		mov __rotate_theRVP4, __constVal32
+14	180	293		mov __rotate_theRVI4, __constVal0
+14	180	295		mov __rotate_theRVD4, __constVal96
+14	180	297		subcall __RotateMotor4, ____RotateMotor4_return
+14	180	299		release __rotateMutex2
+14	180	300		release __rotateMutex0
+14	8276	301	#line 8276 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	179	301	#line 179 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	179	301	#line 179 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	180	301		set __signed_stack_001programa, 70
+14	179	304	#line 179 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	179	304	#line 179 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	180	304		set __signed_stack_002programa, 150
+14	179	307	#line 179 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	179	307	#line 179 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	180	307		mov __signed_stack_003programa, __constValNeg100
+14	179	309	#line 179 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	179	309	#line 179 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	180	309		set __signed_stack_004programa, 1
+14	179	312	#line 179 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	179	312	#line 179 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	180	312		set __D0programa, 1
+14	180	315	#line 180 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	181	315	#pragma macro 35
+14	181	315		acquire __rotateMutex0
+14	181	316		acquire __rotateMutex2
+14	181	317		mov __rotate_ports4, __OUT_AC
+14	181	319		mov __rotate_power4, __signed_stack_001programa
+14	181	321		mov __rotate_angle4, __signed_stack_002programa
+14	181	323		mov __rotate_turnpct4, __signed_stack_003programa
+14	181	325		mov __rotate_sync4, __signed_stack_004programa
+14	181	327		mov __rotate_stop4, __D0programa
+14	181	329		mov __rotate_theRVP4, __constVal32
+14	181	331		mov __rotate_theRVI4, __constVal0
+14	181	333		mov __rotate_theRVD4, __constVal96
+14	181	335		subcall __RotateMotor4, ____RotateMotor4_return
+14	181	337		release __rotateMutex2
+14	181	338		release __rotateMutex0
+14	8302	339	#line 8302 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	180	339	#line 180 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	180	339	#line 180 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	181	339		set __izquierda_7qG2_n_7qG2_000, 70
+14	180	342	#line 180 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	181	342	#line 181 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	182	342		subcall izquierda, __izquierda_return
+14	181	344	#line 181 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	181	344	#line 181 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	182	344		mov __signed_stack_001programa, color2
+14	181	346	#line 181 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	181	346	#line 181 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	182	346		set __D0programa, 1
+14	181	349	#line 181 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	182	349		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	181	353	#line 181 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	182	353		not __D0programa, __D0programa
+14	182	356	#line 182 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	183	356		tst 5, __D0programa, __D0programa
+14	182	359	#line 182 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	183	359		brtst 4, __ASM_Label_841, __D0programa
+14	182	362	#line 182 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	182	362	#line 182 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	183	362		jmp __ASM_Label_840
+14	182	364	#line 182 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	184	364	#line 184 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	185	364	#pragma macro 7
+14	185	364		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+14	8342	387	#line 8342 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	184	387	#line 184 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	186	387	#line 186 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	186	387	#line 186 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	187	387		subcall color2_b, __color2_b_return
+14	186	389	#line 186 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	187	389		mov __signed_stack_001programa, __D0color2_b
+14	186	391	#line 186 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	186	391	#line 186 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	187	391		set __D0programa, 3
+14	186	394	#line 186 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	187	394		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	186	398	#line 186 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	187	398		brtst 4, __ASM_Label_847, __D0programa
+14	186	401	#line 186 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	187	401		subcall color1_a, __color1_a_return
+14	186	403	#line 186 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	187	403		mov __signed_stack_001programa, __D0color1_a
+14	186	405	#line 186 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	187	405	#line 187 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	188	405		set __D0programa, 3
+14	187	408	#line 187 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	188	408		cmp 5, __D0programa, __signed_stack_001programa, __D0programa
+14	189	412	#line 189 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	190	412		brtst 4, __ASM_Label_848, __D0programa
+14	190	415	#line 190 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	191	415	#pragma macro 7
+14	191	415		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+14	8377	438	#line 8377 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	190	438	#line 190 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	191	438	#line 191 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	192	438		subcall adelante, __adelante_return
+14	191	440	#line 191 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	191	440	#line 191 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	192	440		subcall color1_a, __color1_a_return
+14	191	442	#line 191 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	192	442		mov __signed_stack_001programa, __D0color1_a
+14	191	444	#line 191 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	191	444	#line 191 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	192	444		set __D0programa, 1
+14	191	447	#line 191 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	192	447		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	191	451	#line 191 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	192	451		brtst 5, __ASM_Label_853, __D0programa
+14	191	454	#line 191 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	192	454		subcall color2_b, __color2_b_return
+14	191	456	#line 191 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	192	456		mov __signed_stack_001programa, __D0color2_b
+14	191	458	#line 191 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	191	458	#line 191 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	192	458		set __D0programa, 1
+14	191	461	#line 191 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	192	461		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	191	465	#line 191 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	192	465		not __D0programa, __D0programa
+14	192	468	#line 192 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	193	468		tst 5, __D0programa, __D0programa
+14	192	471	#line 192 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	193	471		brtst 4, __ASM_Label_850, __D0programa
+14	192	474	#line 192 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	192	474	#line 192 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	193	474		jmp __ASM_Label_849
+14	192	476	#line 192 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	192	476	#line 192 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	193	476		set __signed_stack_001programa, 70
+14	192	479	#line 192 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	192	479	#line 192 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	193	479		mov __D0programa, __constValNeg100
+14	193	481	#line 193 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	194	481	#pragma macro 35
+14	194	481		acquire __rotateMutex0
+14	194	482		acquire __rotateMutex2
+14	194	483		mov __rotate_ports4, __OUT_AC
+14	194	485		mov __rotate_power4, __signed_stack_001programa
+14	194	487		mov __rotate_angle4, __D0programa
+14	194	489		mov __rotate_turnpct4, __constVal0
+14	194	491		mov __rotate_sync4, __constVal0
+14	194	493		mov __rotate_stop4, __constVal1
+14	194	495		mov __rotate_theRVP4, __constVal32
+14	194	497		mov __rotate_theRVI4, __constVal0
+14	194	499		mov __rotate_theRVD4, __constVal96
+14	194	501		subcall __RotateMotor4, ____RotateMotor4_return
+14	194	503		release __rotateMutex2
+14	194	504		release __rotateMutex0
+14	8433	505	#line 8433 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	193	505	#line 193 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	193	505	#line 193 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	194	505		set __signed_stack_001programa, 70
+14	193	508	#line 193 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	193	508	#line 193 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	194	508		set __signed_stack_002programa, 150
+14	193	511	#line 193 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	193	511	#line 193 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	194	511		set __signed_stack_003programa, 100
+14	193	514	#line 193 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	193	514	#line 193 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	194	514		set __signed_stack_004programa, 1
+14	193	517	#line 193 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	193	517	#line 193 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	194	517		set __D0programa, 1
+14	194	520	#line 194 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	195	520	#pragma macro 35
+14	195	520		acquire __rotateMutex0
+14	195	521		acquire __rotateMutex2
+14	195	522		mov __rotate_ports4, __OUT_AC
+14	195	524		mov __rotate_power4, __signed_stack_001programa
+14	195	526		mov __rotate_angle4, __signed_stack_002programa
+14	195	528		mov __rotate_turnpct4, __signed_stack_003programa
+14	195	530		mov __rotate_sync4, __signed_stack_004programa
+14	195	532		mov __rotate_stop4, __D0programa
+14	195	534		mov __rotate_theRVP4, __constVal32
+14	195	536		mov __rotate_theRVI4, __constVal0
+14	195	538		mov __rotate_theRVD4, __constVal96
+14	195	540		subcall __RotateMotor4, ____RotateMotor4_return
+14	195	542		release __rotateMutex2
+14	195	543		release __rotateMutex0
+14	8459	544	#line 8459 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	194	544	#line 194 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	194	544	#line 194 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	195	544		set __derecha_7qG2_n_7qG2_000, 70
+14	194	547	#line 194 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	195	547	#line 195 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	196	547		subcall derecha, __derecha_return
+14	195	549	#line 195 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	195	549	#line 195 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	196	549		subcall color1_a, __color1_a_return
+14	195	551	#line 195 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	196	551		mov __signed_stack_001programa, __D0color1_a
+14	195	553	#line 195 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	195	553	#line 195 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	196	553		set __D0programa, 1
+14	195	556	#line 195 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	196	556		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	195	560	#line 195 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	196	560		not __D0programa, __D0programa
+14	196	563	#line 196 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	197	563		tst 5, __D0programa, __D0programa
+14	196	566	#line 196 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	197	566		brtst 4, __ASM_Label_873, __D0programa
+14	196	569	#line 196 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	196	569	#line 196 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	197	569		jmp __ASM_Label_872
+14	196	571	#line 196 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	198	571	#line 198 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	199	571	#pragma macro 7
+14	199	571		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+14	8501	594	#line 8501 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	198	594	#line 198 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	200	594	#line 200 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	200	594	#line 200 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	201	594		subcall color1_a, __color1_a_return
+14	200	596	#line 200 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	201	596		mov __signed_stack_001programa, __D0color1_a
+14	200	598	#line 200 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	200	598	#line 200 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	201	598		set __D0programa, 3
+14	200	601	#line 200 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	201	601		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	200	605	#line 200 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	201	605		brtst 4, __ASM_Label_879, __D0programa
+14	200	608	#line 200 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	201	608		subcall color2_b, __color2_b_return
+14	200	610	#line 200 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	201	610		mov __signed_stack_001programa, __D0color2_b
+14	200	612	#line 200 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	201	612	#line 201 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	202	612		set __D0programa, 3
+14	201	615	#line 201 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	202	615		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	203	619	#line 203 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	204	619		brtst 4, __ASM_Label_880, __D0programa
+14	203	622	#line 203 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	204	622		set __signed_stack_001programa, 50
+14	203	625	#line 203 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	203	625	#line 203 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	204	625		set __signed_stack_002programa, 850
+14	203	628	#line 203 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	203	628	#line 203 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	204	628		mov __signed_stack_003programa, __constValNeg100
+14	203	630	#line 203 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	203	630	#line 203 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	204	630		set __signed_stack_004programa, 1
+14	203	633	#line 203 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	203	633	#line 203 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	204	633		set __D0programa, 1
+14	204	636	#line 204 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	205	636	#pragma macro 35
+14	205	636		acquire __rotateMutex0
+14	205	637		acquire __rotateMutex2
+14	205	638		mov __rotate_ports4, __OUT_AC
+14	205	640		mov __rotate_power4, __signed_stack_001programa
+14	205	642		mov __rotate_angle4, __signed_stack_002programa
+14	205	644		mov __rotate_turnpct4, __signed_stack_003programa
+14	205	646		mov __rotate_sync4, __signed_stack_004programa
+14	205	648		mov __rotate_stop4, __D0programa
+14	205	650		mov __rotate_theRVP4, __constVal32
+14	205	652		mov __rotate_theRVI4, __constVal0
+14	205	654		mov __rotate_theRVD4, __constVal96
+14	205	656		subcall __RotateMotor4, ____RotateMotor4_return
+14	205	658		release __rotateMutex2
+14	205	659		release __rotateMutex0
+14	8558	660	#line 8558 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	204	660	#line 204 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	204	660	#line 204 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	205	660		set __izquierda_7qG2_n_7qG2_000, 50
+14	204	663	#line 204 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	205	663	#line 205 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	206	663		subcall izquierda, __izquierda_return
+14	205	665	#line 205 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	205	665	#line 205 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	206	665		subcall color2_b, __color2_b_return
+14	205	667	#line 205 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	206	667		mov __signed_stack_001programa, __D0color2_b
+14	205	669	#line 205 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	205	669	#line 205 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	206	669		set __D0programa, 1
+14	205	672	#line 205 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	206	672		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	205	676	#line 205 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	206	676		not __D0programa, __D0programa
+14	206	679	#line 206 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	207	679		tst 5, __D0programa, __D0programa
+14	206	682	#line 206 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	207	682		brtst 4, __ASM_Label_894, __D0programa
+14	206	685	#line 206 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	206	685	#line 206 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	207	685		jmp __ASM_Label_893
+14	206	687	#line 206 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	207	687	#line 207 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	208	687	#pragma macro 7
+14	208	687		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+14	8600	710	#line 8600 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	207	710	#line 207 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	211	710	#line 211 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	214	710	#line 214 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	215	710		jmp __ASM_Label_899
+14	214	712	#line 214 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	215	712		mov __signed_stack_001programa, luz
+14	214	714	#line 214 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	214	714	#line 214 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	215	714		mov __D0programa, valuz
+14	214	716	#line 214 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	215	716		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+14	214	720	#line 214 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	215	720		brtst 4, __ASM_Label_901, __D0programa
+14	214	723	#line 214 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	215	723		subcall color1_a, __color1_a_return
+14	214	725	#line 214 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	215	725		mov __signed_stack_001programa, __D0color1_a
+14	214	727	#line 214 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	214	727	#line 214 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	215	727		set __D0programa, 1
+14	214	730	#line 214 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	215	730		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	214	734	#line 214 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	215	734		brtst 4, __ASM_Label_901, __D0programa
+14	214	737	#line 214 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	215	737		subcall color2_b, __color2_b_return
+14	214	739	#line 214 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	215	739		mov __signed_stack_001programa, __D0color2_b
+14	214	741	#line 214 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	214	741	#line 214 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	215	741		set __D0programa, 1
+14	214	744	#line 214 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	215	744		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	214	748	#line 214 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	215	748		brtst 4, __ASM_Label_901, __D0programa
+14	214	751	#line 214 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	215	751		mov __signed_stack_001programa, luz2
+14	214	753	#line 214 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	215	753	#line 215 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	216	753		mov __D0programa, valuz
+14	215	755	#line 215 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	216	755		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+14	217	759	#line 217 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	218	759		brtst 4, __ASM_Label_902, __D0programa
+14	218	762	#line 218 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	219	762		subcall atras, __atras_return
+14	218	764	#line 218 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	218	764	#line 218 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	219	764		set __Wait_7qG2_ms_7qG2_000_inline_programa, 200
+14	218	767	#line 218 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	8551	767	#line 8551 "NXCDefs.h"
+14	8552	767		waitv __Wait_7qG2_ms_7qG2_000_inline_programa
+14	8551	769	#line 8551 "NXCDefs.h"
+14	220	769	#line 220 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	223	769	#line 223 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	223	769	#line 223 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	224	769		mov __signed_stack_001programa, luz
+14	223	771	#line 223 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	223	771	#line 223 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	224	771		mov __D0programa, valuz
+14	223	773	#line 223 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	224	773		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+14	223	777	#line 223 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	224	777		brtst 4, __ASM_Label_906, __D0programa
+14	223	780	#line 223 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	224	780		subcall color1_a, __color1_a_return
+14	223	782	#line 223 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	224	782		mov __signed_stack_001programa, __D0color1_a
+14	223	784	#line 223 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	223	784	#line 223 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	224	784		set __D0programa, 6
+14	223	787	#line 223 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	224	787		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	223	791	#line 223 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	224	791		brtst 4, __ASM_Label_906, __D0programa
+14	223	794	#line 223 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	224	794		subcall color2_b, __color2_b_return
+14	223	796	#line 223 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	224	796		mov __signed_stack_001programa, __D0color2_b
+14	223	798	#line 223 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	223	798	#line 223 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	224	798		set __D0programa, 6
+14	223	801	#line 223 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	224	801		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	223	805	#line 223 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	224	805		brtst 4, __ASM_Label_906, __D0programa
+14	223	808	#line 223 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	224	808		mov __signed_stack_001programa, luz2
+14	223	810	#line 223 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	224	810	#line 224 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	225	810		mov __D0programa, valuz
+14	224	812	#line 224 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	225	812		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+14	226	816	#line 226 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	227	816		brtst 4, __ASM_Label_907, __D0programa
+14	228	819	#line 228 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	229	819		subcall adelante, __adelante_return
+14	228	821	#line 228 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	231	821	#line 231 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	231	821	#line 231 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	232	821		mov __signed_stack_001programa, luz
+14	231	823	#line 231 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	231	823	#line 231 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	232	823		mov __D0programa, valuz
+14	231	825	#line 231 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	232	825		cmp 0, __D0programa, __signed_stack_001programa, __D0programa
+14	231	829	#line 231 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	232	829		brtst 4, __ASM_Label_909, __D0programa
+14	231	832	#line 231 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	232	832		subcall color1_a, __color1_a_return
+14	231	834	#line 231 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	232	834		mov __signed_stack_001programa, __D0color1_a
+14	231	836	#line 231 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	231	836	#line 231 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	232	836		set __D0programa, 1
+14	231	839	#line 231 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	232	839		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	231	843	#line 231 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	232	843		brtst 4, __ASM_Label_909, __D0programa
+14	231	846	#line 231 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	232	846		subcall color2_b, __color2_b_return
+14	231	848	#line 231 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	232	848		mov __signed_stack_001programa, __D0color2_b
+14	231	850	#line 231 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	231	850	#line 231 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	232	850		set __D0programa, 1
+14	231	853	#line 231 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	232	853		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	231	857	#line 231 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	232	857		brtst 4, __ASM_Label_909, __D0programa
+14	231	860	#line 231 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	232	860		mov __signed_stack_001programa, luz2
+14	231	862	#line 231 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	232	862	#line 232 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	233	862		mov __D0programa, valuz
+14	232	864	#line 232 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	233	864		cmp 0, __D0programa, __signed_stack_001programa, __D0programa
+14	234	868	#line 234 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	235	868		brtst 4, __ASM_Label_910, __D0programa
+14	235	871	#line 235 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	236	871		subcall adelante, __adelante_return
+14	235	873	#line 235 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	235	873	#line 235 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	236	873		set __Wait_7qG2_ms_7qG2_000_inline_programa, 200
+14	235	876	#line 235 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	8551	876	#line 8551 "NXCDefs.h"
+14	8552	876		waitv __Wait_7qG2_ms_7qG2_000_inline_programa
+14	8551	878	#line 8551 "NXCDefs.h"
+14	237	878	#line 237 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	240	878	#line 240 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	240	878	#line 240 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	241	878		mov __signed_stack_001programa, luz
+14	240	880	#line 240 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	240	880	#line 240 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	241	880		mov __D0programa, valuz
+14	240	882	#line 240 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	241	882		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+14	240	886	#line 240 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	241	886		brtst 4, __ASM_Label_914, __D0programa
+14	240	889	#line 240 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	241	889		subcall color1_a, __color1_a_return
+14	240	891	#line 240 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	241	891		mov __signed_stack_001programa, __D0color1_a
+14	240	893	#line 240 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	240	893	#line 240 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	241	893		set __D0programa, 1
+14	240	896	#line 240 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	241	896		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	240	900	#line 240 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	241	900		brtst 4, __ASM_Label_914, __D0programa
+14	240	903	#line 240 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	241	903		subcall color2_b, __color2_b_return
+14	240	905	#line 240 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	241	905		mov __signed_stack_001programa, __D0color2_b
+14	240	907	#line 240 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	240	907	#line 240 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	241	907		set __D0programa, 1
+14	240	910	#line 240 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	241	910		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	240	914	#line 240 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	241	914		brtst 4, __ASM_Label_914, __D0programa
+14	240	917	#line 240 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	241	917		mov __signed_stack_001programa, luz2
+14	240	919	#line 240 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	241	919	#line 241 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	242	919		mov __D0programa, valuz
+14	241	921	#line 241 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	242	921		cmp 0, __D0programa, __signed_stack_001programa, __D0programa
+14	243	925	#line 243 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	244	925		brtst 4, __ASM_Label_915, __D0programa
+14	243	928	#line 243 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	244	928		set __derecha_7qG2_n_7qG2_000, 100
+14	243	931	#line 243 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	245	931	#line 245 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	246	931		subcall derecha, __derecha_return
+14	245	933	#line 245 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	248	933	#line 248 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	248	933	#line 248 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	249	933		mov __signed_stack_001programa, luz
+14	248	935	#line 248 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	248	935	#line 248 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	249	935		mov __D0programa, valuz
+14	248	937	#line 248 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	249	937		cmp 0, __D0programa, __signed_stack_001programa, __D0programa
+14	248	941	#line 248 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	249	941		brtst 4, __ASM_Label_919, __D0programa
+14	248	944	#line 248 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	249	944		subcall color1_a, __color1_a_return
+14	248	946	#line 248 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	249	946		mov __signed_stack_001programa, __D0color1_a
+14	248	948	#line 248 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	248	948	#line 248 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	249	948		set __D0programa, 1
+14	248	951	#line 248 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	249	951		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	248	955	#line 248 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	249	955		brtst 4, __ASM_Label_919, __D0programa
+14	248	958	#line 248 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	249	958		subcall color2_b, __color2_b_return
+14	248	960	#line 248 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	249	960		mov __signed_stack_001programa, __D0color2_b
+14	248	962	#line 248 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	248	962	#line 248 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	249	962		set __D0programa, 1
+14	248	965	#line 248 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	249	965		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	248	969	#line 248 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	249	969		brtst 4, __ASM_Label_919, __D0programa
+14	248	972	#line 248 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	249	972		mov __signed_stack_001programa, luz2
+14	248	974	#line 248 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	249	974	#line 249 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	250	974		mov __D0programa, valuz
+14	249	976	#line 249 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	250	976		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+14	251	980	#line 251 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	252	980		brtst 4, __ASM_Label_920, __D0programa
+14	251	983	#line 251 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	252	983		set __izquierda_7qG2_n_7qG2_000, 100
+14	251	986	#line 251 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	253	986	#line 253 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	254	986		subcall izquierda, __izquierda_return
+14	253	988	#line 253 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	256	988	#line 256 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	256	988	#line 256 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	257	988		mov __signed_stack_001programa, luz
+14	256	990	#line 256 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	256	990	#line 256 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	257	990		mov __D0programa, valuz
+14	256	992	#line 256 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	257	992		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+14	256	996	#line 256 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	257	996		brtst 4, __ASM_Label_924, __D0programa
+14	256	999	#line 256 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	257	999		subcall color1_a, __color1_a_return
+14	256	1001	#line 256 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	257	1001		mov __signed_stack_001programa, __D0color1_a
+14	256	1003	#line 256 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	256	1003	#line 256 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	257	1003		set __D0programa, 6
+14	256	1006	#line 256 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	257	1006		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	256	1010	#line 256 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	257	1010		brtst 4, __ASM_Label_924, __D0programa
+14	256	1013	#line 256 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	257	1013		subcall color2_b, __color2_b_return
+14	256	1015	#line 256 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	257	1015		mov __signed_stack_001programa, __D0color2_b
+14	256	1017	#line 256 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	256	1017	#line 256 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	257	1017		set __D0programa, 1
+14	256	1020	#line 256 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	257	1020		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	256	1024	#line 256 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	257	1024		brtst 4, __ASM_Label_924, __D0programa
+14	256	1027	#line 256 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	257	1027		mov __signed_stack_001programa, luz2
+14	256	1029	#line 256 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	257	1029	#line 257 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	258	1029		mov __D0programa, valuz
+14	257	1031	#line 257 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	258	1031		cmp 0, __D0programa, __signed_stack_001programa, __D0programa
+14	259	1035	#line 259 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	260	1035		brtst 4, __ASM_Label_925, __D0programa
+14	259	1038	#line 259 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	260	1038		set __derecha_7qG2_n_7qG2_000, 85
+14	259	1041	#line 259 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	260	1041	#line 260 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	261	1041		subcall derecha, __derecha_return
+14	260	1043	#line 260 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	260	1043	#line 260 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	261	1043		mov __signed_stack_001programa, color1
+14	260	1045	#line 260 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	260	1045	#line 260 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	261	1045		set __D0programa, 1
+14	260	1048	#line 260 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	261	1048		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	260	1052	#line 260 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	261	1052		not __D0programa, __D0programa
+14	262	1055	#line 262 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	263	1055		tst 5, __D0programa, __D0programa
+14	262	1058	#line 262 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	263	1058		brtst 4, __ASM_Label_929, __D0programa
+14	262	1061	#line 262 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	262	1061	#line 262 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	263	1061		jmp __ASM_Label_928
+14	262	1063	#line 262 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	265	1063	#line 265 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	265	1063	#line 265 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	266	1063		mov __signed_stack_001programa, luz
+14	265	1065	#line 265 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	265	1065	#line 265 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	266	1065		mov __D0programa, valuz
+14	265	1067	#line 265 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	266	1067		cmp 0, __D0programa, __signed_stack_001programa, __D0programa
+14	265	1071	#line 265 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	266	1071		brtst 4, __ASM_Label_935, __D0programa
+14	265	1074	#line 265 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	266	1074		subcall color1_a, __color1_a_return
+14	265	1076	#line 265 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	266	1076		mov __signed_stack_001programa, __D0color1_a
+14	265	1078	#line 265 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	265	1078	#line 265 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	266	1078		set __D0programa, 1
+14	265	1081	#line 265 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	266	1081		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	265	1085	#line 265 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	266	1085		brtst 4, __ASM_Label_935, __D0programa
+14	265	1088	#line 265 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	266	1088		subcall color2_b, __color2_b_return
+14	265	1090	#line 265 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	266	1090		mov __signed_stack_001programa, __D0color2_b
+14	265	1092	#line 265 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	265	1092	#line 265 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	266	1092		set __D0programa, 6
+14	265	1095	#line 265 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	266	1095		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	265	1099	#line 265 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	266	1099		brtst 4, __ASM_Label_935, __D0programa
+14	265	1102	#line 265 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	266	1102		mov __signed_stack_001programa, luz2
+14	265	1104	#line 265 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	266	1104	#line 266 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	267	1104		mov __D0programa, valuz
+14	266	1106	#line 266 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	267	1106		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+14	268	1110	#line 268 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	269	1110		brtst 4, __ASM_Label_936, __D0programa
+14	268	1113	#line 268 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	269	1113		set __izquierda_7qG2_n_7qG2_000, 85
+14	268	1116	#line 268 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	269	1116	#line 269 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	270	1116		subcall izquierda, __izquierda_return
+14	269	1118	#line 269 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	269	1118	#line 269 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	270	1118		mov __signed_stack_001programa, color2
+14	269	1120	#line 269 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	269	1120	#line 269 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	270	1120		set __D0programa, 1
+14	269	1123	#line 269 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	270	1123		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	269	1127	#line 269 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	270	1127		not __D0programa, __D0programa
+14	271	1130	#line 271 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	272	1130		tst 5, __D0programa, __D0programa
+14	271	1133	#line 271 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	272	1133		brtst 4, __ASM_Label_940, __D0programa
+14	271	1136	#line 271 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	271	1136	#line 271 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	272	1136		jmp __ASM_Label_939
+14	271	1138	#line 271 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	274	1138	#line 274 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	274	1138	#line 274 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	275	1138		mov __signed_stack_001programa, luz
+14	274	1140	#line 274 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	274	1140	#line 274 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	275	1140		mov __D0programa, valuz
+14	274	1142	#line 274 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	275	1142		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+14	274	1146	#line 274 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	275	1146		brtst 4, __ASM_Label_946, __D0programa
+14	274	1149	#line 274 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	275	1149		subcall color1_a, __color1_a_return
+14	274	1151	#line 274 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	275	1151		mov __signed_stack_001programa, __D0color1_a
+14	274	1153	#line 274 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	274	1153	#line 274 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	275	1153		set __D0programa, 1
+14	274	1156	#line 274 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	275	1156		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	274	1160	#line 274 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	275	1160		brtst 4, __ASM_Label_946, __D0programa
+14	274	1163	#line 274 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	275	1163		subcall color2_b, __color2_b_return
+14	274	1165	#line 274 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	275	1165		mov __signed_stack_001programa, __D0color2_b
+14	274	1167	#line 274 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	274	1167	#line 274 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	275	1167		set __D0programa, 6
+14	274	1170	#line 274 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	275	1170		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	274	1174	#line 274 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	275	1174		brtst 4, __ASM_Label_946, __D0programa
+14	274	1177	#line 274 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	275	1177		mov __signed_stack_001programa, luz2
+14	274	1179	#line 274 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	275	1179	#line 275 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	276	1179		mov __D0programa, valuz
+14	275	1181	#line 275 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	276	1181		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+14	277	1185	#line 277 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	278	1185		brtst 4, __ASM_Label_947, __D0programa
+14	277	1188	#line 277 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	278	1188		set __izquierda_7qG2_n_7qG2_000, 70
+14	277	1191	#line 277 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	279	1191	#line 279 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	280	1191		subcall izquierda, __izquierda_return
+14	279	1193	#line 279 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	282	1193	#line 282 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	282	1193	#line 282 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	283	1193		mov __signed_stack_001programa, luz
+14	282	1195	#line 282 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	282	1195	#line 282 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	283	1195		mov __D0programa, valuz
+14	282	1197	#line 282 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	283	1197		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+14	282	1201	#line 282 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	283	1201		brtst 4, __ASM_Label_951, __D0programa
+14	282	1204	#line 282 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	283	1204		subcall color1_a, __color1_a_return
+14	282	1206	#line 282 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	283	1206		mov __signed_stack_001programa, __D0color1_a
+14	282	1208	#line 282 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	282	1208	#line 282 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	283	1208		set __D0programa, 6
+14	282	1211	#line 282 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	283	1211		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	282	1215	#line 282 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	283	1215		brtst 4, __ASM_Label_951, __D0programa
+14	282	1218	#line 282 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	283	1218		subcall color2_b, __color2_b_return
+14	282	1220	#line 282 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	283	1220		mov __signed_stack_001programa, __D0color2_b
+14	282	1222	#line 282 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	282	1222	#line 282 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	283	1222		set __D0programa, 1
+14	282	1225	#line 282 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	283	1225		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	282	1229	#line 282 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	283	1229		brtst 4, __ASM_Label_951, __D0programa
+14	282	1232	#line 282 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	283	1232		mov __signed_stack_001programa, luz2
+14	282	1234	#line 282 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	283	1234	#line 283 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	284	1234		mov __D0programa, valuz
+14	283	1236	#line 283 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	284	1236		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+14	285	1240	#line 285 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	286	1240		brtst 4, __ASM_Label_952, __D0programa
+14	285	1243	#line 285 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	286	1243		set __derecha_7qG2_n_7qG2_000, 70
+14	285	1246	#line 285 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	287	1246	#line 287 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	288	1246		subcall derecha, __derecha_return
+14	287	1248	#line 287 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	290	1248	#line 290 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	290	1248	#line 290 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	291	1248		mov __signed_stack_001programa, luz
+14	290	1250	#line 290 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	290	1250	#line 290 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	291	1250		mov __D0programa, valuz
+14	290	1252	#line 290 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	291	1252		cmp 0, __D0programa, __signed_stack_001programa, __D0programa
+14	290	1256	#line 290 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	291	1256		brtst 4, __ASM_Label_956, __D0programa
+14	290	1259	#line 290 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	291	1259		subcall color1_a, __color1_a_return
+14	290	1261	#line 290 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	291	1261		mov __signed_stack_001programa, __D0color1_a
+14	290	1263	#line 290 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	290	1263	#line 290 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	291	1263		set __D0programa, 6
+14	290	1266	#line 290 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	291	1266		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	290	1270	#line 290 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	291	1270		brtst 4, __ASM_Label_956, __D0programa
+14	290	1273	#line 290 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	291	1273		subcall color2_b, __color2_b_return
+14	290	1275	#line 290 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	291	1275		mov __signed_stack_001programa, __D0color2_b
+14	290	1277	#line 290 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	290	1277	#line 290 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	291	1277		set __D0programa, 6
+14	290	1280	#line 290 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	291	1280		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	290	1284	#line 290 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	291	1284		brtst 4, __ASM_Label_956, __D0programa
+14	290	1287	#line 290 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	291	1287		mov __signed_stack_001programa, luz2
+14	290	1289	#line 290 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	291	1289	#line 291 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	292	1289		mov __D0programa, valuz
+14	291	1291	#line 291 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	292	1291		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+14	293	1295	#line 293 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	294	1295		brtst 4, __ASM_Label_957, __D0programa
+14	293	1298	#line 293 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	294	1298		set __izquierda_7qG2_n_7qG2_000, 55
+14	293	1301	#line 293 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	294	1301	#line 294 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	295	1301		subcall izquierda, __izquierda_return
+14	294	1303	#line 294 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	294	1303	#line 294 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	295	1303		mov __signed_stack_001programa, color2
+14	294	1305	#line 294 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	294	1305	#line 294 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	295	1305		set __D0programa, 1
+14	294	1308	#line 294 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	295	1308		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	294	1312	#line 294 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	295	1312		not __D0programa, __D0programa
+14	296	1315	#line 296 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	297	1315		tst 5, __D0programa, __D0programa
+14	296	1318	#line 296 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	297	1318		brtst 4, __ASM_Label_961, __D0programa
+14	296	1321	#line 296 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	296	1321	#line 296 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	297	1321		jmp __ASM_Label_960
+14	296	1323	#line 296 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	299	1323	#line 299 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	299	1323	#line 299 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	300	1323		mov __signed_stack_001programa, luz
+14	299	1325	#line 299 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	299	1325	#line 299 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	300	1325		mov __D0programa, valuz
+14	299	1327	#line 299 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	300	1327		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+14	299	1331	#line 299 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	300	1331		brtst 4, __ASM_Label_967, __D0programa
+14	299	1334	#line 299 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	300	1334		subcall color1_a, __color1_a_return
+14	299	1336	#line 299 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	300	1336		mov __signed_stack_001programa, __D0color1_a
+14	299	1338	#line 299 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	299	1338	#line 299 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	300	1338		set __D0programa, 6
+14	299	1341	#line 299 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	300	1341		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	299	1345	#line 299 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	300	1345		brtst 4, __ASM_Label_967, __D0programa
+14	299	1348	#line 299 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	300	1348		subcall color2_b, __color2_b_return
+14	299	1350	#line 299 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	300	1350		mov __signed_stack_001programa, __D0color2_b
+14	299	1352	#line 299 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	299	1352	#line 299 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	300	1352		set __D0programa, 6
+14	299	1355	#line 299 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	300	1355		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	299	1359	#line 299 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	300	1359		brtst 4, __ASM_Label_967, __D0programa
+14	299	1362	#line 299 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	300	1362		mov __signed_stack_001programa, luz2
+14	299	1364	#line 299 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	300	1364	#line 300 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	301	1364		mov __D0programa, valuz
+14	300	1366	#line 300 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	301	1366		cmp 0, __D0programa, __signed_stack_001programa, __D0programa
+14	302	1370	#line 302 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	303	1370		brtst 4, __ASM_Label_968, __D0programa
+14	302	1373	#line 302 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	303	1373		set __derecha_7qG2_n_7qG2_000, 55
+14	302	1376	#line 302 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	303	1376	#line 303 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	304	1376		subcall derecha, __derecha_return
+14	303	1378	#line 303 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	303	1378	#line 303 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	304	1378		mov __signed_stack_001programa, color1
+14	303	1380	#line 303 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	303	1380	#line 303 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	304	1380		set __D0programa, 1
+14	303	1383	#line 303 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	304	1383		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	303	1387	#line 303 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	304	1387		not __D0programa, __D0programa
+14	304	1390	#line 304 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	305	1390		tst 5, __D0programa, __D0programa
+14	304	1393	#line 304 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	305	1393		brtst 4, __ASM_Label_972, __D0programa
+14	304	1396	#line 304 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	304	1396	#line 304 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	305	1396		jmp __ASM_Label_971
+14	304	1398	#line 304 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	306	1398	#line 306 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	306	1398	#line 306 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	307	1398		mov __signed_stack_001programa, luz
+14	306	1400	#line 306 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	306	1400	#line 306 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	307	1400		mov __D0programa, valuz
+14	306	1402	#line 306 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	307	1402		cmp 0, __D0programa, __signed_stack_001programa, __D0programa
+14	306	1406	#line 306 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	307	1406		brtst 4, __ASM_Label_978, __D0programa
+14	306	1409	#line 306 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	307	1409		subcall color1_a, __color1_a_return
+14	306	1411	#line 306 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	307	1411		mov __signed_stack_001programa, __D0color1_a
+14	306	1413	#line 306 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	306	1413	#line 306 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	307	1413		set __D0programa, 6
+14	306	1416	#line 306 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	307	1416		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	306	1420	#line 306 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	307	1420		brtst 4, __ASM_Label_978, __D0programa
+14	306	1423	#line 306 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	307	1423		subcall color2_b, __color2_b_return
+14	306	1425	#line 306 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	307	1425		mov __signed_stack_001programa, __D0color2_b
+14	306	1427	#line 306 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	306	1427	#line 306 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	307	1427		set __D0programa, 1
+14	306	1430	#line 306 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	307	1430		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	306	1434	#line 306 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	307	1434		brtst 4, __ASM_Label_978, __D0programa
+14	306	1437	#line 306 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	307	1437		mov __signed_stack_001programa, luz2
+14	306	1439	#line 306 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	306	1439	#line 306 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	307	1439		mov __D0programa, valuz
+14	306	1441	#line 306 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	307	1441		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+14	307	1445	#line 307 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	308	1445		brtst 4, __ASM_Label_979, __D0programa
+14	307	1448	#line 307 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	308	1448		set __derecha_7qG2_n_7qG2_000, 75
+14	307	1451	#line 307 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	308	1451	#line 308 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	309	1451		subcall derecha, __derecha_return
+14	308	1453	#line 308 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	311	1453	#line 311 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	311	1453	#line 311 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	312	1453		mov __signed_stack_001programa, luz
+14	311	1455	#line 311 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	311	1455	#line 311 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	312	1455		mov __D0programa, valuz
+14	311	1457	#line 311 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	312	1457		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+14	311	1461	#line 311 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	312	1461		brtst 4, __ASM_Label_983, __D0programa
+14	311	1464	#line 311 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	312	1464		subcall color1_a, __color1_a_return
+14	311	1466	#line 311 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	312	1466		mov __signed_stack_001programa, __D0color1_a
+14	311	1468	#line 311 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	311	1468	#line 311 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	312	1468		set __D0programa, 1
+14	311	1471	#line 311 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	312	1471		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	311	1475	#line 311 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	312	1475		brtst 4, __ASM_Label_983, __D0programa
+14	311	1478	#line 311 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	312	1478		subcall color2_b, __color2_b_return
+14	311	1480	#line 311 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	312	1480		mov __signed_stack_001programa, __D0color2_b
+14	311	1482	#line 311 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	311	1482	#line 311 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	312	1482		set __D0programa, 6
+14	311	1485	#line 311 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	312	1485		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+14	311	1489	#line 311 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	312	1489		brtst 4, __ASM_Label_983, __D0programa
+14	311	1492	#line 311 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	312	1492		mov __signed_stack_001programa, luz2
+14	311	1494	#line 311 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	311	1494	#line 311 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	312	1494		mov __D0programa, valuz
+14	311	1496	#line 311 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	312	1496		cmp 0, __D0programa, __signed_stack_001programa, __D0programa
+14	312	1500	#line 312 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	313	1500		brtst 4, __ASM_Label_984, __D0programa
+14	312	1503	#line 312 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	313	1503		set __izquierda_7qG2_n_7qG2_000, 75
+14	312	1506	#line 312 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	313	1506	#line 313 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	314	1506		subcall izquierda, __izquierda_return
+14	313	1508	#line 313 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	318	1508	#line 318 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	320	1508	#line 320 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	322	1508	#line 322 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	324	1508	#line 324 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	325	1508		jmp __ASM_Label_787
+14	324	1510	#line 324 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+14	325	1510		exit -1, -1
+15	326	0	#line 326 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	327	0		set __D0leer, 1
+15	327	3	#line 327 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	328	3		tst 5, __D0leer, __D0leer
+15	327	6	#line 327 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	328	6		brtst 4, __ASM_Label_988, __D0leer
+15	327	9	#line 327 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	328	9	#pragma macro 26
+15	328	9		acquire __RLSBmutex0
+15	328	10		mov __RLSReadBuf0, __RLSBbufLSWrite1
+15	328	12		set __RLSBytesCount0, 1
+15	328	15		wait 15
+15	328	17		subcall __ReadLSBytes0, ____ReadLSBytes0_return
+15	328	19		index __D0leer, __RLSReadBuf0, 65535
+15	328	23		release __RLSBmutex0
+15	9569	24	#line 9569 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	327	24	#line 327 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	328	24		mov ultra1, __D0leer
+15	327	26	#line 327 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	327	26	#line 327 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	328	26	#line 328 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	329	26	#pragma macro 26
+15	329	26		acquire __RLSBmutex1
+15	329	27		mov __RLSReadBuf1, __RLSBbufLSWrite1
+15	329	29		set __RLSBytesCount1, 1
+15	329	32		wait 15
+15	329	34		subcall __ReadLSBytes1, ____ReadLSBytes1_return
+15	329	36		index __D0leer, __RLSReadBuf1, 65535
+15	329	40		release __RLSBmutex1
+15	9577	41	#line 9577 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	328	41	#line 328 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	329	41		mov ultra2, __D0leer
+15	328	43	#line 328 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	328	43	#line 328 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	329	43	#line 329 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	330	43		set __no_conexion_7qG2_num_7qG2_000, 0
+15	329	46	#line 329 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	330	46	#line 330 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	331	46		subcall no_conexion, __no_conexion_return
+15	330	48	#line 330 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	330	48	#line 330 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	331	48	#pragma macro 9
+15	331	48		acquire __MRMutex
+15	331	49		mov __MRArgs.QueueID, __constVal2
+15	331	51		mov __MRArgs.Remove, __constVal1
+15	331	53		set __RRNTmpVal, 0
+15	331	56		syscall 27, __MRArgs
+15	331	59		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+15	331	64		mov __leer_7qG2_recibir1_7qG2_000, __RRNTmpVal
+15	331	66		mov __D0leer, __MRArgs.Result
+15	331	69		release __MRMutex
+15	9592	70	#line 9592 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	330	70	#line 330 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	331	70		mov __signed_stack_001leer, __D0leer
+15	330	72	#line 330 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	331	72		set __D0leer, 64
+15	330	75	#line 330 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	331	75		cmp 5, __D0leer, __signed_stack_001leer, __D0leer
+15	331	79	#line 331 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	332	79		brtst 4, __ASM_Label_999, __D0leer
+15	332	82	#line 332 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	333	82		mov color1, __leer_7qG2_recibir1_7qG2_000
+15	332	84	#line 332 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	332	84	#line 332 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	333	84	#line 333 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	333	84	#line 333 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	334	84	#pragma macro 9
+15	334	84		acquire __MRMutex
+15	334	85		mov __MRArgs.QueueID, __constVal3
+15	334	87		mov __MRArgs.Remove, __constVal1
+15	334	89		set __RRNTmpVal, 0
+15	334	92		syscall 27, __MRArgs
+15	334	95		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+15	334	100		mov __leer_7qG2_recibir2_7qG2_000, __RRNTmpVal
+15	334	102		mov __D0leer, __MRArgs.Result
+15	334	105		release __MRMutex
+15	9615	106	#line 9615 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	333	106	#line 333 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	334	106		mov __signed_stack_001leer, __D0leer
+15	333	108	#line 333 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	334	108		set __D0leer, 64
+15	333	111	#line 333 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	334	111		cmp 5, __D0leer, __signed_stack_001leer, __D0leer
+15	334	115	#line 334 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	335	115		brtst 4, __ASM_Label_1004, __D0leer
+15	335	118	#line 335 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	336	118		mov color2, __leer_7qG2_recibir2_7qG2_000
+15	335	120	#line 335 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	335	120	#line 335 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	336	120	#line 336 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	336	120	#line 336 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	337	120	#pragma macro 9
+15	337	120		acquire __MRMutex
+15	337	121		mov __MRArgs.QueueID, __constVal4
+15	337	123		mov __MRArgs.Remove, __constVal1
+15	337	125		set __RRNTmpVal, 0
+15	337	128		syscall 27, __MRArgs
+15	337	131		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+15	337	136		mov __leer_7qG2_recibir3_7qG2_000, __RRNTmpVal
+15	337	138		mov __D0leer, __MRArgs.Result
+15	337	141		release __MRMutex
+15	9638	142	#line 9638 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	336	142	#line 336 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	337	142		mov __signed_stack_001leer, __D0leer
+15	336	144	#line 336 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	337	144		set __D0leer, 64
+15	336	147	#line 336 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	337	147		cmp 5, __D0leer, __signed_stack_001leer, __D0leer
+15	337	151	#line 337 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	338	151		brtst 4, __ASM_Label_1009, __D0leer
+15	338	154	#line 338 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	339	154		mov luz, __leer_7qG2_recibir3_7qG2_000
+15	338	156	#line 338 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	338	156	#line 338 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	339	156	#line 339 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	339	156	#line 339 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	340	156	#pragma macro 9
+15	340	156		acquire __MRMutex
+15	340	157		mov __MRArgs.QueueID, __constVal5
+15	340	159		mov __MRArgs.Remove, __constVal1
+15	340	161		set __RRNTmpVal, 0
+15	340	164		syscall 27, __MRArgs
+15	340	167		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+15	340	172		mov __leer_7qG2_recibir4_7qG2_000, __RRNTmpVal
+15	340	174		mov __D0leer, __MRArgs.Result
+15	340	177		release __MRMutex
+15	9661	178	#line 9661 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	339	178	#line 339 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	340	178		mov __signed_stack_001leer, __D0leer
+15	339	180	#line 339 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	340	180		set __D0leer, 64
+15	339	183	#line 339 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	340	183		cmp 5, __D0leer, __signed_stack_001leer, __D0leer
+15	340	187	#line 340 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	341	187		brtst 4, __ASM_Label_1014, __D0leer
+15	341	190	#line 341 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	342	190		mov luz2, __leer_7qG2_recibir4_7qG2_000
+15	341	192	#line 341 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	341	192	#line 341 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	342	192	#line 342 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	343	192	#line 343 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	344	192		subcall imprimirDatos, __imprimirDatos_return
+15	343	194	#line 343 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	346	194	#line 346 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	347	194		jmp __ASM_Label_987
+15	346	196	#line 346 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+15	347	196		exit -1, -1
+16	353	0	#line 353 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
+16	354	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Diego\AppData\Local\Temp\temp.nxc
+1	__RotateMotor4	93	NXTDefs.h
+2	__ResetSensorSubroutine	247	NXTDefs.h
+3	__ReadLSBytes0	260	NXTDefs.h
+4	__ReadLSBytes1	345	NXTDefs.h
+5	imprimirDatos	430	C:\Users\Diego\AppData\Local\Temp\temp.nxc
+6	no_conexion	912	C:\Users\Diego\AppData\Local\Temp\temp.nxc
+7	color1_a	972	C:\Users\Diego\AppData\Local\Temp\temp.nxc
+8	color2_b	1009	C:\Users\Diego\AppData\Local\Temp\temp.nxc
+9	adelante	1046	C:\Users\Diego\AppData\Local\Temp\temp.nxc
+10	atras	1079	C:\Users\Diego\AppData\Local\Temp\temp.nxc
+11	izquierda	1107	C:\Users\Diego\AppData\Local\Temp\temp.nxc
+12	derecha	1164	C:\Users\Diego\AppData\Local\Temp\temp.nxc
+13	obstaculo	1221	C:\Users\Diego\AppData\Local\Temp\temp.nxc
+14	programa	1614	C:\Users\Diego\AppData\Local\Temp\temp.nxc
+15	leer	3127	C:\Users\Diego\AppData\Local\Temp\temp.nxc
+16	__initialize_global_data	3326	C:\Users\Diego\AppData\Local\Temp\temp.nxc
