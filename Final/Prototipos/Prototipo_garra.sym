@@ -1,161 +1,208 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__CLSRMutex1	9	0	0	4	2
-1	__D0programa	6	1	4	4	2
-2	__TextOutMutex	9	0	8	4	38
-3	__D0SetSensorLowspeed_inline_main	6	1	12	4	4
-4	__CLSCSMutex1	9	0	16	4	2
-5	__DU0SetSensorLowspeed_inline_main	5	1	20	4	10
-6	__CLSWMutex1	9	0	24	4	2
-7	__D0no_conexion	6	1	28	4	9
-8	__RRNTmpVal	6	1	32	4	16
-9	__RLSBmutex1	9	0	36	4	2
-10	__MRMutex	9	0	40	4	8
-11	__D0imprimirDatos	6	1	44	4	30
-12	__D0leer	6	1	48	4	32
-13	__Wait_7qG2_ms_7qG2_000_inline_no_conexion	5	1	52	4	2
+0	__signed_stack_002imprimirDatos	6	1	0	4	36
+1	__CLSCSMutex0	9	0	4	4	2
+2	__signed_stack_001leer	6	1	8	4	8
+3	__CLSWMutex0	9	0	12	4	2
+4	__DU0SetSensorLowspeed_inline_main	5	1	16	4	10
+5	__CLSRMutex0	9	0	20	4	2
+6	__signed_stack_001imprimirDatos	6	1	24	4	36
+7	__signed_stack_003programa	6	1	28	4	26
+8	__signed_stack_004programa	6	1	32	4	26
+9	__signed_stack_005programa	6	1	36	4	12
+10	__signed_stack_002programa	6	1	40	4	42
+11	__signed_stack_001no_conexion	6	1	44	4	4
+12	__signed_stack_002no_conexion	6	1	48	4	2
+13	__signed_stack_001programa	6	1	52	4	54
 14	__RLSBmutex0	9	0	56	4	2
-15	__signed_stack_001imprimirDatos	6	1	60	4	36
-16	__CLSCSMutex0	9	0	64	4	2
-17	__signed_stack_001no_conexion	6	1	68	4	4
-18	__signed_stack_002no_conexion	6	1	72	4	2
-19	__signed_stack_001leer	6	1	76	4	8
-20	__CLSRMutex0	9	0	80	4	2
-21	__signed_stack_002imprimirDatos	6	1	84	4	36
-22	__CLSWMutex0	9	0	88	4	2
-23	ultra2	4	1	92	2	2
-24	__leer_7qG2_recibir3_7qG2_000	4	1	94	2	2
-25	ultra1	4	1	96	2	2
-26	__leer_7qG2_recibir1_7qG2_000	4	1	98	2	2
-27	__no_conexion_7qG2_num_7qG2_000	4	1	100	2	2
-28	__leer_7qG2_recibir2_7qG2_000	4	1	102	2	2
-29	luz	4	1	104	2	2
-30	color1	4	1	106	2	2
-31	color2	4	1	108	2	2
-32	luz2	4	1	110	2	2
-33	__leer_7qG2_recibir4_7qG2_000	4	1	112	2	2
-34	__no_conexion_return	1	1	114	1	3
-35	__constVal2	2	0	115	1	1
-36	__constVal63	2	0	116	1	1
-37	__constVal96	2	0	117	1	1
-38	__RRNErr	1	1	118	1	4
-39	__imprimirDatos_return	1	1	119	1	3
-40	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	120	1	2
-41	____ResetSensorSubroutine_return	1	1	121	1	4
-42	__ResetSensorTmp	1	1	122	1	2
-43	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	123	1	4
-44	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	124	1	4
-45	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	125	1	4
-46	__ResetSensorPort	1	1	126	1	4
-47	__constVal0	2	1	127	1	6
-48	__constVal1	2	0	128	1	11
-49	__constVal32	2	0	129	1	3
-50	__constVal5	2	0	130	1	1
-51	__constVal4	2	0	131	1	1
-52	__constVal3	2	0	132	1	2
-53	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	133	1	4
-54	____ReadLSBytes1_return	1	1	134	1	3
-55	__RLSBIterations0	1	1	135	1	4
-56	__RLSBytesCount0	1	1	136	1	7
-57	__RLSBIterations1	1	1	137	1	4
-58	__RLSBytesCount1	1	1	138	1	7
-59	__RLSBResult1	2	1	139	1	7
-60	__RLSBResult0	2	1	140	1	7
-61	__LSWriteOptions1	1	1	141	1	1
-62	__LSWriteOptions0	1	1	142	1	1
-63	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	143	1	4
-64	____ReadLSBytes0_return	1	1	144	1	3
-65	____initialize_global_data_return	1	1	145	1	3
-66	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	146	1	10
-67	__TextOutArgs	8	0	4	16	114
-68	__TextOutArgs.Result	2	1	148	1	114
-69	__TextOutArgs.Location	8	0	2	4	114
-70	__TextOutArgs.Location.X	4	1	152	2	114
-71	__TextOutArgs.Location.Y	4	1	154	2	114
-72	__TextOutArgs.Text	7	0	156	4	114
-73	__TextOutArgs.Text.Text_type	1	0	0	1	0
-74	__TextOutArgs.Options	5	1	160	4	114
-75	__CLSRArgs1	8	0	4	12	5
-76	__CLSRArgs1.Result	2	1	164	1	5
-77	__CLSRArgs1.Port	1	1	165	1	5
-78	__CLSRArgs1.Buffer	7	0	166	4	5
-79	__CLSRArgs1.Buffer.Buffer_type	1	0	0	1	0
-80	__CLSRArgs1.BufferLen	1	1	168	1	5
-81	__CBTCSArgs	8	0	2	4	3
-82	__CBTCSArgs.Result	2	1	172	1	3
-83	__CBTCSArgs.Connection	1	1	173	1	3
-84	__MRArgs	8	0	4	8	20
-85	__MRArgs.Result	2	1	176	1	20
-86	__MRArgs.QueueID	1	1	177	1	20
-87	__MRArgs.Remove	1	1	178	1	20
-88	__MRArgs.Message	7	0	180	4	20
-89	__MRArgs.Message.Message_type	1	0	0	1	0
-90	__CLSWArgs1	8	0	4	12	5
-91	__CLSWArgs1.Result	2	1	184	1	5
-92	__CLSWArgs1.Port	1	1	185	1	5
-93	__CLSWArgs1.Buffer	7	0	186	4	5
-94	__CLSWArgs1.Buffer.Buffer_type	1	0	0	1	0
-95	__CLSWArgs1.ReturnLen	1	1	188	1	5
-96	__CLSWArgs0	8	0	4	12	5
-97	__CLSWArgs0.Result	2	1	192	1	5
-98	__CLSWArgs0.Port	1	1	193	1	5
-99	__CLSWArgs0.Buffer	7	0	194	4	5
-100	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
-101	__CLSWArgs0.ReturnLen	1	1	196	1	5
-102	__CLSCSArgs0	8	0	3	4	4
-103	__CLSCSArgs0.Result	2	1	200	1	4
-104	__CLSCSArgs0.Port	1	1	201	1	4
-105	__CLSCSArgs0.BytesReady	1	1	202	1	4
-106	__CLSCSArgs1	8	0	3	4	4
-107	__CLSCSArgs1.Result	2	1	204	1	4
-108	__CLSCSArgs1.Port	1	1	205	1	4
-109	__CLSCSArgs1.BytesReady	1	1	206	1	4
-110	__CLSRArgs0	8	0	4	12	5
-111	__CLSRArgs0.Result	2	1	208	1	5
-112	__CLSRArgs0.Port	1	1	209	1	5
-113	__CLSRArgs0.Buffer	7	0	210	4	5
-114	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
-115	__CLSRArgs0.BufferLen	1	1	212	1	5
-116	__constStr0014	7	0	214	4	1
-117	__constStr0014.__constStr0014_type	1	1	0	1	0
-118	__constStr0015	7	0	216	4	1
-119	__constStr0015.__constStr0015_type	1	1	0	1	0
-120	__constStr0009	7	0	218	4	6
-121	__constStr0009.__constStr0009_type	1	1	0	1	0
-122	__constStr0013	7	0	220	4	1
-123	__constStr0013.__constStr0013_type	1	1	0	1	0
-124	__constStr0010	7	0	222	4	1
-125	__constStr0010.__constStr0010_type	1	1	0	1	0
-126	__constStr0011	7	0	224	4	1
-127	__constStr0011.__constStr0011_type	1	1	0	1	0
-128	__constStr0012	7	0	226	4	1
-129	__constStr0012.__constStr0012_type	1	1	0	1	0
-130	__RLSBbufLSWrite1	7	0	228	4	2
-131	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
-132	__strbufno_conexion	7	0	230	4	2
-133	__strbufno_conexion.__strbufno_conexion_type	1	0	0	1	0
-134	__constStr0016	7	0	232	4	1
-135	__constStr0016.__constStr0016_type	1	1	0	1	0
-136	__strbufimprimirDatos	7	0	234	4	24
-137	__strbufimprimirDatos.__strbufimprimirDatos_type	1	0	0	1	0
-138	__RLSReadBuf1	7	0	236	4	8
-139	__RLSReadBuf1.__RLSReadBuf1_type	1	0	0	1	0
-140	__RLSLastGoodRead0	7	0	238	4	2
-141	__RLSLastGoodRead0.__RLSLastGoodRead0_type	1	0	0	1	0
-142	__RLSReadBuf0	7	0	240	4	8
-143	__RLSReadBuf0.__RLSReadBuf0_type	1	0	0	1	0
-144	__RLSLastGoodRead1	7	0	242	4	2
-145	__RLSLastGoodRead1.__RLSLastGoodRead1_type	1	0	0	1	0
+15	__D0imprimirDatos	6	1	60	4	30
+16	__D0leer	6	1	64	4	32
+17	__D0adelante	6	1	68	4	2
+18	__MRMutex	9	0	72	4	8
+19	__RLSBmutex1	9	0	76	4	2
+20	__RRNTmpVal	6	1	80	4	16
+21	__CLSWMutex1	9	0	84	4	2
+22	__D0SetSensorLowspeed_inline_main	6	1	88	4	4
+23	__CLSCSMutex1	9	0	92	4	2
+24	__D0programa	6	1	96	4	166
+25	__TextOutMutex	9	0	100	4	38
+26	__D0no_conexion	6	1	104	4	9
+27	__CLSRMutex1	9	0	108	4	2
+28	__rotate_angle4	6	1	112	4	17
+29	__Wait_7qG2_ms_7qG2_000_inline_no_conexion	5	1	116	4	2
+30	__rotate_theAngle4	5	1	120	4	2
+31	__OnRevMutex	9	0	124	4	14
+32	__rotateMutex0	9	0	128	4	26
+33	__rotateMutex2	9	0	132	4	26
+34	__constValNeg300	4	0	136	2	1
+35	__constValNeg620	4	0	138	2	2
+36	__leer_7qG2_recibir1_7qG2_000	4	1	140	2	2
+37	__constValNeg920	4	0	142	2	2
+38	__leer_7qG2_recibir4_7qG2_000	4	1	144	2	2
+39	__constValNeg720	4	0	146	2	1
+40	__constValNeg520	4	0	148	2	2
+41	__no_conexion_7qG2_num_7qG2_000	4	1	150	2	2
+42	esquina	4	1	152	2	11
+43	esq_actual	4	1	154	2	22
+44	ultra1	4	1	156	2	8
+45	luz2	4	1	158	2	5
+46	color2	4	1	160	2	2
+47	color1	4	1	162	2	2
+48	luz	4	1	164	2	5
+49	ultra2	4	1	166	2	8
+50	__leer_7qG2_recibir2_7qG2_000	4	1	168	2	2
+51	__leer_7qG2_recibir3_7qG2_000	4	1	170	2	2
+52	__rotate_RotCount4	4	1	172	2	4
+53	__rotate_OldRotCount4	4	1	174	2	2
+54	__RRNErr	1	1	176	1	4
+55	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	177	1	10
+56	__constVal2	2	0	178	1	1
+57	__constVal63	2	0	179	1	11
+58	__constVal96	2	0	180	1	24
+59	__constValNeg100	2	0	181	1	1
+60	____initialize_global_data_return	1	1	182	1	3
+61	__no_conexion_return	1	1	183	1	3
+62	__imprimirDatos_return	1	1	184	1	3
+63	__PFTmp	1	1	185	1	1
+64	__constVal15	2	0	186	1	4
+65	__adelante_return	1	1	187	1	8
+66	__RLSBIterations1	1	1	188	1	4
+67	__rotate_thePower4	2	1	189	1	4
+68	__rotate_theTurnPct4	2	1	190	1	4
+69	__constVal32	2	0	191	1	49
+70	__rotate_theRVI4	1	1	192	1	14
+71	__rotate_theRVD4	1	1	193	1	14
+72	__rotate_rs4	1	1	194	1	2
+73	__constVal1	2	0	195	1	32
+74	____RotateMotor4_sign_tmp	2	1	196	1	4
+75	__constVal3	2	0	197	1	12
+76	__constVal4	2	0	198	1	1
+77	__constVal0	2	1	199	1	52
+78	__constVal50	2	0	200	1	1
+79	____RotateMotor4_return	1	1	201	1	15
+80	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	202	1	4
+81	__rotate_firstPort4	1	1	203	1	5
+82	__rotate_sync4	1	1	204	1	14
+83	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	205	1	2
+84	__OnRev_Tmp	2	1	206	1	14
+85	__rotate_power4	1	1	207	1	16
+86	__rotate_stop4	1	1	208	1	14
+87	__rotate_theRM4	1	1	209	1	4
+88	__rotate_theRS4	1	1	210	1	3
+89	__rotate_theRVP4	1	1	211	1	14
+90	__rotate_turnpct4	2	1	212	1	15
+91	__rotate_theUF4	1	1	213	1	6
+92	__rotate_theOM4	1	1	214	1	7
+93	__LSWriteOptions1	1	1	215	1	1
+94	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	216	1	4
+95	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	217	1	4
+96	__LSWriteOptions0	1	1	218	1	1
+97	____ReadLSBytes0_return	1	1	219	1	3
+98	__RLSBytesCount0	1	1	220	1	7
+99	__RLSBIterations0	1	1	221	1	4
+100	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	222	1	4
+101	__RLSBResult0	2	1	223	1	7
+102	____ResetSensorSubroutine_return	1	1	224	1	4
+103	__RLSBytesCount1	1	1	225	1	7
+104	__ResetSensorTmp	1	1	226	1	2
+105	__constVal5	2	0	227	1	1
+106	__ResetSensorPort	1	1	228	1	4
+107	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	229	1	4
+108	____ReadLSBytes1_return	1	1	230	1	3
+109	__RLSBResult1	2	1	231	1	7
+110	__MRArgs	8	0	4	8	20
+111	__MRArgs.Result	2	1	232	1	20
+112	__MRArgs.QueueID	1	1	233	1	20
+113	__MRArgs.Remove	1	1	234	1	20
+114	__MRArgs.Message	7	0	236	4	20
+115	__MRArgs.Message.Message_type	1	0	0	1	0
+116	__CBTCSArgs	8	0	2	4	3
+117	__CBTCSArgs.Result	2	1	240	1	3
+118	__CBTCSArgs.Connection	1	1	241	1	3
+119	__CLSRArgs0	8	0	4	12	5
+120	__CLSRArgs0.Result	2	1	244	1	5
+121	__CLSRArgs0.Port	1	1	245	1	5
+122	__CLSRArgs0.Buffer	7	0	246	4	5
+123	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+124	__CLSRArgs0.BufferLen	1	1	248	1	5
+125	__CLSWArgs0	8	0	4	12	5
+126	__CLSWArgs0.Result	2	1	252	1	5
+127	__CLSWArgs0.Port	1	1	253	1	5
+128	__CLSWArgs0.Buffer	7	0	254	4	5
+129	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+130	__CLSWArgs0.ReturnLen	1	1	256	1	5
+131	__CLSCSArgs0	8	0	3	4	4
+132	__CLSCSArgs0.Result	2	1	260	1	4
+133	__CLSCSArgs0.Port	1	1	261	1	4
+134	__CLSCSArgs0.BytesReady	1	1	262	1	4
+135	__CLSCSArgs1	8	0	3	4	4
+136	__CLSCSArgs1.Result	2	1	264	1	4
+137	__CLSCSArgs1.Port	1	1	265	1	4
+138	__CLSCSArgs1.BytesReady	1	1	266	1	4
+139	__TextOutArgs	8	0	4	16	114
+140	__TextOutArgs.Result	2	1	268	1	114
+141	__TextOutArgs.Location	8	0	2	4	114
+142	__TextOutArgs.Location.X	4	1	272	2	114
+143	__TextOutArgs.Location.Y	4	1	274	2	114
+144	__TextOutArgs.Text	7	0	276	4	114
+145	__TextOutArgs.Text.Text_type	1	0	0	1	0
+146	__TextOutArgs.Options	5	1	280	4	114
+147	__CLSRArgs1	8	0	4	12	5
+148	__CLSRArgs1.Result	2	1	284	1	5
+149	__CLSRArgs1.Port	1	1	285	1	5
+150	__CLSRArgs1.Buffer	7	0	286	4	5
+151	__CLSRArgs1.Buffer.Buffer_type	1	0	0	1	0
+152	__CLSRArgs1.BufferLen	1	1	288	1	5
+153	__CLSWArgs1	8	0	4	12	5
+154	__CLSWArgs1.Result	2	1	292	1	5
+155	__CLSWArgs1.Port	1	1	293	1	5
+156	__CLSWArgs1.Buffer	7	0	294	4	5
+157	__CLSWArgs1.Buffer.Buffer_type	1	0	0	1	0
+158	__CLSWArgs1.ReturnLen	1	1	296	1	5
+159	__RLSLastGoodRead1	7	0	298	4	2
+160	__RLSLastGoodRead1.__RLSLastGoodRead1_type	1	0	0	1	0
+161	__RLSReadBuf0	7	0	300	4	8
+162	__RLSReadBuf0.__RLSReadBuf0_type	1	0	0	1	0
+163	__strbufimprimirDatos	7	0	302	4	24
+164	__strbufimprimirDatos.__strbufimprimirDatos_type	1	0	0	1	0
+165	__RLSReadBuf1	7	0	304	4	8
+166	__RLSReadBuf1.__RLSReadBuf1_type	1	0	0	1	0
+167	__rotate_ports4	7	0	306	4	18
+168	__rotate_ports4.__rotate_ports4_type	1	0	0	1	0
+169	__OUT_AC	7	0	308	4	14
+170	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+171	__RLSLastGoodRead0	7	0	310	4	2
+172	__RLSLastGoodRead0.__RLSLastGoodRead0_type	1	0	0	1	0
+173	__RLSBbufLSWrite1	7	0	312	4	2
+174	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+175	__strbufno_conexion	7	0	314	4	2
+176	__strbufno_conexion.__strbufno_conexion_type	1	0	0	1	0
+177	__constStr0014	7	0	316	4	1
+178	__constStr0014.__constStr0014_type	1	1	0	1	0
+179	__constStr0013	7	0	318	4	1
+180	__constStr0013.__constStr0013_type	1	1	0	1	0
+181	__constStr0016	7	0	320	4	1
+182	__constStr0016.__constStr0016_type	1	1	0	1	0
+183	__constStr0015	7	0	322	4	1
+184	__constStr0015.__constStr0015_type	1	1	0	1	0
+185	__constStr0010	7	0	324	4	1
+186	__constStr0010.__constStr0010_type	1	1	0	1	0
+187	__constStr0009	7	0	326	4	6
+188	__constStr0009.__constStr0009_type	1	1	0	1	0
+189	__constStr0012	7	0	328	4	1
+190	__constStr0012.__constStr0012_type	1	1	0	1	0
+191	__constStr0011	7	0	330	4	1
+192	__constStr0011.__constStr0011_type	1	1	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	75	0	#line 75 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-0	76	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	75	2	#line 75 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-0	75	2	#line 75 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-0	76	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 0
-0	75	5	#line 75 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-0	76	5	#line 76 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-0	77	5		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	297	0	#line 297 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+0	298	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	297	2	#line 297 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+0	297	2	#line 297 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+0	298	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 0
+0	297	5	#line 297 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+0	298	5	#line 298 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+0	299	5		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
 0	4342	7	#line 4342 "NXCDefs.h"
 0	4343	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
 0	4342	9	#line 4342 "NXCDefs.h"
@@ -196,15 +243,15 @@ Clump	Line	PC	Source
 0	4279	42	#pragma macro 4
 0	4279	42		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
 0	4279	44		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	7107	46	#line 7107 "NXCDefs.h"
+0	6658	46	#line 6658 "NXCDefs.h"
 0	4278	46	#line 4278 "NXCDefs.h"
 0	4345	46	#line 4345 "NXCDefs.h"
-0	76	46	#line 76 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-0	76	46	#line 76 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-0	77	46		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 1
-0	76	49	#line 76 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-0	77	49	#line 77 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-0	78	49		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	298	46	#line 298 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+0	298	46	#line 298 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+0	299	46		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 1
+0	298	49	#line 298 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+0	299	49	#line 299 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+0	300	49		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
 0	4342	51	#line 4342 "NXCDefs.h"
 0	4343	51		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
 0	4342	53	#line 4342 "NXCDefs.h"
@@ -245,773 +292,1684 @@ Clump	Line	PC	Source
 0	4279	86	#pragma macro 4
 0	4279	86		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
 0	4279	88		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	7170	90	#line 7170 "NXCDefs.h"
+0	6721	90	#line 6721 "NXCDefs.h"
 0	4278	90	#line 4278 "NXCDefs.h"
 0	4345	90	#line 4345 "NXCDefs.h"
-0	77	90	#line 77 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-0	78	90	#line 78 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-0	78	90	#line 78 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-0	79	90		exit 0, 1
-1	5476	0		setin __constVal1, __ResetSensorPort, 5
-1	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
-1	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
-1	5480	11		subret ____ResetSensorSubroutine_return
-2	6281	0	#pragma macro 25
-2	6281	0		acquire __CLSWMutex0
-2	6281	1		or __CLSWArgs0.Port, __constVal0, __LSWriteOptions0
-2	6281	5		mov __CLSWArgs0.ReturnLen, __RLSBytesCount0
-2	6281	7		mov __CLSWArgs0.Buffer, __RLSReadBuf0
-2	6281	9		syscall 21, __CLSWArgs0
-2	6281	12		mov __RLSBResult0, __CLSWArgs0.Result
-2	6281	14		release __CLSWMutex0
-2	6282	15	#line 6282 "NXTDefs.h"
-2	6283	15		brtst 5, __RLSBError0, __RLSBResult0
-2	6284	18		set __RLSBIterations0, 60
-2	6286	21	#pragma macro 23
-2	6286	21		acquire __CLSCSMutex0
-2	6286	22		set __CLSCSArgs0.Port, 0
-2	6286	25		syscall 23, __CLSCSArgs0
-2	6286	28		mov __RLSBytesCount0, __CLSCSArgs0.BytesReady
-2	6286	30		mov __RLSBResult0, __CLSCSArgs0.Result
-2	6286	32		release __CLSCSMutex0
-2	6286	33	#line 6286 "NXTDefs.h"
-2	6287	33		sub __RLSBIterations0, __RLSBIterations0, __constVal1
-2	6288	37		brtst 2, __RLSBError0, __RLSBIterations0
-2	6289	40		brtst 0, __RLSBError0, __RLSBResult0
-2	6290	43		brtst 4, __RLSBReadyToRead0, __RLSBResult0
-2	6292	46		wait 1
-2	6293	48		jmp __RLSBDoCheckStatus0
-2	6295	50		brtst 4, __RLSBReturn0, __RLSBytesCount0
-2	6296	53		arrinit __RLSReadBuf0, __constVal0, __RLSBytesCount0
-2	6298	57	#pragma macro 25
-2	6298	57		acquire __CLSRMutex0
-2	6298	58		set __CLSRArgs0.Port, 0
-2	6298	61		mov __CLSRArgs0.BufferLen, __RLSBytesCount0
-2	6298	63		syscall 22, __CLSRArgs0
-2	6298	66		mov __RLSReadBuf0, __CLSRArgs0.Buffer
-2	6298	68		mov __RLSBResult0, __CLSRArgs0.Result
-2	6298	70		release __CLSRMutex0
-2	6298	71	#line 6298 "NXTDefs.h"
-2	6299	71		brtst 5, __RLSBError0, __RLSBResult0
-2	6300	74		mov __RLSLastGoodRead0, __RLSReadBuf0
-2	6301	76		jmp __RLSBDone0
-2	6303	78		mov __RLSReadBuf0, __RLSLastGoodRead0
-2	6305	80		arrsize __RLSBytesCount0, __RLSReadBuf0
-2	6307	83		subret ____ReadLSBytes0_return
-3	6319	0	#pragma macro 25
-3	6319	0		acquire __CLSWMutex1
-3	6319	1		or __CLSWArgs1.Port, __constVal1, __LSWriteOptions1
-3	6319	5		mov __CLSWArgs1.ReturnLen, __RLSBytesCount1
-3	6319	7		mov __CLSWArgs1.Buffer, __RLSReadBuf1
-3	6319	9		syscall 21, __CLSWArgs1
-3	6319	12		mov __RLSBResult1, __CLSWArgs1.Result
-3	6319	14		release __CLSWMutex1
-3	6319	15	#line 6319 "NXTDefs.h"
-3	6320	15		brtst 5, __RLSBError1, __RLSBResult1
-3	6321	18		set __RLSBIterations1, 60
-3	6323	21	#pragma macro 23
-3	6323	21		acquire __CLSCSMutex1
-3	6323	22		set __CLSCSArgs1.Port, 1
-3	6323	25		syscall 23, __CLSCSArgs1
-3	6323	28		mov __RLSBytesCount1, __CLSCSArgs1.BytesReady
-3	6323	30		mov __RLSBResult1, __CLSCSArgs1.Result
-3	6323	32		release __CLSCSMutex1
-3	6323	33	#line 6323 "NXTDefs.h"
-3	6324	33		sub __RLSBIterations1, __RLSBIterations1, __constVal1
-3	6325	37		brtst 2, __RLSBError1, __RLSBIterations1
-3	6326	40		brtst 0, __RLSBError1, __RLSBResult1
-3	6327	43		brtst 4, __RLSBReadyToRead1, __RLSBResult1
-3	6329	46		wait 1
-3	6330	48		jmp __RLSBDoCheckStatus1
-3	6332	50		brtst 4, __RLSBReturn1, __RLSBytesCount1
-3	6333	53		arrinit __RLSReadBuf1, __constVal0, __RLSBytesCount1
-3	6335	57	#pragma macro 25
-3	6335	57		acquire __CLSRMutex1
-3	6335	58		set __CLSRArgs1.Port, 1
-3	6335	61		mov __CLSRArgs1.BufferLen, __RLSBytesCount1
-3	6335	63		syscall 22, __CLSRArgs1
-3	6335	66		mov __RLSReadBuf1, __CLSRArgs1.Buffer
-3	6335	68		mov __RLSBResult1, __CLSRArgs1.Result
-3	6335	70		release __CLSRMutex1
-3	6335	71	#line 6335 "NXTDefs.h"
-3	6336	71		brtst 5, __RLSBError1, __RLSBResult1
-3	6337	74		mov __RLSLastGoodRead1, __RLSReadBuf1
-3	6338	76		jmp __RLSBDone1
-3	6340	78		mov __RLSReadBuf1, __RLSLastGoodRead1
-3	6342	80		arrsize __RLSBytesCount1, __RLSReadBuf1
-3	6344	83		subret ____ReadLSBytes1_return
-4	13	0	#line 13 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	14	0		set __signed_stack_001imprimirDatos, 0
-4	13	3	#line 13 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	13	3	#line 13 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	14	3		set __signed_stack_002imprimirDatos, 56
-4	13	6	#line 13 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	13	6	#line 13 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	14	6		strcat __strbufimprimirDatos, __constStr0009
-4	14	10	#line 14 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	15	10		acquire __TextOutMutex
-4	14	11	#line 14 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	15	11		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
-4	14	13	#line 14 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	15	13		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
-4	14	15	#line 14 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	15	15		set __TextOutArgs.Options, 0
-4	14	18	#line 14 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	15	18		mov __TextOutArgs.Text, __strbufimprimirDatos
-4	14	20	#line 14 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	15	20		syscall 13, __TextOutArgs
-4	14	23	#line 14 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	15	23		mov __D0imprimirDatos, __TextOutArgs.Result
-4	14	25	#line 14 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	15	25		release __TextOutMutex
-4	14	26	#line 14 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	14	26	#line 14 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	15	26		set __signed_stack_001imprimirDatos, 0
-4	14	29	#line 14 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	14	29	#line 14 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	15	29		set __signed_stack_002imprimirDatos, 48
-4	14	32	#line 14 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	14	32	#line 14 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	15	32		strcat __strbufimprimirDatos, __constStr0009
-4	15	36	#line 15 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	16	36		acquire __TextOutMutex
-4	15	37	#line 15 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	16	37		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
-4	15	39	#line 15 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	16	39		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
-4	15	41	#line 15 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	16	41		set __TextOutArgs.Options, 0
-4	15	44	#line 15 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	16	44		mov __TextOutArgs.Text, __strbufimprimirDatos
-4	15	46	#line 15 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	16	46		syscall 13, __TextOutArgs
-4	15	49	#line 15 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	16	49		mov __D0imprimirDatos, __TextOutArgs.Result
-4	15	51	#line 15 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	16	51		release __TextOutMutex
-4	15	52	#line 15 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	15	52	#line 15 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	16	52		set __signed_stack_001imprimirDatos, 0
-4	15	55	#line 15 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	15	55	#line 15 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	16	55		set __signed_stack_002imprimirDatos, 40
-4	15	58	#line 15 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	15	58	#line 15 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	16	58		strcat __strbufimprimirDatos, __constStr0009
-4	16	62	#line 16 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	17	62		acquire __TextOutMutex
-4	16	63	#line 16 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	17	63		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
-4	16	65	#line 16 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	17	65		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
-4	16	67	#line 16 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	17	67		set __TextOutArgs.Options, 0
-4	16	70	#line 16 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	17	70		mov __TextOutArgs.Text, __strbufimprimirDatos
-4	16	72	#line 16 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	17	72		syscall 13, __TextOutArgs
-4	16	75	#line 16 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	17	75		mov __D0imprimirDatos, __TextOutArgs.Result
-4	16	77	#line 16 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	17	77		release __TextOutMutex
-4	16	78	#line 16 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	16	78	#line 16 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	17	78		set __signed_stack_001imprimirDatos, 0
-4	16	81	#line 16 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	16	81	#line 16 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	17	81		set __signed_stack_002imprimirDatos, 32
-4	16	84	#line 16 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	16	84	#line 16 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	17	84		strcat __strbufimprimirDatos, __constStr0009
-4	17	88	#line 17 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	18	88		acquire __TextOutMutex
-4	17	89	#line 17 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	18	89		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
-4	17	91	#line 17 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	18	91		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
-4	17	93	#line 17 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	18	93		set __TextOutArgs.Options, 0
-4	17	96	#line 17 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	18	96		mov __TextOutArgs.Text, __strbufimprimirDatos
-4	17	98	#line 17 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	18	98		syscall 13, __TextOutArgs
-4	17	101	#line 17 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	18	101		mov __D0imprimirDatos, __TextOutArgs.Result
-4	17	103	#line 17 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	18	103		release __TextOutMutex
-4	17	104	#line 17 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	17	104	#line 17 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	18	104		set __signed_stack_001imprimirDatos, 0
-4	17	107	#line 17 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	17	107	#line 17 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	18	107		set __signed_stack_002imprimirDatos, 24
-4	17	110	#line 17 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	17	110	#line 17 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	18	110		strcat __strbufimprimirDatos, __constStr0009
-4	18	114	#line 18 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	19	114		acquire __TextOutMutex
-4	18	115	#line 18 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	19	115		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
-4	18	117	#line 18 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	19	117		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
-4	18	119	#line 18 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	19	119		set __TextOutArgs.Options, 0
-4	18	122	#line 18 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	19	122		mov __TextOutArgs.Text, __strbufimprimirDatos
-4	18	124	#line 18 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	19	124		syscall 13, __TextOutArgs
-4	18	127	#line 18 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	19	127		mov __D0imprimirDatos, __TextOutArgs.Result
-4	18	129	#line 18 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	19	129		release __TextOutMutex
-4	18	130	#line 18 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	18	130	#line 18 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	19	130		set __signed_stack_001imprimirDatos, 0
-4	18	133	#line 18 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	18	133	#line 18 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	19	133		set __signed_stack_002imprimirDatos, 16
-4	18	136	#line 18 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	18	136	#line 18 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	19	136		strcat __strbufimprimirDatos, __constStr0009
-4	20	140	#line 20 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	21	140		acquire __TextOutMutex
-4	20	141	#line 20 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	21	141		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
-4	20	143	#line 20 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	21	143		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
-4	20	145	#line 20 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	21	145		set __TextOutArgs.Options, 0
-4	20	148	#line 20 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	21	148		mov __TextOutArgs.Text, __strbufimprimirDatos
-4	20	150	#line 20 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	21	150		syscall 13, __TextOutArgs
-4	20	153	#line 20 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	21	153		mov __D0imprimirDatos, __TextOutArgs.Result
-4	20	155	#line 20 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	21	155		release __TextOutMutex
-4	20	156	#line 20 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	20	156	#line 20 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	21	156		set __signed_stack_001imprimirDatos, 0
-4	20	159	#line 20 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	20	159	#line 20 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	21	159		set __signed_stack_002imprimirDatos, 56
-4	20	162	#line 20 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	20	162	#line 20 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	21	162		strcat __strbufimprimirDatos, __constStr0010
-4	21	166	#line 21 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	22	166		acquire __TextOutMutex
-4	21	167	#line 21 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	22	167		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
-4	21	169	#line 21 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	22	169		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
-4	21	171	#line 21 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	22	171		set __TextOutArgs.Options, 0
-4	21	174	#line 21 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	22	174		mov __TextOutArgs.Text, __strbufimprimirDatos
-4	21	176	#line 21 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	22	176		syscall 13, __TextOutArgs
-4	21	179	#line 21 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	22	179		mov __D0imprimirDatos, __TextOutArgs.Result
-4	21	181	#line 21 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	22	181		release __TextOutMutex
-4	21	182	#line 21 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	21	182	#line 21 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	22	182		set __signed_stack_001imprimirDatos, 0
-4	21	185	#line 21 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	21	185	#line 21 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	22	185		set __signed_stack_002imprimirDatos, 48
-4	21	188	#line 21 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	21	188	#line 21 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	22	188		strcat __strbufimprimirDatos, __constStr0011
-4	22	192	#line 22 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	23	192		acquire __TextOutMutex
-4	22	193	#line 22 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	23	193		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
-4	22	195	#line 22 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	23	195		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
-4	22	197	#line 22 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	23	197		set __TextOutArgs.Options, 0
-4	22	200	#line 22 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	23	200		mov __TextOutArgs.Text, __strbufimprimirDatos
-4	22	202	#line 22 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	23	202		syscall 13, __TextOutArgs
-4	22	205	#line 22 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	23	205		mov __D0imprimirDatos, __TextOutArgs.Result
-4	22	207	#line 22 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	23	207		release __TextOutMutex
-4	22	208	#line 22 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	22	208	#line 22 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	23	208		set __signed_stack_001imprimirDatos, 0
-4	22	211	#line 22 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	22	211	#line 22 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	23	211		set __signed_stack_002imprimirDatos, 40
-4	22	214	#line 22 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	22	214	#line 22 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	23	214		strcat __strbufimprimirDatos, __constStr0012
-4	23	218	#line 23 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	24	218		acquire __TextOutMutex
-4	23	219	#line 23 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	24	219		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
-4	23	221	#line 23 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	24	221		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
-4	23	223	#line 23 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	24	223		set __TextOutArgs.Options, 0
-4	23	226	#line 23 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	24	226		mov __TextOutArgs.Text, __strbufimprimirDatos
-4	23	228	#line 23 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	24	228		syscall 13, __TextOutArgs
-4	23	231	#line 23 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	24	231		mov __D0imprimirDatos, __TextOutArgs.Result
-4	23	233	#line 23 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	24	233		release __TextOutMutex
-4	23	234	#line 23 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	23	234	#line 23 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	24	234		set __signed_stack_001imprimirDatos, 0
-4	23	237	#line 23 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	23	237	#line 23 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	24	237		set __signed_stack_002imprimirDatos, 32
-4	23	240	#line 23 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	23	240	#line 23 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	24	240		strcat __strbufimprimirDatos, __constStr0013
-4	24	244	#line 24 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	25	244		acquire __TextOutMutex
-4	24	245	#line 24 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	25	245		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
-4	24	247	#line 24 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	25	247		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
-4	24	249	#line 24 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	25	249		set __TextOutArgs.Options, 0
-4	24	252	#line 24 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	25	252		mov __TextOutArgs.Text, __strbufimprimirDatos
-4	24	254	#line 24 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	25	254		syscall 13, __TextOutArgs
-4	24	257	#line 24 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	25	257		mov __D0imprimirDatos, __TextOutArgs.Result
-4	24	259	#line 24 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	25	259		release __TextOutMutex
-4	24	260	#line 24 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	24	260	#line 24 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	25	260		set __signed_stack_001imprimirDatos, 0
-4	24	263	#line 24 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	24	263	#line 24 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	25	263		set __signed_stack_002imprimirDatos, 24
-4	24	266	#line 24 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	24	266	#line 24 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	25	266		strcat __strbufimprimirDatos, __constStr0014
-4	25	270	#line 25 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	26	270		acquire __TextOutMutex
-4	25	271	#line 25 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	26	271		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
-4	25	273	#line 25 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	26	273		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
-4	25	275	#line 25 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	26	275		set __TextOutArgs.Options, 0
-4	25	278	#line 25 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	26	278		mov __TextOutArgs.Text, __strbufimprimirDatos
-4	25	280	#line 25 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	26	280		syscall 13, __TextOutArgs
-4	25	283	#line 25 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	26	283		mov __D0imprimirDatos, __TextOutArgs.Result
-4	25	285	#line 25 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	26	285		release __TextOutMutex
-4	25	286	#line 25 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	25	286	#line 25 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	26	286		set __signed_stack_001imprimirDatos, 0
-4	25	289	#line 25 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	25	289	#line 25 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	26	289		set __signed_stack_002imprimirDatos, 16
-4	25	292	#line 25 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	25	292	#line 25 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	26	292		strcat __strbufimprimirDatos, __constStr0015
-4	27	296	#line 27 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	28	296		acquire __TextOutMutex
-4	27	297	#line 27 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	28	297		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
-4	27	299	#line 27 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	28	299		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
-4	27	301	#line 27 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	28	301		set __TextOutArgs.Options, 0
-4	27	304	#line 27 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	28	304		mov __TextOutArgs.Text, __strbufimprimirDatos
-4	27	306	#line 27 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	28	306		syscall 13, __TextOutArgs
-4	27	309	#line 27 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	28	309		mov __D0imprimirDatos, __TextOutArgs.Result
-4	27	311	#line 27 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	28	311		release __TextOutMutex
-4	27	312	#line 27 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	27	312	#line 27 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	28	312		set __signed_stack_001imprimirDatos, 42
-4	27	315	#line 27 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	27	315	#line 27 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	28	315		set __signed_stack_002imprimirDatos, 56
-4	27	318	#line 27 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	27	318	#line 27 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	28	318		mov __D0imprimirDatos, color1
-4	28	320	#line 28 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	29	320		acquire __TextOutMutex
-4	28	321	#line 28 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	29	321		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
-4	28	323	#line 28 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	29	323		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
-4	28	325	#line 28 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	29	325		set __TextOutArgs.Options, 0
-4	28	328	#line 28 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	29	328		numtostr __TextOutArgs.Text, __D0imprimirDatos
-4	28	331	#line 28 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	29	331		syscall 13, __TextOutArgs
-4	28	334	#line 28 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	29	334		mov __D0imprimirDatos, __TextOutArgs.Result
-4	28	336	#line 28 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	29	336		release __TextOutMutex
-4	28	337	#line 28 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	28	337	#line 28 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	29	337		set __signed_stack_001imprimirDatos, 42
-4	28	340	#line 28 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	28	340	#line 28 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	29	340		set __signed_stack_002imprimirDatos, 48
-4	28	343	#line 28 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	28	343	#line 28 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	29	343		mov __D0imprimirDatos, color2
-4	29	345	#line 29 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	30	345		acquire __TextOutMutex
-4	29	346	#line 29 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	30	346		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
-4	29	348	#line 29 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	30	348		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
-4	29	350	#line 29 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	30	350		set __TextOutArgs.Options, 0
-4	29	353	#line 29 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	30	353		numtostr __TextOutArgs.Text, __D0imprimirDatos
-4	29	356	#line 29 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	30	356		syscall 13, __TextOutArgs
-4	29	359	#line 29 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	30	359		mov __D0imprimirDatos, __TextOutArgs.Result
-4	29	361	#line 29 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	30	361		release __TextOutMutex
-4	29	362	#line 29 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	29	362	#line 29 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	30	362		set __signed_stack_001imprimirDatos, 42
-4	29	365	#line 29 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	29	365	#line 29 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	30	365		set __signed_stack_002imprimirDatos, 40
-4	29	368	#line 29 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	29	368	#line 29 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	30	368		mov __D0imprimirDatos, luz
-4	30	370	#line 30 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	31	370		acquire __TextOutMutex
-4	30	371	#line 30 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	31	371		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
-4	30	373	#line 30 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	31	373		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
-4	30	375	#line 30 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	31	375		set __TextOutArgs.Options, 0
-4	30	378	#line 30 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	31	378		numtostr __TextOutArgs.Text, __D0imprimirDatos
-4	30	381	#line 30 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	31	381		syscall 13, __TextOutArgs
-4	30	384	#line 30 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	31	384		mov __D0imprimirDatos, __TextOutArgs.Result
-4	30	386	#line 30 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	31	386		release __TextOutMutex
-4	30	387	#line 30 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	30	387	#line 30 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	31	387		set __signed_stack_001imprimirDatos, 42
-4	30	390	#line 30 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	30	390	#line 30 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	31	390		set __signed_stack_002imprimirDatos, 32
-4	30	393	#line 30 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	30	393	#line 30 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	31	393		mov __D0imprimirDatos, luz2
-4	31	395	#line 31 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	32	395		acquire __TextOutMutex
-4	31	396	#line 31 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	32	396		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
-4	31	398	#line 31 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	32	398		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
-4	31	400	#line 31 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	32	400		set __TextOutArgs.Options, 0
-4	31	403	#line 31 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	32	403		numtostr __TextOutArgs.Text, __D0imprimirDatos
-4	31	406	#line 31 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	32	406		syscall 13, __TextOutArgs
-4	31	409	#line 31 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	32	409		mov __D0imprimirDatos, __TextOutArgs.Result
-4	31	411	#line 31 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	32	411		release __TextOutMutex
-4	31	412	#line 31 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	31	412	#line 31 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	32	412		set __signed_stack_001imprimirDatos, 49
-4	31	415	#line 31 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	31	415	#line 31 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	32	415		set __signed_stack_002imprimirDatos, 24
-4	31	418	#line 31 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	31	418	#line 31 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	32	418		mov __D0imprimirDatos, ultra1
-4	32	420	#line 32 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	33	420		acquire __TextOutMutex
-4	32	421	#line 32 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	33	421		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
-4	32	423	#line 32 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	33	423		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
-4	32	425	#line 32 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	33	425		set __TextOutArgs.Options, 0
-4	32	428	#line 32 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	33	428		numtostr __TextOutArgs.Text, __D0imprimirDatos
-4	32	431	#line 32 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	33	431		syscall 13, __TextOutArgs
-4	32	434	#line 32 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	33	434		mov __D0imprimirDatos, __TextOutArgs.Result
-4	32	436	#line 32 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	33	436		release __TextOutMutex
-4	32	437	#line 32 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	32	437	#line 32 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	33	437		set __signed_stack_001imprimirDatos, 49
-4	32	440	#line 32 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	32	440	#line 32 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	33	440		set __signed_stack_002imprimirDatos, 16
-4	32	443	#line 32 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	32	443	#line 32 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	33	443		mov __D0imprimirDatos, ultra2
-4	34	445	#line 34 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	35	445		acquire __TextOutMutex
-4	34	446	#line 34 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	35	446		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
-4	34	448	#line 34 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	35	448		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
-4	34	450	#line 34 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	35	450		set __TextOutArgs.Options, 0
-4	34	453	#line 34 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	35	453		numtostr __TextOutArgs.Text, __D0imprimirDatos
-4	34	456	#line 34 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	35	456		syscall 13, __TextOutArgs
-4	34	459	#line 34 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	35	459		mov __D0imprimirDatos, __TextOutArgs.Result
-4	34	461	#line 34 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	35	461		release __TextOutMutex
-4	34	462	#line 34 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	36	462	#line 36 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-4	37	462		subret __imprimirDatos_return
-5	38	0	#line 38 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-5	39	0	#pragma macro 5
-5	39	0		mov __CBTCSArgs.Connection, __no_conexion_7qG2_num_7qG2_000
-5	39	2		syscall 28, __CBTCSArgs
-5	39	5		mov __D0no_conexion, __CBTCSArgs.Result
-5	6790	7	#line 6790 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-5	38	7	#line 38 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-5	39	7		not __signed_stack_001no_conexion, __D0no_conexion
-5	38	10	#line 38 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-5	38	10	#line 38 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-5	39	10		set __D0no_conexion, 0
-5	38	13	#line 38 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-5	39	13		cmp 4, __D0no_conexion, __signed_stack_001no_conexion, __D0no_conexion
-5	39	17	#line 39 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-5	40	17		brtst 4, __ASM_Label_690, __D0no_conexion
-5	39	20	#line 39 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-5	40	20		set __signed_stack_001no_conexion, 5
-5	39	23	#line 39 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-5	39	23	#line 39 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-5	40	23		set __signed_stack_002no_conexion, 48
-5	39	26	#line 39 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-5	39	26	#line 39 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-5	40	26		strcat __strbufno_conexion, __constStr0016
-5	40	30	#line 40 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-5	41	30		acquire __TextOutMutex
-5	40	31	#line 40 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-5	41	31		mov __TextOutArgs.Location.X, __signed_stack_001no_conexion
-5	40	33	#line 40 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-5	41	33		mov __TextOutArgs.Location.Y, __signed_stack_002no_conexion
-5	40	35	#line 40 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-5	41	35		set __TextOutArgs.Options, 0
-5	40	38	#line 40 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-5	41	38		mov __TextOutArgs.Text, __strbufno_conexion
-5	40	40	#line 40 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-5	41	40		syscall 13, __TextOutArgs
-5	40	43	#line 40 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-5	41	43		mov __D0no_conexion, __TextOutArgs.Result
-5	40	45	#line 40 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-5	41	45		release __TextOutMutex
-5	40	46	#line 40 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-5	40	46	#line 40 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-5	41	46		set __Wait_7qG2_ms_7qG2_000_inline_no_conexion, 2000
-5	40	49	#line 40 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-5	8551	49	#line 8551 "NXCDefs.h"
-5	8552	49		waitv __Wait_7qG2_ms_7qG2_000_inline_no_conexion
-5	8551	51	#line 8551 "NXCDefs.h"
-5	41	51	#line 41 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-5	41	51	#line 41 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-5	42	51		set __D0no_conexion, 1
-5	42	54	#line 42 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-5	43	54		stop __D0no_conexion
-5	42	56	#line 42 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-5	45	56	#line 45 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-5	45	56	#line 45 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-5	46	56		subret __no_conexion_return
-6	47	0	#line 47 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-6	48	0		set __D0programa, 100
-6	50	3	#line 50 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-6	51	3	#pragma macro 7
-6	51	3		setout __constVal1, 2, __D0programa, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-6	6863	26	#line 6863 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-6	50	26	#line 50 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-6	51	26		exit -1, -1
-7	54	0	#line 54 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	55	0		set __D0leer, 1
-7	55	3	#line 55 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	56	3		tst 5, __D0leer, __D0leer
-7	55	6	#line 55 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	56	6		brtst 4, __ASM_Label_702, __D0leer
-7	55	9	#line 55 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	56	9	#pragma macro 26
-7	56	9		acquire __RLSBmutex0
-7	56	10		mov __RLSReadBuf0, __RLSBbufLSWrite1
-7	56	12		set __RLSBytesCount0, 1
-7	56	15		wait 15
-7	56	17		subcall __ReadLSBytes0, ____ReadLSBytes0_return
-7	56	19		index __D0leer, __RLSReadBuf0, 65535
-7	56	23		release __RLSBmutex0
-7	6892	24	#line 6892 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	55	24	#line 55 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	56	24		mov ultra1, __D0leer
-7	55	26	#line 55 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	55	26	#line 55 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	56	26	#line 56 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	57	26	#pragma macro 26
-7	57	26		acquire __RLSBmutex1
-7	57	27		mov __RLSReadBuf1, __RLSBbufLSWrite1
-7	57	29		set __RLSBytesCount1, 1
-7	57	32		wait 15
-7	57	34		subcall __ReadLSBytes1, ____ReadLSBytes1_return
-7	57	36		index __D0leer, __RLSReadBuf1, 65535
-7	57	40		release __RLSBmutex1
-7	6900	41	#line 6900 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	56	41	#line 56 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	57	41		mov ultra2, __D0leer
-7	56	43	#line 56 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	56	43	#line 56 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	57	43	#line 57 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	58	43		set __no_conexion_7qG2_num_7qG2_000, 0
-7	57	46	#line 57 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	58	46	#line 58 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	59	46		subcall no_conexion, __no_conexion_return
-7	58	48	#line 58 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	58	48	#line 58 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	59	48	#pragma macro 9
-7	59	48		acquire __MRMutex
-7	59	49		mov __MRArgs.QueueID, __constVal2
-7	59	51		mov __MRArgs.Remove, __constVal1
-7	59	53		set __RRNTmpVal, 0
-7	59	56		syscall 27, __MRArgs
-7	59	59		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
-7	59	64		mov __leer_7qG2_recibir1_7qG2_000, __RRNTmpVal
-7	59	66		mov __D0leer, __MRArgs.Result
-7	59	68		release __MRMutex
-7	6915	69	#line 6915 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	58	69	#line 58 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	59	69		mov __signed_stack_001leer, __D0leer
-7	58	71	#line 58 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	59	71		set __D0leer, 64
-7	58	74	#line 58 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	59	74		cmp 5, __D0leer, __signed_stack_001leer, __D0leer
-7	59	78	#line 59 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	60	78		brtst 4, __ASM_Label_713, __D0leer
-7	60	81	#line 60 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	61	81		mov color1, __leer_7qG2_recibir1_7qG2_000
-7	60	83	#line 60 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	60	83	#line 60 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	61	83	#line 61 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	61	83	#line 61 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	62	83	#pragma macro 9
-7	62	83		acquire __MRMutex
-7	62	84		mov __MRArgs.QueueID, __constVal3
-7	62	86		mov __MRArgs.Remove, __constVal1
-7	62	88		set __RRNTmpVal, 0
-7	62	91		syscall 27, __MRArgs
-7	62	94		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
-7	62	99		mov __leer_7qG2_recibir2_7qG2_000, __RRNTmpVal
-7	62	101		mov __D0leer, __MRArgs.Result
-7	62	103		release __MRMutex
-7	6938	104	#line 6938 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	61	104	#line 61 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	62	104		mov __signed_stack_001leer, __D0leer
-7	61	106	#line 61 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	62	106		set __D0leer, 64
-7	61	109	#line 61 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	62	109		cmp 5, __D0leer, __signed_stack_001leer, __D0leer
-7	62	113	#line 62 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	63	113		brtst 4, __ASM_Label_718, __D0leer
-7	63	116	#line 63 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	64	116		mov color2, __leer_7qG2_recibir2_7qG2_000
-7	63	118	#line 63 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	63	118	#line 63 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	64	118	#line 64 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	64	118	#line 64 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	65	118	#pragma macro 9
-7	65	118		acquire __MRMutex
-7	65	119		mov __MRArgs.QueueID, __constVal4
-7	65	121		mov __MRArgs.Remove, __constVal1
-7	65	123		set __RRNTmpVal, 0
-7	65	126		syscall 27, __MRArgs
-7	65	129		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
-7	65	134		mov __leer_7qG2_recibir3_7qG2_000, __RRNTmpVal
-7	65	136		mov __D0leer, __MRArgs.Result
-7	65	138		release __MRMutex
-7	6961	139	#line 6961 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	64	139	#line 64 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	65	139		mov __signed_stack_001leer, __D0leer
-7	64	141	#line 64 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	65	141		set __D0leer, 64
-7	64	144	#line 64 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	65	144		cmp 5, __D0leer, __signed_stack_001leer, __D0leer
-7	65	148	#line 65 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	66	148		brtst 4, __ASM_Label_723, __D0leer
-7	66	151	#line 66 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	67	151		mov luz, __leer_7qG2_recibir3_7qG2_000
-7	66	153	#line 66 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	66	153	#line 66 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	67	153	#line 67 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	67	153	#line 67 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	68	153	#pragma macro 9
-7	68	153		acquire __MRMutex
-7	68	154		mov __MRArgs.QueueID, __constVal5
-7	68	156		mov __MRArgs.Remove, __constVal1
-7	68	158		set __RRNTmpVal, 0
-7	68	161		syscall 27, __MRArgs
-7	68	164		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
-7	68	169		mov __leer_7qG2_recibir4_7qG2_000, __RRNTmpVal
-7	68	171		mov __D0leer, __MRArgs.Result
-7	68	173		release __MRMutex
-7	6984	174	#line 6984 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	67	174	#line 67 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	68	174		mov __signed_stack_001leer, __D0leer
-7	67	176	#line 67 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	68	176		set __D0leer, 64
-7	67	179	#line 67 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	68	179		cmp 5, __D0leer, __signed_stack_001leer, __D0leer
-7	68	183	#line 68 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	69	183		brtst 4, __ASM_Label_728, __D0leer
-7	69	186	#line 69 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	70	186		mov luz2, __leer_7qG2_recibir4_7qG2_000
-7	69	188	#line 69 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	69	188	#line 69 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	70	188	#line 70 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	71	188	#line 71 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	72	188		subcall imprimirDatos, __imprimirDatos_return
-7	71	190	#line 71 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	74	190	#line 74 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	75	190		jmp __ASM_Label_701
-7	74	192	#line 74 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-7	75	192		exit -1, -1
-8	81	0	#line 81 "C:\Users\Diego\AppData\Local\Temp\temp.nxc"
-8	82	0		subret ____initialize_global_data_return
+0	299	90	#line 299 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+0	300	90	#line 300 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+0	300	90	#line 300 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+0	301	90		exit 0, 1
+1	5279	0		brtst 4, __rotate_Done4, __rotate_angle4
+1	5280	3		set ____RotateMotor4_sign_tmp, 0
+1	5280	6		brtst EQ, __sign_4, __rotate_angle4
+1	5280	9		set ____RotateMotor4_sign_tmp, -1
+1	5280	12		brtst LT, __sign_4, __rotate_angle4
+1	5280	15		set ____RotateMotor4_sign_tmp, 1
+1	5280	18	__sign_4:	mov __rotate_thePower4, ____RotateMotor4_sign_tmp
+1	5281	20		abs __rotate_theAngle4, __rotate_angle4
+1	5282	23		mul __rotate_thePower4, __rotate_thePower4, __rotate_power4
+1	5284	27		set __rotate_theUF4, 23
+1	5285	30		brtst 4, __rotate_NoSync4, __rotate_sync4
+1	5286	33		set __rotate_theOM4, 7
+1	5287	36		set __rotate_theRM4, 2
+1	5288	39		mov __rotate_theTurnPct4, __rotate_turnpct4
+1	5289	41		brtst 4, __rotate_Start4, __rotate_theTurnPct4
+1	5290	44		add __rotate_theUF4, __rotate_theUF4, __constVal32
+1	5291	48		jmp __rotate_Start4
+1	5293	50		set __rotate_theOM4, 3
+1	5294	53		set __rotate_theRM4, 0
+1	5295	56		set __rotate_theTurnPct4, 0
+1	5297	59		set __rotate_theRS4, 32
+1	5298	62		setout __rotate_ports4, 1, __rotate_theOM4, 8, __rotate_theRM4, 5, __rotate_theAngle4, 6, __rotate_theRS4, 10, __rotate_theRVP4, 11, __rotate_theRVI4, 12, __rotate_theRVD4, 2, __rotate_thePower4, 7, __rotate_turnpct4, 0, __rotate_theUF4
+1	5301	85		index __rotate_firstPort4, __rotate_ports4, 65535
+1	5303	89		getout __rotate_power4, __rotate_firstPort4, 2
+1	5304	93		brtst 4, __rotate_doneRunning4, __rotate_power4
+1	5305	96		getout __rotate_rs4, __rotate_firstPort4, 6
+1	5306	100		brcmp 4, __rotate_Running4, __rotate_rs4, __constVal32
+1	5308	104		brtst 4, __rotate_Reset4, __rotate_stop4
+1	5310	107		set __rotate_theOM4, 7
+1	5311	110		set __rotate_theUF4, 7
+1	5312	113		setout __rotate_ports4, 1, __rotate_theOM4, 8, __constVal1, 6, __rotate_theRS4, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF4
+1	5314	128		getout __rotate_RotCount4, __rotate_firstPort4, 14
+1	5316	132		mov __rotate_OldRotCount4, __rotate_RotCount4
+1	5317	134		wait2 NA, __constVal50
+1	5319	137		getout __rotate_RotCount4, __rotate_firstPort4, 14
+1	5320	141		brcmp 5, __rotate_Stabilize4, __rotate_OldRotCount4, __rotate_RotCount4
+1	5321	145		set __rotate_theOM4, 4
+1	5322	148		setout __rotate_ports4, 8, __rotate_theRM4, 6, __constVal0, 1, __rotate_theOM4, 0, __constVal1
+1	5325	159		brtst 4, __rotate_Done4, __rotate_theTurnPct4
+1	5326	162		setout __rotate_ports4, 0, __constVal32
+1	5328	167		subret ____RotateMotor4_return
+2	5476	0		setin __constVal1, __ResetSensorPort, 5
+2	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+2	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+2	5480	11		subret ____ResetSensorSubroutine_return
+3	6281	0	#pragma macro 25
+3	6281	0		acquire __CLSWMutex0
+3	6281	1		or __CLSWArgs0.Port, __constVal0, __LSWriteOptions0
+3	6281	5		mov __CLSWArgs0.ReturnLen, __RLSBytesCount0
+3	6281	7		mov __CLSWArgs0.Buffer, __RLSReadBuf0
+3	6281	9		syscall 21, __CLSWArgs0
+3	6281	12		mov __RLSBResult0, __CLSWArgs0.Result
+3	6281	14		release __CLSWMutex0
+3	6282	15	#line 6282 "NXTDefs.h"
+3	6283	15		brtst 5, __RLSBError0, __RLSBResult0
+3	6284	18		set __RLSBIterations0, 60
+3	6286	21	#pragma macro 23
+3	6286	21		acquire __CLSCSMutex0
+3	6286	22		set __CLSCSArgs0.Port, 0
+3	6286	25		syscall 23, __CLSCSArgs0
+3	6286	28		mov __RLSBytesCount0, __CLSCSArgs0.BytesReady
+3	6286	30		mov __RLSBResult0, __CLSCSArgs0.Result
+3	6286	32		release __CLSCSMutex0
+3	6286	33	#line 6286 "NXTDefs.h"
+3	6287	33		sub __RLSBIterations0, __RLSBIterations0, __constVal1
+3	6288	37		brtst 2, __RLSBError0, __RLSBIterations0
+3	6289	40		brtst 0, __RLSBError0, __RLSBResult0
+3	6290	43		brtst 4, __RLSBReadyToRead0, __RLSBResult0
+3	6292	46		wait2 NA, __constVal1
+3	6293	49		jmp __RLSBDoCheckStatus0
+3	6295	51		brtst 4, __RLSBReturn0, __RLSBytesCount0
+3	6296	54		arrinit __RLSReadBuf0, __constVal0, __RLSBytesCount0
+3	6298	58	#pragma macro 25
+3	6298	58		acquire __CLSRMutex0
+3	6298	59		set __CLSRArgs0.Port, 0
+3	6298	62		mov __CLSRArgs0.BufferLen, __RLSBytesCount0
+3	6298	64		syscall 22, __CLSRArgs0
+3	6298	67		mov __RLSReadBuf0, __CLSRArgs0.Buffer
+3	6298	69		mov __RLSBResult0, __CLSRArgs0.Result
+3	6298	71		release __CLSRMutex0
+3	6298	72	#line 6298 "NXTDefs.h"
+3	6299	72		brtst 5, __RLSBError0, __RLSBResult0
+3	6300	75		mov __RLSLastGoodRead0, __RLSReadBuf0
+3	6301	77		jmp __RLSBDone0
+3	6303	79		mov __RLSReadBuf0, __RLSLastGoodRead0
+3	6305	81		arrsize __RLSBytesCount0, __RLSReadBuf0
+3	6307	84		subret ____ReadLSBytes0_return
+4	6319	0	#pragma macro 25
+4	6319	0		acquire __CLSWMutex1
+4	6319	1		or __CLSWArgs1.Port, __constVal1, __LSWriteOptions1
+4	6319	5		mov __CLSWArgs1.ReturnLen, __RLSBytesCount1
+4	6319	7		mov __CLSWArgs1.Buffer, __RLSReadBuf1
+4	6319	9		syscall 21, __CLSWArgs1
+4	6319	12		mov __RLSBResult1, __CLSWArgs1.Result
+4	6319	14		release __CLSWMutex1
+4	6319	15	#line 6319 "NXTDefs.h"
+4	6320	15		brtst 5, __RLSBError1, __RLSBResult1
+4	6321	18		set __RLSBIterations1, 60
+4	6323	21	#pragma macro 23
+4	6323	21		acquire __CLSCSMutex1
+4	6323	22		set __CLSCSArgs1.Port, 1
+4	6323	25		syscall 23, __CLSCSArgs1
+4	6323	28		mov __RLSBytesCount1, __CLSCSArgs1.BytesReady
+4	6323	30		mov __RLSBResult1, __CLSCSArgs1.Result
+4	6323	32		release __CLSCSMutex1
+4	6323	33	#line 6323 "NXTDefs.h"
+4	6324	33		sub __RLSBIterations1, __RLSBIterations1, __constVal1
+4	6325	37		brtst 2, __RLSBError1, __RLSBIterations1
+4	6326	40		brtst 0, __RLSBError1, __RLSBResult1
+4	6327	43		brtst 4, __RLSBReadyToRead1, __RLSBResult1
+4	6329	46		wait2 NA, __constVal1
+4	6330	49		jmp __RLSBDoCheckStatus1
+4	6332	51		brtst 4, __RLSBReturn1, __RLSBytesCount1
+4	6333	54		arrinit __RLSReadBuf1, __constVal0, __RLSBytesCount1
+4	6335	58	#pragma macro 25
+4	6335	58		acquire __CLSRMutex1
+4	6335	59		set __CLSRArgs1.Port, 1
+4	6335	62		mov __CLSRArgs1.BufferLen, __RLSBytesCount1
+4	6335	64		syscall 22, __CLSRArgs1
+4	6335	67		mov __RLSReadBuf1, __CLSRArgs1.Buffer
+4	6335	69		mov __RLSBResult1, __CLSRArgs1.Result
+4	6335	71		release __CLSRMutex1
+4	6335	72	#line 6335 "NXTDefs.h"
+4	6336	72		brtst 5, __RLSBError1, __RLSBResult1
+4	6337	75		mov __RLSLastGoodRead1, __RLSReadBuf1
+4	6338	77		jmp __RLSBDone1
+4	6340	79		mov __RLSReadBuf1, __RLSLastGoodRead1
+4	6342	81		arrsize __RLSBytesCount1, __RLSReadBuf1
+4	6344	84		subret ____ReadLSBytes1_return
+5	14	0	#line 14 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	15	0		set __signed_stack_001imprimirDatos, 0
+5	14	3	#line 14 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	14	3	#line 14 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	15	3		set __signed_stack_002imprimirDatos, 56
+5	14	6	#line 14 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	14	6	#line 14 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	15	6		strcat __strbufimprimirDatos, __constStr0009
+5	15	10	#line 15 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	16	10		acquire __TextOutMutex
+5	15	11	#line 15 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	16	11		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	15	14	#line 15 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	16	14		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	15	17	#line 15 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	16	17		set __TextOutArgs.Options, 0
+5	15	20	#line 15 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	16	20		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	15	22	#line 15 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	16	22		syscall 13, __TextOutArgs
+5	15	25	#line 15 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	16	25		mov __D0imprimirDatos, __TextOutArgs.Result
+5	15	27	#line 15 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	16	27		release __TextOutMutex
+5	15	28	#line 15 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	15	28	#line 15 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	16	28		set __signed_stack_001imprimirDatos, 0
+5	15	31	#line 15 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	15	31	#line 15 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	16	31		set __signed_stack_002imprimirDatos, 48
+5	15	34	#line 15 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	15	34	#line 15 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	16	34		strcat __strbufimprimirDatos, __constStr0009
+5	16	38	#line 16 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	17	38		acquire __TextOutMutex
+5	16	39	#line 16 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	17	39		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	16	42	#line 16 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	17	42		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	16	45	#line 16 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	17	45		set __TextOutArgs.Options, 0
+5	16	48	#line 16 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	17	48		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	16	50	#line 16 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	17	50		syscall 13, __TextOutArgs
+5	16	53	#line 16 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	17	53		mov __D0imprimirDatos, __TextOutArgs.Result
+5	16	55	#line 16 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	17	55		release __TextOutMutex
+5	16	56	#line 16 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	16	56	#line 16 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	17	56		set __signed_stack_001imprimirDatos, 0
+5	16	59	#line 16 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	16	59	#line 16 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	17	59		set __signed_stack_002imprimirDatos, 40
+5	16	62	#line 16 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	16	62	#line 16 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	17	62		strcat __strbufimprimirDatos, __constStr0009
+5	17	66	#line 17 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	18	66		acquire __TextOutMutex
+5	17	67	#line 17 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	18	67		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	17	70	#line 17 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	18	70		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	17	73	#line 17 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	18	73		set __TextOutArgs.Options, 0
+5	17	76	#line 17 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	18	76		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	17	78	#line 17 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	18	78		syscall 13, __TextOutArgs
+5	17	81	#line 17 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	18	81		mov __D0imprimirDatos, __TextOutArgs.Result
+5	17	83	#line 17 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	18	83		release __TextOutMutex
+5	17	84	#line 17 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	17	84	#line 17 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	18	84		set __signed_stack_001imprimirDatos, 0
+5	17	87	#line 17 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	17	87	#line 17 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	18	87		set __signed_stack_002imprimirDatos, 32
+5	17	90	#line 17 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	17	90	#line 17 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	18	90		strcat __strbufimprimirDatos, __constStr0009
+5	18	94	#line 18 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	19	94		acquire __TextOutMutex
+5	18	95	#line 18 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	19	95		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	18	98	#line 18 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	19	98		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	18	101	#line 18 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	19	101		set __TextOutArgs.Options, 0
+5	18	104	#line 18 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	19	104		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	18	106	#line 18 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	19	106		syscall 13, __TextOutArgs
+5	18	109	#line 18 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	19	109		mov __D0imprimirDatos, __TextOutArgs.Result
+5	18	111	#line 18 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	19	111		release __TextOutMutex
+5	18	112	#line 18 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	18	112	#line 18 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	19	112		set __signed_stack_001imprimirDatos, 0
+5	18	115	#line 18 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	18	115	#line 18 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	19	115		set __signed_stack_002imprimirDatos, 24
+5	18	118	#line 18 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	18	118	#line 18 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	19	118		strcat __strbufimprimirDatos, __constStr0009
+5	19	122	#line 19 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	20	122		acquire __TextOutMutex
+5	19	123	#line 19 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	20	123		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	19	126	#line 19 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	20	126		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	19	129	#line 19 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	20	129		set __TextOutArgs.Options, 0
+5	19	132	#line 19 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	20	132		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	19	134	#line 19 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	20	134		syscall 13, __TextOutArgs
+5	19	137	#line 19 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	20	137		mov __D0imprimirDatos, __TextOutArgs.Result
+5	19	139	#line 19 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	20	139		release __TextOutMutex
+5	19	140	#line 19 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	19	140	#line 19 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	20	140		set __signed_stack_001imprimirDatos, 0
+5	19	143	#line 19 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	19	143	#line 19 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	20	143		set __signed_stack_002imprimirDatos, 16
+5	19	146	#line 19 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	19	146	#line 19 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	20	146		strcat __strbufimprimirDatos, __constStr0009
+5	21	150	#line 21 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	22	150		acquire __TextOutMutex
+5	21	151	#line 21 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	22	151		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	21	154	#line 21 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	22	154		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	21	157	#line 21 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	22	157		set __TextOutArgs.Options, 0
+5	21	160	#line 21 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	22	160		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	21	162	#line 21 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	22	162		syscall 13, __TextOutArgs
+5	21	165	#line 21 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	22	165		mov __D0imprimirDatos, __TextOutArgs.Result
+5	21	167	#line 21 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	22	167		release __TextOutMutex
+5	21	168	#line 21 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	21	168	#line 21 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	22	168		set __signed_stack_001imprimirDatos, 0
+5	21	171	#line 21 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	21	171	#line 21 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	22	171		set __signed_stack_002imprimirDatos, 56
+5	21	174	#line 21 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	21	174	#line 21 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	22	174		strcat __strbufimprimirDatos, __constStr0010
+5	22	178	#line 22 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	23	178		acquire __TextOutMutex
+5	22	179	#line 22 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	23	179		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	22	182	#line 22 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	23	182		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	22	185	#line 22 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	23	185		set __TextOutArgs.Options, 0
+5	22	188	#line 22 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	23	188		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	22	190	#line 22 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	23	190		syscall 13, __TextOutArgs
+5	22	193	#line 22 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	23	193		mov __D0imprimirDatos, __TextOutArgs.Result
+5	22	195	#line 22 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	23	195		release __TextOutMutex
+5	22	196	#line 22 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	22	196	#line 22 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	23	196		set __signed_stack_001imprimirDatos, 0
+5	22	199	#line 22 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	22	199	#line 22 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	23	199		set __signed_stack_002imprimirDatos, 48
+5	22	202	#line 22 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	22	202	#line 22 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	23	202		strcat __strbufimprimirDatos, __constStr0011
+5	23	206	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	24	206		acquire __TextOutMutex
+5	23	207	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	24	207		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	23	210	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	24	210		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	23	213	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	24	213		set __TextOutArgs.Options, 0
+5	23	216	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	24	216		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	23	218	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	24	218		syscall 13, __TextOutArgs
+5	23	221	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	24	221		mov __D0imprimirDatos, __TextOutArgs.Result
+5	23	223	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	24	223		release __TextOutMutex
+5	23	224	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	23	224	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	24	224		set __signed_stack_001imprimirDatos, 0
+5	23	227	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	23	227	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	24	227		set __signed_stack_002imprimirDatos, 40
+5	23	230	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	23	230	#line 23 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	24	230		strcat __strbufimprimirDatos, __constStr0012
+5	24	234	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	25	234		acquire __TextOutMutex
+5	24	235	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	25	235		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	24	238	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	25	238		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	24	241	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	25	241		set __TextOutArgs.Options, 0
+5	24	244	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	25	244		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	24	246	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	25	246		syscall 13, __TextOutArgs
+5	24	249	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	25	249		mov __D0imprimirDatos, __TextOutArgs.Result
+5	24	251	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	25	251		release __TextOutMutex
+5	24	252	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	24	252	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	25	252		set __signed_stack_001imprimirDatos, 0
+5	24	255	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	24	255	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	25	255		set __signed_stack_002imprimirDatos, 32
+5	24	258	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	24	258	#line 24 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	25	258		strcat __strbufimprimirDatos, __constStr0013
+5	25	262	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	26	262		acquire __TextOutMutex
+5	25	263	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	26	263		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	25	266	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	26	266		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	25	269	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	26	269		set __TextOutArgs.Options, 0
+5	25	272	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	26	272		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	25	274	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	26	274		syscall 13, __TextOutArgs
+5	25	277	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	26	277		mov __D0imprimirDatos, __TextOutArgs.Result
+5	25	279	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	26	279		release __TextOutMutex
+5	25	280	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	25	280	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	26	280		set __signed_stack_001imprimirDatos, 0
+5	25	283	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	25	283	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	26	283		set __signed_stack_002imprimirDatos, 24
+5	25	286	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	25	286	#line 25 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	26	286		strcat __strbufimprimirDatos, __constStr0014
+5	26	290	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	27	290		acquire __TextOutMutex
+5	26	291	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	27	291		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	26	294	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	27	294		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	26	297	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	27	297		set __TextOutArgs.Options, 0
+5	26	300	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	27	300		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	26	302	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	27	302		syscall 13, __TextOutArgs
+5	26	305	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	27	305		mov __D0imprimirDatos, __TextOutArgs.Result
+5	26	307	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	27	307		release __TextOutMutex
+5	26	308	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	26	308	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	27	308		set __signed_stack_001imprimirDatos, 0
+5	26	311	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	26	311	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	27	311		set __signed_stack_002imprimirDatos, 16
+5	26	314	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	26	314	#line 26 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	27	314		strcat __strbufimprimirDatos, __constStr0015
+5	28	318	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	29	318		acquire __TextOutMutex
+5	28	319	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	29	319		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	28	322	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	29	322		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	28	325	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	29	325		set __TextOutArgs.Options, 0
+5	28	328	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	29	328		mov __TextOutArgs.Text, __strbufimprimirDatos
+5	28	330	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	29	330		syscall 13, __TextOutArgs
+5	28	333	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	29	333		mov __D0imprimirDatos, __TextOutArgs.Result
+5	28	335	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	29	335		release __TextOutMutex
+5	28	336	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	28	336	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	29	336		set __signed_stack_001imprimirDatos, 42
+5	28	339	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	28	339	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	29	339		set __signed_stack_002imprimirDatos, 56
+5	28	342	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	28	342	#line 28 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	29	342		mov __D0imprimirDatos, color1
+5	29	344	#line 29 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	30	344		acquire __TextOutMutex
+5	29	345	#line 29 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	30	345		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	29	348	#line 29 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	30	348		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	29	351	#line 29 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	30	351		set __TextOutArgs.Options, 0
+5	29	354	#line 29 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	30	354		numtostr __TextOutArgs.Text, __D0imprimirDatos
+5	29	357	#line 29 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	30	357		syscall 13, __TextOutArgs
+5	29	360	#line 29 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	30	360		mov __D0imprimirDatos, __TextOutArgs.Result
+5	29	362	#line 29 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	30	362		release __TextOutMutex
+5	29	363	#line 29 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	29	363	#line 29 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	30	363		set __signed_stack_001imprimirDatos, 42
+5	29	366	#line 29 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	29	366	#line 29 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	30	366		set __signed_stack_002imprimirDatos, 48
+5	29	369	#line 29 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	29	369	#line 29 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	30	369		mov __D0imprimirDatos, color2
+5	30	371	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	31	371		acquire __TextOutMutex
+5	30	372	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	31	372		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	30	375	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	31	375		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	30	378	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	31	378		set __TextOutArgs.Options, 0
+5	30	381	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	31	381		numtostr __TextOutArgs.Text, __D0imprimirDatos
+5	30	384	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	31	384		syscall 13, __TextOutArgs
+5	30	387	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	31	387		mov __D0imprimirDatos, __TextOutArgs.Result
+5	30	389	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	31	389		release __TextOutMutex
+5	30	390	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	30	390	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	31	390		set __signed_stack_001imprimirDatos, 42
+5	30	393	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	30	393	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	31	393		set __signed_stack_002imprimirDatos, 40
+5	30	396	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	30	396	#line 30 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	31	396		mov __D0imprimirDatos, luz
+5	31	398	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	32	398		acquire __TextOutMutex
+5	31	399	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	32	399		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	31	402	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	32	402		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	31	405	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	32	405		set __TextOutArgs.Options, 0
+5	31	408	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	32	408		numtostr __TextOutArgs.Text, __D0imprimirDatos
+5	31	411	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	32	411		syscall 13, __TextOutArgs
+5	31	414	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	32	414		mov __D0imprimirDatos, __TextOutArgs.Result
+5	31	416	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	32	416		release __TextOutMutex
+5	31	417	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	31	417	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	32	417		set __signed_stack_001imprimirDatos, 42
+5	31	420	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	31	420	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	32	420		set __signed_stack_002imprimirDatos, 32
+5	31	423	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	31	423	#line 31 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	32	423		mov __D0imprimirDatos, luz2
+5	32	425	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	33	425		acquire __TextOutMutex
+5	32	426	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	33	426		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	32	429	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	33	429		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	32	432	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	33	432		set __TextOutArgs.Options, 0
+5	32	435	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	33	435		numtostr __TextOutArgs.Text, __D0imprimirDatos
+5	32	438	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	33	438		syscall 13, __TextOutArgs
+5	32	441	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	33	441		mov __D0imprimirDatos, __TextOutArgs.Result
+5	32	443	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	33	443		release __TextOutMutex
+5	32	444	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	32	444	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	33	444		set __signed_stack_001imprimirDatos, 49
+5	32	447	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	32	447	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	33	447		set __signed_stack_002imprimirDatos, 24
+5	32	450	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	32	450	#line 32 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	33	450		mov __D0imprimirDatos, ultra1
+5	33	452	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	34	452		acquire __TextOutMutex
+5	33	453	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	34	453		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	33	456	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	34	456		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	33	459	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	34	459		set __TextOutArgs.Options, 0
+5	33	462	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	34	462		numtostr __TextOutArgs.Text, __D0imprimirDatos
+5	33	465	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	34	465		syscall 13, __TextOutArgs
+5	33	468	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	34	468		mov __D0imprimirDatos, __TextOutArgs.Result
+5	33	470	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	34	470		release __TextOutMutex
+5	33	471	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	33	471	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	34	471		set __signed_stack_001imprimirDatos, 49
+5	33	474	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	33	474	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	34	474		set __signed_stack_002imprimirDatos, 16
+5	33	477	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	33	477	#line 33 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	34	477		mov __D0imprimirDatos, ultra2
+5	35	479	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	36	479		acquire __TextOutMutex
+5	35	480	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	36	480		mov __TextOutArgs.Location.X, __signed_stack_001imprimirDatos
+5	35	483	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	36	483		mov __TextOutArgs.Location.Y, __signed_stack_002imprimirDatos
+5	35	486	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	36	486		set __TextOutArgs.Options, 0
+5	35	489	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	36	489		numtostr __TextOutArgs.Text, __D0imprimirDatos
+5	35	492	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	36	492		syscall 13, __TextOutArgs
+5	35	495	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	36	495		mov __D0imprimirDatos, __TextOutArgs.Result
+5	35	497	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	36	497		release __TextOutMutex
+5	35	498	#line 35 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	37	498	#line 37 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+5	38	498		subret __imprimirDatos_return
+6	39	0	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+6	40	0	#pragma macro 5
+6	40	0		mov __CBTCSArgs.Connection, __no_conexion_7qG2_num_7qG2_000
+6	40	2		syscall 28, __CBTCSArgs
+6	40	5		mov __D0no_conexion, __CBTCSArgs.Result
+6	5305	7	#line 5305 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+6	39	7	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+6	40	7		not __signed_stack_001no_conexion, __D0no_conexion
+6	39	10	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+6	39	10	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+6	40	10		set __D0no_conexion, 0
+6	39	13	#line 39 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+6	40	13		cmp 4, __D0no_conexion, __signed_stack_001no_conexion, __D0no_conexion
+6	40	17	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+6	41	17		brtst 4, __ASM_Label_575, __D0no_conexion
+6	40	20	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+6	41	20		set __signed_stack_001no_conexion, 5
+6	40	23	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+6	40	23	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+6	41	23		set __signed_stack_002no_conexion, 48
+6	40	26	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+6	40	26	#line 40 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+6	41	26		strcat __strbufno_conexion, __constStr0016
+6	41	30	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+6	42	30		acquire __TextOutMutex
+6	41	31	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+6	42	31		mov __TextOutArgs.Location.X, __signed_stack_001no_conexion
+6	41	34	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+6	42	34		mov __TextOutArgs.Location.Y, __signed_stack_002no_conexion
+6	41	37	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+6	42	37		set __TextOutArgs.Options, 0
+6	41	40	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+6	42	40		mov __TextOutArgs.Text, __strbufno_conexion
+6	41	42	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+6	42	42		syscall 13, __TextOutArgs
+6	41	45	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+6	42	45		mov __D0no_conexion, __TextOutArgs.Result
+6	41	47	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+6	42	47		release __TextOutMutex
+6	41	48	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+6	41	48	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+6	42	48		set __Wait_7qG2_ms_7qG2_000_inline_no_conexion, 2000
+6	41	51	#line 41 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+6	8551	51	#line 8551 "NXCDefs.h"
+6	8552	51		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_no_conexion
+6	8551	54	#line 8551 "NXCDefs.h"
+6	42	54	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+6	42	54	#line 42 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+6	43	54		set __D0no_conexion, 1
+6	43	57	#line 43 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+6	44	57		stop __D0no_conexion
+6	43	59	#line 43 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+6	46	59	#line 46 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+6	46	59	#line 46 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+6	47	59		subret __no_conexion_return
+7	49	0	#line 49 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+7	50	0		set __D0adelante, 35
+7	51	3	#line 51 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+7	52	3	#pragma macro 10
+7	52	3		acquire __OnRevMutex
+7	52	4		neg __OnRev_Tmp, __D0adelante
+7	52	7		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	52	30		release __OnRevMutex
+7	5378	31	#line 5378 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+7	51	31	#line 51 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+7	53	31	#line 53 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+7	54	31		subret __adelante_return
+8	96	0	#line 96 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	97	0		set __signed_stack_001programa, 4
+8	98	3	#line 98 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	98	3	#line 98 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	99	3		sub __signed_stack_001programa, __signed_stack_001programa, __constVal1
+8	98	7	#line 98 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	99	7		set __D0programa, 100
+8	99	10	#line 99 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	100	10	#pragma macro 7
+8	100	10		setout __constVal1, 2, __D0programa, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	5490	33	#line 5490 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	99	33	#line 99 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	99	33	#line 99 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	100	33		mov __signed_stack_002programa, ultra1
+8	99	35	#line 99 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	99	35	#line 99 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	100	35		set __D0programa, 10
+8	99	38	#line 99 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	100	38		cmp 1, __D0programa, __signed_stack_002programa, __D0programa
+8	99	42	#line 99 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	100	42		brtst 4, __ASM_Label_609, __D0programa
+8	99	45	#line 99 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	100	45		mov __signed_stack_002programa, ultra2
+8	99	47	#line 99 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	100	47	#line 100 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	101	47		set __D0programa, 10
+8	100	50	#line 100 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	101	50		cmp 1, __D0programa, __signed_stack_002programa, __D0programa
+8	102	54	#line 102 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	103	54		brtst 4, __ASM_Label_607, __D0programa
+8	104	57	#line 104 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	105	57		subcall adelante, __adelante_return
+8	104	59	#line 104 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	106	59	#line 106 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	107	59		jmp __ASM_Label_606
+8	106	61	#line 106 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	106	61	#line 106 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	107	61		mov __signed_stack_002programa, luz
+8	106	63	#line 106 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	106	63	#line 106 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	107	63		set __D0programa, 45
+8	106	66	#line 106 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	107	66		cmp 0, __D0programa, __signed_stack_002programa, __D0programa
+8	106	70	#line 106 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	107	70		brtst 5, __ASM_Label_610, __D0programa
+8	106	73	#line 106 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	107	73		mov __signed_stack_002programa, luz2
+8	106	75	#line 106 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	107	75	#line 107 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	108	75		set __D0programa, 45
+8	107	78	#line 107 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	108	78		cmp 0, __D0programa, __signed_stack_002programa, __D0programa
+8	109	82	#line 109 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	110	82		brtst 4, __ASM_Label_613, __D0programa
+8	109	85	#line 109 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	110	85		mov __signed_stack_002programa, luz
+8	109	87	#line 109 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	110	87	#line 110 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	111	87		set __D0programa, 45
+8	110	90	#line 110 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	111	90		cmp 0, __D0programa, __signed_stack_002programa, __D0programa
+8	112	94	#line 112 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	113	94		brtst 4, __ASM_Label_616, __D0programa
+8	112	97	#line 112 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	113	97		set __signed_stack_002programa, 70
+8	112	100	#line 112 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	112	100	#line 112 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	113	100		set __signed_stack_003programa, 150
+8	112	103	#line 112 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	112	103	#line 112 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	113	103		set __signed_stack_004programa, 100
+8	112	106	#line 112 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	112	106	#line 112 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	113	106		set __signed_stack_005programa, 1
+8	112	109	#line 112 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	112	109	#line 112 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	113	109		set __D0programa, 1
+8	114	112	#line 114 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	115	112	#pragma macro 35
+8	115	112		acquire __rotateMutex0
+8	115	113		acquire __rotateMutex2
+8	115	114		mov __rotate_ports4, __OUT_AC
+8	115	116		mov __rotate_power4, __signed_stack_002programa
+8	115	118		mov __rotate_angle4, __signed_stack_003programa
+8	115	120		mov __rotate_turnpct4, __signed_stack_004programa
+8	115	122		mov __rotate_sync4, __signed_stack_005programa
+8	115	124		mov __rotate_stop4, __D0programa
+8	115	126		mov __rotate_theRVP4, __constVal32
+8	115	128		mov __rotate_theRVI4, __constVal0
+8	115	130		mov __rotate_theRVD4, __constVal96
+8	115	132		subcall __RotateMotor4, ____RotateMotor4_return
+8	115	134		release __rotateMutex2
+8	115	135		release __rotateMutex0
+8	5590	136	#line 5590 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	114	136	#line 114 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	114	136	#line 114 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	115	136		set __D0programa, 100
+8	115	139	#line 115 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	116	139	#pragma macro 10
+8	116	139		acquire __OnRevMutex
+8	116	140		neg __OnRev_Tmp, __D0programa
+8	116	143		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	116	166		release __OnRevMutex
+8	5599	167	#line 5599 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	115	167	#line 115 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	115	167	#line 115 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	116	167		set __signed_stack_002programa, 70
+8	115	170	#line 115 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	115	170	#line 115 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	116	170		set __signed_stack_003programa, 150
+8	115	173	#line 115 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	115	173	#line 115 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	116	173		mov __signed_stack_004programa, __constValNeg720
+8	115	175	#line 115 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	115	175	#line 115 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	116	175		set __signed_stack_005programa, 1
+8	115	178	#line 115 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	115	178	#line 115 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	116	178		set __D0programa, 1
+8	116	181	#line 116 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	117	181	#pragma macro 35
+8	117	181		acquire __rotateMutex0
+8	117	182		acquire __rotateMutex2
+8	117	183		mov __rotate_ports4, __OUT_AC
+8	117	185		mov __rotate_power4, __signed_stack_002programa
+8	117	187		mov __rotate_angle4, __signed_stack_003programa
+8	117	189		mov __rotate_turnpct4, __signed_stack_004programa
+8	117	191		mov __rotate_sync4, __signed_stack_005programa
+8	117	193		mov __rotate_stop4, __D0programa
+8	117	195		mov __rotate_theRVP4, __constVal32
+8	117	197		mov __rotate_theRVI4, __constVal0
+8	117	199		mov __rotate_theRVD4, __constVal96
+8	117	201		subcall __RotateMotor4, ____RotateMotor4_return
+8	117	203		release __rotateMutex2
+8	117	204		release __rotateMutex0
+8	5624	205	#line 5624 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	116	205	#line 116 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	116	205	#line 116 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	117	205		set __D0programa, 100
+8	118	208	#line 118 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	119	208	#pragma macro 7
+8	119	208		setout __constVal1, 2, __D0programa, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	5633	231	#line 5633 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	118	231	#line 118 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	120	231	#line 120 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	120	231	#line 120 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	121	231		mov __signed_stack_002programa, luz2
+8	120	233	#line 120 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	121	233	#line 121 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	122	233		set __D0programa, 45
+8	121	236	#line 121 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	122	236		cmp 0, __D0programa, __signed_stack_002programa, __D0programa
+8	123	240	#line 123 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	124	240		brtst 4, __ASM_Label_643, __D0programa
+8	123	243	#line 123 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	124	243		set __signed_stack_002programa, 70
+8	123	246	#line 123 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	123	246	#line 123 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	124	246		set __signed_stack_003programa, 150
+8	123	249	#line 123 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	123	249	#line 123 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	124	249		mov __signed_stack_004programa, __constValNeg100
+8	123	251	#line 123 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	123	251	#line 123 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	124	251		set __signed_stack_005programa, 1
+8	123	254	#line 123 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	123	254	#line 123 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	124	254		set __D0programa, 1
+8	125	257	#line 125 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	126	257	#pragma macro 35
+8	126	257		acquire __rotateMutex0
+8	126	258		acquire __rotateMutex2
+8	126	259		mov __rotate_ports4, __OUT_AC
+8	126	261		mov __rotate_power4, __signed_stack_002programa
+8	126	263		mov __rotate_angle4, __signed_stack_003programa
+8	126	265		mov __rotate_turnpct4, __signed_stack_004programa
+8	126	267		mov __rotate_sync4, __signed_stack_005programa
+8	126	269		mov __rotate_stop4, __D0programa
+8	126	271		mov __rotate_theRVP4, __constVal32
+8	126	273		mov __rotate_theRVI4, __constVal0
+8	126	275		mov __rotate_theRVD4, __constVal96
+8	126	277		subcall __RotateMotor4, ____RotateMotor4_return
+8	126	279		release __rotateMutex2
+8	126	280		release __rotateMutex0
+8	5674	281	#line 5674 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	125	281	#line 125 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	125	281	#line 125 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	126	281		set __D0programa, 100
+8	126	284	#line 126 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	127	284	#pragma macro 10
+8	127	284		acquire __OnRevMutex
+8	127	285		neg __OnRev_Tmp, __D0programa
+8	127	288		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	127	311		release __OnRevMutex
+8	5683	312	#line 5683 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	126	312	#line 126 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	126	312	#line 126 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	127	312		set __signed_stack_002programa, 70
+8	126	315	#line 126 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	126	315	#line 126 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	127	315		set __signed_stack_003programa, 150
+8	126	318	#line 126 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	126	318	#line 126 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	127	318		mov __signed_stack_004programa, __constValNeg520
+8	126	320	#line 126 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	126	320	#line 126 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	127	320		set __signed_stack_005programa, 1
+8	126	323	#line 126 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	126	323	#line 126 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	127	323		set __D0programa, 1
+8	127	326	#line 127 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	128	326	#pragma macro 35
+8	128	326		acquire __rotateMutex0
+8	128	327		acquire __rotateMutex2
+8	128	328		mov __rotate_ports4, __OUT_AC
+8	128	330		mov __rotate_power4, __signed_stack_002programa
+8	128	332		mov __rotate_angle4, __signed_stack_003programa
+8	128	334		mov __rotate_turnpct4, __signed_stack_004programa
+8	128	336		mov __rotate_sync4, __signed_stack_005programa
+8	128	338		mov __rotate_stop4, __D0programa
+8	128	340		mov __rotate_theRVP4, __constVal32
+8	128	342		mov __rotate_theRVI4, __constVal0
+8	128	344		mov __rotate_theRVD4, __constVal96
+8	128	346		subcall __RotateMotor4, ____RotateMotor4_return
+8	128	348		release __rotateMutex2
+8	128	349		release __rotateMutex0
+8	5708	350	#line 5708 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	127	350	#line 127 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	127	350	#line 127 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	128	350		set __D0programa, 100
+8	129	353	#line 129 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	130	353	#pragma macro 7
+8	130	353		setout __constVal1, 2, __D0programa, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	5717	376	#line 5717 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	129	376	#line 129 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	131	376	#line 131 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	131	376	#line 131 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	132	376		mov __signed_stack_002programa, luz
+8	131	378	#line 131 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	131	378	#line 131 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	132	378		set __D0programa, 45
+8	131	381	#line 131 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	132	381		cmp 0, __D0programa, __signed_stack_002programa, __D0programa
+8	131	385	#line 131 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	132	385		brtst 4, __ASM_Label_669, __D0programa
+8	131	388	#line 131 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	132	388		mov __signed_stack_002programa, luz2
+8	131	390	#line 131 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	132	390	#line 132 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	133	390		set __D0programa, 45
+8	132	393	#line 132 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	133	393		cmp 0, __D0programa, __signed_stack_002programa, __D0programa
+8	135	397	#line 135 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	136	397		brtst 4, __ASM_Label_670, __D0programa
+8	135	400	#line 135 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	136	400		set __D0programa, 100
+8	136	403	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	137	403	#pragma macro 10
+8	137	403		acquire __OnRevMutex
+8	137	404		neg __OnRev_Tmp, __D0programa
+8	137	407		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	137	430		release __OnRevMutex
+8	5750	431	#line 5750 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	136	431	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	136	431	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	137	431		set __signed_stack_002programa, 70
+8	136	434	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	136	434	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	137	434		set __signed_stack_003programa, 150
+8	136	437	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	136	437	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	137	437		mov __signed_stack_004programa, __constValNeg520
+8	136	439	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	136	439	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	137	439		set __signed_stack_005programa, 1
+8	136	442	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	136	442	#line 136 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	137	442		set __D0programa, 1
+8	137	445	#line 137 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	138	445	#pragma macro 35
+8	138	445		acquire __rotateMutex0
+8	138	446		acquire __rotateMutex2
+8	138	447		mov __rotate_ports4, __OUT_AC
+8	138	449		mov __rotate_power4, __signed_stack_002programa
+8	138	451		mov __rotate_angle4, __signed_stack_003programa
+8	138	453		mov __rotate_turnpct4, __signed_stack_004programa
+8	138	455		mov __rotate_sync4, __signed_stack_005programa
+8	138	457		mov __rotate_stop4, __D0programa
+8	138	459		mov __rotate_theRVP4, __constVal32
+8	138	461		mov __rotate_theRVI4, __constVal0
+8	138	463		mov __rotate_theRVD4, __constVal96
+8	138	465		subcall __RotateMotor4, ____RotateMotor4_return
+8	138	467		release __rotateMutex2
+8	138	468		release __rotateMutex0
+8	5775	469	#line 5775 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	137	469	#line 137 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	137	469	#line 137 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	138	469		set __D0programa, 100
+8	139	472	#line 139 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	140	472	#pragma macro 7
+8	140	472		setout __constVal1, 2, __D0programa, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	5784	495	#line 5784 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	139	495	#line 139 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	143	495	#line 143 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	146	495	#line 146 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	147	495		jmp __ASM_Label_685
+8	147	497	#line 147 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	148	497		add esquina, esquina, __constVal1
+8	147	501	#line 147 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	147	501	#line 147 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	148	501		set __signed_stack_002programa, 70
+8	147	504	#line 147 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	147	504	#line 147 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	148	504		set __signed_stack_003programa, 150
+8	147	507	#line 147 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	147	507	#line 147 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	148	507		mov __signed_stack_004programa, __constValNeg620
+8	147	509	#line 147 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	147	509	#line 147 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	148	509		set __signed_stack_005programa, 1
+8	147	512	#line 147 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	147	512	#line 147 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	148	512		set __D0programa, 1
+8	149	515	#line 149 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	150	515	#pragma macro 35
+8	150	515		acquire __rotateMutex0
+8	150	516		acquire __rotateMutex2
+8	150	517		mov __rotate_ports4, __OUT_AC
+8	150	519		mov __rotate_power4, __signed_stack_002programa
+8	150	521		mov __rotate_angle4, __signed_stack_003programa
+8	150	523		mov __rotate_turnpct4, __signed_stack_004programa
+8	150	525		mov __rotate_sync4, __signed_stack_005programa
+8	150	527		mov __rotate_stop4, __D0programa
+8	150	529		mov __rotate_theRVP4, __constVal32
+8	150	531		mov __rotate_theRVI4, __constVal0
+8	150	533		mov __rotate_theRVD4, __constVal96
+8	150	535		subcall __RotateMotor4, ____RotateMotor4_return
+8	150	537		release __rotateMutex2
+8	150	538		release __rotateMutex0
+8	5817	539	#line 5817 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	149	539	#line 149 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	153	539	#line 153 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	153	539	#line 153 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	154	539		brtst 1, __ASM_Label_600, __signed_stack_001programa
+8	153	542	#line 153 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	154	542	#line 154 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	155	542		sub esquina, esquina, __constVal1
+8	154	546	#line 154 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	154	546	#line 154 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	155	546		set __signed_stack_001programa, 70
+8	154	549	#line 154 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	154	549	#line 154 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	155	549		set __signed_stack_002programa, 150
+8	154	552	#line 154 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	154	552	#line 154 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	155	552		mov __signed_stack_003programa, __constValNeg300
+8	154	554	#line 154 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	154	554	#line 154 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	155	554		set __signed_stack_004programa, 1
+8	154	557	#line 154 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	154	557	#line 154 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	155	557		set __D0programa, 1
+8	155	560	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	156	560	#pragma macro 35
+8	156	560		acquire __rotateMutex0
+8	156	561		acquire __rotateMutex2
+8	156	562		mov __rotate_ports4, __OUT_AC
+8	156	564		mov __rotate_power4, __signed_stack_001programa
+8	156	566		mov __rotate_angle4, __signed_stack_002programa
+8	156	568		mov __rotate_turnpct4, __signed_stack_003programa
+8	156	570		mov __rotate_sync4, __signed_stack_004programa
+8	156	572		mov __rotate_stop4, __D0programa
+8	156	574		mov __rotate_theRVP4, __constVal32
+8	156	576		mov __rotate_theRVI4, __constVal0
+8	156	578		mov __rotate_theRVD4, __constVal96
+8	156	580		subcall __RotateMotor4, ____RotateMotor4_return
+8	156	582		release __rotateMutex2
+8	156	583		release __rotateMutex0
+8	5856	584	#line 5856 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	155	584	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	155	584	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	156	584		mov __signed_stack_001programa, ultra1
+8	155	586	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	155	586	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	156	586		set __D0programa, 10
+8	155	589	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	156	589		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+8	155	593	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	156	593		brtst 4, __ASM_Label_709, __D0programa
+8	155	596	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	156	596		mov __signed_stack_001programa, ultra2
+8	155	598	#line 155 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	156	598	#line 156 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	157	598		set __D0programa, 10
+8	156	601	#line 156 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	157	601		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+8	158	605	#line 158 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	159	605		brtst 4, __ASM_Label_707, __D0programa
+8	159	608	#line 159 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	160	608		subcall adelante, __adelante_return
+8	159	610	#line 159 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	161	610	#line 161 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	162	610		set __D0programa, 2
+8	161	613	#line 161 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	162	613		add esq_actual, esq_actual, __D0programa
+8	161	617	#line 161 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	163	617	#line 163 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	164	617		jmp __ASM_Label_706
+8	163	619	#line 163 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	164	619	#line 164 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	165	619		set __D0programa, 1
+8	166	622	#line 166 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	167	622		tst 5, __D0programa, __D0programa
+8	166	625	#line 166 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	167	625		brtst 4, __ASM_Label_713, __D0programa
+8	166	628	#line 166 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	167	628		mov __signed_stack_001programa, esq_actual
+8	166	630	#line 166 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	167	630	#line 167 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	168	630		mov __D0programa, esquina
+8	167	632	#line 167 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	168	632		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+8	169	636	#line 169 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	170	636		brtst 4, __ASM_Label_718, __D0programa
+8	169	639	#line 169 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	170	639		set __D0programa, 100
+8	170	642	#line 170 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	171	642	#pragma macro 10
+8	171	642		acquire __OnRevMutex
+8	171	643		neg __OnRev_Tmp, __D0programa
+8	171	646		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	171	669		release __OnRevMutex
+8	5925	670	#line 5925 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	170	670	#line 170 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	172	670	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	173	670		jmp __ASM_Label_713
+8	172	672	#line 172 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	174	672	#line 174 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	174	672	#line 174 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	175	672		mov __signed_stack_001programa, esq_actual
+8	174	674	#line 174 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	175	674	#line 175 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	176	674		mov __D0programa, esquina
+8	175	676	#line 175 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	176	676		cmp 0, __D0programa, __signed_stack_001programa, __D0programa
+8	177	680	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	178	680		brtst 4, __ASM_Label_723, __D0programa
+8	177	683	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	178	683		set __signed_stack_001programa, 70
+8	177	686	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	177	686	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	178	686		set __signed_stack_002programa, 150
+8	177	689	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	177	689	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	178	689		mov __signed_stack_003programa, __constValNeg920
+8	177	691	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	177	691	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	178	691		set __signed_stack_004programa, 1
+8	177	694	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	177	694	#line 177 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	178	694		set __D0programa, 1
+8	178	697	#line 178 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	179	697	#pragma macro 35
+8	179	697		acquire __rotateMutex0
+8	179	698		acquire __rotateMutex2
+8	179	699		mov __rotate_ports4, __OUT_AC
+8	179	701		mov __rotate_power4, __signed_stack_001programa
+8	179	703		mov __rotate_angle4, __signed_stack_002programa
+8	179	705		mov __rotate_turnpct4, __signed_stack_003programa
+8	179	707		mov __rotate_sync4, __signed_stack_004programa
+8	179	709		mov __rotate_stop4, __D0programa
+8	179	711		mov __rotate_theRVP4, __constVal32
+8	179	713		mov __rotate_theRVI4, __constVal0
+8	179	715		mov __rotate_theRVD4, __constVal96
+8	179	717		subcall __RotateMotor4, ____RotateMotor4_return
+8	179	719		release __rotateMutex2
+8	179	720		release __rotateMutex0
+8	5969	721	#line 5969 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	178	721	#line 178 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	180	721	#line 180 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	181	721		sub esq_actual, esq_actual, __constVal1
+8	180	725	#line 180 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	182	725	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	182	725	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	183	725		mov __signed_stack_001programa, esq_actual
+8	182	727	#line 182 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	183	727	#line 183 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	184	727		mov __D0programa, esquina
+8	183	729	#line 183 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	184	729		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+8	185	733	#line 185 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	186	733		brtst 4, __ASM_Label_736, __D0programa
+8	185	736	#line 185 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	186	736		set __signed_stack_001programa, 70
+8	185	739	#line 185 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	185	739	#line 185 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	186	739		set __signed_stack_002programa, 150
+8	185	742	#line 185 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	185	742	#line 185 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	186	742		set __signed_stack_003programa, 920
+8	185	745	#line 185 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	185	745	#line 185 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	186	745		set __signed_stack_004programa, 1
+8	185	748	#line 185 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	185	748	#line 185 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	186	748		set __D0programa, 1
+8	186	751	#line 186 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	187	751	#pragma macro 35
+8	187	751		acquire __rotateMutex0
+8	187	752		acquire __rotateMutex2
+8	187	753		mov __rotate_ports4, __OUT_AC
+8	187	755		mov __rotate_power4, __signed_stack_001programa
+8	187	757		mov __rotate_angle4, __signed_stack_002programa
+8	187	759		mov __rotate_turnpct4, __signed_stack_003programa
+8	187	761		mov __rotate_sync4, __signed_stack_004programa
+8	187	763		mov __rotate_stop4, __D0programa
+8	187	765		mov __rotate_theRVP4, __constVal32
+8	187	767		mov __rotate_theRVI4, __constVal0
+8	187	769		mov __rotate_theRVD4, __constVal96
+8	187	771		subcall __RotateMotor4, ____RotateMotor4_return
+8	187	773		release __rotateMutex2
+8	187	774		release __rotateMutex0
+8	6017	775	#line 6017 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	186	775	#line 186 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	188	775	#line 188 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	189	775		sub esq_actual, esq_actual, __constVal1
+8	188	779	#line 188 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	190	779	#line 190 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	190	779	#line 190 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	191	779		mov __signed_stack_001programa, ultra1
+8	190	781	#line 190 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	190	781	#line 190 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	191	781		set __D0programa, 10
+8	190	784	#line 190 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	191	784		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+8	190	788	#line 190 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	191	788		brtst 4, __ASM_Label_750, __D0programa
+8	190	791	#line 190 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	191	791		mov __signed_stack_001programa, ultra2
+8	190	793	#line 190 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	191	793	#line 191 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	192	793		set __D0programa, 10
+8	191	796	#line 191 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	192	796		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+8	193	800	#line 193 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	194	800		brtst 4, __ASM_Label_748, __D0programa
+8	195	803	#line 195 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	196	803		subcall adelante, __adelante_return
+8	195	805	#line 195 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	199	805	#line 199 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	200	805		jmp __ASM_Label_747
+8	199	807	#line 199 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	199	807	#line 199 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	200	807		jmp __ASM_Label_712
+8	199	809	#line 199 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	199	809	#line 199 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	200	809		set __signed_stack_001programa, 70
+8	199	812	#line 199 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	199	812	#line 199 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	200	812		set __signed_stack_002programa, 150
+8	199	815	#line 199 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	199	815	#line 199 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	200	815		set __signed_stack_003programa, 1240
+8	199	818	#line 199 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	199	818	#line 199 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	200	818		set __signed_stack_004programa, 1
+8	199	821	#line 199 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	199	821	#line 199 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	200	821		set __D0programa, 1
+8	200	824	#line 200 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	201	824	#pragma macro 35
+8	201	824		acquire __rotateMutex0
+8	201	825		acquire __rotateMutex2
+8	201	826		mov __rotate_ports4, __OUT_AC
+8	201	828		mov __rotate_power4, __signed_stack_001programa
+8	201	830		mov __rotate_angle4, __signed_stack_002programa
+8	201	832		mov __rotate_turnpct4, __signed_stack_003programa
+8	201	834		mov __rotate_sync4, __signed_stack_004programa
+8	201	836		mov __rotate_stop4, __D0programa
+8	201	838		mov __rotate_theRVP4, __constVal32
+8	201	840		mov __rotate_theRVI4, __constVal0
+8	201	842		mov __rotate_theRVD4, __constVal96
+8	201	844		subcall __RotateMotor4, ____RotateMotor4_return
+8	201	846		release __rotateMutex2
+8	201	847		release __rotateMutex0
+8	6089	848	#line 6089 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	200	848	#line 200 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	200	848	#line 200 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	201	848		mov __signed_stack_001programa, ultra1
+8	200	850	#line 200 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	200	850	#line 200 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	201	850		set __D0programa, 10
+8	200	853	#line 200 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	201	853		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+8	200	857	#line 200 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	201	857		brtst 4, __ASM_Label_764, __D0programa
+8	200	860	#line 200 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	201	860		mov __signed_stack_001programa, ultra2
+8	200	862	#line 200 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	201	862	#line 201 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	202	862		set __D0programa, 10
+8	201	865	#line 201 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	202	865		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+8	203	869	#line 203 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	204	869		brtst 4, __ASM_Label_762, __D0programa
+8	204	872	#line 204 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	205	872		subcall adelante, __adelante_return
+8	204	874	#line 204 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	206	874	#line 206 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	207	874		set __D0programa, 2
+8	206	877	#line 206 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	207	877		sub esq_actual, esq_actual, __D0programa
+8	206	881	#line 206 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	208	881	#line 208 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	209	881		jmp __ASM_Label_761
+8	208	883	#line 208 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	209	883	#line 209 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	210	883		set __D0programa, 1
+8	211	886	#line 211 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	212	886		tst 5, __D0programa, __D0programa
+8	211	889	#line 211 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	212	889		brtst 4, __ASM_Label_768, __D0programa
+8	211	892	#line 211 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	212	892		mov __signed_stack_001programa, esq_actual
+8	211	894	#line 211 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	212	894	#line 212 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	213	894		mov __D0programa, esquina
+8	212	896	#line 212 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	213	896		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+8	214	900	#line 214 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	215	900		brtst 4, __ASM_Label_773, __D0programa
+8	214	903	#line 214 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	215	903		set __D0programa, 100
+8	215	906	#line 215 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	216	906	#pragma macro 10
+8	216	906		acquire __OnRevMutex
+8	216	907		neg __OnRev_Tmp, __D0programa
+8	216	910		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	216	933		release __OnRevMutex
+8	6158	934	#line 6158 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	215	934	#line 215 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	217	934	#line 217 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	218	934		jmp __ASM_Label_768
+8	217	936	#line 217 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	219	936	#line 219 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	219	936	#line 219 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	220	936		mov __signed_stack_001programa, esq_actual
+8	219	938	#line 219 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	220	938	#line 220 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	221	938		mov __D0programa, esquina
+8	220	940	#line 220 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	221	940		cmp 0, __D0programa, __signed_stack_001programa, __D0programa
+8	222	944	#line 222 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	223	944		brtst 4, __ASM_Label_778, __D0programa
+8	222	947	#line 222 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	223	947		set __signed_stack_001programa, 70
+8	222	950	#line 222 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	222	950	#line 222 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	223	950		set __signed_stack_002programa, 150
+8	222	953	#line 222 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	222	953	#line 222 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	223	953		mov __signed_stack_003programa, __constValNeg920
+8	222	955	#line 222 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	222	955	#line 222 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	223	955		set __signed_stack_004programa, 1
+8	222	958	#line 222 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	222	958	#line 222 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	223	958		set __D0programa, 1
+8	223	961	#line 223 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	224	961	#pragma macro 35
+8	224	961		acquire __rotateMutex0
+8	224	962		acquire __rotateMutex2
+8	224	963		mov __rotate_ports4, __OUT_AC
+8	224	965		mov __rotate_power4, __signed_stack_001programa
+8	224	967		mov __rotate_angle4, __signed_stack_002programa
+8	224	969		mov __rotate_turnpct4, __signed_stack_003programa
+8	224	971		mov __rotate_sync4, __signed_stack_004programa
+8	224	973		mov __rotate_stop4, __D0programa
+8	224	975		mov __rotate_theRVP4, __constVal32
+8	224	977		mov __rotate_theRVI4, __constVal0
+8	224	979		mov __rotate_theRVD4, __constVal96
+8	224	981		subcall __RotateMotor4, ____RotateMotor4_return
+8	224	983		release __rotateMutex2
+8	224	984		release __rotateMutex0
+8	6202	985	#line 6202 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	223	985	#line 223 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	225	985	#line 225 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	226	985		sub esq_actual, esq_actual, __constVal1
+8	225	989	#line 225 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	227	989	#line 227 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	227	989	#line 227 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	228	989		mov __signed_stack_001programa, esq_actual
+8	227	991	#line 227 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	228	991	#line 228 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	229	991		mov __D0programa, esquina
+8	228	993	#line 228 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	229	993		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+8	230	997	#line 230 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	231	997		brtst 4, __ASM_Label_791, __D0programa
+8	230	1000	#line 230 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	231	1000		set __signed_stack_001programa, 70
+8	230	1003	#line 230 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	230	1003	#line 230 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	231	1003		set __signed_stack_002programa, 150
+8	230	1006	#line 230 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	230	1006	#line 230 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	231	1006		set __signed_stack_003programa, 920
+8	230	1009	#line 230 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	230	1009	#line 230 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	231	1009		set __signed_stack_004programa, 1
+8	230	1012	#line 230 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	230	1012	#line 230 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	231	1012		set __D0programa, 1
+8	231	1015	#line 231 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	232	1015	#pragma macro 35
+8	232	1015		acquire __rotateMutex0
+8	232	1016		acquire __rotateMutex2
+8	232	1017		mov __rotate_ports4, __OUT_AC
+8	232	1019		mov __rotate_power4, __signed_stack_001programa
+8	232	1021		mov __rotate_angle4, __signed_stack_002programa
+8	232	1023		mov __rotate_turnpct4, __signed_stack_003programa
+8	232	1025		mov __rotate_sync4, __signed_stack_004programa
+8	232	1027		mov __rotate_stop4, __D0programa
+8	232	1029		mov __rotate_theRVP4, __constVal32
+8	232	1031		mov __rotate_theRVI4, __constVal0
+8	232	1033		mov __rotate_theRVD4, __constVal96
+8	232	1035		subcall __RotateMotor4, ____RotateMotor4_return
+8	232	1037		release __rotateMutex2
+8	232	1038		release __rotateMutex0
+8	6250	1039	#line 6250 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	231	1039	#line 231 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	233	1039	#line 233 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	234	1039		sub esq_actual, esq_actual, __constVal1
+8	233	1043	#line 233 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	235	1043	#line 235 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	235	1043	#line 235 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	236	1043		mov __signed_stack_001programa, ultra1
+8	235	1045	#line 235 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	235	1045	#line 235 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	236	1045		set __D0programa, 10
+8	235	1048	#line 235 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	236	1048		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+8	235	1052	#line 235 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	236	1052		brtst 4, __ASM_Label_805, __D0programa
+8	235	1055	#line 235 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	236	1055		mov __signed_stack_001programa, ultra2
+8	235	1057	#line 235 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	236	1057	#line 236 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	237	1057		set __D0programa, 10
+8	236	1060	#line 236 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	237	1060		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+8	238	1064	#line 238 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	239	1064		brtst 4, __ASM_Label_803, __D0programa
+8	240	1067	#line 240 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	241	1067		subcall adelante, __adelante_return
+8	240	1069	#line 240 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	244	1069	#line 244 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	245	1069		jmp __ASM_Label_802
+8	244	1071	#line 244 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	244	1071	#line 244 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	245	1071		jmp __ASM_Label_767
+8	244	1073	#line 244 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	245	1073	#line 245 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	246	1073		set __D0programa, 1
+8	247	1076	#line 247 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	248	1076		tst 5, __D0programa, __D0programa
+8	247	1079	#line 247 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	248	1079		brtst 4, __ASM_Label_807, __D0programa
+8	247	1082	#line 247 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	248	1082		mov __signed_stack_001programa, esq_actual
+8	247	1084	#line 247 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	248	1084	#line 248 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	249	1084		mov __D0programa, esquina
+8	248	1086	#line 248 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	249	1086		cmp 4, __D0programa, __signed_stack_001programa, __D0programa
+8	250	1090	#line 250 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	251	1090		brtst 4, __ASM_Label_812, __D0programa
+8	250	1093	#line 250 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	251	1093		set __D0programa, 100
+8	251	1096	#line 251 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	252	1096	#pragma macro 10
+8	252	1096		acquire __OnRevMutex
+8	252	1097		neg __OnRev_Tmp, __D0programa
+8	252	1100		setout __constVal1, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	252	1123		release __OnRevMutex
+8	6323	1124	#line 6323 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	251	1124	#line 251 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	253	1124	#line 253 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	254	1124		jmp __ASM_Label_807
+8	253	1126	#line 253 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	255	1126	#line 255 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	255	1126	#line 255 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	256	1126		mov __signed_stack_001programa, esq_actual
+8	255	1128	#line 255 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	256	1128	#line 256 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	257	1128		set __D0programa, 0
+8	256	1131	#line 256 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	257	1131		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+8	258	1135	#line 258 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	259	1135		brtst 4, __ASM_Label_817, __D0programa
+8	258	1138	#line 258 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	259	1138		set __signed_stack_001programa, 70
+8	258	1141	#line 258 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	258	1141	#line 258 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	259	1141		set __signed_stack_002programa, 150
+8	258	1144	#line 258 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	258	1144	#line 258 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	259	1144		mov __signed_stack_003programa, __constValNeg620
+8	258	1146	#line 258 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	258	1146	#line 258 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	259	1146		set __signed_stack_004programa, 1
+8	258	1149	#line 258 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	258	1149	#line 258 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	259	1149		set __D0programa, 1
+8	259	1152	#line 259 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	260	1152	#pragma macro 35
+8	260	1152		acquire __rotateMutex0
+8	260	1153		acquire __rotateMutex2
+8	260	1154		mov __rotate_ports4, __OUT_AC
+8	260	1156		mov __rotate_power4, __signed_stack_001programa
+8	260	1158		mov __rotate_angle4, __signed_stack_002programa
+8	260	1160		mov __rotate_turnpct4, __signed_stack_003programa
+8	260	1162		mov __rotate_sync4, __signed_stack_004programa
+8	260	1164		mov __rotate_stop4, __D0programa
+8	260	1166		mov __rotate_theRVP4, __constVal32
+8	260	1168		mov __rotate_theRVI4, __constVal0
+8	260	1170		mov __rotate_theRVD4, __constVal96
+8	260	1172		subcall __RotateMotor4, ____RotateMotor4_return
+8	260	1174		release __rotateMutex2
+8	260	1175		release __rotateMutex0
+8	6367	1176	#line 6367 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	259	1176	#line 259 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	261	1176	#line 261 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	262	1176		sub esq_actual, esq_actual, __constVal1
+8	261	1180	#line 261 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	263	1180	#line 263 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	263	1180	#line 263 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	264	1180		mov __signed_stack_001programa, ultra1
+8	263	1182	#line 263 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	263	1182	#line 263 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	264	1182		set __D0programa, 10
+8	263	1185	#line 263 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	264	1185		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+8	263	1189	#line 263 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	264	1189		brtst 4, __ASM_Label_831, __D0programa
+8	263	1192	#line 263 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	264	1192		mov __signed_stack_001programa, ultra2
+8	263	1194	#line 263 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	264	1194	#line 264 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	265	1194		set __D0programa, 10
+8	264	1197	#line 264 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	265	1197		cmp 1, __D0programa, __signed_stack_001programa, __D0programa
+8	266	1201	#line 266 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	267	1201		brtst 4, __ASM_Label_829, __D0programa
+8	268	1204	#line 268 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	269	1204		subcall adelante, __adelante_return
+8	268	1206	#line 268 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	272	1206	#line 272 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	273	1206		jmp __ASM_Label_828
+8	272	1208	#line 272 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	274	1208	#line 274 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	275	1208		jmp __ASM_Label_806
+8	274	1210	#line 274 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+8	275	1210		exit -1, -1
+9	276	0	#line 276 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	277	0		set __D0leer, 1
+9	277	3	#line 277 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	278	3		tst 5, __D0leer, __D0leer
+9	277	6	#line 277 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	278	6		brtst 4, __ASM_Label_833, __D0leer
+9	277	9	#line 277 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	278	9	#pragma macro 26
+9	278	9		acquire __RLSBmutex0
+9	278	10		mov __RLSReadBuf0, __RLSBbufLSWrite1
+9	278	12		set __RLSBytesCount0, 1
+9	278	15		wait2 NA, __constVal15
+9	278	18		subcall __ReadLSBytes0, ____ReadLSBytes0_return
+9	278	20		index __D0leer, __RLSReadBuf0, 65535
+9	278	24		release __RLSBmutex0
+9	6443	25	#line 6443 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	277	25	#line 277 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	278	25		mov ultra1, __D0leer
+9	277	27	#line 277 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	277	27	#line 277 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	278	27	#line 278 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	279	27	#pragma macro 26
+9	279	27		acquire __RLSBmutex1
+9	279	28		mov __RLSReadBuf1, __RLSBbufLSWrite1
+9	279	30		set __RLSBytesCount1, 1
+9	279	33		wait2 NA, __constVal15
+9	279	36		subcall __ReadLSBytes1, ____ReadLSBytes1_return
+9	279	38		index __D0leer, __RLSReadBuf1, 65535
+9	279	42		release __RLSBmutex1
+9	6451	43	#line 6451 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	278	43	#line 278 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	279	43		mov ultra2, __D0leer
+9	278	45	#line 278 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	278	45	#line 278 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	279	45	#line 279 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	280	45		set __no_conexion_7qG2_num_7qG2_000, 0
+9	279	48	#line 279 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	280	48	#line 280 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	281	48		subcall no_conexion, __no_conexion_return
+9	280	50	#line 280 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	280	50	#line 280 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	281	50	#pragma macro 9
+9	281	50		acquire __MRMutex
+9	281	51		mov __MRArgs.QueueID, __constVal2
+9	281	53		mov __MRArgs.Remove, __constVal1
+9	281	55		set __RRNTmpVal, 0
+9	281	58		syscall 27, __MRArgs
+9	281	61		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+9	281	66		mov __leer_7qG2_recibir1_7qG2_000, __RRNTmpVal
+9	281	68		mov __D0leer, __MRArgs.Result
+9	281	70		release __MRMutex
+9	6466	71	#line 6466 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	280	71	#line 280 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	281	71		mov __signed_stack_001leer, __D0leer
+9	280	73	#line 280 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	281	73		set __D0leer, 64
+9	280	76	#line 280 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	281	76		cmp 5, __D0leer, __signed_stack_001leer, __D0leer
+9	281	80	#line 281 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	282	80		brtst 4, __ASM_Label_844, __D0leer
+9	282	83	#line 282 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	283	83		mov color1, __leer_7qG2_recibir1_7qG2_000
+9	282	85	#line 282 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	282	85	#line 282 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	283	85	#line 283 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	283	85	#line 283 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	284	85	#pragma macro 9
+9	284	85		acquire __MRMutex
+9	284	86		mov __MRArgs.QueueID, __constVal3
+9	284	88		mov __MRArgs.Remove, __constVal1
+9	284	90		set __RRNTmpVal, 0
+9	284	93		syscall 27, __MRArgs
+9	284	96		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+9	284	101		mov __leer_7qG2_recibir2_7qG2_000, __RRNTmpVal
+9	284	103		mov __D0leer, __MRArgs.Result
+9	284	105		release __MRMutex
+9	6489	106	#line 6489 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	283	106	#line 283 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	284	106		mov __signed_stack_001leer, __D0leer
+9	283	108	#line 283 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	284	108		set __D0leer, 64
+9	283	111	#line 283 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	284	111		cmp 5, __D0leer, __signed_stack_001leer, __D0leer
+9	284	115	#line 284 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	285	115		brtst 4, __ASM_Label_849, __D0leer
+9	285	118	#line 285 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	286	118		mov color2, __leer_7qG2_recibir2_7qG2_000
+9	285	120	#line 285 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	285	120	#line 285 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	286	120	#line 286 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	286	120	#line 286 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	287	120	#pragma macro 9
+9	287	120		acquire __MRMutex
+9	287	121		mov __MRArgs.QueueID, __constVal4
+9	287	123		mov __MRArgs.Remove, __constVal1
+9	287	125		set __RRNTmpVal, 0
+9	287	128		syscall 27, __MRArgs
+9	287	131		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+9	287	136		mov __leer_7qG2_recibir3_7qG2_000, __RRNTmpVal
+9	287	138		mov __D0leer, __MRArgs.Result
+9	287	140		release __MRMutex
+9	6512	141	#line 6512 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	286	141	#line 286 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	287	141		mov __signed_stack_001leer, __D0leer
+9	286	143	#line 286 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	287	143		set __D0leer, 64
+9	286	146	#line 286 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	287	146		cmp 5, __D0leer, __signed_stack_001leer, __D0leer
+9	287	150	#line 287 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	288	150		brtst 4, __ASM_Label_854, __D0leer
+9	288	153	#line 288 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	289	153		mov luz, __leer_7qG2_recibir3_7qG2_000
+9	288	155	#line 288 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	288	155	#line 288 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	289	155	#line 289 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	289	155	#line 289 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	290	155	#pragma macro 9
+9	290	155		acquire __MRMutex
+9	290	156		mov __MRArgs.QueueID, __constVal5
+9	290	158		mov __MRArgs.Remove, __constVal1
+9	290	160		set __RRNTmpVal, 0
+9	290	163		syscall 27, __MRArgs
+9	290	166		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+9	290	171		mov __leer_7qG2_recibir4_7qG2_000, __RRNTmpVal
+9	290	173		mov __D0leer, __MRArgs.Result
+9	290	175		release __MRMutex
+9	6535	176	#line 6535 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	289	176	#line 289 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	290	176		mov __signed_stack_001leer, __D0leer
+9	289	178	#line 289 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	290	178		set __D0leer, 64
+9	289	181	#line 289 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	290	181		cmp 5, __D0leer, __signed_stack_001leer, __D0leer
+9	290	185	#line 290 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	291	185		brtst 4, __ASM_Label_859, __D0leer
+9	291	188	#line 291 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	292	188		mov luz2, __leer_7qG2_recibir4_7qG2_000
+9	291	190	#line 291 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	291	190	#line 291 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	292	190	#line 292 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	293	190	#line 293 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	294	190		subcall imprimirDatos, __imprimirDatos_return
+9	293	192	#line 293 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	296	192	#line 296 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	297	192		jmp __ASM_Label_832
+9	296	194	#line 296 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+9	297	194		exit -1, -1
+10	303	0	#line 303 "C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc"
+10	304	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
-0	main	0	C:\Users\Diego\AppData\Local\Temp\temp.nxc
-1	__ResetSensorSubroutine	93	NXTDefs.h
-2	__ReadLSBytes0	106	NXTDefs.h
-3	__ReadLSBytes1	191	NXTDefs.h
-4	imprimirDatos	276	C:\Users\Diego\AppData\Local\Temp\temp.nxc
-5	no_conexion	740	C:\Users\Diego\AppData\Local\Temp\temp.nxc
-6	programa	798	C:\Users\Diego\AppData\Local\Temp\temp.nxc
-7	leer	827	C:\Users\Diego\AppData\Local\Temp\temp.nxc
-8	__initialize_global_data	1022	C:\Users\Diego\AppData\Local\Temp\temp.nxc
+0	main	0	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc
+1	__RotateMotor4	93	NXTDefs.h
+2	__ResetSensorSubroutine	262	NXTDefs.h
+3	__ReadLSBytes0	275	NXTDefs.h
+4	__ReadLSBytes1	361	NXTDefs.h
+5	imprimirDatos	447	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc
+6	no_conexion	947	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc
+7	adelante	1008	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc
+8	programa	1041	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc
+9	leer	2254	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc
+10	__initialize_global_data	2451	C:\Users\Diego\Documents\GitHub\Andor-s-team-Rescue-2017-TMR\Final\Prototipos\Prototipo_garra.nxc

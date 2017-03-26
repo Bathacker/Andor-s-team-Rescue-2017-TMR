@@ -124,8 +124,6 @@ task programa()   //B motor de la garra
         RotateMotorEx(OUT_AC, 70, 150, -100, true, true);
         //Se sube la garra
         //OnRev(OUT_B, 100);
-        adelante();
-        Wait(200);
         RotateMotorEx(OUT_AC, 70, 150, -520, true, true);
         //OnFwd(OUT_B, 100);
 
